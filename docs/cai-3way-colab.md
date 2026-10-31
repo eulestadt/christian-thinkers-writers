@@ -2,7 +2,7 @@
 
 Generated for the Llama 3.2 3B Instruct full-matrix run. **GPU training was not launched from this snapshot.** Control and treatment SL-CAI / DPO JSONL are already complete (2,500 rows each), so the notebook is ready to run on Colab.
 
-Empty `CAI_Experiment/{data,adapters,results}` folders were created in the shared Drive **Alignment Research** folder. File upload via the research service account failed (`403` service-account storage quota = 0 — My Drive files would be owned by the SA). Colab runs as Phoenix: the notebook `git clone`s this repo and copies JSONL into those folders (Phoenix's quota), then writes LoRA adapters and CSVs there.
+Empty `CAI_Experiment/{data,adapters,results}` folders were created in the shared Drive **Alignment Research** folder. File upload via the research service account failed (`403` service-account storage quota = 0 — My Drive files would be owned by the SA). Colab runs as Phoenix: the notebook clones **main** (which includes `colab/`) and copies JSONL into those folders (Phoenix's quota), then writes LoRA adapters and CSVs there. SQLite cache paths are always wrapped in `Path(...)` before `/`.
 
 ## What to open
 

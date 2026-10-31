@@ -136,8 +136,8 @@ DRIVE_CANDIDATES = [
 ]
 GITHUB_REPO = "https://github.com/eulestadt/christian-thinkers-writers.git"
 GITHUB_CLONE = "/content/christian-thinkers-writers"
-# colab/ (dilemmas + notebook extras) is not on main yet
-GITHUB_REF = "cursor/cai-3way-colab-8944"
+# Prefer main once colab/ is merged; fall back to the notebook branch.
+GITHUB_REF = "main"
 
 
 def _has_data(root: str) -> bool:
@@ -154,9 +154,10 @@ def _is_sqlite_file(path) -> bool:
         return False
 
 
-def _ensure_git_lfs_sqlite(repo: Path) -> None:
+def _ensure_git_lfs_sqlite(repo) -> None:
     """Pull the scoring DB if the clone only has a Git LFS pointer."""
     import subprocess
+    repo = Path(repo)
     target = repo / "docs" / "intrinsic-motivation-scores.sqlite"
     if target.exists() and _is_sqlite_file(target):
         return
@@ -168,19 +169,22 @@ def _ensure_git_lfs_sqlite(repo: Path) -> None:
     )
 
 
-def _repo_has_eval(repo: Path) -> bool:
-    return (repo / "colab" / "data" / "eval" / "open_ended_dilemmas.jsonl").is_file()
+def _repo_has_eval(repo) -> bool:
+    return (Path(repo) / "colab" / "data" / "eval" / "open_ended_dilemmas.jsonl").is_file()
 
 
-def _checkout_colab_ref(repo: Path) -> None:
-    """Shallow clones default to main, which lacks colab/eval. Fetch the notebook branch."""
+def _checkout_colab_ref(repo) -> None:
+    """If colab/eval is missing, fetch GITHUB_REF (main, then the notebook branch)."""
     import subprocess
+    repo = Path(repo)
     if _repo_has_eval(repo):
         return
-    subprocess.run(["git", "fetch", "--depth", "1", "origin", GITHUB_REF], cwd=str(repo), check=False)
-    subprocess.run(["git", "checkout", "-B", GITHUB_REF, "FETCH_HEAD"], cwd=str(repo), check=False)
-    if not _repo_has_eval(repo):
-        print("WARN git checkout", GITHUB_REF, "did not produce colab/data/eval")
+    for ref in (GITHUB_REF, "cursor/cai-3way-colab-8944", "main"):
+        subprocess.run(["git", "fetch", "--depth", "1", "origin", ref], cwd=str(repo), check=False)
+        subprocess.run(["git", "checkout", "-B", ref, "FETCH_HEAD"], cwd=str(repo), check=False)
+        if _repo_has_eval(repo):
+            return
+    print("WARN git checkout did not produce colab/data/eval")
 
 
 def _clone_github() -> Path:
@@ -239,7 +243,7 @@ for d in (TREAT_DIR, CTRL_DIR, EVAL_DIR, ADAPT_DIR, RES_DIR):
 
 # Service accounts have 0 My Drive quota, so this notebook seeds JSONL from GitHub
 # into Phoenix's mounted Drive (or uses the clone in-place if Drive is not writable).
-repo = _clone_github()
+repo = Path(_clone_github())
 _seed = [
     (repo / "cai-pipeline/data/sl_cai_train.jsonl", Path(TREAT_DIR) / "sl_cai_train.jsonl"),
     (repo / "cai-pipeline/data/rlaif_dpo_train.jsonl", Path(TREAT_DIR) / "rlaif_dpo_train.jsonl"),
@@ -331,19 +335,21 @@ Drive FUSE (`drive.mount`) is a poor SQLite filesystem: locking and random seeks
 cells.append(code(r'''
 import sqlite3, stat
 
-LOCAL_DB_DIR = "/content/local_db_cache" if IN_COLAB else "/tmp/local_db_cache"
-os.makedirs(LOCAL_DB_DIR, exist_ok=True)
-DRIVE_DB_DIR = os.path.join(BASE_DIR, "db")
-os.makedirs(DRIVE_DB_DIR, exist_ok=True)
+LOCAL_DB_DIR = Path("/content/local_db_cache" if IN_COLAB else "/tmp/local_db_cache")
+LOCAL_DB_DIR.mkdir(parents=True, exist_ok=True)
+DRIVE_DB_DIR = Path(BASE_DIR) / "db"
+DRIVE_DB_DIR.mkdir(parents=True, exist_ok=True)
+repo_p = Path(repo)
 
 
 def _sqlite_sources(logical_name: str):
     """GitHub-pinned paths first; Drive db/ is optional convenience only."""
+    root = Path(repo)
     github = {
-        "audit.sqlite": repo / "docs" / "intrinsic-motivation-scores.sqlite",
-        "census.sqlite": repo / "docs" / "christian-writers.sqlite",
-        "cai_state.db": repo / "cai-pipeline" / "data" / "state.db",
-        "cai_state_control.db": repo / "cai-pipeline-control" / "data" / "state.db",
+        "audit.sqlite": root / "docs" / "intrinsic-motivation-scores.sqlite",
+        "census.sqlite": root / "docs" / "christian-writers.sqlite",
+        "cai_state.db": root / "cai-pipeline" / "data" / "state.db",
+        "cai_state_control.db": root / "cai-pipeline-control" / "data" / "state.db",
     }
     drive_alias = {
         "audit.sqlite": "audit.sqlite",
@@ -355,35 +361,37 @@ def _sqlite_sources(logical_name: str):
     if logical_name in github:
         out.append(str(github[logical_name]))
     alias = drive_alias.get(logical_name, logical_name)
-    out.append(os.path.join(DRIVE_DB_DIR, alias))
-    out.append(f"/content/drive/MyDrive/CAI_Experiment/db/{alias}")
-    out.append(f"/content/drive/MyDrive/Alignment Research/CAI_Experiment/db/{alias}")
+    out.append(str(Path(DRIVE_DB_DIR) / alias))
+    out.append(str(Path("/content/drive/MyDrive/CAI_Experiment/db") / alias))
+    out.append(str(Path("/content/drive/MyDrive/Alignment Research/CAI_Experiment/db") / alias))
     return out
 
 
 def connect_readonly_sqlite(db_filename: str, source_path=None):
     """Copy source to local NVMe, chmod 0444, open immutable URI. Never connect to Drive FUSE."""
     tried = [source_path] if source_path else _sqlite_sources(db_filename)
-    src = next((p for p in tried if p and os.path.isfile(p) and _is_sqlite_file(p)), None)
+    src = next((p for p in tried if p and os.path.isfile(str(p)) and _is_sqlite_file(str(p))), None)
     if src is None:
         raise FileNotFoundError(
             f"No SQLite header for {db_filename}. Tried {tried}. "
             "Need git lfs pull of docs/intrinsic-motivation-scores.sqlite, "
             "or an optional rclone copy into CAI_Experiment/db/."
         )
-    local_path = os.path.join(LOCAL_DB_DIR, db_filename)
-    src_size = os.path.getsize(src)
-    need = (not os.path.exists(local_path)) or os.path.getsize(local_path) != src_size
+    src_p = Path(src)
+    local_path = Path(LOCAL_DB_DIR) / db_filename
+    src_size = src_p.stat().st_size
+    need = (not local_path.exists()) or local_path.stat().st_size != src_size
     if need:
-        print(f"Caching {src} -> {local_path} ({src_size / 1e6:.1f} MB). Source file not opened as SQLite.")
-        if os.path.exists(local_path):
+        print(f"Caching {src_p} -> {local_path} ({src_size / 1e6:.1f} MB). Source file not opened as SQLite.")
+        if local_path.exists():
             os.chmod(local_path, 0o644)
-        shutil.copyfile(src, local_path)
+        local_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(str(src_p), str(local_path))
     os.chmod(local_path, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
-    uri = f"file:{local_path}?mode=ro&immutable=1"
+    uri = f"file:{local_path.as_posix()}?mode=ro&immutable=1"
     conn = sqlite3.connect(uri, uri=True)
     conn.execute("PRAGMA query_only = ON;")
-    print(f"[READ-ONLY SQLITE] {db_filename}  src={src}  local_mode={oct(os.stat(local_path).st_mode & 0o777)}")
+    print(f"[READ-ONLY SQLITE] {db_filename}  src={src_p}  local_mode={oct(local_path.stat().st_mode & 0o777)}")
     return conn
 
 

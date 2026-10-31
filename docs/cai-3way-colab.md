@@ -12,6 +12,8 @@ Empty `CAI_Experiment/{data,adapters,results}` folders were created in the share
 
 Primary weights: `unsloth/Llama-3.2-3B-Instruct-bnb-4bit` on one L4 (24GB) or T4 (16GB). Expected wall time for two SL-CAI+DPO pipelines plus the 4-benchmark suite: **75–90 minutes**. Change one string, `ACTIVE_MODEL = "mistral_small_24b"`, for Mistral Small 24B on L4/A100.
 
+Committed notebook cells are unexecuted (`execution_count` null) by design — Run All on Colab. Cell 1 installs `git-lfs` before `git lfs pull` so a clean VM gets the real scoring SQLite, not a 130-byte pointer. Mistral preset tags are `[INST]` / `[/INST]` (no space after `[INST]`); Cell 2 also probes `apply_chat_template` so `train_on_responses_only` does not silently skip. Llama 3.2 tags are unchanged. If Llama LoRAs already exist at un-namespaced `adapters/{arm}_final_lora`, move them into `adapters/llama32_3b/` before a second Run All.
+
 ## Three conditions
 
 1. **Base** — unmodified Instruct (no extra SFT/DPO).

@@ -96,7 +96,8 @@ MODEL_PRESETS = {
     "mistral_small_24b": {
         "id": "unsloth/Mistral-Small-24B-Instruct-2501-bnb-4bit",
         "sft_bs": 1, "sft_ga": 16, "dpo_bs": 1, "dpo_ga": 16,
-        "user_tag": "[INST] ",
+        # Tekken/V7: apply_chat_template emits [INST] with no trailing space.
+        "user_tag": "[INST]",
         "asst_tag": "[/INST]",
         "min_vram_gb": 22,
     },
@@ -161,12 +162,20 @@ def _ensure_git_lfs_sqlite(repo) -> None:
     target = repo / "docs" / "intrinsic-motivation-scores.sqlite"
     if target.exists() and _is_sqlite_file(target):
         return
+    # Clean Colab VMs often lack the git-lfs binary; `git lfs pull` then no-ops
+    # (check=False) and leaves a ~130-byte LFS pointer instead of the 99,637-chunk DB.
+    subprocess.run(["apt-get", "install", "-y", "-qq", "git-lfs"], check=False)
     subprocess.run(["git", "lfs", "install"], cwd=str(repo), check=False)
     subprocess.run(
         ["git", "lfs", "pull", "--include=docs/intrinsic-motivation-scores.sqlite"],
         cwd=str(repo),
         check=False,
     )
+    if not _is_sqlite_file(target):
+        print(
+            "WARN docs/intrinsic-motivation-scores.sqlite is still not a SQLite DB "
+            "(LFS pointer?). Cell 1b will fall back to CSV."
+        )
 
 
 def _repo_has_eval(repo) -> bool:
@@ -560,9 +569,35 @@ def train_cai_arm(arm_name: str, data_dir: str):
     sft_trainer = _make_trainer(SFTTrainer, dict(
         model=model, tokenizer=tokenizer, train_dataset=sft_ds, args=SFTConfig(**sft_args),
     ))
+
+    def _mask_parts(tok):
+        """Prefer tags that actually appear in this tokenizer's chat template."""
+        sample = tok.apply_chat_template(
+            [{"role": "user", "content": "PING"}, {"role": "assistant", "content": "PONG"}],
+            tokenize=False,
+            add_generation_prompt=False,
+        )
+        pairs = [
+            (PRESET["user_tag"], PRESET["asst_tag"]),
+            ("[INST]", "[/INST]"),
+            ("[INST] ", "[/INST]"),
+            ("<|start_header_id|>user<|end_header_id|>\n\n", "<|start_header_id|>assistant<|end_header_id|>\n\n"),
+        ]
+        seen = set()
+        for inst, resp in pairs:
+            key = (inst, resp)
+            if key in seen:
+                continue
+            seen.add(key)
+            if inst in sample and resp in sample:
+                return inst, resp
+        return PRESET["user_tag"], PRESET["asst_tag"]
+
+    inst_part, resp_part = _mask_parts(tokenizer)
+    print("train_on_responses_only parts:", repr(inst_part), repr(resp_part))
     try:
         sft_trainer = train_on_responses_only(
-            sft_trainer, instruction_part=PRESET["user_tag"], response_part=PRESET["asst_tag"]
+            sft_trainer, instruction_part=inst_part, response_part=resp_part
         )
     except Exception as e:
         print("train_on_responses_only skipped:", type(e).__name__, e)

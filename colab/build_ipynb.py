@@ -761,6 +761,8 @@ def ethics_text(subset: str, row: dict) -> str:
     if subset == "virtue":
         sc = row.get("scenario") or row.get("input") or ""
         trait = row.get("trait") or ""
+        if not trait and " [SEP] " in sc:
+            sc, trait = sc.split(" [SEP] ", 1)
         return f"{sc}\nTrait: {trait}".strip()
     return str(row.get("scenario") or row.get("input") or "")
 
@@ -776,8 +778,65 @@ def _record(arm, name, item, ok):
 if RUN_EVAL:
     from datasets import load_dataset
 
+    def _load_eval_split(path, name=None, split="test", alt_paths=()):
+        """Hub load that does not depend on dataset scripts (datasets v3+/v4/v5)."""
+        parquet_rev = "refs/convert/parquet"
+        last = None
+        paths = (path,) + tuple(alt_paths)
+
+        def _try(kw):
+            nonlocal last
+            try:
+                return load_dataset(**kw)
+            except Exception as e:
+                last = e
+                return None
+
+        for p in paths:
+            kw = {"path": p, "split": split}
+            if name is not None:
+                kw["name"] = name
+            used = dict(kw)
+            ds = _try(used)
+            if ds is None:
+                used = {**kw, "revision": parquet_rev}
+                ds = _try(used)
+            if ds is not None:
+                print("eval load", used, "n=", len(ds))
+                return ds
+            if not name:
+                continue
+            ds = _try({
+                "path": p,
+                "data_files": {split: f"{name}/{split}/*.parquet"},
+                "split": split,
+                "revision": parquet_rev,
+            })
+            if ds is not None:
+                print("eval load parquet", p, name, split, "n=", len(ds))
+                return ds
+            ds = _try({
+                "path": "parquet",
+                "data_files": f"hf://datasets/{p}@{parquet_rev}/{name}/{split}/*.parquet",
+                "split": "train",
+            })
+            if ds is not None:
+                print("eval load hf:// parquet", p, name, split, "n=", len(ds))
+                return ds
+            ds = _try({
+                "path": "csv",
+                "data_files": f"hf://datasets/{p}@main/data/{name}/{split}.csv",
+                "split": "train",
+            })
+            if ds is not None:
+                print("eval load csv", p, name, split, "n=", len(ds))
+                return ds
+        raise RuntimeError(
+            f"Could not load {path} name={name} split={split}: {type(last).__name__}: {last}"
+        )
+
     for subset in ["commonsense", "deontology", "justice", "virtue"]:
-        ds = load_dataset("hendrycks/ethics", subset, split="test").shuffle(seed=42)
+        ds = _load_eval_split("hendrycks/ethics", subset, split="test").shuffle(seed=42)
         n = min(EVAL_ETHICS_N, len(ds))
         ds = ds.select(range(n))
         for arm in ARMS:
@@ -801,7 +860,9 @@ if RUN_EVAL:
             benchmark_summary[arm][f"ETHICS_{subset}"] = acc
             print(f"ETHICS_{subset} {arm}: {acc}")
 
-    tqa = load_dataset("truthful_qa", "multiple_choice", split="validation").shuffle(seed=42)
+    tqa = _load_eval_split(
+        "truthfulqa/truthful_qa", "multiple_choice", split="validation", alt_paths=("truthful_qa",)
+    ).shuffle(seed=42)
     n = min(EVAL_TQA_N, len(tqa))
     tqa = tqa.select(range(n))
     for arm in ARMS:
@@ -824,7 +885,7 @@ if RUN_EVAL:
         print(f"TruthfulQA_MC1 {arm}: {acc}")
 
     for subject in ["moral_scenarios", "moral_disputes", "philosophy", "world_religions"]:
-        mmlu = load_dataset("cais/mmlu", subject, split="test")
+        mmlu = _load_eval_split("cais/mmlu", subject, split="test")
         sample_size = min(EVAL_MMLU_N, len(mmlu))
         mmlu = mmlu.shuffle(seed=42).select(range(sample_size))
         for arm in ARMS:

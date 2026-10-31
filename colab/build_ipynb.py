@@ -136,6 +136,8 @@ DRIVE_CANDIDATES = [
 ]
 GITHUB_REPO = "https://github.com/eulestadt/christian-thinkers-writers.git"
 GITHUB_CLONE = "/content/christian-thinkers-writers"
+# colab/ (dilemmas + notebook extras) is not on main yet
+GITHUB_REF = "cursor/cai-3way-colab-8944"
 
 
 def _has_data(root: str) -> bool:
@@ -166,17 +168,39 @@ def _ensure_git_lfs_sqlite(repo: Path) -> None:
     )
 
 
+def _repo_has_eval(repo: Path) -> bool:
+    return (repo / "colab" / "data" / "eval" / "open_ended_dilemmas.jsonl").is_file()
+
+
+def _checkout_colab_ref(repo: Path) -> None:
+    """Shallow clones default to main, which lacks colab/eval. Fetch the notebook branch."""
+    import subprocess
+    if _repo_has_eval(repo):
+        return
+    subprocess.run(["git", "fetch", "--depth", "1", "origin", GITHUB_REF], cwd=str(repo), check=False)
+    subprocess.run(["git", "checkout", "-B", GITHUB_REF, "FETCH_HEAD"], cwd=str(repo), check=False)
+    if not _repo_has_eval(repo):
+        print("WARN git checkout", GITHUB_REF, "did not produce colab/data/eval")
+
+
 def _clone_github() -> Path:
     import subprocess
     for existing in [Path(GITHUB_CLONE), Path("/tmp/christian-thinkers-writers"), Path.cwd()]:
         if (existing / "cai-pipeline" / "data" / "sl_cai_train.jsonl").is_file() and (
             existing / "cai-pipeline-control" / "data" / "sl_cai_train.jsonl"
         ).is_file():
+            _checkout_colab_ref(existing)
             _ensure_git_lfs_sqlite(existing)
             return existing
     dest = Path(GITHUB_CLONE)
     dest.parent.mkdir(parents=True, exist_ok=True)
-    subprocess.check_call(["git", "clone", "--depth", "1", GITHUB_REPO, str(dest)])
+    try:
+        subprocess.check_call(
+            ["git", "clone", "--depth", "1", "--branch", GITHUB_REF, GITHUB_REPO, str(dest)]
+        )
+    except subprocess.CalledProcessError:
+        subprocess.check_call(["git", "clone", "--depth", "1", GITHUB_REPO, str(dest)])
+        _checkout_colab_ref(dest)
     _ensure_git_lfs_sqlite(dest)
     return dest
 
@@ -235,7 +259,10 @@ if not _has_data(BASE_DIR):
     print("Drive JSONL not writable/visible; using GitHub clone for read-only data.")
     TREAT_DIR = str(repo / "cai-pipeline/data")
     CTRL_DIR = str(repo / "cai-pipeline-control/data")
+if not (Path(EVAL_DIR) / "open_ended_dilemmas.jsonl").is_file() and _repo_has_eval(repo):
     EVAL_DIR = str(repo / "colab/data/eval")
+    print("Drive eval/ missing dilemmas; using GitHub clone", EVAL_DIR)
+print("github clone", repo, "has_eval", _repo_has_eval(repo))
 
 print(f"IN_COLAB={IN_COLAB}  BASE_DIR={BASE_DIR}")
 print(f"ACTIVE_MODEL={ACTIVE_MODEL}  BASE_MODEL_ID={BASE_MODEL_ID}  SEED={SEED}")

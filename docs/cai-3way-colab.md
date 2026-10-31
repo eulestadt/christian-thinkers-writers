@@ -36,6 +36,20 @@ Training constitutions remain corpus-isolated (no VanderWeele/FAI taxonomies in 
 - Inputs: `data/treatment/*`, `data/control/*`, `data/eval/*`, scoring sqlite (never opened for write).
 - Outputs: `adapters/` (LoRA only, not merged 6–48GB models) and `results/`.
 
+### SQLite in Colab: GitHub source, local-NVMe open
+
+Drive FUSE is a bad SQLite disk (`database is locked`, metadata touches). Cell 1b **copies** the DB onto `/content/local_db_cache`, `chmod 0444`, and opens `file:...?mode=ro&immutable=1` plus `PRAGMA query_only=ON`. The Drive/git original is never used as the live connection.
+
+**GitHub is the source of truth**, not Drive:
+
+| Why GitHub | Why not Drive-as-SoT |
+|---|---|
+| `docs/intrinsic-motivation-scores.sqlite` is already LFS-versioned and citable | Service account cannot upload files (My Drive quota 0) |
+| Reviewers reproduce the exact SHA | rclone/Desktop copies drift from the experiment pin |
+| Training pairs are frozen JSONL | `work_subscores` is long-format (`subscale`,`score`) — it is not an SFT table |
+
+Optional `CAI_Experiment/db/audit.sqlite` is a convenience overlay if you `rclone` it; the notebook still prefers the GitHub LFS file when present. **Do not** load Unsloth SFT/DPO from SQL. Use JSONL. SQLite is for Hoge / I/E-R diagnostics (and optional `state.db` table inspection).
+
 Hot-swap: keep the 4-bit base in VRAM; `model.disable_adapter()` for Base, `model.set_adapter("control"|"experimental")` for the CAI arms.
 
 ## Held-out dilemmas

@@ -18,7 +18,7 @@ CAI_Experiment/
 
 In Colab, add a Drive shortcut named `CAI_Experiment` under My Drive (the empty folder tree already lives in shared **Alignment Research**), or set `DRIVE_CANDIDATES`. A Google service account **cannot** upload JSONL into My Drive (quota 0); the notebook clones this public GitHub repo and copies training/eval files into your mounted Drive on first run (your quota). Adapters and results are written only under `adapters/` and `results/`.
 
-The notebook copies JSONL to `/content/readonly_cai/` with mode `0444` and never writes `data/treatment`, `data/control`, or sqlite files. Adapters stay in VRAM and are hot-swapped (`disable_adapter` / `set_adapter`).
+The notebook copies JSONL to `/content/readonly_cai/` with mode `0444` and never writes `data/treatment`, `data/control`, or sqlite files. SQLite is copied to `/content/local_db_cache` and opened with `mode=ro&immutable=1` (GitHub LFS is the source of truth; Drive FUSE is not a SQLite disk). Adapters stay in VRAM and are hot-swapped (`disable_adapter` / `set_adapter`). Training reads JSONL, not SQL.
 
 ## Held-out eval
 

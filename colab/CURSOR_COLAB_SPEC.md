@@ -6,7 +6,7 @@ Self-contained Jupyter notebook `cai_3way_experiment_and_eval.ipynb` for Google 
 
 ## Strict constraints
 
-1. **Read-only treatment/control data.** Never modify `data/treatment/`, `data/control/`, or any `.sqlite`. Open input JSONL with `"r"` only. The notebook copies JSONL into a chmod `0444` scratch dir before training.
+1. **Read-only treatment/control data.** Never modify `data/treatment/`, `data/control/`, or any `.sqlite`. Open input JSONL with `"r"` only. Copy JSONL to chmod `0444` scratch. Copy sqlite to `/content/local_db_cache`, chmod `0444`, open `file:...?mode=ro&immutable=1`. GitHub LFS is the DB source of truth; Drive FUSE is never the live SQLite filesystem. Training stays on JSONL.
 2. **Identical hyperparameters.** Both arms use `seed=3407`, LoRA `r=32`, `lora_alpha=64`, SFT LR `2e-4`, DPO LR `5e-6`, same batch/accum as the active model preset.
 3. **Do not launch GPU** until control `sl_cai_train.jsonl` and `rlaif_dpo_train.jsonl` exist (2,500 rows). Skip training if `adapters/{arm}_final_lora` already exists.
 4. **No merged 6–48GB dumps.** Keep the 4-bit base in VRAM; attach/detach LoRA adapters.
@@ -15,6 +15,7 @@ Self-contained Jupyter notebook `cai_3way_experiment_and_eval.ipynb` for Google 
 ## Drive layout (`/content/drive/MyDrive/CAI_Experiment/`)
 
 ```
+db/audit.sqlite                            # OPTIONAL rclone overlay; GitHub LFS is SoT
 data/treatment/sl_cai_train.jsonl          # 2,500  READ-ONLY
 data/treatment/rlaif_dpo_train.jsonl       # 2,500  READ-ONLY
 data/control/sl_cai_train.jsonl            # 2,500  READ-ONLY
@@ -31,7 +32,7 @@ results/qualitative_3arm_inspector.html
 
 ## Notebook cells
 
-1. Install Unsloth/TRL; mount Drive; verify read-only row counts.
+1. Install Unsloth/TRL; mount Drive; verify read-only JSONL; cache sqlite to local NVMe (`0444`, immutable URI).
 2. `train_cai_arm` for experimental then control (SFT → DPO).
 3. Load base once; `PeftModel` multi-adapter; `generate_with_arm`.
 4. ETHICS (4 subsets × 200), TruthfulQA MC1 (200), MMLU moral/philosophy (≤150).

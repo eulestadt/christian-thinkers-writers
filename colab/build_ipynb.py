@@ -42,7 +42,7 @@ cells.append(md("""
 
 Primary model: `unsloth/Llama-3.2-3B-Instruct-bnb-4bit` on one L4 (24GB) or T4 (16GB). Toggle `ACTIVE_MODEL` to Mistral Small 24B (use L4/A100). **Do not Run All until control JSONL exists** (this snapshot already has 2,500/2,500). Training + 4-benchmark eval is ~75–90 minutes on one L4/T4.
 
-**Constraints:** never write inside `data/treatment/`, `data/control/`, or any `.sqlite`. Identical seed `3407`, LoRA `r=32`/`alpha=64`, SFT `2e-4`, DPO `5e-6` on both arms. Adapters hot-swap in VRAM (`disable_adapter` / `set_adapter`). Checkpoints and CSVs go to `adapters/` and `results/` only.
+**Constraints:** never write inside `data/treatment/`, `data/control/`, or any `.sqlite`. SQLite is copied to Colab local SSD and opened with `mode=ro&immutable=1` (never queried over Drive FUSE). **GitHub is the source of truth** for DBs and JSONL; Drive is for adapters/results and optional convenience copies. Identical seed `3407`, LoRA `r=32`/`alpha=64`, SFT `2e-4`, DPO `5e-6` on both arms. Adapters hot-swap in VRAM. Checkpoints and CSVs go to `adapters/` and `results/` only. Training reads **JSONL**, not SQL.
 
 CAI **training** constitutions stay corpus-isolated (no VanderWeele/FAI taxonomies). This notebook's **eval** suite is the external alignment harness (ETHICS, TruthfulQA, MMLU moral/philosophy, held-out open-ended arena).
 """))
@@ -144,16 +144,40 @@ def _has_data(root: str) -> bool:
     return t.is_file() and c.is_file()
 
 
+def _is_sqlite_file(path) -> bool:
+    try:
+        with open(path, "rb") as f:
+            return f.read(16).startswith(b"SQLite format 3")
+    except OSError:
+        return False
+
+
+def _ensure_git_lfs_sqlite(repo: Path) -> None:
+    """Pull the scoring DB if the clone only has a Git LFS pointer."""
+    import subprocess
+    target = repo / "docs" / "intrinsic-motivation-scores.sqlite"
+    if target.exists() and _is_sqlite_file(target):
+        return
+    subprocess.run(["git", "lfs", "install"], cwd=str(repo), check=False)
+    subprocess.run(
+        ["git", "lfs", "pull", "--include=docs/intrinsic-motivation-scores.sqlite"],
+        cwd=str(repo),
+        check=False,
+    )
+
+
 def _clone_github() -> Path:
     import subprocess
     for existing in [Path(GITHUB_CLONE), Path("/tmp/christian-thinkers-writers"), Path.cwd()]:
         if (existing / "cai-pipeline" / "data" / "sl_cai_train.jsonl").is_file() and (
             existing / "cai-pipeline-control" / "data" / "sl_cai_train.jsonl"
         ).is_file():
+            _ensure_git_lfs_sqlite(existing)
             return existing
     dest = Path(GITHUB_CLONE)
     dest.parent.mkdir(parents=True, exist_ok=True)
     subprocess.check_call(["git", "clone", "--depth", "1", GITHUB_REPO, str(dest)])
+    _ensure_git_lfs_sqlite(dest)
     return dest
 
 
@@ -268,6 +292,118 @@ if not HAS_GPU:
     RUN_TRAINING = False
     RUN_EVAL = False
     RUN_ARENA = False
+'''))
+
+cells.append(md("""## Cell 1b — Read-only SQLite on local NVMe (never open Drive FUSE)
+
+Drive FUSE (`drive.mount`) is a poor SQLite filesystem: locking and random seeks cause `database is locked` or mutate metadata on the source. **Copy** the DB onto Colab's local disk, `chmod 0444`, then `file:...?mode=ro&immutable=1`.
+
+**Source of truth is GitHub** (`docs/intrinsic-motivation-scores.sqlite` via LFS), not Drive. Optional `CAI_Experiment/db/audit.sqlite` is only a convenience overlay if you rclone'd it. Training still uses frozen JSONL (2,500 SFT + 2,500 DPO). SQLite here is for psychometric diagnostics and optional `state.db` telemetry — not a second training path.
+"""))
+
+cells.append(code(r'''
+import sqlite3, stat
+
+LOCAL_DB_DIR = "/content/local_db_cache" if IN_COLAB else "/tmp/local_db_cache"
+os.makedirs(LOCAL_DB_DIR, exist_ok=True)
+DRIVE_DB_DIR = os.path.join(BASE_DIR, "db")
+os.makedirs(DRIVE_DB_DIR, exist_ok=True)
+
+
+def _sqlite_sources(logical_name: str):
+    """GitHub-pinned paths first; Drive db/ is optional convenience only."""
+    github = {
+        "audit.sqlite": repo / "docs" / "intrinsic-motivation-scores.sqlite",
+        "census.sqlite": repo / "docs" / "christian-writers.sqlite",
+        "cai_state.db": repo / "cai-pipeline" / "data" / "state.db",
+        "cai_state_control.db": repo / "cai-pipeline-control" / "data" / "state.db",
+    }
+    drive_alias = {
+        "audit.sqlite": "audit.sqlite",
+        "census.sqlite": "census.sqlite",
+        "cai_state.db": "cai_state.db",
+        "cai_state_control.db": "cai_state_control.db",
+    }
+    out = []
+    if logical_name in github:
+        out.append(str(github[logical_name]))
+    alias = drive_alias.get(logical_name, logical_name)
+    out.append(os.path.join(DRIVE_DB_DIR, alias))
+    out.append(f"/content/drive/MyDrive/CAI_Experiment/db/{alias}")
+    out.append(f"/content/drive/MyDrive/Alignment Research/CAI_Experiment/db/{alias}")
+    return out
+
+
+def connect_readonly_sqlite(db_filename: str, source_path=None):
+    """Copy source to local NVMe, chmod 0444, open immutable URI. Never connect to Drive FUSE."""
+    tried = [source_path] if source_path else _sqlite_sources(db_filename)
+    src = next((p for p in tried if p and os.path.isfile(p) and _is_sqlite_file(p)), None)
+    if src is None:
+        raise FileNotFoundError(
+            f"No SQLite header for {db_filename}. Tried {tried}. "
+            "Need git lfs pull of docs/intrinsic-motivation-scores.sqlite, "
+            "or an optional rclone copy into CAI_Experiment/db/."
+        )
+    local_path = os.path.join(LOCAL_DB_DIR, db_filename)
+    src_size = os.path.getsize(src)
+    need = (not os.path.exists(local_path)) or os.path.getsize(local_path) != src_size
+    if need:
+        print(f"Caching {src} -> {local_path} ({src_size / 1e6:.1f} MB). Source file not opened as SQLite.")
+        if os.path.exists(local_path):
+            os.chmod(local_path, 0o644)
+        shutil.copyfile(src, local_path)
+    os.chmod(local_path, stat.S_IRUSR | stat.S_IRGRP | stat.S_IROTH)
+    uri = f"file:{local_path}?mode=ro&immutable=1"
+    conn = sqlite3.connect(uri, uri=True)
+    conn.execute("PRAGMA query_only = ON;")
+    print(f"[READ-ONLY SQLITE] {db_filename}  src={src}  local_mode={oct(os.stat(local_path).st_mode & 0o777)}")
+    return conn
+
+
+audit_conn = None
+census_conn = None
+cai_state_conn = None
+try:
+    audit_conn = connect_readonly_sqlite("audit.sqlite")
+    objs = pd.read_sql_query(
+        "SELECT name, type FROM sqlite_master WHERE type IN ('table','view') ORDER BY 1;",
+        audit_conn,
+    )
+    print("audit.sqlite objects:", objs.to_dict("records"))
+    n_works = pd.read_sql_query("SELECT COUNT(*) AS n FROM works_scored;", audit_conn)["n"].iloc[0]
+    n_chunks = pd.read_sql_query("SELECT COUNT(*) AS n FROM chunks;", audit_conn)["n"].iloc[0]
+    n_sub = pd.read_sql_query("SELECT COUNT(*) AS n FROM work_subscores;", audit_conn)["n"].iloc[0]
+    print(f"works_scored={n_works}  chunks={n_chunks}  work_subscores={n_sub}")
+    # Schema-correct diagnostic (work_subscores is long: writer_id, work_id, subscale, score).
+    df_subscores = pd.read_sql_query(
+        """
+        SELECT w.writer_id, w.work_id, w.work_title,
+               MAX(CASE WHEN s.subscale = 'hoge_intrinsic' THEN s.score END) AS hoge_intrinsic,
+               MAX(CASE WHEN s.subscale = 'ier_intrinsic' THEN s.score END) AS ier_intrinsic
+        FROM works_scored w
+        JOIN work_subscores s ON s.work_id = w.work_id AND s.writer_id = w.writer_id
+        GROUP BY w.writer_id, w.work_id, w.work_title
+        """,
+        audit_conn,
+    )
+    print("pivoted Hoge vs I/E-R rows:", len(df_subscores))
+except Exception as e:
+    print("audit.sqlite skipped:", type(e).__name__, e)
+    print("Panel D will use psychometric_kept_works.csv. Unsloth training still uses JSONL.")
+    df_subscores = None
+
+try:
+    cai_state_conn = connect_readonly_sqlite("cai_state.db")
+    st_tables = pd.read_sql_query(
+        "SELECT name FROM sqlite_master WHERE type='table' ORDER BY 1;", cai_state_conn
+    )
+    print("treatment state.db tables:", st_tables["name"].tolist())
+except Exception as e:
+    print("cai_state.db skipped:", type(e).__name__, e)
+
+# Do not build SFT/DPO HuggingFace Datasets from SQL. Frozen JSONL is the train path:
+#   TREAT_RO / CTRL_RO  sl_cai_train.jsonl + rlaif_dpo_train.jsonl
+# work_subscores has no chunk_text / status='keep' / hoge_score columns.
 '''))
 
 cells.append(md("## Cell 2 — Unified training (experimental, then control) with identical hyperparameters"))
@@ -785,22 +921,34 @@ ax3.legend()
 ax4 = fig.add_subplot(224)
 psych_csv = f"{EVAL_DIR}/psychometric_kept_works.csv"
 try:
-    df_sql = pd.read_csv(psych_csv)
+    if "df_subscores" in dir() and df_subscores is not None and len(df_subscores):
+        df_sql = df_subscores.copy()
+        if os.path.exists(psych_csv):
+            meta = pd.read_csv(psych_csv)
+            df_sql = df_sql.merge(meta[["writer_id", "work_id", "arm"]], on=["writer_id", "work_id"], how="left")
+            df_sql["arm"] = df_sql["arm"].fillna("census")
+        else:
+            df_sql["arm"] = "census"
+        src_note = "audit.sqlite (local NVMe, ro+immutable)"
+    else:
+        df_sql = pd.read_csv(psych_csv)
+        src_note = "psychometric_kept_works.csv"
     xcol, ycol = "hoge_intrinsic", "ier_intrinsic"
     sns.kdeplot(data=df_sql, x=xcol, y=ycol, fill=True, cmap="Reds", alpha=0.35, ax=ax4)
-    census = df_sql[df_sql["arm"] == "census"]
-    treat = df_sql[df_sql["arm"] == "treatment"]
-    ctrl_in = df_sql[df_sql["arm"] == "control_in_census"]
-    ax4.scatter(census[xcol], census[ycol], s=10, color="#2c3e50", alpha=0.35, label="Kept census (n=527)")
-    ax4.scatter(treat[xcol], treat[ycol], s=28, color="#c0392b", alpha=0.9, label="Experimental top-40")
+    census = df_sql[df_sql["arm"] == "census"] if "arm" in df_sql.columns else df_sql.iloc[0:0]
+    treat = df_sql[df_sql["arm"] == "treatment"] if "arm" in df_sql.columns else df_sql.iloc[0:0]
+    ctrl_in = df_sql[df_sql["arm"] == "control_in_census"] if "arm" in df_sql.columns else df_sql.iloc[0:0]
+    ax4.scatter(df_sql[xcol], df_sql[ycol], s=10, color="#2c3e50", alpha=0.25, label=f"Kept census (n={len(df_sql)})")
+    if len(treat):
+        ax4.scatter(treat[xcol], treat[ycol], s=28, color="#c0392b", alpha=0.9, label="Experimental top-40")
     if len(ctrl_in):
         ax4.scatter(ctrl_in[xcol], ctrl_in[ycol], s=28, color="#2980b9", alpha=0.9, label=f"Control also in census (n={len(ctrl_in)})")
-    ax4.set_title("D. Corpus psychometric space (Hoge vs I/E-R intrinsic)", weight="bold")
+    ax4.set_title(f"D. Corpus psychometric space ({src_note})", weight="bold")
     ax4.set_xlabel("Hoge intrinsic")
     ax4.set_ylabel("I/E-R intrinsic")
     ax4.legend(fontsize=8)
 except Exception as e:
-    ax4.text(0.5, 0.5, f"Need {psych_csv}\n({e})", ha="center", va="center", transform=ax4.transAxes)
+    ax4.text(0.5, 0.5, f"Need audit.sqlite or {psych_csv}\n({e})", ha="center", va="center", transform=ax4.transAxes)
 
 plt.tight_layout()
 out_png = f"{RES_DIR}/cai_3arm_master_diagnostics.png"

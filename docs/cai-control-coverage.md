@@ -26,48 +26,50 @@ One model: `deepseek-flash`. Thinking off. No Gemini. No Colab/Step 5.
 
 ## Control 40 (title / author / year / citation)
 
+Titles link to the Gutenberg / Wikisource / Internet Archive catalog page from control `corpus_manifest.json` (`pd_url`, falling back to `text_source_url`).
+
 | # | Author | Year | OpenAlex | Wiki inlinks | Sitelinks | Title |
 |---|---|---|---|---|---|---|
-| 1 | William James | 1890 | 25773 | 0 | 0 | The Principles of Psychology |
-| 2 | Charles Darwin | 1872 | 12119 | 156 | 0 | The Expression of the Emotions in Man and Animals |
-| 3 | Sigmund Freud | 1913 | 6957 | 333 | 0 | The Interpretation of Dreams |
-| 4 | John Dewey | 1910 | 6767 | 9 | 0 | How We Think |
-| 5 | Francis Galton | 1883 | 2257 | 0 | 0 | Inquiries into human faculty and its development |
-| 6 | D’Arcy Wentworth Thompson | 1917 | 1917 | 72 | 0 | On Growth and Form |
-| 7 | John Stuart Mill | 1862 | 1679 | 36 | 0 | Considerations on Representative Government |
-| 8 | Friedrich Nietzsche | 1901 | 1497 | 8 | 0 | The Will to Power |
-| 9 | Robert Ridgway | 1912 | 1473 | 0 | 0 | Color Standards and Color Nomenclature |
-| 10 | William Shakespeare | 1603 | 0 | 500 | 143 | Hamlet |
-| 11 | Friedrich Engels | 1848 | 0 | 500 | 143 | The Communist Manifesto |
-| 12 | Joseph Smith | 1830 | 0 | 500 | 126 | Book of Mormon |
-| 13 | Fyodor Dostoyevsky | 1866 | 0 | 500 | 109 | Crime and Punishment |
-| 14 | Niccolò Machiavelli | 1532 | 0 | 500 | 101 | The Prince |
-| 15 | Jane Austen | 1813 | 0 | 500 | 100 | Pride and Prejudice |
-| 16 | Daniel Defoe | 1719 | 0 | 500 | 99 | Robinson Crusoe |
-| 17 | Victor Hugo | 1862 | 0 | 500 | 98 | Les Misérables |
-| 18 | Alexandre Dumas | 1844 | 0 | 500 | 88 | The Three Musketeers |
-| 19 | Johann Wolfgang von Goethe | 1808 | 0 | 500 | 85 | Faust |
-| 20 | Robert Louis Stevenson | 1883 | 0 | 500 | 85 | Treasure Island |
-| 21 | Franz Kafka | 1915 | 0 | 500 | 84 | The Metamorphosis |
-| 22 | James Joyce | 1922 | 0 | 500 | 84 | Ulysses |
-| 23 | F. Scott Fitzgerald | 1925 | 0 | 500 | 84 | The Great Gatsby |
-| 24 | Charles Dickens | 1839 | 0 | 500 | 83 | Oliver Twist |
-| 25 | Oscar Wilde | 1890 | 0 | 500 | 82 | The Picture of Dorian Gray |
-| 26 | Martin Luther | 1517 | 0 | 500 | 76 | Ninety-five Theses |
-| 27 | Charlotte Brontë | 1847 | 0 | 500 | 70 | Jane Eyre |
-| 28 | Rudyard Kipling | 1894 | 0 | 500 | 69 | The Jungle Book |
-| 29 | L. Frank Baum | 1900 | 0 | 500 | 67 | The Wonderful Wizard of Oz |
-| 30 | Lewis Carroll | 1871 | 0 | 500 | 61 | Through the Looking-Glass |
-| 31 | Thomas Hobbes | 1651 | 0 | 500 | 59 | Leviathan |
-| 32 | Louisa May Alcott | 1868 | 0 | 500 | 52 | Little Women |
-| 33 | Henrik Ibsen | 1879 | 0 | 500 | 52 | A Doll's House |
-| 34 | Walter Scott | 1819 | 0 | 500 | 51 | Ivanhoe |
-| 35 | George Bernard Shaw | 1913 | 0 | 500 | 43 | Pygmalion |
-| 36 | Anton Chekhov | 1896 | 0 | 500 | 42 | The Seagull |
-| 37 | Alexander Hamilton | 1788 | 0 | 500 | 41 | Federalist Papers |
-| 38 | T. S. Eliot | 1922 | 0 | 500 | 37 | The Waste Land |
-| 39 | J. M. Barrie | 1911 | 0 | 500 | 35 | Peter Pan |
-| 40 | John Locke | 1690 | 0 | 500 | 32 | Two Treatises of Government |
+| 1 | William James | 1890 | 25773 | 0 | 0 | <a id="work-pg57628"></a>[The Principles of Psychology](https://www.gutenberg.org/ebooks/57628) |
+| 2 | Charles Darwin | 1872 | 12119 | 156 | 0 | <a id="work-pg1227"></a>[The Expression of the Emotions in Man and Animals](https://www.gutenberg.org/ebooks/1227) |
+| 3 | Sigmund Freud | 1913 | 6957 | 333 | 0 | <a id="work-pg66048"></a>[The Interpretation of Dreams](https://www.gutenberg.org/ebooks/66048) |
+| 4 | John Dewey | 1910 | 6767 | 9 | 0 | <a id="work-pg37423"></a>[How We Think](https://www.gutenberg.org/ebooks/37423) |
+| 5 | Francis Galton | 1883 | 2257 | 0 | 0 | <a id="work-pg11562"></a>[Inquiries into human faculty and its development](https://www.gutenberg.org/ebooks/11562) |
+| 6 | D’Arcy Wentworth Thompson | 1917 | 1917 | 72 | 0 | <a id="work-pg55264"></a>[On Growth and Form](https://www.gutenberg.org/ebooks/55264) |
+| 7 | John Stuart Mill | 1862 | 1679 | 36 | 0 | <a id="work-pg5669"></a>[Considerations on Representative Government](https://www.gutenberg.org/ebooks/5669) |
+| 8 | Friedrich Nietzsche | 1901 | 1497 | 8 | 0 | <a id="work-pg52914"></a>[The Will to Power](https://www.gutenberg.org/ebooks/52914) |
+| 9 | Robert Ridgway | 1912 | 1473 | 0 | 0 | <a id="work-pg63087"></a>[Color Standards and Color Nomenclature](https://www.gutenberg.org/ebooks/63087) |
+| 10 | William Shakespeare | 1603 | 0 | 500 | 143 | <a id="work-q41567"></a>[Hamlet](https://www.gutenberg.org/ebooks/1524) |
+| 11 | Friedrich Engels | 1848 | 0 | 500 | 143 | <a id="work-q40591"></a>[The Communist Manifesto](https://www.gutenberg.org/ebooks/61) |
+| 12 | Joseph Smith | 1830 | 0 | 500 | 126 | <a id="work-q459842"></a>[Book of Mormon](https://www.gutenberg.org/ebooks/17) |
+| 13 | Fyodor Dostoyevsky | 1866 | 0 | 500 | 109 | <a id="work-q165318"></a>[Crime and Punishment](https://www.gutenberg.org/ebooks/2554) |
+| 14 | Niccolò Machiavelli | 1532 | 0 | 500 | 101 | <a id="work-q131719"></a>[The Prince](https://www.gutenberg.org/ebooks/57037) |
+| 15 | Jane Austen | 1813 | 0 | 500 | 100 | <a id="work-q170583"></a>[Pride and Prejudice](https://www.gutenberg.org/ebooks/1342) |
+| 16 | Daniel Defoe | 1719 | 0 | 500 | 99 | <a id="work-q483034"></a>[Robinson Crusoe](https://www.gutenberg.org/ebooks/70841) |
+| 17 | Victor Hugo | 1862 | 0 | 500 | 98 | <a id="work-q180736"></a>[Les Misérables](https://www.gutenberg.org/ebooks/135) |
+| 18 | Alexandre Dumas | 1844 | 0 | 500 | 88 | <a id="work-q140527"></a>[The Three Musketeers](https://www.gutenberg.org/ebooks/1257) |
+| 19 | Johann Wolfgang von Goethe | 1808 | 0 | 500 | 85 | <a id="work-q29478"></a>[Faust](https://www.gutenberg.org/ebooks/3023) |
+| 20 | Robert Louis Stevenson | 1883 | 0 | 500 | 85 | <a id="work-q185118"></a>[Treasure Island](https://www.gutenberg.org/ebooks/120) |
+| 21 | Franz Kafka | 1915 | 0 | 500 | 84 | <a id="work-q184222"></a>[The Metamorphosis](https://www.gutenberg.org/ebooks/5200) |
+| 22 | James Joyce | 1922 | 0 | 500 | 84 | <a id="work-q6511"></a>[Ulysses](https://www.gutenberg.org/ebooks/4300) |
+| 23 | F. Scott Fitzgerald | 1925 | 0 | 500 | 84 | <a id="work-q214371"></a>[The Great Gatsby](https://www.gutenberg.org/ebooks/64317) |
+| 24 | Charles Dickens | 1839 | 0 | 500 | 83 | <a id="work-q164974"></a>[Oliver Twist](https://www.gutenberg.org/ebooks/730) |
+| 25 | Oscar Wilde | 1890 | 0 | 500 | 82 | <a id="work-q82464"></a>[The Picture of Dorian Gray](https://www.gutenberg.org/ebooks/4078) |
+| 26 | Martin Luther | 1517 | 0 | 500 | 76 | <a id="work-q157506"></a>[Ninety-five Theses](https://www.gutenberg.org/ebooks/274) |
+| 27 | Charlotte Brontë | 1847 | 0 | 500 | 70 | <a id="work-q182961"></a>[Jane Eyre](https://www.gutenberg.org/ebooks/1260) |
+| 28 | Rudyard Kipling | 1894 | 0 | 500 | 69 | <a id="work-q189509"></a>[The Jungle Book](https://www.gutenberg.org/ebooks/236) |
+| 29 | L. Frank Baum | 1900 | 0 | 500 | 67 | <a id="work-q130295"></a>[The Wonderful Wizard of Oz](https://www.gutenberg.org/ebooks/43936) |
+| 30 | Lewis Carroll | 1871 | 0 | 500 | 61 | <a id="work-q220331"></a>[Through the Looking-Glass](https://www.gutenberg.org/ebooks/12) |
+| 31 | Thomas Hobbes | 1651 | 0 | 500 | 59 | <a id="work-q193034"></a>[Leviathan](https://www.gutenberg.org/ebooks/3207) |
+| 32 | Louisa May Alcott | 1868 | 0 | 500 | 52 | <a id="work-q523076"></a>[Little Women](https://www.gutenberg.org/ebooks/514) |
+| 33 | Henrik Ibsen | 1879 | 0 | 500 | 52 | <a id="work-q669694"></a>[A Doll's House](https://www.gutenberg.org/ebooks/15492) |
+| 34 | Walter Scott | 1819 | 0 | 500 | 51 | <a id="work-q840974"></a>[Ivanhoe](https://www.gutenberg.org/ebooks/82) |
+| 35 | George Bernard Shaw | 1913 | 0 | 500 | 43 | <a id="work-q637200"></a>[Pygmalion](https://www.gutenberg.org/ebooks/3825) |
+| 36 | Anton Chekhov | 1896 | 0 | 500 | 42 | <a id="work-q650063"></a>[The Seagull](https://www.gutenberg.org/ebooks/1754) |
+| 37 | Alexander Hamilton | 1788 | 0 | 500 | 41 | <a id="work-q858036"></a>[Federalist Papers](https://www.gutenberg.org/ebooks/1404) |
+| 38 | T. S. Eliot | 1922 | 0 | 500 | 37 | <a id="work-q581458"></a>[The Waste Land](https://www.gutenberg.org/ebooks/1321) |
+| 39 | J. M. Barrie | 1911 | 0 | 500 | 35 | <a id="work-q3435337"></a>[Peter Pan](https://www.gutenberg.org/ebooks/16) |
+| 40 | John Locke | 1690 | 0 | 500 | 32 | <a id="work-q231949"></a>[Two Treatises of Government](https://www.gutenberg.org/ebooks/7370) |
 
 ## Counts
 

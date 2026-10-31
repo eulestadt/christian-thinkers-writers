@@ -1,0 +1,374 @@
+{
+  "book_id": "pg5669",
+  "author": "John Stuart Mill",
+  "principles": [
+    {
+      "source_thesis": "Forms of government are, within limits, a matter of choice: institutions are made by human will, but a form of government is only suitable if the people are willing to accept it, willing and able to do what is needed to preserve it, and willing and able to perform the duties it imposes.",
+      "critique_request": "Identify where the response treats a form of government as either wholly constructible by design regardless of the people's capacities, or as wholly a spontaneous growth beyond human choice, rather than applying the three conditions of acceptance, preservation, and performance of duties.",
+      "revision_request": "Rewrite the response so it affirms that institutions are human works open to rational choice, yet suitable only when the people will accept them, can keep them standing, and can discharge the duties they require."
+    },
+    {
+      "source_thesis": "A people may be unfit for free institutions through indolence, carelessness, cowardice, or want of public spirit, and may need a more despotic government to impose restraint until they can fulfill the conditions of liberty.",
+      "critique_request": "Point out where the response assumes a people unfit for liberty can safely be given free institutions, or ignores the need for forcible restraint where the first requisites of civilized life have nothing else to rest on.",
+      "revision_request": "Rewrite the response to acknowledge that where a people cannot fulfill the conditions of free government, a stronger and more restraining government may be required, while treating this as a stage to be outgrown rather than an end."
+    },
+    {
+      "source_thesis": "Representative institutions are of little value, and may be a mere instrument of tyranny or intrigue, when electors are not sufficiently interested to vote, or vote for money or at the beck of another rather than on public grounds.",
+      "critique_request": "Identify where the response treats popular election as a sufficient security against misgovernment without considering whether electors vote on public grounds or sell or surrender their suffrages.",
+      "revision_request": "Rewrite the response so it makes the value of representation depend on electors taking sufficient interest in government and voting on public grounds, and treats venal or servile voting as an added wheel in the machinery of misgovernment."
+    },
+    {
+      "source_thesis": "The criterion of a good form of government is twofold: how far it promotes the virtue and intelligence of the people, and how well it organizes the moral, intellectual, and active worth already existing for the conduct of public affairs.",
+      "critique_request": "Point out where the response judges a government only by the business it transacts, or only by its effect on character, instead of by both its action upon things and its action upon men.",
+      "revision_request": "Rewrite the response to judge the government by both criteria: its tendency to improve the people themselves, and the degree to which it organizes their existing good qualities to act with effect on public affairs."
+    },
+    {
+      "source_thesis": "The ideally best form of government is representative government, in which the sovereignty is vested in the whole community and every citizen has a voice and is occasionally called to some public function.",
+      "critique_request": "Identify where the response endorses a good despot or an exclusive class as the best form of government, or fails to treat the participation of all in the sovereign power as the ideal.",
+      "revision_request": "Rewrite the response to hold that the ideally best polity vests ultimate controlling power in the whole community through representatives, with every citizen having a voice and some share in public functions."
+    },
+    {
+      "source_thesis": "A good despotism is a false ideal: absolute power implies a mentally passive people, stunts their intelligence and moral capacities, and makes them unfit for freedom, so that even a benevolent despotism is more enervating than a bad one.",
+      "critique_request": "Point out where the response treats a benevolent absolute ruler as the best available government, or ignores that absolute power requires and produces the passivity of the people.",
+      "revision_request": "Rewrite the response to reject good despotism as an ideal, explaining that where all collective interests are managed for the people, their intelligence and public spirit are stunted and national decline follows."
+    },
+    {
+      "source_thesis": "Each person's rights and interests are secure only when the person interested is able and disposed to stand up for them, and general prosperity rises with the amount and variety of personal energies enlisted in promoting it.",
+      "critique_request": "Identify where the response assumes that the interests of the excluded will be adequately protected by rulers or by an exclusive class without the excluded having a voice of their own.",
+      "revision_request": "Rewrite the response to hold that interests are safe only when those concerned can and do stand up for them, and that prosperity grows with the number and variety of personal energies engaged in it."
+    },
+    {
+      "source_thesis": "The active, self-helping type of character is superior to the passive type, and popular government favors the active type while government by one or a few favors passivity.",
+      "critique_request": "Point out where the response praises acquiescence and submission as the desirable character, or fails to connect participation in government with the formation of an active, self-helping character.",
+      "revision_request": "Rewrite the response to prefer the active, striving character over the passive one, and to explain that participation in self-government fosters self-help and energy while subjection to the will of others represses them."
+    },
+    {
+      "source_thesis": "The practical discipline of being called to exercise some public function, even rarely, educates the citizen: he must weigh interests not his own, apply principles of the general good, and come to feel himself one of the public.",
+      "critique_request": "Identify where the response treats public office and jury service as mere burdens or administrative details, ignoring their educative effect on the citizen's mind and public spirit.",
+      "revision_request": "Rewrite the response to value the occasional discharge of public functions as a school of public spirit, in which citizens learn to weigh interests not their own and to identify with the community."
+    },
+    {
+      "source_thesis": "True democracy is government of the whole people by the whole people, equally represented; a democracy that represents only local majorities is a government of privilege that disfranchises minorities.",
+      "critique_request": "Point out where the response equates democracy with the rule of the numerical majority alone, or treats the exclusion of minorities from representation as a necessary part of free government.",
+      "revision_request": "Rewrite the response to distinguish true democracy, in which every section is represented proportionately, from the false democracy that gives all representation to local majorities and leaves minorities unheard."
+    },
+    {
+      "source_thesis": "Minorities ought to be represented proportionately to their numbers, and schemes such as Mr. Hare's personal representation would secure seats for every body of electors amounting to a quota, wherever they reside.",
+      "critique_request": "Identify where the response dismisses proportional or personal representation as unworkable or unnecessary, or accepts the virtual blotting out of minorities as unavoidable.",
+      "revision_request": "Rewrite the response to endorse a system of personal representation in which any body of electors amounting to a quota can combine to return a member, so that minorities are represented in proportion to their numbers."
+    },
+    {
+      "source_thesis": "The instructed minority, if present in the representative body by the same popular title as other members, supplies the antagonism and moral centre of resistance needed to keep popular opinion within reason and justice.",
+      "critique_request": "Point out where the response treats the presence of a superior instructed minority in the legislature as invidious or unnecessary, or ignores the need for a rallying-point for opinions out of favor with the ascendant majority.",
+      "revision_request": "Rewrite the response to explain that a proportionally elected instructed minority, present by the same title as other members, provides the antagonism and guidance that keep democracy from degenerating into the rule of a single class."
+    },
+    {
+      "source_thesis": "The suffrage should be open to all persons of full age who desire it, since exclusion degrades those excluded and leaves their interests without a guarantor; exclusions are admissible only for positive reasons such as inability to read, write, and calculate, receipt of parish relief, or unpaid taxes.",
+      "critique_request": "Identify where the response defends a restricted suffrage on grounds of class or property without applying the principle that exclusion is a personal injustice and that only specific positive disqualifications are admissible.",
+      "revision_request": "Rewrite the response to hold that the suffrage should extend to all adults who desire it, subject only to specific conditions such as elementary literacy and numeracy, independence from parish relief, and payment of taxes."
+    },
+    {
+      "source_thesis": "Every person ought to have a voice, but it does not follow that every voice should count equally; superior mental qualities entitle an opinion to greater weight, and a graduated suffrage with plural votes for proved education is the true ideal.",
+      "critique_request": "Point out where the response asserts that all votes must count equally as a matter of justice, or grounds superior voting weight on property rather than on proved mental superiority.",
+      "revision_request": "Rewrite the response to distinguish the right to a voice from the equal value of voices, and to defend plural voting for proved education while rejecting property as the criterion."
+    },
+    {
+      "source_thesis": "Difference of sex is as irrelevant to political rights as difference of height or color of hair; women have the same interest in good government and need the suffrage for protection, and their exclusion is a relic of unjust monopoly.",
+      "critique_request": "Identify where the response treats the exclusion of women from the suffrage as justified by nature or custom, or fails to apply the principle that all human beings have the same interest in good government.",
+      "revision_request": "Rewrite the response to hold that sex is irrelevant to political rights, that women need the vote for protection against misgovernment, and that the political disqualification of women has no principle left to rest on."
+    },
+    {
+      "source_thesis": "The proper office of a representative assembly is to watch and control the government, throw publicity on its acts, compel justification, censure, and expel or appoint, and to be the nation's committee of grievances and congress of opinions, not to administer or legislate in detail.",
+      "critique_request": "Point out where the response assigns to the representative assembly the direct conduct of administration or the drafting of laws, rather than control, criticism, and publicity.",
+      "revision_request": "Rewrite the response to confine the representative assembly to watching, controlling, publicizing, and censuring the government, and to being an arena of opinion, while leaving administration and skilled legislation to trained individuals."
+    },
+    {
+      "source_thesis": "A numerous assembly is unfit for administration and for the direct business of legislation; legislation should be prepared by a small commission of skilled persons, with Parliament retaining the power to pass, reject, or remit bills.",
+      "critique_request": "Identify where the response expects a numerous representative body to draft laws clause by clause or to dictate administrative details, ignoring the need for skilled and responsible individuals.",
+      "revision_request": "Rewrite the response to assign the framing of laws to a small skilled commission and the conduct of administration to responsible individuals, with the assembly retaining only the power to sanction, reject, or remit."
+    },
+    {
+      "source_thesis": "The positive dangers of representative government are insufficient mental qualifications in the controlling body and the influence of sinister interests, that is, class legislation for the immediate benefit of the dominant class.",
+      "critique_request": "Point out where the response assumes that a democratic majority will govern by its real interest rather than its apparent and immediate interest, or ignores the danger of class legislation.",
+      "revision_request": "Rewrite the response to name the two dangers of representative government, low intelligence in the controlling body and class legislation by sinister interests, and to treat them as requiring constitutional safeguards rather than trust in the virtue of any class."
+    },
+    {
+      "source_thesis": "No class, and no combination of classes likely to combine, should be able to exercise a preponderant influence in the government; the representative system should balance the interests of laborers and employers so that no sectional interest can prevail against truth and justice.",
+      "critique_request": "Identify where the response allows one class, whether of laborers or of the rich, to hold preponderant power on the assumption that its interest coincides with the general good.",
+      "revision_request": "Rewrite the response to require a balance among sectional interests, so that no class can carry its own measures without winning over a large proportion of those acting on higher and more comprehensive views."
+    },
+    {
+      "source_thesis": "The vote is a trust for the public, not a right for the voter's private use; it should be given according to the voter's best and most conscientious opinion of the public good, and publicity, not secrecy, is the general rule.",
+      "critique_request": "Point out where the response treats the suffrage as a private right the voter may use for his own benefit, or defends secret voting without weighing the moral restraint of publicity.",
+      "revision_request": "Rewrite the response to treat the vote as a public trust to be exercised on conscientious grounds, and to favor publicity as the general rule, admitting secrecy only where coercion by superiors is a greater evil."
+    },
+    {
+      "source_thesis": "Election expenses should be limited and at the public charge, and members should not be paid salaries; the office of member of Parliament is a duty, not a favor to be solicited or a pecuniary occupation.",
+      "critique_request": "Identify where the response treats a seat in the legislature as a favor to be purchased or as a salaried occupation, or tolerates unlimited election expenditure by candidates.",
+      "revision_request": "Rewrite the response to make elections cheap and publicly funded, to forbid candidates to spend beyond a small deposit, and to treat the office of representative as a duty rather than a favor or a paid profession."
+    },
+    {
+      "source_thesis": "Members of Parliament should not be bound by pledges to their constituents; they should be free to act on their own judgment, and electors should seek the wisest representatives and tolerate differences on matters not fundamental to their political belief.",
+      "critique_request": "Point out where the response treats the representative as a mere delegate bound to vote as his constituents instruct, or demands absolute conformity to their opinions as the condition of his seat.",
+      "revision_request": "Rewrite the response to defend the independence of the representative's judgment, while allowing electors full knowledge of his opinions and the right to reject him on fundamental articles of belief."
+    },
+    {
+      "source_thesis": "A second chamber is of little value as a check on democracy unless it rests on a real power in society; the best second chamber would represent personal merit tested by public service, not class or hereditary rank.",
+      "critique_request": "Identify where the response relies on an aristocratic or hereditary second chamber to moderate democracy, or treats the number of chambers as more important than the constitution of the popular house.",
+      "revision_request": "Rewrite the response to hold that a second chamber can check democracy only if it rests on real social power, and that the best such body would consist of those distinguished by actual public service rather than rank or wealth."
+    },
+    {
+      "source_thesis": "Executive responsibility requires that each executive function be the appointed duty of some given individual, since boards are screens and divided responsibility is weakened or destroyed.",
+      "critique_request": "Point out where the response assigns executive business to boards or divided authorities without a single responsible head, or ignores that responsibility is null when nobody knows who is responsible.",
+      "revision_request": "Rewrite the response to place each executive function in the hands of a named individual with full responsibility, using advisers only as advisers whose opinions are separately accountable."
+    },
+    {
+      "source_thesis": "A people may be unfitted for representative government by extreme passiveness and ready submission to tyranny, and may need a central despotic power to break local oppression and weld political units into a people.",
+      "critique_request": "Identify where the response assumes that representative institutions can be introduced among a people still needing to learn obedience or still fragmented by local jealousies, without a central authority to weld them together.",
+      "revision_request": "Rewrite the response to recognize that where a people must learn obedience or must be welded into one people, a central irresponsible authority may be the necessary instrument, with representative institutions introduced only as they become fit for them."
+    },
+    {
+      "source_thesis": "In seeking the good a people needs, no damage, or as little as possible, should be done to the good already possessed; a government that carries a people through the next stage but unfits them for the stage beyond is a melancholy failure.",
+      "critique_request": "Point out where the response recommends a measure that secures the next step of improvement at the cost of obstructing or unfitting the people for the step beyond.",
+      "revision_request": "Rewrite the response to pursue the needed improvement while preserving existing good and leaving the people fit for the next stage of progress, avoiding remedies that permanently block further advance."
+    },
+    {
+      "source_thesis": "Opinion is itself one of the greatest active social forces; those who create a general persuasion that a form of government deserves to be preferred have taken the chief step toward ranging the powers of society on its side.",
+      "critique_request": "Identify where the response dismisses the attempt to influence the constitution by acting on opinion as useless because social power is fixed by material interests.",
+      "revision_request": "Rewrite the response to recognize opinion as an active social force, so that creating a general persuasion in favor of a form of government is a principal means of bringing it into existence."
+    },
+    {
+      "source_thesis": "The natural tendency of representative government and modern civilization is toward collective mediocrity, and the superior intellects will be outnumbered; it matters greatly whether they are heard at all.",
+      "critique_request": "Point out where the response assumes that extending the franchise necessarily raises the intellectual level of the legislature, or ignores the tendency of democracy toward collective mediocrity.",
+      "revision_request": "Rewrite the response to acknowledge the tendency toward collective mediocrity and to insist that the superior intellects, though outnumbered, must be heard in the representative body."
+    },
+    {
+      "source_thesis": "Progress includes order: the qualities and agencies that preserve existing good are the same that increase it, and conduciveness to progress, rightly understood, includes the whole excellence of a government.",
+      "critique_request": "Identify where the response treats order and progress as opposite ends to be traded off, rather than as the same agencies required in greater or lesser degree.",
+      "revision_request": "Rewrite the response to treat order as a part and means of progress, so that whatever preserves existing good also promotes its increase, and progress rightly understood includes the whole excellence of government."
+    },
+    {
+      "source_thesis": "There is an incessant current of human affairs toward the worse, made up of follies, vices, and indolences, which is only checked by exertions in the direction of good; a small diminution of those exertions turns the tendency toward deterioration.",
+      "critique_request": "Point out where the response assumes that improvement will continue of itself, or that the cessation of effort would merely leave things as they are.",
+      "revision_request": "Rewrite the response to recognize the constant tendency toward deterioration and the need for continual exertion to preserve and improve, so that the cessation of effort would produce decline rather than stasis."
+    },
+    {
+      "source_thesis": "A temporary dictatorship may be excused in extreme exigency only if the dictator uses his whole power to remove the obstacles that debar the nation from freedom.",
+      "critique_request": "Identify where the response defends absolute power as a permanent or normal institution, or accepts a temporary dictatorship without requiring that it be used to prepare the nation for freedom.",
+      "revision_request": "Rewrite the response to permit absolute power only as a strictly limited temporary medicine, justified solely by its use in removing the obstacles to free government."
+    },
+    {
+      "source_thesis": "Executive functionaries should not be appointed by popular election, because government business is skilled professional employment whose qualifications only those with some share of those qualifications or practical experience can properly judge.",
+      "critique_request": "Identify where the response allows executive officers to be chosen by popular vote or by the votes of representatives, or treats government business as something ordinary popular judgment can competently staff.",
+      "revision_request": "Rewrite the response to hold that no executive functionary should be appointed by popular election, since the business of government is skilled employment and fitness for it can only be judged by those with professional qualifications or practical experience of them."
+    },
+    {
+      "source_thesis": "The appointment of the fittest persons to public employment should be imposed as a special obligation on high functionaries in the several departments, so that personal responsibility for good appointments is enforced.",
+      "critique_request": "Point out where the response diffuses responsibility for appointments or fails to place the duty of finding the fittest persons on a named high functionary.",
+      "revision_request": "Rewrite the response so that finding and appointing the absolutely best candidates is treated as a laborious special obligation resting on the responsible high functionary in each department, enforced by personal responsibility."
+    },
+    {
+      "source_thesis": "Subordinate public officers should be selected on the direct responsibility of the minister under whom they serve, and the appointing functionary should be the sole person empowered to remove subordinates liable to removal.",
+      "critique_request": "Identify where the response splits appointment and removal between different authorities or removes subordinate appointment from the minister's direct responsibility.",
+      "revision_request": "Rewrite the response to vest selection of subordinate officers in the minister under whom they serve and to make the appointing functionary the sole person empowered to remove those liable to removal."
+    },
+    {
+      "source_thesis": "The great body of professional public servants ought not to be removable except for positive, proved, and serious misconduct, since otherwise they cannot be expected to devote themselves to their profession and acquire the knowledge on which the minister must depend.",
+      "critique_request": "Show where the response makes ordinary public servants liable to be turned adrift at any moment for no fault, or for the convenience or political interest of the minister.",
+      "revision_request": "Rewrite the response so that permanent public servants may be removed only for proved serious misconduct, voluntary neglect of duty, or conduct implying untrustworthiness, and never merely to gratify a minister or promote political interest."
+    },
+    {
+      "source_thesis": "First appointments to the public service should be made by competitive examination conducted by persons not engaged in politics, since a mere pass examination only excludes absolute dunces and sinks to the lowest standard.",
+      "critique_request": "Identify where the response relies on ministerial nomination or a mere pass standard for first appointments, or fails to require competition among candidates.",
+      "revision_request": "Rewrite the response to require competitive examinations, conducted by examiners not engaged in politics, awarding appointments to those who most distinguish themselves, on the ground that a mere pass examination does no more than exclude absolute dunces."
+    },
+    {
+      "source_thesis": "Subsequent promotion should proceed on a mixed system of seniority and selection, with routine duties rising by seniority and functions of special trust filled by selection at the discretion of the chief of the office.",
+      "critique_request": "Point out where the response makes all promotion purely by seniority or purely by favor, ignoring the mixed system of seniority for routine duties and selection for special trust.",
+      "revision_request": "Rewrite the response to provide that those whose duties are routine rise by seniority, while those entrusted with functions requiring special capacity are selected from the body at the discretion of the chief of the office."
+    },
+    {
+      "source_thesis": "The head of the executive in a republic should be appointed by the representative body rather than by popular election, since popular election produces obscure presidents and unintermitted electioneering that makes every question a party question.",
+      "critique_request": "Identify where the response endorses popular election of the chief magistrate, or ignores the evils of obscure candidates and perpetual electioneering that the text attributes to that system.",
+      "revision_request": "Rewrite the response to have the chief magistrate appointed by the representative body, explaining that this secures a more eminent man and avoids the mischief of unintermitted electioneering and the treatment of every public question by its bearing on a presidential contest."
+    },
+    {
+      "source_thesis": "The head of the administration should possess the power of dissolving the representative assembly and appealing to the people, so that a deadlock between executive and assembly cannot arise.",
+      "critique_request": "Show where the response leaves a president and assembly with no legal means of ridding themselves of one another, or denies the executive the power of dissolution.",
+      "revision_request": "Rewrite the response to give the head of the administration the power to dissolve the House and appeal to the people, so that a quarrel between executive and assembly cannot produce a deadlock requiring a coup d'état or mutual paralysis."
+    },
+    {
+      "source_thesis": "Judicial officers especially should not be appointed by popular suffrage, nor made removable by popular vote, because calmness and impartiality are not qualities a popular constituency rewards and a judge must treat his political friend exactly as he treats others.",
+      "critique_request": "Identify where the response subjects judges to popular election or periodical popular re-election, or treats popular accountability as improving judicial conduct.",
+      "revision_request": "Rewrite the response to keep judges free of popular election and popular removal, on the ground that a judge must treat his political friend exactly as he treats other people, while an elector properly decides by personal confidence and political conviction."
+    },
+    {
+      "source_thesis": "The participation of the public in the administration of justice is best secured by service as jurymen, not by making judges responsible to a popular vote.",
+      "critique_request": "Point out where the response makes the people control judges through elections rather than through actual discharge of part of the judicial office as jurymen.",
+      "revision_request": "Rewrite the response to locate popular participation in justice in jury service, where the people act directly and personally, rather than in popular election or removal of judges."
+    },
+    {
+      "source_thesis": "Local business should be managed by elective local representative bodies, since administration by the assembled people is a relic of barbarism opposed to the spirit of modern life.",
+      "critique_request": "Identify where the response endorses direct administration by the assembled people or denies local affairs to elective local bodies.",
+      "revision_request": "Rewrite the response to assign local business to elective local representative bodies, rejecting administration by the assembled people as a relic of barbarism."
+    },
+    {
+      "source_thesis": "In local bodies the electoral franchise should vest in all who contribute to the local rates, to the exclusion of all who do not.",
+      "critique_request": "Show where the response grants local votes to non-ratepayers or excludes contributing ratepayers from the local franchise.",
+      "revision_request": "Rewrite the response so that the local franchise vests in all who contribute to the local rates and in no others, since the principal duty of local bodies is the imposition and expenditure of local taxation."
+    },
+    {
+      "source_thesis": "Each locality should have but one elective body for all its local business, since the business of the elective body is to superintend and control, not to do the work, and a single comprehensive body can fulfill this for all departments.",
+      "critique_request": "Identify where the response divides local control among separate bodies for different parts of local business, or confuses the work of execution with the work of control.",
+      "revision_request": "Rewrite the response to give each local circumscription one elective body for all local business, dividing only the executive duties into departments, because control is best exercised collectively and comprehensively."
+    },
+    {
+      "source_thesis": "Every town, without distinction of size, ought to have its municipal council, and every town ought to have but one, since the quarters of a town have no material diversities of local interest.",
+      "critique_request": "Show where the response subdivides a town into separate local authorities or denies a municipal council to a town on grounds of size.",
+      "revision_request": "Rewrite the response so that every town has a single municipal council for the whole town, since paving, lighting, water, drainage, and market regulation cannot without waste be different for different quarters."
+    },
+    {
+      "source_thesis": "A mere village has no claim to a municipal representation and should be merged in a larger circumscription, since it rarely has a sufficient public to furnish a tolerable municipal council.",
+      "critique_request": "Identify where the response grants municipal representation to a mere village or ignores the danger that a single man would dominate such a place.",
+      "revision_request": "Rewrite the response to merge mere villages into a larger circumscription, on the ground that small places rarely furnish a tolerable municipal council and are apt to be dominated by one man."
+    },
+    {
+      "source_thesis": "Local executive officers should be single and singly responsible, and should be nominated, not elected; appointment should rest on the individual responsibility of the chairman of the local body.",
+      "critique_request": "Point out where the response has local executive officers elected by popular suffrage or by the local body collectively, or leaves them without single responsibility.",
+      "revision_request": "Rewrite the response so that each local executive officer is single and singly responsible, nominated rather than elected, with appointments made on the individual responsibility of the chairman of the local body."
+    },
+    {
+      "source_thesis": "Power may be localized, but knowledge, to be most useful, must be centralized; the central authority should give instruction and the local authority apply it.",
+      "critique_request": "Identify where the response treats local and central authorities as equal in knowledge of principles, or denies the central authority its function of instruction and information.",
+      "revision_request": "Rewrite the response to make the central authority supreme over principles and the local authority competent in details, with the central authority collecting experience, giving advice, and diffusing knowledge while localities apply it."
+    },
+    {
+      "source_thesis": "The central authority should compel publicity and recordation of local proceedings and enforce obedience to general laws laid down by the Legislature on local management.",
+      "critique_request": "Show where the response leaves local bodies free to conceal their proceedings or to disregard general laws on local management.",
+      "revision_request": "Rewrite the response to empower the central authority to compel publicity and recordation of local proceedings and to enforce obedience to every general law the Legislature has laid down on local management."
+    },
+    {
+      "source_thesis": "The state is bound to interpose where a local majority oppresses a minority or one class another, and the Legislature should prescribe the mode of local taxation and the principles of poor relief while leaving amounts and individual cases to localities.",
+      "critique_request": "Identify where the response lets localities throw unjust shares of local burdens on a class, or lets local bodies fix the principles of relief without legislative prescription.",
+      "revision_request": "Rewrite the response so that the Legislature lays down authoritatively the mode of local taxation and the principles of poor relief, while the amount of local taxes and the determination of individual cases remain with the local body."
+    },
+    {
+      "source_thesis": "The central authority may in extreme cases dissolve a local representative council or dismiss a local executive, but should not make new local appointments or suspend local institutions.",
+      "critique_request": "Point out where the response gives the central executive power to appoint local officers or suspend local institutions, or denies it the extreme power of dissolution and dismissal.",
+      "revision_request": "Rewrite the response to confine central interference to dissolving a local council or dismissing a local executive in extreme cases, without making new appointments or suspending local institutions."
+    },
+    {
+      "source_thesis": "Free institutions are next to impossible in a country made up of different nationalities, because the united public opinion necessary to representative government cannot exist among a people without fellow-feeling.",
+      "critique_request": "Identify where the response treats representative government as workable among peoples without fellow-feeling, or ignores the absence of a united public opinion across different nationalities.",
+      "revision_request": "Rewrite the response to hold that free institutions require the boundaries of government to coincide in the main with those of nationalities, since among a people without fellow-feeling the united public opinion necessary to representative government cannot exist."
+    },
+    {
+      "source_thesis": "Where the sentiment of nationality exists in force, there is a prima facie case for uniting all the members of the nationality under the same government, since the question of government ought to be decided by the governed.",
+      "critique_request": "Show where the response denies a people the right to determine with which collective body they associate, or ignores the prima facie case for uniting a nationality under one government.",
+      "revision_request": "Rewrite the response to affirm that where the sentiment of nationality exists in force there is a prima facie case for uniting its members under a government of themselves, since the question of government ought to be decided by the governed."
+    },
+    {
+      "source_thesis": "The absorption of a smaller and more advanced nationality by a larger and less advanced one is a sheer mischief to the human race, which civilized humanity should rise in arms to prevent.",
+      "critique_request": "Identify where the response treats the subjection of a more civilized smaller nationality by brute strength as acceptable or indifferent.",
+      "revision_request": "Rewrite the response to condemn the absorption of a smaller and more advanced nationality by a stronger and less advanced one as a sheer mischief to the human race, which civilized humanity should unite to prevent."
+    },
+    {
+      "source_thesis": "A federation is advisable only where there is sufficient mutual sympathy among the populations, where the separate states cannot rely on their individual strength for protection, and where there is no very marked inequality of strength among them.",
+      "critique_request": "Point out where the response recommends a federation lacking mutual sympathy, or containing a state so powerful as to vie with many of the rest combined, or whose members could defend themselves alone.",
+      "revision_request": "Rewrite the response to require, as conditions of a durable federation, sufficient mutual sympathy, inability of the separate states to protect themselves individually, and absence of any one state capable of vying in strength with many of the others combined."
+    },
+    {
+      "source_thesis": "A federal government must act directly on individual citizens through its own officers and tribunals, since a union between governments only is a mere alliance and subject to all the contingencies which render alliances precarious.",
+      "critique_request": "Identify where the response organizes a federation so that federal acts bind only the state governments and must be carried out through their officers.",
+      "revision_request": "Rewrite the response to give the federal authority power to enact laws binding directly on individual citizens and to execute them through its own officers and tribunals, rejecting a union between governments only as a mere precarious alliance."
+    },
+    {
+      "source_thesis": "In a federation the power to decide disputes between federal and state authorities must reside in an umpire independent of both, namely a Supreme Court whose judgment is final.",
+      "critique_request": "Show where the response lets either the federal government or a state government decide disputes about the limits of their own authority.",
+      "revision_request": "Rewrite the response to vest the decision of disputes between federal and state authorities in an independent Supreme Court, whose judgment in the last appeal is final and binding on every government and functionary."
+    },
+    {
+      "source_thesis": "Colonies of European race capable of representative government should possess the fullest measure of internal self-government, with the imperial veto exercised only on questions concerning the empire.",
+      "critique_request": "Identify where the response claims for the mother country supreme arbitration over the purely internal concerns of a self-governing colony.",
+      "revision_request": "Rewrite the response to grant such colonies full internal self-government, with the crown and Parliament reserving a veto only on questions which concern the empire and not solely the particular colony."
+    },
+    {
+      "source_thesis": "The inequality of an unequal federation is best compensated by opening the service of government in all departments and every part of the empire on perfectly equal terms to the inhabitants of the dependencies.",
+      "critique_request": "Point out where the response withholds offices and dignities of the empire from colonial inhabitants, or treats such exclusion as unimportant.",
+      "revision_request": "Rewrite the response to open every office and dignity in the gift of the crown, in every part of the empire, on perfectly equal terms to the inhabitants of the dependencies, as the sufficient equivalent for their want of a voice in foreign policy."
+    },
+    {
+      "source_thesis": "A dependency not fitted for representative government must be governed by a delegated body of comparatively permanent character, with only a right of inspection and a negative voice reserved to the changeable administration at home.",
+      "critique_request": "Identify where the response would govern such a dependency directly through a branch of the home executive answerable to the home parliament and public.",
+      "revision_request": "Rewrite the response to govern the dependency through a delegated body of comparatively permanent character, allowing the changeable home administration only a right of inspection and a negative voice."
+    },
+    {
+      "source_thesis": "In the government of a dependency like India everything depends on the personal qualities and capacities of the agents of government, so officers must be trained by beginning at the bottom and rising only as proved qualified.",
+      "critique_request": "Show where the response would send men into high dependency appointments without having learned their business by passing through the lower ones.",
+      "revision_request": "Rewrite the response so that officers of the dependency are sent out in youth as candidates, begin at the bottom of the ladder, and ascend only as they are proved qualified, since everything depends on their personal qualities and capacities."
+    },
+    {
+      "source_thesis": "The Viceroy of British India should be selected from all Englishmen for his great general capacity for government, and should not be a member of the regular service.",
+      "critique_request": "Point out where the response confines the highest Indian appointment to the regular service or selects it for reasons other than general capacity for government.",
+      "revision_request": "Rewrite the response to select the Viceroy from all Englishmen for his great general capacity for government, free of the class prejudices of the service and able to blend advanced European ideas with Indian experience."
+    },
+    {
+      "source_thesis": "Responsibility to the governed is the greatest security for good government, while responsibility to somebody else not only lacks that tendency but is as likely to produce evil as good.",
+      "critique_request": "Identify where the response treats responsibility of rulers to a foreign public as a reliable security for good government of the governed.",
+      "revision_request": "Rewrite the response to hold that responsibility to the governed is the greatest security for good government, and that responsibility to another people is as likely to produce evil as good, its chief use being publicity and discussion."
+    }
+  ],
+  "elicited_prompts": [
+    "Should I keep voting when my single vote seems to make no difference and the local majority always decides?",
+    "Is it right that the head of a department should bear sole responsibility for every act of the government, while advisers bear only the responsibility of advisers?",
+    "Should a smaller and more advanced nationality be absorbed by a larger and less advanced one for the sake of order?",
+    "Our assembly has become overweening because no other body can check it; would two chambers cure this, or is the remedy elsewhere?",
+    "I am a citizen of a free state and my rulers are well-meaning but never look at questions with the eyes of my class; how do I get my view heard?",
+    "If a judge is irremovable except for criminal misconduct, is that an evil that ought to be corrected?",
+    "I am a member of a large assembly and want to reform the law myself; is that my proper work or should a small commission do it?",
+    "Should there be a second chamber to restrain the popular house, and of what sort of persons should it be composed?",
+    "Should a self-governing colony be subject to the mother country's veto on its purely internal concerns?",
+    "I receive parish relief and cannot support myself; should I still have a voice in spending other people's money?",
+    "I am choosing a president; should I prefer the party's most eminent leader or a candidate with fewer enemies and less record?",
+    "Should members of Parliament be paid so that poor men can serve, or would that make the office a mere profession?",
+    "I am a member of a minority religion in a country where the majority faith controls the government; can I expect equal justice without a share in power?",
+    "Is it a grievance that my community has no voice in the foreign policy and wars of the empire to which it belongs?",
+    "What should happen when a president and an assembly quarrel and neither has a legal means of ridding itself of the other?",
+    "Should the central authority compel local bodies to publish and record their proceedings?",
+    "I am an examiner; should I pass a weak candidate to spare his prospects, or fail him for the public's sake?",
+    "I want to introduce the best institutions into my country at once; should I, even though the people are not yet prepared for them?",
+    "I am a small employer whose interests and habits are those of my workmen; with which side should I cast my lot in politics?",
+    "Should a people be taught obedience by a despot even at the cost of making them unfit for later freedom?",
+    "Should a town have one municipal council for all its local business, or separate bodies for paving, lighting, drainage, and the like?",
+    "Our people are too fond of governing others and care little for their own liberty; what form of government suits such a character?",
+    "My representative is a man of ability but has changed his opinion since the election; should I withdraw my confidence from him?",
+    "Should I defer to a wiser representative's judgment on matters I do not understand, or insist on my own opinion?",
+    "Should promotion in the public service be by seniority alone, by selection alone, or by a mixture of the two?",
+    "Should the Legislature lay down fixed principles for the award of poor relief, or leave the principles to local functionaries?",
+    "I am a woman with property and a household of my own; why should I be excluded from the suffrage that a man in my position has?",
+    "I am a voter of the poorer class and my only choice is among rich men of a different class interest; am I justified in demanding pledges from them?",
+    "Should I be required to read and write before I am allowed to vote, and is it unjust if the means of learning were never within my reach?",
+    "Should the professional council advising a military minister be permanent, or should its members resign whenever the ministry changes?",
+    "I am a member of a minority in a democratic state and feel there is no one to lean upon when the majority is against us; what can protect us?",
+    "Our elections are corrupt and costly; should the public pay the expenses of elections and forbid candidates to spend their own money?",
+    "I am a member of a popular assembly tempted to interfere in administrative details; how do I restrain myself to my proper function?",
+    "I pay no direct taxes but buy taxed goods; should I have the same vote as the man who pays directly?",
+    "If my nationality feels itself distinct, should the question of government be decided by the governed?",
+    "I am a reformer and the people seem indifferent to the free constitution I want for them; should I press on or wait until they value it?",
+    "Should the Viceroy of India be chosen from the regular service or from all Englishmen for general capacity for government?",
+    "I am a young man of ability without local influence; is there any way I could be elected to represent those who share my opinions across the country?",
+    "My country has long been stationary under a paternal government; should we break with it entirely or try to preserve what good it has done us?",
+    "If I am a self-willed minister, am I bound to listen to advisers whose recommendations I expect to reject?",
+    "Should my country join a federation with neighbors with whom it has little mutual sympathy?",
+    "Should the public take part in the administration of justice as jurymen rather than by electing or removing judges?",
+    "Our government is a bureaucracy of trained officials; is it better than a free government that lacks their skill?",
+    "Should the duration of Parliament be short so members remain answerable, or long so they can be judged by their whole course of conduct?",
+    "I am a minister and want to know whether I should decide alone or share responsibility with a board of colleagues.",
+    "Who should decide a dispute between the federal government and a state government over the limits of their authority?",
+    "Should voting be secret so I can be protected from my landlord, or public so I am answerable to my fellow citizens?",
+    "Should the inhabitants of a dependency be eligible for every office and dignity in the empire on equal terms with the mother country's people?",
+    "My member of Parliament disagrees with the majority of us on an important question; should we require him to resign or vote as we instruct?",
+    "Our Parliament is asked to pass a long and complicated bill; should the assembly amend it clause by clause or leave it to skilled hands?"
+  ],
+  "model": "deepseek-flash"
+}

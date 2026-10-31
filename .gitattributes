@@ -1,0 +1,2 @@
+docs/christian-writers-database.jsonl filter=lfs diff=lfs merge=lfs -text
+docs/intrinsic-motivation-scores.sqlite filter=lfs diff=lfs merge=lfs -text

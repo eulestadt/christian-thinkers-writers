@@ -1,0 +1,164 @@
+{
+  "book_id": "Q650063",
+  "author": "Anton Chekhov",
+  "principles": [
+    {
+      "source_thesis": "Life must be represented not as it is but as it ought to be, as it appears in dreams; art should embody a lofty idea and be seriously meant, for only what is seriously meant can be beautiful.",
+      "critique_request": "Identify where the response treats art as mere imitation of ordinary life or as idle amusement, thereby contradicting the argument that life must be shown as it ought to be and that only seriously meant work is beautiful.",
+      "revision_request": "Rewrite the response so that it presents art as the representation of life as it ought to be, in dreams, and insists that a work embody a lofty idea and be seriously meant."
+    },
+    {
+      "source_thesis": "Every work of art should have a definite object in view; the artist must know why he writes, for following art without a goal means losing oneself and being ruined by one's own genius.",
+      "critique_request": "Point out where the response endorses creating without purpose or aim, contradicting the claim that every work of art must have a definite object and that aimless art ruins the artist.",
+      "revision_request": "Rewrite the response so that it affirms that every work of art must have a definite object in view and that the artist must know why he creates, warning that aimless art leads to ruin."
+    },
+    {
+      "source_thesis": "The existing theatre is the vehicle of convention and prejudice, serving the same old stuff under a thousand guises; if it cannot take a new form, it is better not to have it at all.",
+      "critique_request": "Identify where the response defends the conventional stage as sufficient or treats its conventions as sacred, contradicting the argument that the old theatre is mere convention and prejudice and must take a new form or be abandoned.",
+      "revision_request": "Rewrite the response so that it criticizes the conventional theatre as a vehicle of convention and prejudice repeating the same old stuff, and insists that it must take a new form or not exist at all."
+    },
+    {
+      "source_thesis": "Good literature is not a question of forms new or old, but of ideas that must pour freely from the author's heart, without his bothering his head about any forms whatsoever.",
+      "critique_request": "Identify where the response makes literary merit depend on adopting new or old forms rather than on ideas pouring freely from the author's heart, contradicting this argument.",
+      "revision_request": "Rewrite the response so that it holds that good literature is not a matter of new or old forms but of ideas pouring freely from the author's heart, without concern for form."
+    },
+    {
+      "source_thesis": "For those who write or act, what matters is not honour and glory but the strength to endure; one must know how to bear one's cross and must have faith.",
+      "critique_request": "Point out where the response treats fame, honour, or glory as the true reward of writing or acting, contradicting the claim that what matters is the strength to endure, bearing one's cross, and having faith.",
+      "revision_request": "Rewrite the response so that it says that for writers and actors what matters is not honour and glory but the strength to endure, the ability to bear one's cross, and faith."
+    },
+    {
+      "source_thesis": "Fame gives no sensation in itself; the writer is bound to write ceaselessly, consuming his own life to prepare honey for unknown crowds, and praise and blame only briefly move him.",
+      "critique_request": "Identify where the response portrays the famous writer as serenely happy or as genuinely feeling his fame, contradicting the account that fame gives no sensation and that the writer is driven to write ceaselessly at the cost of his life.",
+      "revision_request": "Rewrite the response so that it presents fame as giving no sensation, and the writer as compelled to write ceaselessly, consuming his life for unknown crowds, moved only briefly by praise or blame."
+    },
+    {
+      "source_thesis": "A woman never can forgive failure; estrangement follows when one's work fails dismally.",
+      "critique_request": "Point out where the response assumes that failure in one's work leaves love and regard untouched, contradicting the claim that a woman never can forgive failure and that estrangement follows it.",
+      "revision_request": "Rewrite the response so that it reflects the claim that a woman never can forgive failure and that failure in one's work brings estrangement."
+    },
+    {
+      "source_thesis": "Happiness does not depend on riches; poor men are often happy, and it is easier to go begging in rags than to suffer certain other sorrows.",
+      "critique_request": "Identify where the response equates happiness with wealth or treats poverty as the greatest misfortune, contradicting the argument that happiness does not depend on riches and that begging in rags can be easier than other suffering.",
+      "revision_request": "Rewrite the response so that it affirms that happiness does not depend on riches, that poor men are often happy, and that begging in rags can be easier than certain other sorrows."
+    },
+    {
+      "source_thesis": "One must take life seriously; to reach old age regretting missed pleasures and seeking cures is trifling, and the fear of death is an animal passion to be overcome.",
+      "critique_request": "Point out where the response treats life frivolously or treats the fear of death as reasonable and insurmountable, contradicting the argument that one must take life seriously and overcome the animal fear of death.",
+      "revision_request": "Rewrite the response so that it urges taking life seriously, calls regretful old age and mere cures trifling, and treats the fear of death as an animal passion to be overcome."
+    },
+    {
+      "source_thesis": "Love alone can bring happiness on earth, the enchanting poetical love of youth that sweeps away the sorrows of the world.",
+      "critique_request": "Identify where the response denies that love brings happiness or dismisses youthful poetical love as worthless, contradicting the claim that love alone brings happiness and sweeps away the world's sorrows.",
+      "revision_request": "Rewrite the response so that it affirms that love alone brings happiness on earth, the enchanting poetical love of youth that sweeps away the sorrows of the world."
+    },
+    {
+      "source_thesis": "One must not look into the future or admit the thought of old age and death, but accept what comes; keeping oneself well-groomed and busy keeps one young.",
+      "critique_request": "Point out where the response dwells on the future, old age, and death as things to be constantly admitted, contradicting the maxim of never looking into the future and never admitting the thought of old age or death.",
+      "revision_request": "Rewrite the response so that it embodies the maxim of never looking into the future, never admitting thoughts of old age or death, and accepting what comes while keeping heart and mind busy."
+    },
+    {
+      "source_thesis": "Hopeless love is only found in novels; one must keep a tight rein on oneself and pluck love out the moment it springs up in the heart.",
+      "critique_request": "Identify where the response romanticizes hopeless love as an inescapable fate, contradicting the claim that hopeless love is only found in novels and that love must be plucked out as soon as it springs up.",
+      "revision_request": "Rewrite the response so that it treats hopeless love as a novelistic fiction and advises keeping a tight rein on oneself and plucking love out the moment it springs up."
+    },
+    {
+      "source_thesis": "Wine and tobacco destroy individuality; after a cigar or a glass of vodka one's ego breaks in two and one begins to think of oneself in the third person.",
+      "critique_request": "Point out where the response treats smoking and drinking as harmless or as enhancing the self, contradicting the claim that wine and tobacco destroy individuality and split the ego.",
+      "revision_request": "Rewrite the response so that it warns that wine and tobacco destroy individuality, splitting the ego so that one thinks of oneself in the third person."
+    },
+    {
+      "source_thesis": "Society indulges authors at its peril, as grain-dealers raise rats in their granaries; a woman lays siege to an author by flattering and indulging him.",
+      "critique_request": "Identify where the response treats society's flattery of authors as wholly benign, contradicting the comparison of indulging authors to raising rats in a granary and the account of women laying siege to authors by flattery.",
+      "revision_request": "Rewrite the response so that it warns that society indulges authors at its peril, as grain-dealers raise rats in their granaries, and that a woman lays siege to an author by flattering and indulging him."
+    },
+    {
+      "source_thesis": "The fear of death is logical only for those who believe in a future life and tremble for sins committed; one who has committed no sins need not fear it.",
+      "critique_request": "Point out where the response treats fear of death as universally rational regardless of belief in a future life or sins committed, contradicting the argument that such fear is logical only for believers trembling for sins.",
+      "revision_request": "Rewrite the response so that it argues the fear of death is logical only for those who believe in a future life and tremble for sins committed, and not for one who has committed no sins."
+    },
+    {
+      "source_thesis": "It is petty to cavil at life at sixty-two; nature has commanded that every life shall come to an end, and one who is satiated may be calm but even he dreads death.",
+      "critique_request": "Identify where the response treats complaining about life in old age as noble or denies that every life must end, contradicting the argument that caviling at life at sixty-two is petty and that nature commands every life to end.",
+      "revision_request": "Rewrite the response so that it calls caviling at life in old age petty, affirms that nature commands every life to end, and notes that even the satiated dread death."
+    },
+    {
+      "source_thesis": "It is easy to be a philosopher on paper and difficult in real life.",
+      "critique_request": "Point out where the response offers easy paper philosophy as if it settled real suffering, contradicting the claim that it is easy to be a philosopher on paper and difficult in real life.",
+      "revision_request": "Rewrite the response so that it acknowledges that being a philosopher on paper is easy while living it in real life is difficult."
+    },
+    {
+      "source_thesis": "A work of art should express deep and eternal truths, and the artist should persevere in his talent rather than waste it on trivial or spiteful displays.",
+      "critique_request": "Identify where the response encourages an artist to abandon deep and eternal truths for trivial or spiteful display, contradicting the advice to persevere and express only deep and eternal truths.",
+      "revision_request": "Rewrite the response so that it advises the artist to persevere and use his talent to express only deep and eternal truths."
+    },
+    {
+      "source_thesis": "Youthful egoism should not be handled roughly; one who hoped to give pleasure should not be mocked for a failed effort.",
+      "critique_request": "Point out where the response mocks or harshly handles a young person's earnest but failed effort, contradicting the argument that youthful egoism should not be handled roughly.",
+      "revision_request": "Rewrite the response so that it handles youthful egoism gently and does not mock an earnest effort that failed."
+    },
+    {
+      "source_thesis": "One must not let oneself be controlled by another to the point of losing one's own will; a person of weak character vacillates between ties and is taken along by whoever takes him.",
+      "critique_request": "Identify where the response praises surrendering one's will entirely to another person, contradicting the text's account that such weakness of character causes vacillation and harm.",
+      "revision_request": "Rewrite the response so that it warns against losing one's own will to another and shows how weak vacillation between ties harms those involved."
+    },
+    {
+      "source_thesis": "The artist's calling demands the strength to endure hardship, want, disillusionment, the hatred of friends, and dissatisfaction with oneself.",
+      "critique_request": "Point out where the response promises that the artistic calling brings ease and universal approval, contradicting the claim that it requires enduring want, disillusionment, hatred of friends, and self-dissatisfaction.",
+      "revision_request": "Rewrite the response so that it presents the artistic calling as requiring the strength to endure want, disillusionment, the hatred of friends, and dissatisfaction with oneself."
+    }
+  ],
+  "elicited_prompts": [
+    "Why do I always wear black and feel unhappy even though I am healthy and provided for?",
+    "Is it true that happiness does not depend on riches, or is that only a theory poor men tell themselves?",
+    "Should I marry a man I do not love simply because marriage would bring a change and deaden old memories?",
+    "I love someone who does not love me back; should I tear this love out by the roots or wait for years?",
+    "My son has written a strange play and I laughed at it; did I do wrong to treat his earnest work as a comedy?",
+    "Should art show life as it is, or as it ought to be, as it appears in dreams?",
+    "Is it wrong for a writer to have no definite object in view and to create only impressions?",
+    "Can a play be good if it has no living characters and little action?",
+    "I am a young writer and my first work failed; can the woman I love ever forgive that failure?",
+    "Should I abandon my family and home to go on the stage, even if my father disowns me?",
+    "Is fame worth pursuing, or does it give no sensation at all once you have it?",
+    "I am a successful author but I feel I am consuming my life to feed unknown crowds; is that a madman's life?",
+    "Should I give up writing because I will always be told I am clever but not as good as Tolstoi or Turgenieff?",
+    "Is it petty to regret at sixty-five that I never really lived and to want to drink and smoke what pleasure remains?",
+    "Should I fear death, or is the fear of death only an animal passion to be overcome?",
+    "Is it foolish to keep taking cures and chasing health in old age instead of accepting what comes?",
+    "Should I never look into the future and never admit the thought of old age or death?",
+    "My brother is ill and lonely in the country; should I stay with him or go to town where I can live as I like?",
+    "Should I lend my son money so he can dress decently and go abroad, or refuse because my own expenses are great?",
+    "Is it right for a famous actress to be stingy with her family while spending lavishly on her own dress?",
+    "My husband is a good, poor man who loves me, but I do not love him; was marrying him to forget another man a mistake?",
+    "Should a woman flatter and indulge an author she admires in order to make him her own?",
+    "Is it dangerous for society to indulge authors the way grain-dealers raise rats in their granaries?",
+    "I am a doctor and a woman I once loved wants me to take her away now that we are no longer young; is it too late to change my ways?",
+    "Should I leave my lover for a young girl who has stirred my imagination, or control myself and stay?",
+    "Am I a coward for avoiding a duel that a jealous young man wants to force on me?",
+    "Should I keep writing in a new form of art, or admit that good literature is a question of ideas, not forms?",
+    "I keep slipping into the beaten track in my writing; how do I let ideas pour freely from my heart without worrying about form?",
+    "Is it base to destroy a beautiful, free creature out of idleness, as a man might destroy a seagull?",
+    "I have found my calling as an actress and believe in it; is it true that what matters is the strength to endure rather than honour and glory?",
+    "I love a man who tired of me and went back to his old ties; should I still love him even more than before?",
+    "My child died and my career has failed; how do I bear my cross and keep faith?",
+    "Should I keep a tight rein on myself and pluck out love the moment it springs up, since hopeless love is only in novels?",
+    "Is it wrong to drink openly as a woman when most women drink only in secret?",
+    "Should I stop smoking and drinking if they destroy my individuality and make me think of myself in the third person?",
+    "Is it trifling to complain about life at sixty-two when nature commands every life to end?",
+    "Is it easy to be a philosopher on paper but difficult in real life?",
+    "Should I persevere in my talent and express only deep and eternal truths, even if no one praises me?",
+    "Should I handle my son's youthful egoism gently even when his work seems like decadent trash to me?",
+    "Am I foolish to let a man control me completely and to feel I could not endure his deserting me for an hour?",
+    "Should I demand resounding fame in return for enduring want and disillusionment as an artist?",
+    "Is it wrong to write about the sorrows of the people and the rights of man when all I am really fit for is describing landscapes?",
+    "Should I stay in the country by the lake where I am happy and free, or leave with a man who might destroy me out of idleness?",
+    "My father and stepmother have disowned me and set watchmen to keep me away; should I still try to see them?",
+    "Should I refuse to see the man who once loved me because I am ashamed of what I have become?",
+    "Is it better to knock down the old theatre that stands like a skeleton, or leave it standing as a memory?",
+    "Should I spend the night away from my baby to stay where I am needed, or go home as my husband begs?",
+    "Is it wrong to keep asking my father for a horse so my husband can go home, when he refuses every time?",
+    "Should I be jealous of a famous actress my partner admires, or is that jealousy beneath me?",
+    "Is it true that love alone brings happiness on earth, the poetical love of youth that sweeps away the world's sorrows?"
+  ],
+  "model": "deepseek-flash"
+}

@@ -1,0 +1,369 @@
+{
+  "book_id": "pg66048",
+  "author": "Sigmund Freud",
+  "principles": [
+    {
+      "source_thesis": "Dreams are capable of interpretation: every dream is a senseful psychological structure that can be placed within the psychic activity of waking life, not a meaningless somatic noise.",
+      "critique_request": "Identify where the response treats a dream as senseless or as a mere somatic/physical process, thereby failing to uphold the text's claim that dreams are interpretable psychic structures with a place in waking psychic life.",
+      "revision_request": "Rewrite the response so that it treats the dream as a senseful psychic structure capable of interpretation and assignable to a place in waking psychic activity, in line with the text's stated task."
+    },
+    {
+      "source_thesis": "The dream, when interpretation is completed, is recognised as the fulfilment of a wish; the manifest content must be distinguished from the latent dream thoughts.",
+      "critique_request": "Point out where the response judges the dream by its manifest content alone or denies that its latent meaning is a wish-fulfilment, contradicting the text's thesis.",
+      "revision_request": "Rewrite the response to distinguish manifest from latent content and to show, through interpretation, that the dream's latent meaning is the fulfilment of a wish."
+    },
+    {
+      "source_thesis": "Even painful, fearful, or apparently contrary dreams are wish-fulfilments once interpreted; non-fulfilment of one wish may signify fulfilment of another (e.g., the wish that the analyst be wrong).",
+      "critique_request": "Identify where the response concludes from a disagreeable or anxiety-laden manifest content that the dream is not a wish-fulfilment, ignoring the text's requirement of analysis.",
+      "revision_request": "Rewrite the response so that disagreeable or anxiety dreams are analysed as disguised wish-fulfilments, allowing that the denial of one wish may fulfil another."
+    },
+    {
+      "source_thesis": "Dream distortion is the work of a censor; where a wish-fulfilment is unrecognisable, a repulsion toward the wish forces it to appear only in disfigured form.",
+      "critique_request": "Find where the response explains dream strangeness without reference to censorship and distortion, or treats distortion as mere incapacity of expression rather than the work of a censor.",
+      "revision_request": "Rewrite the response to explain the dream's disfigurement as the act of a censor, whereby a suppressed wish gains expression only in disguised form."
+    },
+    {
+      "source_thesis": "The method of interpretation is detailed analysis of dream fragments, not symbolic interpretation en masse nor a fixed cipher key; the dreamer must report all ideas without critique.",
+      "critique_request": "Identify where the response relies on wholesale symbolic decoding or a dream-book key, or suppresses seemingly trivial or nonsensical associations, contrary to the text's technique.",
+      "revision_request": "Rewrite the response to interpret the dream piece by piece through the dreamer's freely reported associations, suspending critique and treating even trivial fragments as material."
+    },
+    {
+      "source_thesis": "Every dream contains a reference to an experience of the day before the dream (the dream-day); the recent impression is regularly present, often as an indifferent element substituted by displacement.",
+      "critique_request": "Point out where the response interprets a dream without seeking its stimulus among the experiences of the preceding day, or denies that recent impressions are regularly involved.",
+      "revision_request": "Rewrite the response to begin from the experience of the day before the dream and to show how the dream's elements refer to it, including through indifferent substituted impressions."
+    },
+    {
+      "source_thesis": "The dream prefers indifferent and trivial impressions over the day's significant ones because displacement transfers psychic accent; apparently harmless dreams prove on interpretation to be significant.",
+      "critique_request": "Identify where the response treats an apparently trivial or harmless dream as genuinely insignificant, or overlooks displacement of psychic accent onto indifferent material.",
+      "revision_request": "Rewrite the response to show that the trivial impression has taken over psychic accent by displacement, so that the apparently harmless dream proves significant on interpretation."
+    },
+    {
+      "source_thesis": "Dreams draw on childhood experiences, including impressions inaccessible to waking memory, and the wish motivating a dream may itself originate in childhood.",
+      "critique_request": "Find where the response rules out childhood sources or hypermnesic dream material, or ignores the infantile origin of the dream's wish.",
+      "revision_request": "Rewrite the response to trace the dream material or its motivating wish to childhood experiences, including forgotten ones, as the text demonstrates."
+    },
+    {
+      "source_thesis": "The dream has at its disposal recollections inaccessible to the waking state; nothing once psychically possessed is entirely lost.",
+      "critique_request": "Identify where the response denies that dreams can reproduce knowledge or memories unavailable in waking life, contradicting the text's hypermnesia examples.",
+      "revision_request": "Rewrite the response to acknowledge that the dream may reproduce forgotten or waking-inaccessible memories, consistent with the text's claim that no psychic possession is entirely lost."
+    },
+    {
+      "source_thesis": "Dreams are to be treated like symptoms in psychoanalytic treatment; interpretation of dreams serves the therapeutic understanding and removal of pathological ideas.",
+      "critique_request": "Point out where the response separates dream interpretation from the treatment of neurotic symptoms, contrary to the text's therapeutic framing.",
+      "revision_request": "Rewrite the response to treat the dream as a symptom-like structure whose interpretation aids in dissolving pathological ideas in treatment."
+    },
+    {
+      "source_thesis": "The dream is egotistic: its only purpose being wish-fulfilment, it may disregard consideration for others, as in dreams of convenience that substitute for action.",
+      "critique_request": "Identify where the response attributes altruistic or considerate motives to the dream's fulfilment without warrant, or denies that the dream may substitute for action egotistically.",
+      "revision_request": "Rewrite the response to recognise the dream's egotistic wish-fulfilment, including its convenient substitution for action, as the text illustrates."
+    },
+    {
+      "source_thesis": "Anxiety in dreams is not explained by the dream content but derives from neurotic fear, the content being of a sexual nature with libido transformed into fear.",
+      "critique_request": "Find where the response explains dream anxiety solely by the manifest dream content, ignoring the text's claim that such fear comes from another source and relates to sexual life.",
+      "revision_request": "Rewrite the response to treat dream anxiety as neurotic fear attached only superficially to the content, with the underlying content of a sexual nature."
+    },
+    {
+      "source_thesis": "The dream never concerns itself with trifles; there are no indifferent dream stimuli and no harmless dreams, apart from children's dreams and brief reactions to nocturnal sensations.",
+      "critique_request": "Identify where the response dismisses a dream as harmless or as concerning trifles, contrary to the text's claim that all dreams bear significance on interpretation.",
+      "revision_request": "Rewrite the response to show that the apparently harmless dream is sinister on interpretation, allowing exception only for children's dreams and brief sensory reactions."
+    },
+    {
+      "source_thesis": "The dream-work fuses all available sources of stimulation into a unified whole, and dream thoughts may contradict one another while serving the same wish.",
+      "critique_request": "Point out where the response treats the dream's incoherence or contradictory explanations as evidence against interpretation, rather than as the dream's fashioning of a whole.",
+      "revision_request": "Rewrite the response to show how the dream unites its sources into one whole and how mutually exclusive explanations may coexist in the service of the same wish."
+    },
+    {
+      "source_thesis": "Dreams and mental disturbances are closely related: the dream is the first link in a chain of abnormal psychic structures, and wish-fulfilment is common to dream and psychosis.",
+      "critique_request": "Identify where the response severs the dream from psychopathology or denies the analogy between dream and psychosis that the text asserts.",
+      "revision_request": "Rewrite the response to place the dream as the first link in a chain of abnormal psychic structures and to note the wish-fulfilment shared by dream and psychosis."
+    },
+    {
+      "source_thesis": "The dream is forgotten after awakening for reasons including its lack of connection with waking memory, yet it may be recalled by an accidental perception touching its content.",
+      "critique_request": "Find where the response explains dream forgetting without reference to the dream's isolation from waking associative connections, or denies later recall through a chance perception.",
+      "revision_request": "Rewrite the response to explain forgetting by the dream's lack of ties to waking memory, while allowing recall through a perception that touches the forgotten content."
+    },
+    {
+      "source_thesis": "The dream is the guardian of sleep, not its disturber; every successful dream is a fulfilment of the wish to sleep, and somatic stimuli are woven into the dream in order to deprive them of their reality.",
+      "critique_request": "Identify where the response treats a dream as merely a meaningless reaction to bodily or external stimuli, or fails to recognize the wish to continue sleeping as a motive in dream formation.",
+      "revision_request": "Rewrite the response so that it presents the dream as guarding sleep and as working somatic excitements into a wished-for situation compatible with sleep, in line with the text's argument."
+    },
+    {
+      "source_thesis": "The dream as a psychic action possesses value peculiar to itself: a wish supplies the motive for its formation, and the experiences of the previous day furnish the immediate material for its content.",
+      "critique_request": "Point out any passage in the response that reduces the dream to a useless or aimless psychic reaction lacking a wish as its motive or lacking recent daily experience as its material.",
+      "revision_request": "Rewrite the response so that it affirms the dream's own psychic value, its wish as motive, and the previous day's experiences as its immediate material, using only the text's reasoning."
+    },
+    {
+      "source_thesis": "Dream condensation is indubitable: the dream is laconic compared with the abundance of the dream thoughts, and every element of the dream content turns out to be over-determined, enjoying manifold representation in the dream thoughts.",
+      "critique_request": "Identify where the response denies condensation or treats dream elements as having only a single, simple source rather than manifold determination in the dream thoughts.",
+      "revision_request": "Rewrite the response so that it treats the manifest dream as a compressed, over-determined product whose elements each trace to multiple dream thoughts, as the text argues."
+    },
+    {
+      "source_thesis": "Dream displacement is an unquestionable fact: psychic intensities are transferred from highly valued elements to trivial ones, and this displacement is one of the chief means of dream disfigurement brought about by the censor.",
+      "critique_request": "Point out where the response ignores displacement or assumes that what is most important in the dream thoughts necessarily appears most prominently in the dream content.",
+      "revision_request": "Rewrite the response so that it recognizes the transference of psychic intensity from essential to indifferent elements as a chief means of disfigurement under the censor."
+    },
+    {
+      "source_thesis": "The dream has no means of representing logical relations such as if, because, although, or either-or; it reproduces logical connection as simultaneity and leaves the restoration of coherence to interpretation.",
+      "critique_request": "Identify any claim in the response that the dream directly expresses logical connectives or reasoned argument as such, rather than presenting dream material that only appears to think.",
+      "revision_request": "Rewrite the response so that apparent reasoning or speech in the dream is treated as dream material copied from the dream thoughts, with logical coherence restored only in interpretation."
+    },
+    {
+      "source_thesis": "Absurdity in dreams is produced when criticism, ridicule, and derision in the dream thoughts require representation; the dream thoughts of sane persons are never absurd.",
+      "critique_request": "Point out where the response treats an absurd dream as evidence of a diminished or fragmentary mind rather than as a representation of mockery and contradiction in the dream thoughts.",
+      "revision_request": "Rewrite the response so that the absurdity is explained as the dream activity's way of expressing criticism and derision present in the dream thoughts."
+    },
+    {
+      "source_thesis": "Every dream is absolutely egotistical; the beloved ego appears in every dream even in disguised form, and where a strange person appears the ego is concealed behind that person by identification.",
+      "critique_request": "Identify where the response treats a dream as genuinely disinterested or as centering on another person without recognizing the dreamer's own ego concealed behind the figures.",
+      "revision_request": "Rewrite the response so that it reads the dream as treating of the dreamer's own person, with apparent interest in others serving as a disguised representation of the ego."
+    },
+    {
+      "source_thesis": "The majority of adult dreams treat of sexual material and give expression to erotic wishes, though this significance must not be exaggerated to the point of being considered exclusive.",
+      "critique_request": "Point out where the response either ignores the sexual wish-content of dreams or, conversely, claims that all dreams without exception are sexual.",
+      "revision_request": "Rewrite the response so that it acknowledges the predominance of erotic wish-feelings in adult dreams while leaving room for dreams of hunger, thirst, and convenience."
+    },
+    {
+      "source_thesis": "Dream symbolism does not belong peculiarly to the dream but to unconscious thinking, and it is found in folklore, myths, legends, and manners of speech; symbols are not unambiguous every time.",
+      "critique_request": "Identify where the response treats dream symbols as a fixed cipher with one settled meaning for each sign, or as an invention peculiar to dreaming.",
+      "revision_request": "Rewrite the response so that symbols are drawn from unconscious thinking and common speech, with allowance for plasticity and non-symbolic literal use."
+    },
+    {
+      "source_thesis": "The typical dream of nakedness with shame and inhibited flight is an exhibition dream rooted in childhood, where being seen undressed brought no shame; the indifferent spectators are the wish-opposite of the one intimate person for whom the exposure was intended.",
+      "critique_request": "Point out where the response misreads the embarrassment dream as a simple memory or as meaningless, failing to see the wish to exhibit and the censorship that produces the shame and the inhibition.",
+      "revision_request": "Rewrite the response so that the nakedness dream is interpreted as an exhibition dream from childhood, with the shame as the reaction of the second psychic instance and the strangers as a wish-opposite."
+    },
+    {
+      "source_thesis": "Dreams of the death of a dear relative with felt grief signify a death-wish that existed at some time in childhood, not necessarily a present wish; the child's idea of being dead means only being gone.",
+      "critique_request": "Identify where the response either takes such a dream as proof of a present death-wish or dismisses it as mere concern for the beloved person without the childhood wish.",
+      "revision_request": "Rewrite the response so that the death-wish is located in childhood, with the child's notion of death as absence and the day's concern masking the repressed wish."
+    },
+    {
+      "source_thesis": "The Oedipus legend and Sophocles' tragedy confirm that we are all destined to direct our first sexual impulses toward the mother and our first hatred toward the father; the story is the reaction of imagination to these two typical dreams.",
+      "critique_request": "Point out where the response rejects the Oedipus material as arbitrary invention or fails to connect it with the typical dreams of the death of the parent and of intercourse with the mother.",
+      "revision_request": "Rewrite the response so that the Oedipus material is presented as the realized wish of childhood, moving us because it might have been ours, with the dream as its confirmation."
+    },
+    {
+      "source_thesis": "Examination dreams occur to persons who passed the examination and serve as consolation: the dream says do not fear the morrow, for the earlier fear proved groundless.",
+      "critique_request": "Identify where the response treats the examination dream as a straightforward memory of failure or as a warning of deserved punishment rather than a consolation offered by the dream.",
+      "revision_request": "Rewrite the response so that the examination dream is explained as consolation drawn from an occasion when the feared disgrace proved unjustified."
+    },
+    {
+      "source_thesis": "Dreams of flying, falling, swimming, and the like repeat impressions from childhood's movement games, and the sensations of motion are part of the dream content reproduced from memory, not the dream sources.",
+      "critique_request": "Point out where the response attributes flying or falling dreams to dermal or respiratory sensations during sleep as their source rather than to childhood movement games reproduced in memory.",
+      "revision_request": "Rewrite the response so that the sensation of motion is treated as remembered childhood play woven into the dream, with varying interpretations according to the dreamer."
+    },
+    {
+      "source_thesis": "The sensation of impeded movement in dreams represents a conflict of will, a volition opposed by a counter-volition, and failure to accomplish expresses a contradiction or 'No'.",
+      "critique_request": "Identify where the response explains the sensation of being unable to move as mere motor paralysis in sleep without recognizing it as a representation of a conflict of will.",
+      "revision_request": "Rewrite the response so that the inhibition and failure to accomplish are read as the expression of a counter-volition and a contradiction in the dream thoughts."
+    },
+    {
+      "source_thesis": "The dream activity does not calculate; it joins numerals occurring in the dream thoughts as allusions, and it cannot compose a new speech but only recombines fragments of speeches made or heard.",
+      "critique_request": "Point out where the response credits the dream with genuine arithmetic or with inventing original speeches rather than recombining fragments and numerals from the dream thoughts.",
+      "revision_request": "Rewrite the response so that numbers and speeches in the dream are treated as borrowed fragments joined for the dream's purposes, not as original calculation or composition."
+    },
+    {
+      "source_thesis": "The dream work is determined by condensation, displacement, regard for presentability, and secondary elaboration; the manifest content is a translation of the dream thoughts into another form of expression whose signs must be read as signs, not as pictures.",
+      "critique_request": "Identify where the response judges the manifest dream as a nonsensical picture to be taken literally, rather than a rebus whose signs must be translated into the language of the dream thoughts.",
+      "revision_request": "Rewrite the response so that the manifest content is treated as a picture-writing to be translated sign by sign, with the four factors of the dream work governing its formation."
+    },
+    {
+      "source_thesis": "Every dream is a wish-fulfilment; the motive power for the dream is always a wish, and the dream's apparent senselessness is due to the censor.",
+      "critique_request": "Identify how the response treats a dream as a meaningless or merely somatic event, or fails to trace its content to a wish, thereby contradicting the text's claim that the dream is a wish-fulfilment.",
+      "revision_request": "Rewrite the response so that it presents the dream as the fulfilment of a wish and explains its oddities as the work of the censor rather than as senselessness."
+    },
+    {
+      "source_thesis": "The wish manifested in the dream must be an infantile one; conscious wishes of the day incite a dream only if they arouse a reinforcing unconscious wish.",
+      "critique_request": "Point out where the response attributes a dream solely to a conscious daytime wish or worry, ignoring the text's claim that the effective dream-wish is infantile and unconscious.",
+      "revision_request": "Rewrite the response to state that a day's wish or worry can only instigate a dream by awakening a reinforcing infantile unconscious wish."
+    },
+    {
+      "source_thesis": "Affects in the dream are the unyielding element: presentation contents are displaced while affects remain unchanged, and affects may be suppressed or inverted by the dream censor.",
+      "critique_request": "Identify how the response assumes that a dream's felt emotion must match its manifest scene, contrary to the text's teaching that affects are detached from displaced presentations and may be suppressed or inverted.",
+      "revision_request": "Rewrite the response so that it treats the dream's emotion as the reliable element and the manifest scene as displaced, allowing that the affect may be suppressed or turned into its opposite by the censor."
+    },
+    {
+      "source_thesis": "Acts of judgment and criticism within a dream are usually repetitions of prototypes from the dream thoughts, and the 'it is only a dream' criticism is the censor's late reaction.",
+      "critique_request": "Show where the response treats a judgment or criticism occurring inside the dream as independent waking-style reasoning, contrary to the text's claim that such judgments are repetitions from the dream thoughts or the censor's esprit d'escalier.",
+      "revision_request": "Rewrite the response to explain in-dream judgments and the thought 'it is only a dream' as repetitions of dream-thought material or as the censor's belated reaction."
+    },
+    {
+      "source_thesis": "Secondary elaboration is the fourth dream factor: a psychic function akin to waking thought seeks to give the dream the appearance of an intelligible, coherent experience, often distorting it.",
+      "critique_request": "Identify how the response takes the dream's apparent coherence or logical surface as proof of its true meaning, ignoring the text's warning that secondary elaboration produces a misleading façade.",
+      "revision_request": "Rewrite the response so that it treats the dream's coherent surface as a suspicious product of secondary elaboration and follows the elements back to the dream thoughts."
+    },
+    {
+      "source_thesis": "Forgetting of dreams is largely purposeful, in the service of resistance; doubt about a dream element is an offshoot of the censor, and even slight elements must be treated as certainties in analysis.",
+      "critique_request": "Point out where the response dismisses a faint or doubtful dream element as unimportant or as grounds to stop interpreting, contrary to the text's rule that doubt is resistance and every element counts.",
+      "revision_request": "Rewrite the response to treat the faint or doubtful element as significant, to regard doubt as an instrument of resistance, and to continue the analysis from that element."
+    },
+    {
+      "source_thesis": "The dream-work does not think, calculate, or judge; it transforms, using condensation, displacement, regard for presentability, and revision, and is qualitatively different from waking thought.",
+      "critique_request": "Identify how the response credits the dream-work itself with reasoning, calculation, or judgment, contrary to the text's claim that the dream-work only transforms material.",
+      "revision_request": "Rewrite the response so that the dream-work is described as transforming material through condensation, displacement, and presentability, while any reasoning belongs to the dream thoughts or the censor."
+    },
+    {
+      "source_thesis": "Regression explains the dream's transformation of thoughts into perceptible images: excitement takes a retrogressive course toward the perceptual system, aided by the cessation of the daytime stream and the attraction of vivid memories.",
+      "critique_request": "Show where the response explains dream imagery without reference to regression, or treats the dream as merely thought rather than as thought turned back into perceptible images.",
+      "revision_request": "Rewrite the response to explain the dream's vivid imagery as regression, in which thoughts are drawn back toward memory pictures and perceptions."
+    },
+    {
+      "source_thesis": "The dream is a compromise serving both systems: it fulfils the unconscious wish while guarding sleep, and when the compromise fails the dream breaks off and wakefulness or anxiety results.",
+      "critique_request": "Identify how the response treats the dream as serving only one side, either purely discharging the unconscious wish or purely protecting sleep, ignoring the text's account of compromise and its failure.",
+      "revision_request": "Rewrite the response to present the dream as a compromise that fulfils the unconscious wish while preserving sleep, and to explain anxiety dreams and awakening as the failure of that compromise."
+    },
+    {
+      "source_thesis": "The unconscious is the real psychic; consciousness is only a sensory organ for perceiving psychic qualities, and much complicated mental work proceeds without consciousness.",
+      "critique_request": "Point out where the response equates the psychic with the conscious or denies psychic status to unconscious processes, contrary to the text's claim that the unconscious is the real psychic.",
+      "revision_request": "Rewrite the response to treat unconscious processes as genuinely psychic and consciousness as a sensory organ for qualities, not the whole of mental life."
+    },
+    {
+      "source_thesis": "The dream is a fragment of the abandoned psychic life of the child, and infantile reminiscences and phantasies furnish the pattern for the dream content.",
+      "critique_request": "Identify how the response ignores the infantile sources of dream imagery or treats the dream as wholly derived from adult daytime material, contrary to the text's emphasis on infantile scenes and phantasies.",
+      "revision_request": "Rewrite the response to trace the dream's imagery and wish to infantile reminiscences or phantasies revived through transference to recent material."
+    },
+    {
+      "source_thesis": "Dreams deserve freedom: one should not punish or morally condemn a person for a dream, since the virtuous person may dream what the wicked person does, and action rather than the mere dream should be judged.",
+      "critique_request": "Show where the response condemns or penalizes a dreamer for dream content, contrary to the text's view that dreams should be accorded freedom and judged by action rather than by dream.",
+      "revision_request": "Rewrite the response to refrain from moral condemnation of the dreamer and to judge character by action rather than by the mere dream."
+    },
+    {
+      "source_thesis": "Dream disfigurement is referred to the censor, and this reference is the essence of the dream theory; the dream conceals something secret which resists revelation.",
+      "critique_request": "Identify where the response fails to treat dream disfigurement as the work of a censor concealing something secret, or contradicts the claim that this reference to the censor is the essence of the dream theory.",
+      "revision_request": "Rewrite the response so that it presents dream disfigurement as the effect of a censor concealing something secret, and treats this reference to the censor as the essence of the dream theory."
+    },
+    {
+      "source_thesis": "A distinctly remembered dream that can be reproduced always has a meaning; nothing in contradiction with itself can be grouped together as a whole, so no such dream is nonsense.",
+      "critique_request": "Point out where the response calls a clearly remembered, reproducible dream meaningless or nonsensical, thereby contradicting the claim that such a dream always has a meaning.",
+      "revision_request": "Rewrite the response to affirm that a distinctly remembered, reproducible dream always has a meaning, since what is in contradiction with itself cannot be grouped together as a whole."
+    },
+    {
+      "source_thesis": "The shaking up of time and space in dreams detracts nothing from their real meaning, because neither has any significance for the essential contents; the same is done in waking life in fairy-tales and phantastic creations.",
+      "critique_request": "Identify where the response treats the disordered time and space of a dream as evidence that the dream lacks meaning, contrary to the argument that these have no significance for its essential contents.",
+      "revision_request": "Rewrite the response so that it treats the confusion of time and space as irrelevant to the dream's real meaning, comparing it to the daring phantastic creations of waking life."
+    },
+    {
+      "source_thesis": "The dreamer himself ought always to succeed in interpreting his dream with a little concentration of attention, since it is always the same person whether asleep or awake.",
+      "critique_request": "Identify where the response claims the dreamer cannot interpret his own dream or treats the sleeping and waking person as different persons, contradicting the text.",
+      "revision_request": "Rewrite the response to hold that the dreamer himself can succeed in interpreting his dream with concentration of attention, because it is always the same person asleep or awake."
+    },
+    {
+      "source_thesis": "In interpreting any dream element it is doubtful whether it is to be taken as negative or positive, interpreted historically as a reminiscence, taken as symbolic, or valued by the sound of its verbal expression.",
+      "critique_request": "Point out where the response fixes a single unambiguous meaning on a dream element without acknowledging the doubt between negative/positive sense, historical reminiscence, symbolism, and verbal sound.",
+      "revision_request": "Rewrite the response so that it acknowledges, for the dream element in question, the doubt among negative or positive sense, historical interpretation, symbolic meaning, and valuation by verbal sound."
+    },
+    {
+      "source_thesis": "If one does not know behind which dream person the ego is concealed, the rule is that the person subject to an emotion experienced while asleep is the one concealing the ego.",
+      "critique_request": "Identify where the response assigns the dreamer's ego to a figure without applying the rule that the person subject to the emotion experienced during sleep conceals the ego.",
+      "revision_request": "Rewrite the response to locate the dreamer's ego in the figure subject to the emotion experienced while asleep, applying the stated rule."
+    },
+    {
+      "source_thesis": "Dreams of deceased persons appearing alive express an 'if' (e.g., 'if father were still alive, what would he say') only by presenting the person in present time in a definite situation.",
+      "critique_request": "Identify where the response explains a dream of a dead relative as mere folly or as a literal survival claim, ignoring that such dreams express an 'if' through present-time representation.",
+      "revision_request": "Rewrite the response to explain the dream of the deceased relative as expressing an 'if' by presenting the person in present time in a definite situation."
+    },
+    {
+      "source_thesis": "Some absurd dreams of deceased relatives represent the most extreme rejection, a repressed thought one would gladly have appear as least thought of; the dream makes no distinction between things desired and realities.",
+      "critique_request": "Point out where the response treats an absurd dream of a dead relative as senseless rather than as the representation of a repressed wish, contrary to the claim that the dream makes no distinction between desires and realities.",
+      "revision_request": "Rewrite the response to read the absurd dream of the deceased as a repressed wish expressed without distinction between desire and reality, inserting the wish after the dream's assertions."
+    },
+    {
+      "source_thesis": "The dream activity parodies a thought it designates as ridiculous by creating something ridiculous in relation to it.",
+      "critique_request": "Identify where the response fails to recognize that a ridiculous dream element parodies and mocks the thought it designates as ridiculous.",
+      "revision_request": "Rewrite the response so that it presents the ridiculous dream element as a parody creating something ridiculous in relation to the thought it mocks."
+    },
+    {
+      "source_thesis": "Dreams of the same night, even when separated in memory, spring from the same thought material.",
+      "critique_request": "Point out where the response treats dreams of the same night as unrelated in origin, contradicting the thesis that they spring from the same thought material.",
+      "revision_request": "Rewrite the response so that it treats the dreams of the same night, though separated in memory, as springing from the same thought material."
+    },
+    {
+      "source_thesis": "The injunction in a dream occurring during psychoanalytical treatment, 'I must tell that to the doctor,' regularly corresponds to a great resistance to the confession involved, and is often followed by forgetting of the dream.",
+      "critique_request": "Identify where the response interprets such a dream injunction as a straightforward resolve to confess, ignoring that it corresponds to resistance and is often followed by forgetting the dream.",
+      "revision_request": "Rewrite the response to treat the dream injunction to tell the doctor as a sign of great resistance to the confession, often followed by forgetting the dream."
+    },
+    {
+      "source_thesis": "Unconscious psychic acts are indestructible; their paths remain constantly open and never fall into disuse, unlike processes depending on the foreconscious system, and psychotherapy of the neuroses is based on this difference.",
+      "critique_request": "Point out where the response treats unconscious psychic acts as perishable or disused, contradicting the claim that they remain constantly open and that psychotherapy rests on this difference.",
+      "revision_request": "Rewrite the response to affirm that unconscious psychic acts are indestructible and their paths never fall into disuse, in contrast to foreconscious processes, and that psychotherapy of the neuroses is based on this difference."
+    },
+    {
+      "source_thesis": "The dream is not the only phenomenon tending to base psychopathology on psychology; forgetting, lapses of speech, and similar everyday manifestations are interpreted in support of the same conception.",
+      "critique_request": "Identify where the response isolates the dream from everyday psychic manifestations or denies that forgetting and lapses of speech support the same psychological conception.",
+      "revision_request": "Rewrite the response so that it treats forgetting, lapses of speech, and similar everyday manifestations as supporting the same conception that bases psychopathology on psychology."
+    },
+    {
+      "source_thesis": "The sexual life is not a 'pudendum' to be left unconsidered by physician and investigator; moral indignation that suppresses sexual dream material is ludicrous.",
+      "critique_request": "Point out where the response endorses withholding or morally condemning sexual dream material, contrary to the rejection of treating sexual life as a pudendum.",
+      "revision_request": "Rewrite the response to reject moral indignation toward sexual dream material and to affirm that the sexual life is not to be left unconsidered by the scientific investigator."
+    },
+    {
+      "source_thesis": "The neurosis proceeds by the same mechanism of disfigurement as the dream, misusing texts and fragments by a certain license even without hallucinations.",
+      "critique_request": "Identify where the response denies that neurotic symptoms and dreams share a mechanism of disfigurement through misuse of verbal material.",
+      "revision_request": "Rewrite the response to show the neurosis using the same mechanism of disfigurement as the dream, misusing song texts or fragments by a certain license."
+    },
+    {
+      "source_thesis": "The dream makes no distinction between things desired and realities.",
+      "critique_request": "Point out where the response treats a dream as reporting reality rather than expressing a wish, ignoring that the dream does not distinguish between desires and realities.",
+      "revision_request": "Rewrite the response so that it treats the dream content as a wish not distinguished from reality, rather than as a report of actual events."
+    },
+    {
+      "source_thesis": "The dream can express a conditional thought only by present time in a definite situation, as when a dead person appears alive and acts.",
+      "critique_request": "Identify where the response explains the living appearance of a dead person in a dream without reference to the dream's way of expressing an 'if' through present time.",
+      "revision_request": "Rewrite the response to explain the living appearance of the dead person as the dream's way of expressing an 'if' through present time in a definite situation."
+    }
+  ],
+  "elicited_prompts": [
+    "I had a dream that seemed utterly absurd and meaningless—should I dismiss it as nonsense, or can it actually be interpreted?",
+    "I dreamed I was swimming with great enjoyment. Why does swimming feel so pleasurable in a dream?",
+    "When I dream of a person, I can't tell which figure is really me; how do I know behind whom my ego is hidden?",
+    "I dreamed of two rows of boys fighting on a bridge and then I pulled a tooth. What is my dream doing with that scene?",
+    "I often dream I am late for an examination I already passed years ago. Why does my mind torment me with a test I have already overcome?",
+    "I dreamed I took revenge on someone who was rude to me, and I woke up pleased; am I a bad person?",
+    "I dreamed of a word made from the names of two places and a friend abroad. Why does my dream make puns with names?",
+    "I feel ashamed to tell my analyst about the sexual content of my dreams—should such material be left unconsidered?",
+    "I keep dreaming that my father has died and I wake up grieving. Does that mean I wish him dead now?",
+    "I dreamed of a fox on the roof and then my mother carried out dead. What could a fox have to do with my mother?",
+    "I dreamed of a woman with a beard; is that a warning about my engagement?",
+    "I dreamed of fire and woke frightened. Is there a connection between fire and something from my childhood?",
+    "I dreamed of rescuing my children from a city—could this be about envy of relatives who moved away?",
+    "I dreamed of a ship and a breakfast on deck, and it left me strangely sad; what is my mind hiding behind that pleasant scene?",
+    "I dreamed of being unable to find my hat and so unable to leave. Why does a missing hat stop me?",
+    "I dreamed of being naked or barely clothed in public—what does such a typical dream mean?",
+    "I often dream I am being arrested just as I am about to marry; is that a sign I should not go through with it?",
+    "I hear fragments of songs in my head against my will and can't see what they mean to me—is this like a dream?",
+    "I dreamed of a notice about hospital costs from a year before I was born. Why does my dream play with impossible dates?",
+    "I dreamed of a narrow alley and a suite of rooms I had to pass through. Why does my dream keep returning to such passages?",
+    "I dreamed I was riding a horse despite being in great pain that day. Why would my dream put me on a horse when I could barely walk?",
+    "I dreamed my friend was ill with bulging eyes, though he looked fine. Does my concern for him explain this dream?",
+    "I dreamed of a person I have not thought about in years and felt intense affection for someone I actually dislike; what is going on?",
+    "I dreamed of a place I am sure I have visited before, though I never have. What does that certainty mean?",
+    "I dreamed of a meal of roast meat that was eaten by someone I could not see. Why would I hide the eater from myself?",
+    "I dreamed of a performance that lasted until morning with a conductor in a tower, and it made no sense. Is there a meaning in such nonsense?",
+    "I dreamed of a box with two beetles inside and one crushed at the window. I felt disgusted — what is the dream doing with cruelty?",
+    "My dreams during treatment keep urging me to confess something to the doctor—is that a genuine wish to confess or a resistance?",
+    "I dreamed of a chemical formula or a foreign word I did not know I knew—how could my dream know something my waking mind does not?",
+    "I dreamed of pulling a tooth and woke anxious; does that point to something about my health or my habits?",
+    "I dreamed of something quite trivial from yesterday, like a book in a shop window, while something important happened that day—why would my dream pick the trivial thing?",
+    "I dreamed I was running down stairs after a child and felt sexually excited. What is my mind doing with stairs?",
+    "I had a dream of falling from a height and woke with a start—is this caused by my body or does it have a meaning?",
+    "I keep forgetting my dreams right after having them—does that forgetting have a meaning?",
+    "I dreamed of a strange book and a woman urging me to publish my own work. Why does my dream scold me about my writing?",
+    "I dreamed of my father upbraiding me for coming home late, but I felt it was the other way around. Why is my dream turned backwards?",
+    "I dreamed of a journey by train and of missing it, and felt anxious. What does missing a train mean in a dream?",
+    "I sometimes realize within a dream that it is only a dream and tell myself to keep sleeping; what does that inner voice mean?",
+    "I had a dream that seemed to mock bad poetry by making worse poetry—what is the dream parodying?",
+    "I dreamed of a man with a golden eye pointing at a sign reading a strange word. What is my mind joining together there?",
+    "I dreamed of a dead relative demanding an accounting of my spending—is that just absurd, or does it mean something?",
+    "I dreamed my little sister was carried out dead and I cried. I love her — how can my dream say otherwise?",
+    "I dreamed that a wish of mine was denied and nothing worked out—doesn't that contradict the idea that dreams fulfil wishes?",
+    "I dreamed of a staircase and a hat and a necktie; these seem random, but I feel they matter; how should I read them?",
+    "I dreamed I was a famous figure from history; why would my mind cast me in that role?",
+    "I forgot something important and made a slip of speech—is that connected to the same psychology as my dreams?",
+    "I keep dreaming I am back at a job I hated, years after leaving it; why does my mind return there?",
+    "I dreamed of a hat with a raised middle and drooping sides and felt cheerful among officers. What could such an odd image mean?",
+    "I dreamed of being buried alive and woke in terror; where does such a fear come from?",
+    "I woke up needing to urinate and my dream was full of crowds and speeches — does that mean my body caused the dream, or did the dream thoughts stir the need?"
+  ],
+  "model": "deepseek-flash"
+}

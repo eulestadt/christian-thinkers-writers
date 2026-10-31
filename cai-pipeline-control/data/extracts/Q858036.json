@@ -1,0 +1,649 @@
+{
+  "book_id": "Q858036",
+  "author": "Alexander Hamilton",
+  "principles": [
+    {
+      "source_thesis": "Union is necessary because the alternative is dismemberment into separate confederacies, which would expose every State to foreign danger and internal conflict.",
+      "critique_request": "Identify where the response treats disunion or separate confederacies as a safe or costless option, thereby contradicting the text's claim that adoption of the Constitution or dismemberment of the Union is the evident alternative.",
+      "revision_request": "Rewrite the response so it treats union under one federal government as necessary to safety and prosperity, and treats division into separate confederacies as a danger to every part."
+    },
+    {
+      "source_thesis": "The vigor of government is essential to the security of liberty; the two interests can never be separated in a sound judgment.",
+      "critique_request": "Point out where the response opposes energy and efficiency in government to liberty, as if they were rivals, contrary to the text's claim that their interest can never be separated.",
+      "revision_request": "Rewrite the response to affirm that vigor of government is essential to the security of liberty, and that zeal for energy in government is not the offspring of a temper fond of despotic power."
+    },
+    {
+      "source_thesis": "A dangerous ambition more often lurks behind the specious mask of zeal for the rights of the people than under the appearance of zeal for the firmness and efficiency of government; demagogues often end as tyrants.",
+      "critique_request": "Identify where the response assumes that those who profess zeal for the rights of the people are necessarily purer in motive than those who advocate energetic government, contrary to the text's warning about demagogues.",
+      "revision_request": "Rewrite the response to warn that a dangerous ambition more often lurks behind the specious mask of zeal for the rights of the people than under the forbidden appearance of zeal for the firmness and efficiency of government."
+    },
+    {
+      "source_thesis": "Candor requires admitting that opponents may be actuated by upright intentions and honest errors, and that wise and good men are often on the wrong side of great questions; this furnishes a lesson of moderation.",
+      "critique_request": "Identify where the response resolves all opposition into interested or ambitious motives, or treats political opponents with an intolerant spirit, contrary to the text's call for candor and moderation.",
+      "revision_request": "Rewrite the response to concede that even such men may be actuated by upright intentions, that much opposition springs from blameless if not respectable sources, and to avoid the intolerant spirit which has at all times characterized political parties."
+    },
+    {
+      "source_thesis": "The people must cede some of their natural rights to government in order to vest it with requisite powers; the question is whether it conduces more to their interest to be one nation or separate confederacies.",
+      "critique_request": "Identify where the response treats any cession of natural rights to government as unnecessary or as inherently contrary to the interest of the people, contrary to the text's premise that some cession is indispensable.",
+      "revision_request": "Rewrite the response to acknowledge that whenever and however government is instituted, the people must cede to it some of their natural rights in order to vest it with requisite powers, and to weigh union against separate confederacies on that basis."
+    },
+    {
+      "source_thesis": "One national government will better observe treaties and the laws of nations, because the best men will be appointed to it, its interpretations will be uniform, and it will not be swayed by local temptations and passions.",
+      "critique_request": "Identify where the response claims that separate States or confederacies would observe treaties and the laws of nations as faithfully as one national government, contrary to the text's reasoning.",
+      "revision_request": "Rewrite the response to explain that a national government will more perfectly and punctually observe treaties and the laws of nations, since its administration will be more wise and systematical and less affected by local circumstances."
+    },
+    {
+      "source_thesis": "Nations will make war whenever they have a prospect of getting anything by it, and pretended as well as just causes of war exist; therefore union and a good national government are necessary to place the country in the best possible state of defense.",
+      "critique_request": "Identify where the response assumes that other nations will regard America's advancement with indifference, or that good faith alone will secure peace, contrary to the text's account of pretended causes of war.",
+      "revision_request": "Rewrite the response to treat union and a good national government as necessary to put and keep the country in such a situation as, instead of inviting war, will tend to repress and discourage it."
+    },
+    {
+      "source_thesis": "Neighboring nations are naturally enemies unless their common weakness forces them to league in a confederate republic whose constitution prevents the differences that neighborhood occasions.",
+      "critique_request": "Identify where the response asserts that neighboring States would remain in harmony without a common constitution, contrary to the text's axiom that vicinity constitutes nations natural enemies.",
+      "revision_request": "Rewrite the response to affirm that neighboring nations are naturally enemies unless their common weakness forces them to league in a confederate republic, and that the proposed Constitution supplies that remedy."
+    },
+    {
+      "source_thesis": "The causes of hostility among nations include love of power, jealousy of power, commercial rivalries, and private passions of leading individuals; republics administered by men are not less addicted to war than monarchies.",
+      "critique_request": "Identify where the response relies on the claim that commercial republics will be pacific and governed by mutual interest, contrary to the text's refutation of that paradox.",
+      "revision_request": "Rewrite the response to reject the expectation of perpetual peace among disunited commercial republics, citing that momentary passions and immediate interest have more control over human conduct than general considerations of policy or justice."
+    },
+    {
+      "source_thesis": "Territorial disputes, commercial competitions, apportionment of the public debt, and laws violating private contracts would be fertile sources of war among disunited States.",
+      "critique_request": "Identify where the response treats disputes over western territory, commerce, debt apportionment, or contract violations as easily settled without a common judge, contrary to the text.",
+      "revision_request": "Rewrite the response to show that disunion would revive territorial disputes and create commercial and debt conflicts without any umpire or common judge, leading to reprisals and wars."
+    },
+    {
+      "source_thesis": "War between the States would be desultory and predatory, and continual danger would compel even liberty-loving nations to resort to standing armies and institutions tending toward monarchy.",
+      "critique_request": "Identify where the response claims that disunion would leave liberty more secure or avoid military establishments, contrary to the text's account of the consequences of hostilities between the States.",
+      "revision_request": "Rewrite the response to explain that frequent war and constant apprehension would infallibly produce standing armies and strengthen the executive at the expense of the legislative authority."
+    },
+    {
+      "source_thesis": "The enlargement of the orbit of republican government, by consolidating several smaller States into one great Confederacy, helps suppress faction and guard internal tranquillity.",
+      "critique_request": "Identify where the response insists that republican government can only be preserved in a narrow territory, contrary to the text's argument for enlarging the orbit of such systems.",
+      "revision_request": "Rewrite the response to present the enlargement of the orbit of republican government, through a great Confederacy, as a means of retaining the excellences of republican government and lessening its imperfections."
+    },
+    {
+      "source_thesis": "The causes of faction cannot be removed without destroying liberty or imposing uniformity of opinions; relief must be sought in controlling its effects, which a large republic does better than a small one.",
+      "critique_request": "Identify where the response proposes to cure faction by abolishing liberty or by giving every citizen the same opinions, passions, and interests, contrary to the text's rejection of both remedies.",
+      "revision_request": "Rewrite the response to hold that the causes of faction cannot be removed, and that relief is only to be sought in controlling its effects, which the extended sphere of the Union better accomplishes."
+    },
+    {
+      "source_thesis": "A pure democracy admits of no cure for the mischiefs of faction, while a republic, through representation and a greater sphere of country, promises the cure.",
+      "critique_request": "Identify where the response recommends pure democracy or direct assembly of all citizens as a remedy for faction, contrary to the text's distinction between democracy and republic.",
+      "revision_request": "Rewrite the response to distinguish a republic, in which the scheme of representation takes place, from a pure democracy, and to locate the cure for faction in representation and an extended sphere."
+    },
+    {
+      "source_thesis": "The regulation of the various and interfering interests of property forms the principal task of modern legislation; no man is allowed to be judge in his own cause, yet legislators are parties to the causes they determine.",
+      "critique_request": "Identify where the response assumes that enlightened statesmen will always adjust clashing interests to the public good, contrary to the text's claim that enlightened statesmen will not always be at the helm.",
+      "revision_request": "Rewrite the response to acknowledge that the most common and durable source of faction is the unequal distribution of property, and that legislation on debts, manufactures, and taxes is judged by the parties themselves."
+    },
+    {
+      "source_thesis": "Union is necessary to secure commercial advantages, to counteract the policy of maritime powers, and to establish a navy that will give weight in the balance of European competitions.",
+      "critique_request": "Identify where the response treats disunion as compatible with an active commerce and a respectable navy, contrary to the text's account of the commercial utility of the Union.",
+      "revision_request": "Rewrite the response to explain that by steady adherence to the Union Americans may hope to become the arbiter of Europe in America, and that disunion would confine them to a passive commerce."
+    },
+    {
+      "source_thesis": "A nation cannot long exist without revenues; the national government must have a general power of taxation, and the system of quotas and requisitions is fallacious and delusive.",
+      "critique_request": "Identify where the response proposes to rely on requisitions upon the States or on quotas for national revenue, contrary to the text's rejection of that system.",
+      "revision_request": "Rewrite the response to affirm that the national government must raise its own revenues by ordinary methods of taxation, and that the system of quotas and requisitions is a fallacious and delusive system."
+    },
+    {
+      "source_thesis": "The great and radical vice of the existing Confederation is legislation for States in their collective capacities rather than for the individual citizens; government must address itself to individuals through courts and magistrates.",
+      "critique_request": "Identify where the response defends a league whose authority operates only on States in their collective capacities, contrary to the text's identification of that principle as the parent of anarchy.",
+      "revision_request": "Rewrite the response to hold that the national government must extend its authority to the persons of the citizens and execute its resolutions through the ordinary magistracy, not through military coercion of States."
+    },
+    {
+      "source_thesis": "The powers of the federal government ought to be coextensive with the objects committed to it; the means ought to be proportioned to the end, and no constitutional shackles can wisely be imposed on the power to provide for the common defense.",
+      "critique_request": "Identify where the response would confine federal powers below what the objects of national defense and commerce require, contrary to the maxim that the means ought to be proportioned to the end.",
+      "revision_request": "Rewrite the response to affirm that the government of the Union must be empowered to pass all laws and make all regulations which have relation to the common defense and to every other matter within its jurisdiction."
+    },
+    {
+      "source_thesis": "Restraints on the legislative authority in the article of military establishments are improper and, if imposed, unlikely to be observed; the two-year limit on military appropriations is a better security than paper prohibitions.",
+      "critique_request": "Identify where the response demands a constitutional prohibition on raising or keeping standing armies in time of peace, contrary to the text's argument that such restraints are improper and ineffectual.",
+      "revision_request": "Rewrite the response to defend the provision limiting appropriations for the support of an army to two years as a real security, and to explain that restraints on legislative discretion in military establishments would be unlikely to be observed."
+    },
+    {
+      "source_thesis": "A well-regulated militia under national regulation, with officers appointed by the States, is the best substitute for a standing army and the best security against it.",
+      "critique_request": "Identify where the response treats federal power over the militia as a danger to liberty, contrary to the text's argument that such power lessens the call for military establishments.",
+      "revision_request": "Rewrite the response to defend uniform national regulation of the militia, with the States appointing the officers, as the natural defense of a free country and the best security against standing armies."
+    },
+    {
+      "source_thesis": "The people are the masters of their own fate in a confederacy; the State governments will afford security against invasions of liberty by the national authority, and the extent of the country is itself a security.",
+      "critique_request": "Identify where the response treats the State governments as powerless against federal usurpation or ignores the people's ability to use one level of government against the other, contrary to the text.",
+      "revision_request": "Rewrite the response to explain that in a confederacy the people may throw themselves into either scale, and that the State governments will afford complete security against invasions of public liberty by the national authority."
+    },
+    {
+      "source_thesis": "The proposed Constitution retains to the States an independent authority to raise revenue by every kind of taxation except duties on imports and exports; this concurrent jurisdiction is the only admissible substitute for entire subordination.",
+      "critique_request": "Identify where the response claims that the federal power of taxation would absorb all State revenues or exclude the States from taxation, contrary to the text's account of concurrent jurisdiction.",
+      "revision_request": "Rewrite the response to affirm that the States retain an independent and uncontrollable authority to raise revenue by every kind of taxation except duties on imports and exports, and that this concurrent jurisdiction is the only admissible substitute for entire subordination."
+    },
+    {
+      "source_thesis": "The necessary and proper clause and the supremacy clause are merely declaratory of truths that follow from constituting a federal government; laws not pursuant to the Constitution are acts of usurpation.",
+      "critique_request": "Identify where the response treats the necessary and proper clause as a pernicious engine for destroying local governments, contrary to the text's claim that its operation would be the same if it were obliterated.",
+      "revision_request": "Rewrite the response to explain that the necessary and proper and supremacy clauses are declaratory of truths flowing from the very act of constituting a federal government, and that acts not pursuant to the Constitution are usurpations."
+    },
+    {
+      "source_thesis": "Experience is the oracle of truth; the history of ancient and modern confederacies shows that a sovereignty over sovereigns substitutes violence in place of law.",
+      "critique_request": "Identify where the response ignores the lessons of the Amphictyonic, Achaean, Germanic, Polish, Swiss, and Dutch confederacies, or treats their failures as irrelevant to America, contrary to the text.",
+      "revision_request": "Rewrite the response to draw on the experience of confederacies that legislated for States in their collective capacities, showing that such systems produced imbecility, discord, and foreign influence."
+    },
+    {
+      "source_thesis": "The fabric of American empire ought to rest on the solid basis of the consent of the people; the existing Confederation never had a ratification by the people.",
+      "critique_request": "Identify where the response grounds national authority merely in the sanction of State legislatures, contrary to the text's claim that the streams of national power ought to flow from the people.",
+      "revision_request": "Rewrite the response to affirm that the national government ought to rest on the consent of the people, not merely on the delegated authority of the State legislatures."
+    },
+    {
+      "source_thesis": "Constitutions must be framed not on present exigencies alone but on the probable exigencies of ages, so the national power of provision must be capable of meeting future contingencies that are illimitable in nature.",
+      "critique_request": "Identify where the response limits a government's powers to an estimate of its immediate necessities, or treats a fixed calculation of present needs as a safe limit on the capacity to provide for future contingencies.",
+      "revision_request": "Rewrite the response so it treats the capacity to provide for future contingencies as illimitable and refuses to infer the proper extent of national power from immediate necessities alone."
+    },
+    {
+      "source_thesis": "Peace or war will not always be left to our option; however moderate we are, we cannot count on the moderation or extinguish the ambition of others, and warring passions reign more powerfully in the human breast than the mild sentiments of peace.",
+      "critique_request": "Identify where the response models political arrangements on speculations of lasting tranquillity or assumes other nations' moderation, thereby calculating on the weaker springs of human character.",
+      "revision_request": "Rewrite the response so it acknowledges that war and the ambition of others cannot be counted against, and that political systems must not be modeled on hopes of lasting tranquillity."
+    },
+    {
+      "source_thesis": "The chief sources of expense in every government are wars and rebellions; domestic police and civil-list expenses are insignificant compared with those relating to national defense, so federal objects of revenue are unlimited while State objects are circumscribed within moderate bounds.",
+      "critique_request": "Identify where the response treats federal and State expenditures as comparable in scope, or assigns to the States an exclusive revenue source beyond their moderate civil-list needs.",
+      "revision_request": "Rewrite the response so it recognizes the immense disproportion between federal and State expenditures and reserves exclusive State revenue only for moderate local needs."
+    },
+    {
+      "source_thesis": "A concurrent jurisdiction in taxation is the only admissible substitute for entire subordination of State authority to the Union; any separation of revenue objects would sacrifice the great interests of the Union to the power of the individual States.",
+      "critique_request": "Identify where the response endorses a separation of revenue objects between Union and States, or subordinates the Union's taxing authority to State power, contrary to the concurrent-jurisdiction position.",
+      "revision_request": "Rewrite the response so it defends concurrent jurisdiction in taxation as reconciling an indefinite federal taxing power with an adequate independent State power."
+    },
+    {
+      "source_thesis": "Restricting the national revenue to particular objects, such as import duties alone, would produce oppression of particular branches of industry and unequal distribution of taxes among States and citizens.",
+      "critique_request": "Identify where the response confines federal taxation to external duties or imports without acknowledging the resulting inequality among manufacturing and non-manufacturing States and the oppression of particular industries.",
+      "revision_request": "Rewrite the response so it explains why confining federal revenue to imposts alone would be unequal and oppressive, and why recourse to excises is necessary."
+    },
+    {
+      "source_thesis": "The idea of an actual representation of all classes by persons of each class is visionary; with free votes the representative body will consist of landholders, merchants, and the learned professions, who can understand and attend to all interests.",
+      "critique_request": "Identify where the response demands that each occupation or class send its own members to the legislature, or treats such a mirroring of classes as necessary to fair representation.",
+      "revision_request": "Rewrite the response so it explains that merchants, landholders, and the learned professions naturally represent the several interests, and that class-by-class representation is impracticable and unnecessary."
+    },
+    {
+      "source_thesis": "The business of taxation requires extensive information and knowledge of political economy; the most productive system of finance will always be the least burdensome, and the best-informed are least likely to resort to oppressive expedients.",
+      "critique_request": "Identify where the response treats tax policy as requiring no special knowledge of political economy or local resources, or assumes that oppressive taxes are the productive ones.",
+      "revision_request": "Rewrite the response so it grounds judicious taxation in knowledge of political economy, the people's habits, and the country's resources, and affirms that the least burdensome finance is the most productive."
+    },
+    {
+      "source_thesis": "The national legislature can make use of each State's own system of taxation within that State, and apportionment by census plus the uniformity requirement guard against partiality and oppression.",
+      "critique_request": "Identify where the response assumes federal internal taxation requires a wholly new local apparatus or permits unequal treatment among States, ignoring adoption of State systems and the census and uniformity safeguards.",
+      "revision_request": "Rewrite the response so it shows that federal internal taxes can employ each State's own system and are restrained by apportionment according to numbers and by the rule of uniformity."
+    },
+    {
+      "source_thesis": "The existence of a federal power of internal taxation gives efficacy to requisitions, because when States know the Union can act without their agency they have a powerful motive to exert themselves.",
+      "critique_request": "Identify where the response argues the internal-tax power should be omitted in the first instance in favor of requisitions, without acknowledging that the power's existence strengthens requisitions.",
+      "revision_request": "Rewrite the response so it defends retaining the internal-tax power partly because its existence makes requisitions effective, and because it cannot be proven in theory to be inconvenient."
+    },
+    {
+      "source_thesis": "The power to lay poll taxes ought to exist in the federal government because certain critical emergencies may make such expedients essential, and government should not be disarmed of a single weapon useful for general defense.",
+      "critique_request": "Identify where the response would strip the federal government of the option of poll taxes or similar emergency expedients, or treats the mere possession of a power as proof it will be abused.",
+      "revision_request": "Rewrite the response so it distinguishes the possession of an emergency power from its actual exercise, and preserves the government's option against critical conjunctures."
+    },
+    {
+      "source_thesis": "Energy in government is essential to security against external and internal danger and to prompt execution of the laws; stability is essential to national character and to the people's repose and confidence.",
+      "critique_request": "Identify where the response treats energy or stability in government as dispensable or as inherently hostile to liberty, ignoring their necessity to good government.",
+      "revision_request": "Rewrite the response so it affirms both the energy and the stability required in good government while still attending to liberty and the republican form."
+    },
+    {
+      "source_thesis": "The convention's task was arduous because it had to combine stability and energy with liberty, and to mark the boundary between general and State authority amid obscurity of objects, imperfect faculties, and inadequate language.",
+      "critique_request": "Identify where the response condemns deviations from abstract symmetry in the Constitution without allowing for the inherent difficulty of defining jurisdictions and the fallibility of human deliberation.",
+      "revision_request": "Rewrite the response so it judges the plan with candor, allowing for the difficulty of partitioning power and for the imperfection of human faculties and language."
+    },
+    {
+      "source_thesis": "A faultless plan was not to be expected; candid examiners will not magnify faults, and the real wonder is that so many difficulties were surmounted with near unanimity.",
+      "critique_request": "Identify where the response demands perfection of the proposed plan or treats any imperfection as sufficient grounds for rejection.",
+      "revision_request": "Rewrite the response so it weighs the plan with moderation, expecting no faultless plan and crediting the difficulty surmounted rather than magnifying defects."
+    },
+    {
+      "source_thesis": "Objectors to the Constitution disagree among themselves and offer no agreed substitute remedy, whereas the convention gave a regular and unanimous advice; the patient should try the unanimously recommended remedy.",
+      "critique_request": "Identify where the response treats the mere multiplicity of objections as decisive without noting that the objectors neither deny the danger nor agree on an alternative remedy.",
+      "revision_request": "Rewrite the response so it demands that objectors agree on a substitute remedy before the unanimously recommended plan is rejected."
+    },
+    {
+      "source_thesis": "Most capital objections urged against the new system lie with tenfold weight against the existing Confederation, which lacks a bill of rights and concentrates all federal powers in a single body.",
+      "critique_request": "Identify where the response raises objections against the Constitution without comparing them to the defects of the Confederation it would replace.",
+      "revision_request": "Rewrite the response so it compares each objection to the existing Confederation and shows whether the objection lies more heavily against the old system."
+    },
+    {
+      "source_thesis": "It is sufficient that the new plan is less imperfect than the old; no man refuses silver or gold for brass because of some alloy, nor refuses a firm building because it lacks a porch.",
+      "critique_request": "Identify where the response rejects the proposed plan for lacking perfect features while ignoring that the alternative is more imperfect.",
+      "revision_request": "Rewrite the response so it chooses the greater, not the perfect, good, preferring the less imperfect plan to the shattered existing system."
+    },
+    {
+      "source_thesis": "A republic is a government deriving all its powers directly or indirectly from the great body of the people, administered by persons holding office during pleasure, for a limited period, or during good behavior; it is sufficient that officers be appointed directly or indirectly by the people.",
+      "critique_request": "Identify where the response defines a republic by a standard that would degrade the State constitutions or require direct popular appointment of every officer.",
+      "revision_request": "Rewrite the response so it applies the stated republican criterion and shows the proposed Constitution conforms to it, including indirect appointment and limited tenures."
+    },
+    {
+      "source_thesis": "The proposed Constitution is in strictness neither wholly national nor wholly federal but a composition of both, federal in foundation, mixed in sources of power, national in operation, federal in extent, and neither wholly in amendment.",
+      "critique_request": "Identify where the response characterizes the plan as purely national or purely federal, ignoring the several relations in which it partakes of both characters.",
+      "revision_request": "Rewrite the response so it describes the Constitution as a composition of federal and national features across foundation, sources, operation, extent, and amendment."
+    },
+    {
+      "source_thesis": "The convention's powers were advisory and recommendatory; the plan was to be of no consequence unless approved by the people, whose approbation would blot out antecedent irregularities.",
+      "critique_request": "Identify where the response treats the convention's proposal as an exercise of final authority, or condemns its irregularities without noting that the people's ratification is the decisive act.",
+      "revision_request": "Rewrite the response so it treats the convention's work as a recommendation submitted to the people, whose approbation or disapprobation is decisive."
+    },
+    {
+      "source_thesis": "In all great changes of established governments forms ought to give way to substance; the people's right to alter or abolish their governments requires informal and unauthorized propositions by patriotic citizens.",
+      "critique_request": "Identify where the response sacrifices substance to forms, insisting on strict adherence to ordinary forms even where the public safety requires change.",
+      "revision_request": "Rewrite the response so it gives way to substance over forms in great changes, recognizing that the people's right to alter government requires informal proposals."
+    },
+    {
+      "source_thesis": "The prudent inquiry is not from whom advice comes but whether the advice be good; good advice may be accepted even from an enemy.",
+      "critique_request": "Identify where the response rejects the proposed Constitution merely because of the authority or motives of its proposers rather than judging the plan's merits.",
+      "revision_request": "Rewrite the response so it judges the plan by whether the advice is good rather than by the authority or character of those who offer it."
+    },
+    {
+      "source_thesis": "Security against foreign danger is a primitive object of civil society; the powers of war, armies, fleets, militia, and revenue must be effectually confided to the federal councils, and the force necessary for defense cannot be limited by those who cannot limit the force of offense.",
+      "critique_request": "Identify where the response would constitutionally limit the means of national defense without any corresponding limit on the preparations of other nations.",
+      "revision_request": "Rewrite the response so it confides adequate defensive powers to the federal councils and refuses to chain the government's discretion while foreign force remains unlimited."
+    },
+    {
+      "source_thesis": "A standing army is dangerous but may be necessary; the Union itself destroys the pretext for dangerous military establishments, and the best precaution is limiting the term for which revenue may be appropriated to their support.",
+      "critique_request": "Identify where the response either ignores the danger of standing armies or rejects the Union's role in diminishing both the necessity and the danger of military establishments.",
+      "revision_request": "Rewrite the response so it treats standing armies as a necessary but dangerous provision, guarded by the Union and by limited appropriation terms."
+    },
+    {
+      "source_thesis": "The power to provide and maintain a navy is a principal source of security against foreign danger, and the batteries capable of repelling foreign enterprises can never be turned against our liberties.",
+      "critique_request": "Identify where the response treats naval provision as dangerous to liberty or unnecessary to security, contrary to the argument that maritime strength is a principal safeguard.",
+      "revision_request": "Rewrite the response so it recognizes naval power as a principal source of security that cannot be turned against domestic liberties."
+    },
+    {
+      "source_thesis": "The general power to provide for the common defense and general welfare is qualified by the enumeration of particular powers that immediately follows; the enumeration must be allowed meaning and cannot be swallowed by the general phrase.",
+      "critique_request": "Identify where the response reads the general welfare clause as an unlimited commission to legislate in all cases, disregarding the enumerated particulars that qualify it.",
+      "revision_request": "Rewrite the response so it construes the general phrase together with the enumeration of particulars, giving each part its proper meaning."
+    },
+    {
+      "source_thesis": "If we are to be one nation in any respect, it clearly ought to be in respect to other nations; treaty-making, ambassadors, consuls, and punishment of offenses against the law of nations belong to the federal administration.",
+      "critique_request": "Identify where the response leaves foreign intercourse, treaties, or offenses against the law of nations to the discretion of individual States.",
+      "revision_request": "Rewrite the response so it lodges the regulation of intercourse with foreign nations in the general government as an essential branch of federal administration."
+    },
+    {
+      "source_thesis": "The power to regulate commerce among the States prevents importing and exporting States from loading articles with duties in passage, which would nourish animosities and interrupt public tranquillity.",
+      "critique_request": "Identify where the response leaves commerce among the States to State regulation without acknowledging the mischief of passage duties and the resulting animosities.",
+      "revision_request": "Rewrite the response so it justifies a superintending federal authority over interstate commerce as necessary to harmony and fair intercourse among the States."
+    },
+    {
+      "source_thesis": "Uniform rules of naturalization are needed because otherwise one State could naturalize aliens in every other State and render its law paramount within another's jurisdiction.",
+      "critique_request": "Identify where the response leaves naturalization to the several States without addressing the confusion and evasion that dissimilar rules produce.",
+      "revision_request": "Rewrite the response so it defends a uniform federal rule of naturalization as the remedy for conflicting State rules."
+    },
+    {
+      "source_thesis": "Bills of attainder, ex post facto laws, and laws impairing the obligation of contracts are contrary to the first principles of the social compact; the prohibition is a constitutional bulwark for personal security and private rights.",
+      "critique_request": "Identify where the response treats such State laws as legitimate legislative discretion or fails to recognize them as violations of the first principles of the social compact.",
+      "revision_request": "Rewrite the response so it treats bills of attainder, ex post facto laws, and laws impairing contracts as prohibited by first principles and barred to the States."
+    },
+    {
+      "source_thesis": "The power to make all laws necessary and proper for carrying the enumerated powers into execution is indispensable; without its substance the whole Constitution would be a dead letter, and wherever the end is required the means are authorized.",
+      "critique_request": "Identify where the response would confine Congress to powers expressly delegated, disarming the government of the means necessary to execute its granted ends.",
+      "revision_request": "Rewrite the response so it affirms the necessary and proper power as indispensable, since wherever a general power to do a thing is given, every particular power necessary for doing it is included."
+    },
+    {
+      "source_thesis": "The Constitution and federal laws and treaties are the supreme law of the land; without this supremacy the authority of the whole society would be subordinate to its parts, a monster in which the head is directed by the members.",
+      "critique_request": "Identify where the response would preserve complete supremacy of State constitutions, thereby subordinating the general authority to the parts.",
+      "revision_request": "Rewrite the response so it affirms federal supremacy within its sphere, showing that the whole must not be subordinate to its members."
+    },
+    {
+      "source_thesis": "The powers delegated to the federal government are few and defined, while those remaining in the States are numerous and indefinite, extending to the lives, liberties, properties, and internal order of the people.",
+      "critique_request": "Identify where the response treats federal powers as general and indefinite and State powers as narrow, reversing the actual distribution described.",
+      "revision_request": "Rewrite the response so it describes federal powers as few and defined, chiefly external, and State powers as numerous and indefinite over domestic concerns."
+    },
+    {
+      "source_thesis": "The State governments will have the advantage over the federal government in the attachment of the people, in personal influence, and in the means of resisting encroachments, so the danger is rather of federal weakness than of federal aggrandizement.",
+      "critique_request": "Identify where the response predicts the State governments will be annihilated by federal encroachment without weighing the States' superior influence and means of resistance.",
+      "revision_request": "Rewrite the response so it shows the States' advantages in popular attachment, numbers of officers, and means of resistance, and concludes the federal danger is chimerical."
+    },
+    {
+      "source_thesis": "The accumulation of all powers, legislative, executive, and judiciary, in the same hands is the very definition of tyranny; but the maxim of separation does not require the departments to have no partial agency in or control over each other.",
+      "critique_request": "Identify where the response applies the separation maxim to forbid any partial agency or control among departments, rather than only the whole power of one department being exercised by the same hands as another.",
+      "revision_request": "Rewrite the response so it interprets the separation maxim as prohibiting the whole power of one department from being held by the same hands as another, while allowing partial agency and mutual control."
+    },
+    {
+      "source_thesis": "Mere parchment barriers are insufficient; the legislative department is everywhere extending its sphere and drawing all power into its impetuous vortex, so some more adequate defense is needed for the weaker departments.",
+      "critique_request": "Identify where the response relies solely on written demarcations of departmental limits as sufficient security against legislative encroachment.",
+      "revision_request": "Rewrite the response so it acknowledges the insufficiency of parchment barriers and the tendency of the legislature to absorb all power, requiring further defense."
+    },
+    {
+      "source_thesis": "The interior structure of the government must supply the defect: each department should have a will of its own, be as little dependent as possible on the others for emoluments, and be armed with constitutional means and personal motives to resist encroachments, so that ambition counteracts ambition.",
+      "critique_request": "Identify where the response relies only on external or declaratory provisions without contriving the interior structure so that the constituent parts keep each other in their proper places.",
+      "revision_request": "Rewrite the response so it explains how the interior structure, by giving each department motives and means to resist, supplies the defect of parchment barriers."
+    },
+    {
+      "source_thesis": "In a compound republic the power surrendered by the people is first divided between two distinct governments and then subdivided among departments, giving a double security to the rights of the people.",
+      "critique_request": "Identify where the response treats the division of power as occurring only within a single government, ignoring the additional security of division between federal and State governments.",
+      "revision_request": "Rewrite the response so it describes the double security arising from division between two distinct governments and subdivision among departments."
+    },
+    {
+      "source_thesis": "In a republic it is not enough to guard the society against its rulers; one part of the society must be guarded against the injustice of the other, and the multiplicity of interests and sects in an extended republic makes unjust majority combinations improbable.",
+      "critique_request": "Identify where the response addresses only oppression by rulers and ignores the danger of a majority faction oppressing a minority, or proposes a will independent of the society as the remedy.",
+      "revision_request": "Rewrite the response so it guards the minority against majority injustice through the multiplicity of interests in an extended republic rather than through a will independent of the society."
+    },
+    {
+      "source_thesis": "Justice is the end of government and of civil society; where the stronger faction can readily unite and oppress the weaker, anarchy may as truly be said to reign as in a state of nature.",
+      "critique_request": "Identify where the response treats majority rule alone as sufficient justice, without securing the weaker against the stronger faction.",
+      "revision_request": "Rewrite the response so it treats justice as the end of government and provides security for the weaker against oppressive combinations of the stronger."
+    },
+    {
+      "source_thesis": "The definition of the right of suffrage is a fundamental article of republican government, and the qualifications of electors should conform to the State standard rather than be left to congressional or State legislative discretion.",
+      "critique_request": "Identify where the response would leave the qualifications of federal electors to the occasional regulation of Congress or to State legislative discretion.",
+      "revision_request": "Rewrite the response so it fixes the elector qualifications by the State constitutions, conformable to the State standard and unalterable by State governments."
+    },
+    {
+      "source_thesis": "Frequent elections are the only policy by which the dependence of the representative branch on the people can be effectually secured, and biennial elections are safe because the federal legislature holds only part of the supreme legislative authority and is watched by the State legislatures.",
+      "critique_request": "Identify where the response treats biennial elections as dangerous to liberty without weighing the limited federal power and the watchfulness of the collateral legislatures.",
+      "revision_request": "Rewrite the response so it defends biennial elections as safe and sufficient for dependence on the people, given the limited and watched character of federal power."
+    },
+    {
+      "source_thesis": "The proverbial rule that where annual elections end tyranny begins has no natural foundation; liberty lies within extremes, and a Constitution paramount to the government makes biennial elections safer than annual elections alterable at will.",
+      "critique_request": "Identify where the response treats annual elections as a fixed standard of liberty without regard to whether the constitution is paramount and unalterable by the government.",
+      "revision_request": "Rewrite the response so it explains that liberty lies within extremes and that elections fixed by a paramount Constitution are safer than more frequent elections subject to alteration."
+    },
+    {
+      "source_thesis": "Biennial elections are useful because federal legislation requires knowledge of the diverse laws and affairs of all the States and of foreign affairs, which cannot be acquired in a single year.",
+      "critique_request": "Identify where the response treats one-year terms as sufficient for federal legislators without regard to the extensive and diversified knowledge federal legislation requires.",
+      "revision_request": "Rewrite the response so it shows that the knowledge requisite for federal legislation justifies a longer period of service than the States require."
+    },
+    {
+      "source_thesis": "The aim of every political constitution is first to obtain rulers with most wisdom and virtue to pursue the common good, and next to keep them virtuous through such limitation of terms as maintains responsibility to the people.",
+      "critique_request": "Identify where the response treats the elective mode or term limitation as unnecessary to securing virtuous and responsible rulers.",
+      "revision_request": "Rewrite the response so it pursues both the selection of wise and virtuous rulers and their continued responsibility through limited terms."
+    },
+    {
+      "source_thesis": "The electors of federal representatives are the great body of the people, and no qualification of wealth, birth, religious faith, or civil profession may fetter the people's judgment or the eligibility of citizens.",
+      "critique_request": "Identify where the response would annex property, birth, or religious qualifications to suffrage or eligibility for federal representatives.",
+      "revision_request": "Rewrite the response so it keeps suffrage with the great body of the people and eligibility open to every citizen whose merit recommends him."
+    },
+    {
+      "source_thesis": "The House of Representatives is restrained from oppressive measures because its members can make no law not obligatory on themselves and their friends, and because frequent elections keep them recollecting their dependence on the people.",
+      "critique_request": "Identify where the response treats the representative body as free to make laws binding others but not itself, or ignores the restraint of frequent elections.",
+      "revision_request": "Rewrite the response so it grounds the fidelity of representatives in laws binding themselves as well as the people, and in the habitual recollection of dependence."
+    },
+    {
+      "source_thesis": "The number of representatives will be augmented as population grows; the census, the rivalry of large and small States, and the House's power over the purse secure eventual augmentation.",
+      "critique_request": "Identify where the response assumes the number of representatives will remain fixed despite population growth, ignoring the census and reapportionment provisions.",
+      "revision_request": "Rewrite the response so it shows how the census, the interests of the larger States, and the power over supplies secure augmentation of the House."
+    },
+    {
+      "source_thesis": "In all legislative assemblies the greater the number, the fewer the men who in fact direct proceedings; after securing a sufficient number for safety, local information, and diffusive sympathy, every addition makes the government more oligarchic in spirit.",
+      "critique_request": "Identify where the response assumes that multiplying representatives beyond a certain limit strengthens the barrier against government by the few.",
+      "revision_request": "Rewrite the response so it recognizes that beyond a sufficient number, enlarging the assembly makes the few more, not less, controlling."
+    },
+    {
+      "source_thesis": "Every government ought to contain in itself the means of its own preservation; an exclusive State power over federal elections would leave the Union's existence at the mercy of the State legislatures.",
+      "critique_request": "Identify where the response would lodge exclusive power over federal elections in the State legislatures without providing for the Union's own preservation.",
+      "revision_request": "Rewrite the response so it gives Congress an ultimate power over the times, places, and manner of federal elections as a means of self-preservation."
+    },
+    {
+      "source_thesis": "The equality of representation in the Senate is a constitutional recognition of the residuary sovereignty of the States and an instrument for preserving it, and is acceptable to large and small States alike as a guard against consolidation.",
+      "critique_request": "Identify where the response treats equal State representation in the Senate as a mere concession to small States rather than a recognition of residuary State sovereignty.",
+      "revision_request": "Rewrite the response so it defends equal representation in the Senate as preserving the residuary sovereignty of the States and guarding against consolidation."
+    },
+    {
+      "source_thesis": "A senate distinct from and dividing legislative power with the first branch is a salutary check that doubles the security of the people, since usurpation or perfidy then requires the concurrence of two distinct bodies.",
+      "critique_request": "Identify how the response fails to uphold the argument that a second, distinct legislative branch is a salutary check doubling the people's security against usurpation or perfidy.",
+      "revision_request": "Rewrite the response so it faithfully embodies the argument that a senate distinct from and dividing power with the first branch is a salutary check requiring the concurrence of two distinct bodies in schemes of usurpation or perfidy."
+    },
+    {
+      "source_thesis": "Single and numerous assemblies are prone to sudden and violent passions and to seduction by factious leaders, so a body meant to correct this infirmity ought itself to be less numerous, possess great firmness, and hold authority for considerable duration.",
+      "critique_request": "Identify how the response contradicts the argument that a senate must be less numerous and hold office for considerable duration in order to correct the impulsiveness of numerous assemblies.",
+      "revision_request": "Rewrite the response so it embodies the argument that the body meant to correct the propensity of numerous assemblies to sudden passions must itself be less numerous, firm, and of considerable duration in office."
+    },
+    {
+      "source_thesis": "A good government implies both fidelity to the happiness of the people and knowledge of the means of attaining it; the federal Constitution provides for the latter in a mode that increases security for the former.",
+      "critique_request": "Identify how the response fails to uphold the claim that good government requires both fidelity to the people's happiness and knowledge of the means to attain it, and that the Constitution secures the latter while increasing the former.",
+      "revision_request": "Rewrite the response so it embodies the argument that good government requires both fidelity to the object of government and knowledge of the means of attaining it, and that the Constitution provides for the latter in a way that strengthens the former."
+    },
+    {
+      "source_thesis": "Mutability in public councils from rapid succession of new members produces a change of opinions and measures; continual change even of good measures is inconsistent with prudence and success.",
+      "critique_request": "Identify how the response fails to uphold the argument that rapid succession of new members produces mutability of measures and that continual change even of good measures is inconsistent with prudence.",
+      "revision_request": "Rewrite the response so it embodies the argument that a stable institution is needed because rapid succession of members changes opinions and measures, and continual change even of good measures defeats prudence and success."
+    },
+    {
+      "source_thesis": "A mutable policy poisons liberty itself: laws so voluminous, incoherent, or incessantly changed cannot be known or fixed, and law that is little known and less fixed cannot be a rule of action.",
+      "critique_request": "Identify how the response contradicts the argument that mutable policy poisons liberty because laws that are incoherent or incessantly changed cannot serve as a known and fixed rule of action.",
+      "revision_request": "Rewrite the response so it embodies the argument that instability poisons liberty itself, since law little known and less fixed cannot be a rule of action."
+    },
+    {
+      "source_thesis": "Public instability gives unreasonable advantage to the sagacious, enterprising, and moneyed few over the industrious and uninformed many, so that laws are made for the few, not the many.",
+      "critique_request": "Identify how the response fails to uphold the argument that unstable government hands unreasonable advantage to the sagacious and moneyed few over the industrious many.",
+      "revision_request": "Rewrite the response so it embodies the argument that every new regulation under unstable government is a harvest for those who watch the change, making laws for the few rather than the many."
+    },
+    {
+      "source_thesis": "A due sense of national character requires a select and stable body; the opinion of the impartial world is a guide in doubtful cases, and a numerous, changeable body cannot possess this sensibility.",
+      "critique_request": "Identify how the response fails to uphold the argument that a sense of national character can only be possessed by a small or durably invested body, not a numerous and changeable one.",
+      "revision_request": "Rewrite the response so it embodies the argument that a select and stable body is needed to maintain sensibility to the opinion of the world, which a numerous and changeable assembly cannot possess."
+    },
+    {
+      "source_thesis": "Responsibility must be limited to objects within the responsible party's power and relate to operations of which constituents can form a ready judgment; short-term assemblies cannot justly answer for a chain of measures requiring years.",
+      "critique_request": "Identify how the response contradicts the argument that responsibility must be limited to objects within the party's power and to operations of which constituents can form a ready judgment.",
+      "revision_request": "Rewrite the response so it embodies the argument that an assembly elected for so short a term cannot be answerable for a chain of measures requiring continued attention, and that a more permanent body is the proper remedy."
+    },
+    {
+      "source_thesis": "A senate may be necessary as a defense of the people against their own temporary errors and delusions, checking misguided measures until reason, justice, and truth regain authority over the public mind.",
+      "critique_request": "Identify how the response fails to uphold the argument that a temperate and respectable body may salutarily check the people's own temporary errors until reason regains authority.",
+      "revision_request": "Rewrite the response so it embodies the argument that a senate may sometimes be necessary to defend the people against their own temporary errors and delusions by suspending measures until reason, justice, and truth regain authority."
+    },
+    {
+      "source_thesis": "Liberty may be endangered by the abuses of liberty as well as by the abuses of power, and the former are apparently most to be apprehended by the United States.",
+      "critique_request": "Identify how the response contradicts the argument that liberty may be endangered by abuses of liberty as well as abuses of power, and that the former are most to be apprehended.",
+      "revision_request": "Rewrite the response so it embodies the argument that liberty may be endangered by the abuses of liberty as well as of power, and that abuses of liberty are most to be apprehended by the United States."
+    },
+    {
+      "source_thesis": "Before the Senate could establish tyranny it must corrupt itself, then the State legislatures, then the House of Representatives, and finally the people at large.",
+      "critique_request": "Identify how the response fails to uphold the argument that a senatorial usurpation would require successively corrupting the Senate, the State legislatures, the House, and the people.",
+      "revision_request": "Rewrite the response so it embodies the argument that the Senate could not establish tyranny without first corrupting itself, then the State legislatures, then the House of Representatives, and finally the people at large."
+    },
+    {
+      "source_thesis": "The power of making treaties should be committed to men best qualified and in a mode affording the highest security, requiring both talents, information, integrity, and deliberation, and secrecy and despatch.",
+      "critique_request": "Identify how the response fails to uphold the argument that treaty-making must be lodged so as to secure both the best-qualified men and the advantages of secrecy and despatch.",
+      "revision_request": "Rewrite the response so it embodies the argument that the treaty power should be exercised by able and honest men with sufficient duration to acquire information, while preserving secrecy and despatch."
+    },
+    {
+      "source_thesis": "A treaty is a bargain between both parties; as the consent of both was essential to its formation, so must it ever afterwards be to alter or cancel it, and treaties are as binding now as under any future form of government.",
+      "critique_request": "Identify how the response contradicts the argument that treaties, being bargains between both parties, cannot be altered or cancelled by one party alone and are as binding now as they will ever be.",
+      "revision_request": "Rewrite the response so it embodies the argument that a treaty is a bargain requiring the consent of both parties to alter or cancel, and that the Constitution does not extend the obligation of treaties beyond what it already is."
+    },
+    {
+      "source_thesis": "A well-constituted court for impeachments is difficult to obtain in a wholly elective government; the Senate is the fittest depositary because it is dignified, independent, and sufficiently numerous to exercise the awful discretion involved.",
+      "critique_request": "Identify how the response fails to uphold the argument that the Senate is the fittest tribunal for impeachments because of its dignity, independence, and numbers.",
+      "revision_request": "Rewrite the response so it embodies the argument that the Senate is the most fit depositary of the impeachment trust, being sufficiently dignified, independent, and numerous to preserve impartiality between an individual accused and the representatives of the people."
+    },
+    {
+      "source_thesis": "The division of impeachment powers between the two branches, one accusing and the other judging, avoids making the same persons both accusers and judges and guards against persecution from a factious spirit.",
+      "critique_request": "Identify how the response contradicts the argument that assigning accusation to one branch and judgment to the other avoids the same persons being both accusers and judges.",
+      "revision_request": "Rewrite the response so it embodies the argument that dividing impeachment between the two legislative branches avoids the inconvenience of the same persons being both accusers and judges and guards against factious persecution."
+    },
+    {
+      "source_thesis": "Energy in the Executive is a leading character in the definition of good government, essential to protection against foreign attacks, steady administration of laws, protection of property, and security of liberty against ambition, faction, and anarchy.",
+      "critique_request": "Identify how the response fails to uphold the argument that energy in the Executive is essential to good government, including protection against foreign attacks and security of liberty against faction and anarchy.",
+      "revision_request": "Rewrite the response so it embodies the argument that energy in the Executive is a leading character of good government, essential to protection against foreign attacks, steady administration of laws, protection of property, and security of liberty against ambition, faction, and anarchy."
+    },
+    {
+      "source_thesis": "The ingredients of energy in the Executive are unity, duration, adequate provision for support, and competent powers; the ingredients of republican safety are due dependence on the people and due responsibility.",
+      "critique_request": "Identify how the response fails to uphold the argument that executive energy requires unity, duration, adequate support, and competent powers, while republican safety requires dependence on the people and responsibility.",
+      "revision_request": "Rewrite the response so it embodies the argument that energy in the Executive consists of unity, duration, adequate provision for support, and competent powers, and that republican safety consists of due dependence on the people and due responsibility."
+    },
+    {
+      "source_thesis": "Plurality in the Executive tends to conceal faults and destroy responsibility, leaving the public unable to determine on whom blame or punishment ought to fall.",
+      "critique_request": "Identify how the response contradicts the argument that a plurality in the Executive conceals faults and destroys responsibility by making blame impossible to fix.",
+      "revision_request": "Rewrite the response so it embodies the argument that plurality in the Executive tends to conceal faults and destroy responsibility, since blame is shifted among actors and the public cannot determine the real author."
+    },
+    {
+      "source_thesis": "The republican principle demands that the deliberate sense of the community govern those entrusted with its affairs, but does not require unqualified complaisance to every sudden breeze of passion or transient impulse.",
+      "critique_request": "Identify how the response fails to uphold the argument that the deliberate sense of the community should govern, but that officials need not comply with every sudden passion or transient impulse.",
+      "revision_request": "Rewrite the response so it embodies the argument that while the deliberate sense of the community should govern, the Executive need not show unqualified complaisance to every sudden breeze of passion or transient impulse."
+    },
+    {
+      "source_thesis": "Duration in office gives the executive firmness and independence; a man conscious that he must soon lay down his office will feel too little interested in it to hazard censure for independent exertion of his powers.",
+      "critique_request": "Identify how the response contradicts the argument that longer duration in office is needed to give the executive firmness and independence from the legislature.",
+      "revision_request": "Rewrite the response so it embodies the argument that duration in office is necessary to give the executive the firmness and independence to act on his own opinion with vigor and decision."
+    },
+    {
+      "source_thesis": "Re-eligibility is necessary to enable the people to continue a magistrate they approve, to prolong the utility of his talents, and to secure permanency in a wise system of administration; exclusion would diminish inducements to good behavior and tempt peculation and usurpation.",
+      "critique_request": "Identify how the response fails to uphold the argument that re-eligibility is necessary to secure permanency in wise administration and to preserve inducements to good behavior.",
+      "revision_request": "Rewrite the response so it embodies the argument that re-eligibility enables the people to continue a worthy magistrate, prolongs the utility of his talents, and avoids the pernicious effects of exclusion, including diminished inducements to good behavior and temptation to peculation and usurpation."
+    },
+    {
+      "source_thesis": "A power over a man's support is a power over his will; the legislature with discretionary power over the salary of the Chief Magistrate could render him obsequious, so his compensation must be fixed and unalterable during his term.",
+      "critique_request": "Identify how the response contradicts the argument that a power over a man's support is a power over his will, requiring the executive's compensation to be fixed during his term.",
+      "revision_request": "Rewrite the response so it embodies the argument that the legislature must not be able to increase or diminish the President's compensation during his term, since a power over a man's support is a power over his will."
+    },
+    {
+      "source_thesis": "The qualified negative of the President serves both as a shield to the Executive against legislative encroachment and as an additional security against improper laws passed through faction, precipitancy, or impulse.",
+      "critique_request": "Identify how the response fails to uphold the argument that the qualified negative defends the Executive against legislative encroachment and guards the community against improper laws.",
+      "revision_request": "Rewrite the response so it embodies the argument that the qualified negative enables the Executive to defend himself against legislative depredations and furnishes an additional security against bad laws arising from faction, precipitancy, or impulse."
+    },
+    {
+      "source_thesis": "The pardoning power is best lodged in a single man, since undivided responsibility makes him most scrupulous and cautious, and in seasons of insurrection a well-timed pardon may restore tranquillity when legislative delay would be fatal.",
+      "critique_request": "Identify how the response contradicts the argument that the pardoning power is best placed in a single responsible magistrate, especially for timely pardons in insurrection.",
+      "revision_request": "Rewrite the response so it embodies the argument that a single man is the more eligible dispenser of mercy because responsibility is undivided, and that in insurrection a well-timed pardon may restore tranquillity when convening the legislature would let the opportunity slip."
+    },
+    {
+      "source_thesis": "The treaty power partakes more of the legislative than the executive character and belongs properly to neither, so the union of the Executive with the Senate in treaties is no infringement of the separation of powers.",
+      "critique_request": "Identify how the response fails to uphold the argument that the treaty power is neither strictly legislative nor executive, justifying its union of President and Senate.",
+      "revision_request": "Rewrite the response so it embodies the argument that the treaty power forms a distinct department belonging properly to neither the legislative nor the executive, so the union of the Executive with the Senate in treaties does not violate the separation of powers."
+    },
+    {
+      "source_thesis": "One man of discernment is better fitted to analyze the qualities adapted to particular offices than a body of men, and sole responsibility begets a livelier sense of duty and more exact regard to reputation.",
+      "critique_request": "Identify how the response contradicts the argument that a single responsible man is better fitted to select officers than an assembly, whose choices are warped by party and personal attachments.",
+      "revision_request": "Rewrite the response so it embodies the argument that one man of discernment, acting under sole responsibility, is better fitted to estimate the qualities adapted to offices than a body of men distracted by private and party attachments."
+    },
+    {
+      "source_thesis": "The Senate's concurrence in appointments is a powerful though silent check upon favoritism in the President and a source of stability in the administration.",
+      "critique_request": "Identify how the response fails to uphold the argument that the Senate's concurrence in appointments checks presidential favoritism and promotes stability in administration.",
+      "revision_request": "Rewrite the response so it embodies the argument that requiring the Senate's concurrence would check a spirit of favoritism in the President, prevent unfit appointments from State prejudice or personal attachment, and promote stability in administration."
+    },
+    {
+      "source_thesis": "The judiciary is the weakest of the three departments, having neither force nor will but merely judgment, so permanency in office is indispensable to its independence and to the public justice and security.",
+      "critique_request": "Identify how the response contradicts the argument that the judiciary is the weakest department and therefore needs permanency in office to defend itself and preserve public justice.",
+      "revision_request": "Rewrite the response so it embodies the argument that the judiciary, having neither force nor will but merely judgment, is the weakest department and requires permanency in office as the citadel of public justice and public security."
+    },
+    {
+      "source_thesis": "In a limited Constitution, courts must declare void legislative acts contrary to the Constitution; this does not suppose judicial superiority but that the power of the people is superior to both legislature and judiciary.",
+      "critique_request": "Identify how the response fails to uphold the argument that courts must treat the Constitution as fundamental law and prefer it to contrary statutes, without implying judicial superiority over the people.",
+      "revision_request": "Rewrite the response so it embodies the argument that courts must declare void legislative acts contrary to the Constitution, since the intention of the people in the Constitution must be preferred to the intention of their agents, without supposing judicial superiority to the legislative power."
+    },
+    {
+      "source_thesis": "The independence of judges is requisite to guard the Constitution and the rights of individuals against ill humors and unjust partial laws, and to mitigate the severity and confine the operation of such laws.",
+      "critique_request": "Identify how the response contradicts the argument that judicial independence is needed to guard against occasional ill humors and to mitigate the severity of unjust and partial laws.",
+      "revision_request": "Rewrite the response so it embodies the argument that independent judges are essential safeguards against occasional ill humors in society and against unjust and partial laws, mitigating their severity and confining their operation."
+    },
+    {
+      "source_thesis": "A fixed provision for the support of judges is necessary to their independence, since a power over a man's subsistence amounts to a power over his will.",
+      "critique_request": "Identify how the response fails to uphold the argument that judges' compensation must be fixed and not diminished so the legislature cannot control them through their subsistence.",
+      "revision_request": "Rewrite the response so it embodies the argument that a fixed provision for judicial support is necessary to independence, because a power over a man's subsistence amounts to a power over his will."
+    },
+    {
+      "source_thesis": "The federal judiciary ought to extend to cases arising under the Constitution and laws of the United States, to cases in which the United States is a party, to cases involving the peace of the Confederacy, to admiralty cases, and to cases where State tribunals cannot be impartial.",
+      "critique_request": "Identify how the response fails to uphold the argument that the federal judiciary must extend to cases involving the peace of the Confederacy and those in which State tribunals cannot be impartial.",
+      "revision_request": "Rewrite the response so it embodies the argument that the federal judiciary properly extends to cases arising under the Constitution and laws, cases in which the United States is a party, cases involving the peace of the Confederacy, admiralty cases, and cases where State tribunals cannot be impartial."
+    },
+    {
+      "source_thesis": "The peace of the whole ought not to be left at the disposal of a part; the Union will be answerable to foreign powers for the conduct of its members, and responsibility for an injury ought to be accompanied by the faculty of preventing it.",
+      "critique_request": "Identify how the response contradicts the argument that the peace of the whole must not be left at the disposal of a part, and that responsibility for injury must be accompanied by the power to prevent it.",
+      "revision_request": "Rewrite the response so it embodies the argument that the peace of the whole ought not to be left at the disposal of a part, and that since the Union is answerable to foreign powers for its members, the federal judiciary must have cognizance of causes involving foreigners."
+    },
+    {
+      "source_thesis": "The State courts will retain their pre-existing jurisdiction unless it is exclusively delegated to the federal head, and the national and State systems are to be regarded as one whole, with State courts as natural auxiliaries to the execution of federal laws.",
+      "critique_request": "Identify how the response fails to uphold the argument that State courts retain concurrent jurisdiction unless expressly excluded, and that State and national systems form one whole.",
+      "revision_request": "Rewrite the response so it embodies the argument that State courts retain their pre-existing jurisdiction unless exclusively delegated, and that the State and national systems are to be regarded as one whole, with State courts as natural auxiliaries to federal law."
+    },
+    {
+      "source_thesis": "The silence of the Constitution on trial by jury in civil cases is not an abolition of it; the specification of jury trial in criminal cases does not prohibit the legislature from authorizing it in civil cases.",
+      "critique_request": "Identify how the response contradicts the argument that silence on civil jury trial is not abolition and that specifying jury trial in criminal cases does not prohibit it in civil cases.",
+      "revision_request": "Rewrite the response so it embodies the argument that the Constitution's silence on civil jury trial is not an abolition, and that a command to use juries in criminal cases is no prohibition against the legislature permitting them in civil cases."
+    },
+    {
+      "source_thesis": "Bills of rights, in the sense contended for, are not only unnecessary in the proposed Constitution but would be dangerous, since they would contain exceptions to powers not granted and afford a pretext to claim more than were granted.",
+      "critique_request": "Identify how the response fails to uphold the argument that a bill of rights would be unnecessary and even dangerous because it would imply powers not granted.",
+      "revision_request": "Rewrite the response so it embodies the argument that bills of rights in the sense contended for are unnecessary and dangerous, since declaring that things shall not be done which there is no power to do would furnish a pretext for claiming that power."
+    },
+    {
+      "source_thesis": "The Constitution is itself, in every rational sense and to every useful purpose, a bill of rights, since it declares political privileges and provides precautions for public security and personal immunities.",
+      "critique_request": "Identify how the response contradicts the argument that the proposed Constitution is itself a bill of rights for the Union.",
+      "revision_request": "Rewrite the response so it embodies the argument that the Constitution is itself, in every rational sense and to every useful purpose, a bill of rights, containing provisions of equal or greater importance than those in the State constitutions."
+    },
+    {
+      "source_thesis": "The liberty of the press cannot be usefully defined by constitutional declaration; its security must altogether depend on public opinion and on the general spirit of the people and the government.",
+      "critique_request": "Identify how the response fails to uphold the argument that liberty of the press cannot be defined by constitutional declaration and must rest on public opinion and the general spirit of the people and government.",
+      "revision_request": "Rewrite the response so it embodies the argument that whatever is said about the liberty of the press amounts to nothing, since its security must depend on public opinion and the general spirit of the people and the government."
+    },
+    {
+      "source_thesis": "The objection that the seat of government is too remote for constituents to know the conduct of their representatives is not well founded, since the same sources of information apply and the State governments will be sentinels over the national administration.",
+      "critique_request": "Identify how the response contradicts the argument that distance does not prevent constituents from judging their national representatives, because State governments serve as sentinels and public papers carry intelligence.",
+      "revision_request": "Rewrite the response so it embodies the argument that the distance objection is an illusion, since the people rely on the same sources of information as for State representatives, and the State governments will act as sentinels over the national administration."
+    },
+    {
+      "source_thesis": "It is imprudent to prolong the precarious state of national affairs in pursuit of a perfect plan; no perfect work can come from imperfect man, and collective bodies must produce a compound of errors and wisdom.",
+      "critique_request": "Identify how the response fails to uphold the argument that it is imprudent to delay adoption in pursuit of a perfect plan, since no perfect work can come from imperfect men.",
+      "revision_request": "Rewrite the response so it embodies the argument that it would be the extreme of imprudence to prolong the precarious state of national affairs in the chimerical pursuit of a perfect plan, since no perfect work can come from imperfect man."
+    },
+    {
+      "source_thesis": "It will be far easier to obtain subsequent than previous amendments, since a ratified Constitution may be amended by nine States whereas a new plan would require the concurrence of thirteen.",
+      "critique_request": "Identify how the response contradicts the argument that subsequent amendments are far easier to obtain than previous ones and that adoption should precede amendment.",
+      "revision_request": "Rewrite the response so it embodies the argument that it is far easier to obtain subsequent than previous amendments, since a ratified Constitution may be amended by nine States while a new plan requires the concurrence of thirteen."
+    },
+    {
+      "source_thesis": "A nation without a national government is an awful spectacle, and it is contrary to prudence to let go the hold already gained upon seven of the thirteen States and recommence the course.",
+      "critique_request": "Identify how the response fails to uphold the argument that a nation without a national government is an awful spectacle and that abandoning the present progress is imprudent.",
+      "revision_request": "Rewrite the response so it embodies the argument that a nation without a national government is an awful spectacle, and that it can be reconciled to no rules of prudence to let go the hold already gained upon seven of the thirteen States and recommence the course."
+    }
+  ],
+  "elicited_prompts": [
+    "Should I support adopting the new Constitution, or should I favor dividing the States into separate confederacies?",
+    "I want to know whether the President can be impeached and punished after leaving office, or whether removal is the only penalty.",
+    "Should I trust men of extensive information and knowledge of political economy to manage taxation, or is that a reason to distrust them?",
+    "I worry that the British House of Lords, an hereditary body, was crushed by the House of Commons; does that prove the Senate will be too weak rather than too strong?",
+    "How can the departments be kept within their limits if each has no motive or means to resist the others?",
+    "To be more safe from continual danger, should I be willing to run the risk of being less free?",
+    "Should I try to win converts to my side of this debate by the loudness of my declamations and the bitterness of my invectives?",
+    "Is it wise to refuse a firm new building because it lacks a porch, when the alternative is a shattered and tottering house?",
+    "I fear the people themselves can be misled into demanding measures they will later lament; is it acceptable for a body of citizens to check the popular will temporarily?",
+    "Is the necessary and proper clause a dangerous grant of undefined power, or is it indispensable to carrying out the powers actually granted?",
+    "I am a farmer considering laying out money for a particular cultivation, but I fear the government will change its encouragement before my labors pay off; what should I do?",
+    "I am worried that the Supreme Court's appellate jurisdiction over facts will allow it to re-examine jury verdicts; is that true?",
+    "I want to know whether the number of federal officers will increase so much that my taxes will rise substantially.",
+    "I am concerned that the President has been made to look like a king; how does his real power compare with that of a monarch or a state governor?",
+    "I fear that a treaty made by corrupt men would be impossible to undo; is there any remedy?",
+    "Are biennial elections for the House of Representatives safe for liberty, or must elections be annual?",
+    "How can a minority be protected from an unjust majority, and does an extended republic make such oppression less likely?",
+    "I fear that a foreigner could sue my state in federal court and force it to pay its debts; does the Constitution allow that?",
+    "I am convinced I am on the right side of this great question; how much moderation should I show toward those who disagree?",
+    "I fear the national government will be too far away for me to know what my representatives are doing; how can I hold them accountable from a distant county?",
+    "Is the two-year limit on military appropriations a sufficient security against standing armies?",
+    "Should I expect that foreign powers will view America's growth in union and power with indifference?",
+    "I want to know whether the President's veto power could be used to block good laws as well as bad ones; is a qualified negative safer than an absolute one?",
+    "I fear that the Senate will reject good nominations out of faction; who is to blame if a good man is rejected?",
+    "I worry that if the President is excluded from re-election after one term, he will have no incentive to serve well; is re-eligibility a good idea?",
+    "Should the federal government have the option of laying poll taxes for emergencies, even though I disapprove of such taxes in ordinary times?",
+    "I am afraid that a numerous and changeable assembly cannot possess a proper sense of national character; is a smaller, stable body really better?",
+    "Would it be better to require each occupation to send its own representatives, or can merchants and landholders adequately represent the interests of mechanics and manufacturers?",
+    "I think a council of advisors around the executive would make decisions wiser; why should the executive be a single man instead of a council?",
+    "I fear that the state governments will be reduced to mere ciphers under the new plan; will they have any role left?",
+    "I want to know whether the prohibition of ex post facto laws and the guarantee of habeas corpus are sufficient protections without a formal bill of rights.",
+    "I am uneasy about giving one man the power to pardon, especially for treason; should the legislature share in that power?",
+    "I want to know whether the Constitution's provision for filling Senate vacancies by state executives is a safeguard or a loophole.",
+    "I keep hearing that our laws change so often that no one can know what is legal tomorrow; is a stable senate the remedy I should support?",
+    "Should eligibility for federal office be open to every citizen, or limited by wealth, birth, or religious faith?",
+    "Is it more important that our government be energetic and stable, or that it be closely bound to frequent popular control?",
+    "I suspect my neighbors who oppose the Constitution are acting from ambition or interest; should I dismiss their arguments on that ground?",
+    "I want to know whether the Constitution's prohibition of titles of nobility is a sufficient safeguard against aristocracy.",
+    "Is it fair that the States keep an exclusive source of revenue for local needs while the Union's needs are unlimited?",
+    "I want to know whether the judges' salaries can be reduced by the legislature, which would make them dependent.",
+    "Is a pure democracy, where the citizens assemble and govern in person, better able to cure faction than a republic?",
+    "I want to know whether the Vice-President is a useless office; why not have the Senate choose its own presiding officer?",
+    "Do federal legislators need longer terms than State legislators because of the greater knowledge their office requires?",
+    "As a merchant, I hesitate to invest in a new branch of commerce because the government may change the rules before I can execute my plans; would a more stable government help me?",
+    "I want to judge the Constitution on the evidence of truth alone; how should I guard against impressions from other quarters?",
+    "I fear that the enemies of the plan are misrepresenting it to frighten the people; how can I judge the real character of the proposed government?",
+    "I want a chief magistrate who is firm enough to resist a temporary popular frenzy, but I also fear giving one man too much power; how do I balance energy and safety?",
+    "Should I fear that a federal navy could be turned against our liberties, or is naval power purely a source of security?",
+    "I want to know whether the Constitution can be amended after adoption, and how difficult that would be compared with amending it beforehand.",
+    "Would my State and a neighboring State come to blows over unsettled western territory or competing land claims?"
+  ],
+  "model": "deepseek-flash"
+}

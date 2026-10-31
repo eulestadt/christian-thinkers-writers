@@ -1,0 +1,1560 @@
+[2026-10-27T23:51:18Z] step0 select+fetch start
+[2026-10-27T23:51:23Z] step0 fetch 1/40 Q3090506 'Brother Lawrence'
+[2026-10-27T23:51:26Z] step0 fetch 2/40 Q8012011 'William Henry Griffith Thomas'
+[2026-10-27T23:51:30Z] step0 fetch 3/40 Q4018797 'Edward McKendree Bounds'
+[2026-10-27T23:51:33Z] step0 fetch 4/40 Q6547707 'Lilian Staveley'
+[2026-10-27T23:51:35Z] step0 fetch 5/40 Q60059 'Albertus Magnus'
+[2026-10-27T23:51:39Z] step0 fetch 6/40 Q5536061 'George Adam Smith'
+[2026-10-27T23:51:43Z] step0 fetch 7/40 Q4821449 'Augustus Hopkins Strong'
+[2026-10-27T23:51:47Z] step0 fetch 8/40 Q44281 'Ignatius of Loyola'
+[2026-10-27T23:51:49Z] step0 fetch 9/40 Q6518053 'Legh Richmond'
+[2026-10-27T23:51:53Z] step0 fetch 10/40 Q231256 'Francis de Sales'
+[2026-10-27T23:51:57Z] step0 fetch 11/40 Q5481512 'Francis John McConnell'
+[2026-10-27T23:52:01Z] step0 fetch 12/40 Q2713471 'Rufus Jones'
+[2026-10-27T23:52:05Z] step0 fetch 13/40 Q560915 'Cynewulf'
+[2026-10-27T23:52:08Z] step0 fetch 14/40 Q4800431 'Arthur Tappan Pierson'
+[2026-10-27T23:52:12Z] step0 fetch 15/40 Q367745 'Francis Thompson'
+[2026-10-27T23:52:15Z] step0 fetch 16/40 Q7367226 'Rosalind Goforth'
+[2026-10-27T23:52:21Z] step0 fetch 17/40 Q1365446 'Joseph Bates'
+[2026-10-27T23:52:25Z] step0 fetch 18/40 Q431614 'Catherine Booth'
+[2026-10-27T23:52:29Z] step0 fetch 19/40 Q4209439 'Hastings Rashdall'
+[2026-10-27T23:52:32Z] step0 fetch 20/40 Q540244 'John Taylor'
+[2026-10-27T23:52:39Z] step0 fetch 21/40 Q4684528 'Adoniram Judson Gordon'
+[2026-10-27T23:52:44Z] step0 fetch 22/40 Q2895878 'Albert Benjamin Simpson'
+[2026-10-27T23:52:47Z] step0 fetch 23/40 Q235069 'Mary Baker Eddy'
+[2026-10-27T23:52:50Z] step0 fetch 24/40 Q3177480 'William Law'
+[2026-10-27T23:52:55Z] step0 fetch 25/40 Q41513 'William Blake'
+[2026-10-27T23:52:58Z] step0 fetch 26/40 Q236699 'Julian of Norwich'
+[2026-10-27T23:53:06Z] step0 fetch 27/40 Q336315 'William Temple'
+[2026-10-27T23:53:09Z] step0 fetch 28/40 Q470718 'Hudson Taylor'
+[2026-10-27T23:53:12Z] step0 fetch 29/40 Q273334 'Alphonsus Maria de Liguori'
+[2026-10-27T23:53:16Z] step0 fetch 30/40 Q5729746 'Henry Wace'
+[2026-10-27T23:53:21Z] step0 fetch 31/40 Q76911 'Kuno Meyer'
+[2026-10-27T23:53:23Z] step0 fetch 32/40 Q41505357 'Hannah T. King'
+[2026-10-27T23:53:27Z] step0 fetch 33/40 Q1700283 'John Gresham Machen'
+[2026-10-27T23:53:30Z] step0 fetch 34/40 Q1617267 'Alban Butler'
+[2026-10-27T23:53:34Z] step0 fetch 35/40 Q955187 'John Keble'
+[2026-10-27T23:53:40Z] step0 fetch 36/40 Q5365272 'Ellet J. Waggoner'
+[2026-10-27T23:53:43Z] step0 fetch 37/40 Q3624318 'Arthur Shearly Cripps'
+[2026-10-27T23:53:45Z] step0 fetch 38/40 Q982197 'Joseph F. Smith'
+[2026-10-27T23:53:49Z] step0 fetch 39/40 Q164699 'Adolf von Harnack'
+[2026-10-27T23:53:55Z] step0 fetch 40/40 Q366142 'Charles Gore'
+[2026-10-27T23:53:58Z] step0 done books_ok=40/40 manifest=/cursor/stores/self/cai-pipeline/data/corpus_manifest.json
+[2026-10-27T23:54:02Z] wrote coverage /cursor/stores/self/docs/cai-gemini-coverage.md
+[2026-10-27T23:54:18Z] using cached single model gemini-2.5-flash
+[2026-10-27T23:54:21Z] single Gemini model: gemini-2.5-flash
+[2026-10-27T23:54:22Z] step1 start n_books=40
+[2026-10-27T23:54:22Z] step1 extract Q3090506:chunk1/1 chars=59158
+[2026-10-27T23:54:49Z] step1 1/40 Q3090506 principles=20 prompts=50
+[2026-10-27T23:54:52Z] wrote coverage /cursor/stores/self/docs/cai-gemini-coverage.md
+[2026-10-27T23:54:53Z] step1 extract Q8012011:chunk1/2 chars=99397
+[2026-10-27T23:55:15Z] step1 extract Q8012011:chunk2/2 chars=24808
+[2026-10-27T23:55:35Z] step1 2/40 Q8012011 principles=30 prompts=50
+[2026-10-27T23:55:40Z] wrote coverage /cursor/stores/self/docs/cai-gemini-coverage.md
+[2026-10-27T23:55:41Z] step1 extract Q4018797:chunk1/2 chars=99616
+[2026-10-27T23:56:21Z] API_ERROR step=step1 model=gemini-2.5-flash ref=Q4018797:chunk1/2 type=ValueError msg=truncated_unparseable finish=FinishReason.MAX_TOKENS
+[2026-10-27T23:57:01Z] API_ERROR step=step1 model=gemini-2.5-flash ref=Q4018797:chunk1/2 type=ValueError msg=truncated_unparseable finish=FinishReason.MAX_TOKENS
+[2026-10-27T23:57:09Z] using cached single model gemini-2.5-flash
+[2026-10-27T23:57:12Z] single Gemini model: gemini-2.5-flash
+[2026-10-27T23:57:13Z] step1 start n_books=40
+[2026-10-27T23:57:13Z] step1 1/40 Q3090506 already extracted
+[2026-10-27T23:57:14Z] step1 2/40 Q8012011 already extracted
+[2026-10-27T23:57:14Z] step1 extract Q4018797:chunk1/2 chars=99616
+[2026-10-27T23:58:21Z] step1 extract Q4018797:chunk2/2 chars=21501
+[2026-10-27T23:59:03Z] step1 3/40 Q4018797 principles=83 prompts=50
+[2026-10-27T23:59:07Z] wrote coverage /cursor/stores/self/docs/cai-gemini-coverage.md
+[2026-10-27T23:59:08Z] step1 extract Q6547707:chunk1/2 chars=99649
+[2026-10-27T23:59:29Z] step1 extract Q6547707:chunk2/2 chars=17271
+[2026-10-28T00:00:07Z] API_ERROR step=step1 model=gemini-2.5-flash ref=Q6547707:chunk2/2 type=ServerError msg=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-10-28T00:00:18Z] API_ERROR step=step1 model=gemini-2.5-flash ref=Q6547707:chunk2/2 type=ServerError msg=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-10-28T00:04:00Z] API_ERROR step=step1 model=gemini-2.5-flash ref=Q6547707:chunk2/2 type=ServerError msg=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-10-28T00:04:36Z] API_ERROR step=step1 model=gemini-2.5-flash ref=Q6547707:chunk2/2 type=ServerError msg=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-10-28T00:05:13Z] API_ERROR step=step1 model=gemini-2.5-flash ref=Q6547707:chunk2/2 type=ServerError msg=503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+[2026-10-28T00:06:24Z] step1 4/40 Q6547707 principles=42 prompts=50
+[2026-10-28T00:06:30Z] wrote coverage /cursor/stores/self/docs/cai-gemini-coverage.md
+[2026-10-28T00:06:31Z] step1 extract Q60059:chunk1/1 chars=77083
+[2026-10-28T00:06:33Z] API_ERROR step=step1 model=gemini-2.5-flash ref=Q60059:chunk1/1 type=ClientError msg=429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.
+[2026-10-28T00:06:33Z] quota/backoff 900s model=gemini-2.5-flash ref=Q60059:chunk1/1
+[2026-10-28T00:14:57Z] wiped LLM rows; kept books fetch; model tag deepseek-flash
+[2026-10-28T00:15:06Z] wrote coverage /cursor/stores/self/docs/cai-gemini-coverage.md
+[2026-10-28T00:23:52Z] single LLM model: deepseek-flash base=https://api.deepseek.com thinking=disabled peak_now=False next_peak=2026-10-28T01:00:00+00:00
+[2026-10-28T00:24:16Z] runner start model=deepseek-flash peak_now=False next_peak=2026-10-28 01:00:00+00:00 next_offpeak=2026-10-28 00:24:16.708966+00:00
+[2026-10-28T00:24:16Z] ===== 00_select_and_fetch.py =====
+[2026-10-28T00:24:19Z] step0 select+fetch start
+[2026-10-28T00:24:25Z] step0 skip 1/40 Q3090506 already fetched n=59158
+[2026-10-28T00:24:26Z] step0 skip 2/40 Q8012011 already fetched n=124211
+[2026-10-28T00:24:27Z] step0 skip 3/40 Q4018797 already fetched n=121851
+[2026-10-28T00:24:28Z] step0 skip 4/40 Q6547707 already fetched n=116922
+[2026-10-28T00:24:29Z] step0 skip 5/40 Q60059 already fetched n=77083
+[2026-10-28T00:24:30Z] step0 skip 6/40 Q5536061 already fetched n=83233
+[2026-10-28T00:24:31Z] step0 skip 7/40 Q4821449 already fetched n=1810485
+[2026-10-28T00:24:32Z] step0 skip 8/40 Q44281 already fetched n=339036
+[2026-10-28T00:24:33Z] step0 skip 9/40 Q6518053 already fetched n=145450
+[2026-10-28T00:24:34Z] step0 skip 10/40 Q231256 already fetched n=109050
+[2026-10-28T00:24:35Z] step0 skip 11/40 Q5481512 already fetched n=148330
+[2026-10-28T00:24:36Z] step0 skip 12/40 Q2713471 already fetched n=88221
+[2026-10-28T00:24:36Z] step0 skip 13/40 Q560915 already fetched n=65396
+[2026-10-28T00:24:37Z] step0 skip 14/40 Q4800431 already fetched n=773650
+[2026-10-28T00:24:38Z] step0 skip 15/40 Q367745 already fetched n=49664
+[2026-10-28T00:24:39Z] step0 skip 16/40 Q7367226 already fetched n=178786
+[2026-10-28T00:24:40Z] step0 skip 17/40 Q1365446 already fetched n=89832
+[2026-10-28T00:24:41Z] step0 skip 18/40 Q431614 already fetched n=249192
+[2026-10-28T00:24:42Z] step0 skip 19/40 Q4209439 already fetched n=288063
+[2026-10-28T00:24:43Z] step0 skip 20/40 Q540244 already fetched n=278219
+[2026-10-28T00:24:43Z] step0 skip 21/40 Q4684528 already fetched n=329011
+[2026-10-28T00:24:45Z] step0 skip 22/40 Q2895878 already fetched n=415543
+[2026-10-28T00:24:46Z] step0 skip 23/40 Q235069 already fetched n=1329575
+[2026-10-28T00:24:48Z] step0 skip 24/40 Q3177480 already fetched n=207168
+[2026-10-28T00:24:49Z] step0 skip 25/40 Q41513 already fetched n=31274
+[2026-10-28T00:24:50Z] step0 skip 26/40 Q236699 already fetched n=446686
+[2026-10-28T00:24:51Z] step0 skip 27/40 Q336315 already fetched n=238687
+[2026-10-28T00:24:52Z] step0 skip 28/40 Q470718 already fetched n=237614
+[2026-10-28T00:24:53Z] step0 skip 29/40 Q273334 already fetched n=1189971
+[2026-10-28T00:24:54Z] step0 skip 30/40 Q5729746 already fetched n=277049
+[2026-10-28T00:24:54Z] step0 skip 31/40 Q76911 already fetched n=109327
+[2026-10-28T00:24:55Z] step0 skip 32/40 Q41505357 already fetched n=1331794
+[2026-10-28T00:24:56Z] step0 skip 33/40 Q1700283 already fetched n=659116
+[2026-10-28T00:24:57Z] step0 skip 34/40 Q1617267 already fetched n=2739536
+[2026-10-28T00:24:57Z] step0 skip 35/40 Q955187 already fetched n=299044
+[2026-10-28T00:24:58Z] step0 skip 36/40 Q5365272 already fetched n=423652
+[2026-10-28T00:24:59Z] step0 skip 37/40 Q3624318 already fetched n=35343
+[2026-10-28T00:25:00Z] step0 skip 38/40 Q982197 already fetched n=1375409
+[2026-10-28T00:25:01Z] step0 skip 39/40 Q164699 already fetched n=984129
+[2026-10-28T00:25:03Z] step0 skip 40/40 Q366142 already fetched n=1255521
+[2026-10-28T00:25:04Z] step0 done books_ok=40/40 manifest=/cursor/stores/self/cai-pipeline/data/corpus_manifest.json
+[2026-10-28T00:25:09Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:25:09Z] ===== 01_extract_constitution.py =====
+[2026-10-28T00:25:18Z] single LLM model: deepseek-flash base=https://api.deepseek.com thinking=disabled peak_now=False next_peak=2026-10-28T01:00:00+00:00
+[2026-10-28T00:25:19Z] step1 start n_books=40
+[2026-10-28T00:25:30Z] step1 extracting 40 books workers=4
+[2026-10-28T00:25:31Z] step1 extract Q3090506:chunk1/1 chars=59158
+[2026-10-28T00:25:31Z] step1 extract Q4018797:chunk1/1 chars=121119
+[2026-10-28T00:25:31Z] step1 extract Q8012011:chunk1/1 chars=124207
+[2026-10-28T00:25:31Z] step1 extract Q6547707:chunk1/1 chars=116922
+[2026-10-28T00:26:24Z] step1 2/40 Q8012011 principles=51 prompts=49
+[2026-10-28T00:26:25Z] step1 extract Q60059:chunk1/1 chars=77083
+[2026-10-28T00:26:30Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:26:49Z] API_ERROR step=step1 model=deepseek-flash ref=Q3090506:chunk1/1 type=JSONDecodeError msg=Unterminated string starting at: line 1 column 78773 (char 78772)
+[2026-10-28T00:27:05Z] API_ERROR step=step1 model=deepseek-flash ref=Q4018797:chunk1/1 type=JSONDecodeError msg=Unterminated string starting at: line 1 column 80016 (char 80015)
+[2026-10-28T00:27:10Z] step1 4/40 Q6547707 principles=108 prompts=50
+[2026-10-28T00:27:10Z] step1 extract Q5536061:chunk1/1 chars=83226
+[2026-10-28T00:27:17Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:27:40Z] step1 5/40 Q60059 principles=56 prompts=50
+[2026-10-28T00:27:45Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:27:57Z] step1 6/40 Q5536061 principles=24 prompts=50
+[2026-10-28T00:27:57Z] step1 extract Q44281:chunk1/1 chars=336806
+[2026-10-28T00:28:06Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:28:07Z] step1 1/40 Q3090506 principles=98 prompts=50
+[2026-10-28T00:28:08Z] step1 extract Q6518053:chunk1/1 chars=145450
+[2026-10-28T00:28:14Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:28:37Z] API_ERROR step=step1 model=deepseek-flash ref=Q4018797:chunk1/1 type=JSONDecodeError msg=Unterminated string starting at: line 1 column 79344 (char 79343)
+[2026-10-28T00:28:46Z] step1 9/40 Q6518053 principles=21 prompts=50
+[2026-10-28T00:28:46Z] step1 extract Q231256:chunk1/1 chars=108867
+[2026-10-28T00:28:51Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:29:02Z] API_ERROR step=step1 model=deepseek-flash ref=Q44281:chunk1/1 type=APIConnectionError msg=Connection error.
+[2026-10-28T00:29:09Z] API_ERROR step=step1 model=deepseek-flash ref=Q4821449:chunk1/5 type=JSONDecodeError msg=Unterminated string starting at: line 1 column 83041 (char 83040)
+[2026-10-28T00:29:33Z] step1 3/40 Q4018797 principles=56 prompts=49
+[2026-10-28T00:29:34Z] step1 extract Q5481512:chunk1/1 chars=148329
+[2026-10-28T00:29:39Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:29:49Z] step1 extract Q4821449:chunk2/5 chars=399930
+[2026-10-28T00:30:09Z] step1 8/40 Q44281 principles=58 prompts=50
+[2026-10-28T00:30:09Z] step1 extract Q2713471:chunk1/1 chars=87584
+[2026-10-28T00:30:11Z] step1 extract Q560915:chunk1/1 chars=65393
+[2026-10-28T00:30:21Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:30:29Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:30:47Z] step1 13/40 Q560915 principles=21 prompts=49
+[2026-10-28T00:30:48Z] step1 extract Q4800431:chunk1/2 chars=399930
+[2026-10-28T00:30:53Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:30:56Z] step1 extract Q4821449:chunk3/5 chars=399457
+[2026-10-28T00:31:45Z] API_ERROR step=step1 model=deepseek-flash ref=Q2713471:chunk1/1 type=JSONDecodeError msg=Unterminated string starting at: line 1 column 80287 (char 80286)
+[2026-10-28T00:32:05Z] API_ERROR step=step1 model=deepseek-flash ref=Q231256:chunk1/1 type=JSONDecodeError msg=Unterminated string starting at: line 1 column 73686 (char 73685)
+[2026-10-28T00:32:13Z] step1 extract Q4800431:chunk2/2 chars=373718
+[2026-10-28T00:32:36Z] API_ERROR step=step1 model=deepseek-flash ref=Q4821449:chunk3/5 type=JSONDecodeError msg=Unterminated string starting at: line 1 column 84763 (char 84762)
+[2026-10-28T00:32:50Z] step1 12/40 Q2713471 principles=55 prompts=50
+[2026-10-28T00:32:51Z] step1 extract Q367745:chunk1/1 chars=49649
+[2026-10-28T00:32:59Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:33:08Z] step1 extract Q4821449:chunk4/5 chars=398264
+[2026-10-28T00:33:12Z] step1 14/40 Q4800431 principles=102 prompts=50
+[2026-10-28T00:33:12Z] step1 extract Q7367226:chunk1/1 chars=178786
+[2026-10-28T00:33:17Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:33:28Z] step1 15/40 Q367745 principles=22 prompts=49
+[2026-10-28T00:33:28Z] step1 extract Q1365446:chunk1/1 chars=89831
+[2026-10-28T00:33:33Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:33:47Z] API_ERROR step=step1 model=deepseek-flash ref=Q231256:chunk1/1 type=JSONDecodeError msg=Expecting value: line 1 column 73540 (char 73539)
+[2026-10-28T00:33:53Z] API_ERROR step=step1 model=deepseek-flash ref=Q7367226:chunk1/1 type=JSONDecodeError msg=Extra data: line 1 column 460 (char 459)
+[2026-10-28T00:34:15Z] runner start model=deepseek-flash peak_now=False next_peak=2026-10-28 01:00:00+00:00 next_offpeak=2026-10-28 00:34:15.485020+00:00
+[2026-10-28T00:34:15Z] ===== 00_select_and_fetch.py =====
+[2026-10-28T00:34:18Z] step0 select+fetch start
+[2026-10-28T00:34:24Z] step0 skip 1/40 Q3090506 already fetched n=59158
+[2026-10-28T00:34:25Z] step0 skip 2/40 Q8012011 already fetched n=124211
+[2026-10-28T00:34:27Z] step0 skip 3/40 Q4018797 already fetched n=121851
+[2026-10-28T00:34:28Z] step0 skip 4/40 Q6547707 already fetched n=116922
+[2026-10-28T00:34:29Z] step0 skip 5/40 Q60059 already fetched n=77083
+[2026-10-28T00:34:30Z] step0 skip 6/40 Q5536061 already fetched n=83233
+[2026-10-28T00:34:31Z] step0 skip 7/40 Q4821449 already fetched n=1810485
+[2026-10-28T00:34:32Z] step0 skip 8/40 Q44281 already fetched n=339036
+[2026-10-28T00:34:33Z] step0 skip 9/40 Q6518053 already fetched n=145450
+[2026-10-28T00:34:35Z] step0 skip 10/40 Q231256 already fetched n=109050
+[2026-10-28T00:34:36Z] step0 skip 11/40 Q5481512 already fetched n=148330
+[2026-10-28T00:34:37Z] step0 skip 12/40 Q2713471 already fetched n=88221
+[2026-10-28T00:34:38Z] step0 skip 13/40 Q560915 already fetched n=65396
+[2026-10-28T00:34:39Z] step0 skip 14/40 Q4800431 already fetched n=773650
+[2026-10-28T00:34:41Z] step0 skip 15/40 Q367745 already fetched n=49664
+[2026-10-28T00:34:42Z] step0 skip 16/40 Q7367226 already fetched n=178786
+[2026-10-28T00:34:42Z] step0 skip 17/40 Q1365446 already fetched n=89832
+[2026-10-28T00:34:43Z] step0 skip 18/40 Q431614 already fetched n=249192
+[2026-10-28T00:34:44Z] step0 skip 19/40 Q4209439 already fetched n=288063
+[2026-10-28T00:34:45Z] step0 skip 20/40 Q540244 already fetched n=278219
+[2026-10-28T00:34:46Z] step0 skip 21/40 Q4684528 already fetched n=329011
+[2026-10-28T00:34:48Z] step0 skip 22/40 Q2895878 already fetched n=415543
+[2026-10-28T00:34:49Z] step0 skip 23/40 Q235069 already fetched n=1329575
+[2026-10-28T00:34:50Z] step0 skip 24/40 Q3177480 already fetched n=207168
+[2026-10-28T00:34:51Z] step0 skip 25/40 Q41513 already fetched n=31274
+[2026-10-28T00:34:52Z] step0 skip 26/40 Q236699 already fetched n=446686
+[2026-10-28T00:34:53Z] step0 skip 27/40 Q336315 already fetched n=238687
+[2026-10-28T00:34:54Z] step0 skip 28/40 Q470718 already fetched n=237614
+[2026-10-28T00:34:57Z] step0 skip 29/40 Q273334 already fetched n=1189971
+[2026-10-28T00:34:58Z] step0 skip 30/40 Q5729746 already fetched n=277049
+[2026-10-28T00:34:59Z] step0 skip 31/40 Q76911 already fetched n=109327
+[2026-10-28T00:35:00Z] step0 skip 32/40 Q41505357 already fetched n=1331794
+[2026-10-28T00:35:01Z] step0 skip 33/40 Q1700283 already fetched n=659116
+[2026-10-28T00:35:03Z] step0 skip 34/40 Q1617267 already fetched n=2739536
+[2026-10-28T00:35:04Z] step0 skip 35/40 Q955187 already fetched n=299044
+[2026-10-28T00:35:05Z] step0 skip 36/40 Q5365272 already fetched n=423652
+[2026-10-28T00:35:06Z] step0 skip 37/40 Q3624318 already fetched n=35343
+[2026-10-28T00:35:07Z] step0 skip 38/40 Q982197 already fetched n=1375409
+[2026-10-28T00:35:08Z] step0 skip 39/40 Q164699 already fetched n=984129
+[2026-10-28T00:35:09Z] step0 skip 40/40 Q366142 already fetched n=1255521
+[2026-10-28T00:35:10Z] step0 done books_ok=40/40 manifest=/cursor/stores/self/cai-pipeline/data/corpus_manifest.json
+[2026-10-28T00:35:16Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:35:18Z] ===== 01_extract_constitution.py =====
+[2026-10-28T00:35:27Z] single LLM model: deepseek-flash base=https://api.deepseek.com thinking=disabled peak_now=False next_peak=2026-10-28T01:00:00+00:00
+[2026-10-28T00:35:28Z] step1 start n_books=40
+[2026-10-28T00:35:28Z] step1 1/40 Q3090506 already extracted model=deepseek-flash
+[2026-10-28T00:35:29Z] step1 2/40 Q8012011 already extracted model=deepseek-flash
+[2026-10-28T00:35:30Z] step1 3/40 Q4018797 already extracted model=deepseek-flash
+[2026-10-28T00:35:31Z] step1 4/40 Q6547707 already extracted model=deepseek-flash
+[2026-10-28T00:35:31Z] step1 5/40 Q60059 already extracted model=deepseek-flash
+[2026-10-28T00:35:33Z] step1 6/40 Q5536061 already extracted model=deepseek-flash
+[2026-10-28T00:35:34Z] step1 8/40 Q44281 already extracted model=deepseek-flash
+[2026-10-28T00:35:35Z] step1 9/40 Q6518053 already extracted model=deepseek-flash
+[2026-10-28T00:35:36Z] step1 11/40 Q5481512 already extracted model=deepseek-flash
+[2026-10-28T00:35:37Z] step1 12/40 Q2713471 already extracted model=deepseek-flash
+[2026-10-28T00:35:37Z] step1 13/40 Q560915 already extracted model=deepseek-flash
+[2026-10-28T00:35:38Z] step1 14/40 Q4800431 already extracted model=deepseek-flash
+[2026-10-28T00:35:39Z] step1 15/40 Q367745 already extracted model=deepseek-flash
+[2026-10-28T00:35:47Z] step1 extracting 27 books workers=4
+[2026-10-28T00:35:48Z] step1 extract Q231256:chunk1/1 chars=108867
+[2026-10-28T00:35:48Z] step1 extract Q7367226:chunk1/1 chars=178786
+[2026-10-28T00:35:48Z] step1 extract Q1365446:chunk1/1 chars=89831
+[2026-10-28T00:35:48Z] step1 extract Q4821449:chunk1/5 chars=399716
+[2026-10-28T00:36:13Z] step1 16/40 Q7367226 principles=16 prompts=49
+[2026-10-28T00:36:13Z] step1 extract Q431614:chunk1/1 chars=249192
+[2026-10-28T00:36:18Z] step1 extract Q4821449:chunk2/5 chars=399930
+[2026-10-28T00:36:21Z] step1 17/40 Q1365446 principles=22 prompts=49
+[2026-10-28T00:36:22Z] step1 extract Q4209439:chunk1/1 chars=288063
+[2026-10-28T00:36:24Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:36:31Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:36:44Z] step1 18/40 Q431614 principles=18 prompts=50
+[2026-10-28T00:36:45Z] step1 extract Q540244:chunk1/1 chars=278219
+[2026-10-28T00:36:48Z] step1 19/40 Q4209439 principles=15 prompts=50
+[2026-10-28T00:36:49Z] step1 extract Q4684528:chunk1/1 chars=328989
+[2026-10-28T00:36:53Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:36:59Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:37:02Z] step1 extract Q4821449:chunk3/5 chars=399457
+[2026-10-28T00:37:15Z] step1 20/40 Q540244 principles=23 prompts=49
+[2026-10-28T00:37:16Z] step1 extract Q2895878:chunk1/2 chars=399848
+[2026-10-28T00:37:19Z] step1 21/40 Q4684528 principles=20 prompts=50
+[2026-10-28T00:37:20Z] step1 extract Q235069:chunk1/4 chars=399775
+[2026-10-28T00:37:23Z] step1 extract Q4821449:chunk4/5 chars=398264
+[2026-10-28T00:37:28Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:37:31Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:37:58Z] step1 extract Q4821449:chunk5/5 chars=181919
+[2026-10-28T00:38:04Z] step1 10/40 Q231256 principles=203 prompts=50
+[2026-10-28T00:38:05Z] step1 extract Q3177480:chunk1/1 chars=207168
+[2026-10-28T00:38:08Z] step1 extract Q235069:chunk2/4 chars=399684
+[2026-10-28T00:38:11Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:38:23Z] step1 7/40 Q4821449 principles=112 prompts=50
+[2026-10-28T00:38:24Z] step1 extract Q41513:chunk1/1 chars=30906
+[2026-10-28T00:38:28Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:38:50Z] step1 extract Q235069:chunk3/4 chars=399523
+[2026-10-28T00:38:57Z] step1 extract Q2895878:chunk2/2 chars=11161
+[2026-10-28T00:39:12Z] step1 25/40 Q41513 principles=50 prompts=50
+[2026-10-28T00:39:13Z] step1 extract Q236699:chunk1/2 chars=399847
+[2026-10-28T00:39:21Z] step1 22/40 Q2895878 principles=156 prompts=50
+[2026-10-28T00:39:22Z] step1 extract Q336315:chunk1/1 chars=238687
+[2026-10-28T00:39:23Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:39:27Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:39:30Z] step1 24/40 Q3177480 principles=69 prompts=50
+[2026-10-28T00:39:31Z] step1 extract Q470718:chunk1/1 chars=237574
+[2026-10-28T00:39:37Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:39:48Z] step1 extract Q236699:chunk2/2 chars=46829
+[2026-10-28T00:40:17Z] step1 28/40 Q470718 principles=52 prompts=50
+[2026-10-28T00:40:23Z] step1 extract Q235069:chunk4/4 chars=130587
+[2026-10-28T00:40:27Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:40:30Z] step1 26/40 Q236699 principles=61 prompts=50
+[2026-10-28T00:40:31Z] step1 extract Q5729746:chunk1/1 chars=275420
+[2026-10-28T00:40:36Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:40:46Z] step1 extract Q273334:chunk2/3 chars=399530
+[2026-10-28T00:40:50Z] step1 27/40 Q336315 principles=53 prompts=50
+[2026-10-28T00:40:51Z] step1 extract Q76911:chunk1/1 chars=109301
+[2026-10-28T00:40:52Z] step1 23/40 Q235069 principles=295 prompts=50
+[2026-10-28T00:40:53Z] step1 extract Q41505357:chunk1/4 chars=399401
+[2026-10-28T00:40:59Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:41:04Z] step1 30/40 Q5729746 principles=21 prompts=50
+[2026-10-28T00:41:05Z] step1 extract Q1700283:chunk1/2 chars=399868
+[2026-10-28T00:41:06Z] step1 extract Q273334:chunk3/3 chars=383707
+[2026-10-28T00:41:08Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:41:12Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:41:36Z] step1 extract Q1700283:chunk2/2 chars=259186
+[2026-10-28T00:41:48Z] step1 extract Q41505357:chunk2/4 chars=399882
+[2026-10-28T00:41:53Z] step1 29/40 Q273334 principles=73 prompts=50
+[2026-10-28T00:41:54Z] step1 extract Q1617267:chunk1/7 chars=398991
+[2026-10-28T00:41:58Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:42:02Z] step1 31/40 Q76911 principles=83 prompts=50
+[2026-10-28T00:42:03Z] step1 extract Q955187:chunk1/1 chars=295444
+[2026-10-28T00:42:08Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:42:15Z] step1 33/40 Q1700283 principles=62 prompts=50
+[2026-10-28T00:42:17Z] step1 extract Q5365272:chunk1/2 chars=399570
+[2026-10-28T00:42:18Z] step1 extract Q1617267:chunk2/7 chars=398248
+[2026-10-28T00:42:24Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:42:51Z] API_ERROR step=step1 model=deepseek-flash ref=Q5365272:chunk1/2 type=JSONDecodeError msg=Extra data: line 1 column 460 (char 459)
+[2026-10-28T00:42:52Z] step1 extract Q1617267:chunk3/7 chars=399145
+[2026-10-28T00:43:15Z] step1 extract Q41505357:chunk3/4 chars=399929
+[2026-10-28T00:43:25Z] step1 extract Q5365272:chunk2/2 chars=17486
+[2026-10-28T00:43:40Z] step1 36/40 Q5365272 principles=35 prompts=50
+[2026-10-28T00:43:47Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:44:14Z] step1 extract Q41505357:chunk4/4 chars=132576
+[2026-10-28T00:44:18Z] API_ERROR step=step1 model=deepseek-flash ref=Q3624318:chunk1/1 type=JSONDecodeError msg=Extra data: line 1 column 499 (char 498)
+[2026-10-28T00:44:21Z] step1 extract Q1617267:chunk4/7 chars=398327
+[2026-10-28T00:44:35Z] step1 35/40 Q955187 principles=161 prompts=49
+[2026-10-28T00:44:40Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:44:44Z] step1 extract Q1617267:chunk5/7 chars=399945
+[2026-10-28T00:44:49Z] step1 extract Q164699:chunk1/3 chars=398544
+[2026-10-28T00:44:57Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:45:02Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:45:23Z] step1 extract Q164699:chunk2/3 chars=399426
+[2026-10-28T00:45:26Z] step1 extract Q982197:chunk2/4 chars=399951
+[2026-10-28T00:45:27Z] step1 extract Q366142:chunk2/4 chars=398604
+[2026-10-28T00:45:45Z] step1 extract Q1617267:chunk6/7 chars=399873
+[2026-10-28T00:45:53Z] API_ERROR step=step1 model=deepseek-flash ref=Q164699:chunk2/3 type=JSONDecodeError msg=Extra data: line 1 column 499 (char 498)
+[2026-10-28T00:46:11Z] step1 extract Q1617267:chunk7/7 chars=344995
+[2026-10-28T00:46:21Z] step1 extract Q366142:chunk4/4 chars=56601
+[2026-10-28T00:46:25Z] step1 extract Q982197:chunk3/4 chars=398056
+[2026-10-28T00:46:29Z] step1 34/40 Q1617267 principles=207 prompts=50
+[2026-10-28T00:46:30Z] step1 extract Q164699:chunk3/3 chars=183549
+[2026-10-28T00:46:34Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:46:46Z] step1 40/40 Q366142 principles=85 prompts=50
+[2026-10-28T00:46:51Z] step1 extract Q982197:chunk4/4 chars=177828
+[2026-10-28T00:46:54Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:47:11Z] step1 39/40 Q164699 principles=69 prompts=50
+[2026-10-28T00:47:17Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:47:42Z] step1 38/40 Q982197 principles=186 prompts=50
+[2026-10-28T00:47:46Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:48:04Z] step1 done extracted=40 constitution=2756
+[2026-10-28T00:48:11Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:48:12Z] ===== 02_build_prompt_set.py =====
+[2026-10-28T00:52:23Z] runner start model=deepseek-flash peak_now=False next_peak=2026-10-28 01:00:00+00:00 next_offpeak=2026-10-28 00:52:23.120667+00:00
+[2026-10-28T00:52:23Z] ===== 00_select_and_fetch.py =====
+[2026-10-28T00:52:26Z] step0 select+fetch start
+[2026-10-28T00:52:30Z] step0 skip 1/40 Q3090506 already fetched n=59158
+[2026-10-28T00:52:31Z] step0 skip 2/40 Q8012011 already fetched n=124211
+[2026-10-28T00:52:32Z] step0 skip 3/40 Q4018797 already fetched n=121851
+[2026-10-28T00:52:34Z] step0 skip 4/40 Q6547707 already fetched n=116922
+[2026-10-28T00:52:36Z] step0 skip 5/40 Q60059 already fetched n=77083
+[2026-10-28T00:52:37Z] step0 skip 6/40 Q5536061 already fetched n=83233
+[2026-10-28T00:52:37Z] step0 skip 7/40 Q4821449 already fetched n=1810485
+[2026-10-28T00:52:38Z] step0 skip 8/40 Q44281 already fetched n=339036
+[2026-10-28T00:52:39Z] step0 skip 9/40 Q6518053 already fetched n=145450
+[2026-10-28T00:52:40Z] step0 skip 10/40 Q231256 already fetched n=109050
+[2026-10-28T00:52:40Z] step0 skip 11/40 Q5481512 already fetched n=148330
+[2026-10-28T00:52:41Z] step0 skip 12/40 Q2713471 already fetched n=88221
+[2026-10-28T00:52:42Z] step0 skip 13/40 Q560915 already fetched n=65396
+[2026-10-28T00:52:43Z] step0 skip 14/40 Q4800431 already fetched n=773650
+[2026-10-28T00:52:45Z] step0 skip 15/40 Q367745 already fetched n=49664
+[2026-10-28T00:52:46Z] step0 skip 16/40 Q7367226 already fetched n=178786
+[2026-10-28T00:52:47Z] step0 skip 17/40 Q1365446 already fetched n=89832
+[2026-10-28T00:52:48Z] step0 skip 18/40 Q431614 already fetched n=249192
+[2026-10-28T00:52:48Z] step0 skip 19/40 Q4209439 already fetched n=288063
+[2026-10-28T00:52:49Z] step0 skip 20/40 Q540244 already fetched n=278219
+[2026-10-28T00:52:50Z] step0 skip 21/40 Q4684528 already fetched n=329011
+[2026-10-28T00:52:51Z] step0 skip 22/40 Q2895878 already fetched n=415543
+[2026-10-28T00:52:51Z] step0 skip 23/40 Q235069 already fetched n=1329575
+[2026-10-28T00:52:52Z] step0 skip 24/40 Q3177480 already fetched n=207168
+[2026-10-28T00:52:53Z] step0 skip 25/40 Q41513 already fetched n=31274
+[2026-10-28T00:52:53Z] step0 skip 26/40 Q236699 already fetched n=446686
+[2026-10-28T00:52:54Z] step0 skip 27/40 Q336315 already fetched n=238687
+[2026-10-28T00:52:55Z] step0 skip 28/40 Q470718 already fetched n=237614
+[2026-10-28T00:52:55Z] step0 skip 29/40 Q273334 already fetched n=1189971
+[2026-10-28T00:52:56Z] step0 skip 30/40 Q5729746 already fetched n=277049
+[2026-10-28T00:52:57Z] step0 skip 31/40 Q76911 already fetched n=109327
+[2026-10-28T00:52:57Z] step0 skip 32/40 Q41505357 already fetched n=1331794
+[2026-10-28T00:52:58Z] step0 skip 33/40 Q1700283 already fetched n=659116
+[2026-10-28T00:52:59Z] step0 skip 34/40 Q1617267 already fetched n=2739536
+[2026-10-28T00:53:00Z] step0 skip 35/40 Q955187 already fetched n=299044
+[2026-10-28T00:53:01Z] step0 skip 36/40 Q5365272 already fetched n=423652
+[2026-10-28T00:53:02Z] step0 skip 37/40 Q3624318 already fetched n=35343
+[2026-10-28T00:53:03Z] step0 skip 38/40 Q982197 already fetched n=1375409
+[2026-10-28T00:53:04Z] step0 skip 39/40 Q164699 already fetched n=984129
+[2026-10-28T00:53:04Z] step0 skip 40/40 Q366142 already fetched n=1255521
+[2026-10-28T00:53:06Z] step0 done books_ok=40/40 manifest=/cursor/stores/self/cai-pipeline/data/corpus_manifest.json
+[2026-10-28T00:53:10Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:53:11Z] ===== 01_extract_constitution.py =====
+[2026-10-28T00:53:16Z] single LLM model: deepseek-flash base=https://api.deepseek.com thinking=disabled peak_now=False next_peak=2026-10-28T01:00:00+00:00
+[2026-10-28T00:53:16Z] step1 start n_books=40
+[2026-10-28T00:53:17Z] step1 1/40 Q3090506 already extracted model=deepseek-flash
+[2026-10-28T00:53:17Z] step1 2/40 Q8012011 already extracted model=deepseek-flash
+[2026-10-28T00:53:18Z] step1 3/40 Q4018797 already extracted model=deepseek-flash
+[2026-10-28T00:53:19Z] step1 4/40 Q6547707 already extracted model=deepseek-flash
+[2026-10-28T00:53:20Z] step1 5/40 Q60059 already extracted model=deepseek-flash
+[2026-10-28T00:53:20Z] step1 6/40 Q5536061 already extracted model=deepseek-flash
+[2026-10-28T00:53:22Z] step1 7/40 Q4821449 already extracted model=deepseek-flash
+[2026-10-28T00:53:22Z] step1 8/40 Q44281 already extracted model=deepseek-flash
+[2026-10-28T00:53:23Z] step1 9/40 Q6518053 already extracted model=deepseek-flash
+[2026-10-28T00:53:24Z] step1 10/40 Q231256 already extracted model=deepseek-flash
+[2026-10-28T00:53:25Z] step1 12/40 Q2713471 already extracted model=deepseek-flash
+[2026-10-28T00:53:27Z] step1 13/40 Q560915 already extracted model=deepseek-flash
+[2026-10-28T00:53:27Z] step1 14/40 Q4800431 already extracted model=deepseek-flash
+[2026-10-28T00:53:28Z] step1 15/40 Q367745 already extracted model=deepseek-flash
+[2026-10-28T00:53:29Z] step1 16/40 Q7367226 already extracted model=deepseek-flash
+[2026-10-28T00:53:29Z] step1 17/40 Q1365446 already extracted model=deepseek-flash
+[2026-10-28T00:53:31Z] step1 18/40 Q431614 already extracted model=deepseek-flash
+[2026-10-28T00:53:31Z] step1 19/40 Q4209439 already extracted model=deepseek-flash
+[2026-10-28T00:53:32Z] step1 20/40 Q540244 already extracted model=deepseek-flash
+[2026-10-28T00:53:32Z] step1 21/40 Q4684528 already extracted model=deepseek-flash
+[2026-10-28T00:53:33Z] step1 22/40 Q2895878 already extracted model=deepseek-flash
+[2026-10-28T00:53:34Z] step1 23/40 Q235069 already extracted model=deepseek-flash
+[2026-10-28T00:53:35Z] step1 24/40 Q3177480 already extracted model=deepseek-flash
+[2026-10-28T00:53:36Z] step1 25/40 Q41513 already extracted model=deepseek-flash
+[2026-10-28T00:53:36Z] step1 26/40 Q236699 already extracted model=deepseek-flash
+[2026-10-28T00:53:37Z] step1 27/40 Q336315 already extracted model=deepseek-flash
+[2026-10-28T00:53:39Z] step1 28/40 Q470718 already extracted model=deepseek-flash
+[2026-10-28T00:53:40Z] step1 29/40 Q273334 already extracted model=deepseek-flash
+[2026-10-28T00:53:40Z] step1 30/40 Q5729746 already extracted model=deepseek-flash
+[2026-10-28T00:53:41Z] step1 31/40 Q76911 already extracted model=deepseek-flash
+[2026-10-28T00:53:41Z] step1 32/40 Q41505357 already extracted model=deepseek-flash
+[2026-10-28T00:53:42Z] step1 33/40 Q1700283 already extracted model=deepseek-flash
+[2026-10-28T00:53:42Z] step1 34/40 Q1617267 already extracted model=deepseek-flash
+[2026-10-28T00:53:43Z] step1 35/40 Q955187 already extracted model=deepseek-flash
+[2026-10-28T00:53:44Z] step1 36/40 Q5365272 already extracted model=deepseek-flash
+[2026-10-28T00:53:44Z] step1 37/40 Q3624318 already extracted model=deepseek-flash
+[2026-10-28T00:53:45Z] step1 38/40 Q982197 already extracted model=deepseek-flash
+[2026-10-28T00:53:46Z] step1 39/40 Q164699 already extracted model=deepseek-flash
+[2026-10-28T00:53:46Z] step1 40/40 Q366142 already extracted model=deepseek-flash
+[2026-10-28T00:54:06Z] step1 done extracted=40 constitution=2756
+[2026-10-28T00:54:11Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:54:11Z] ===== 02_build_prompt_set.py =====
+[2026-10-28T00:54:21Z] step2 wrote 2500 prompts elicited=2000 ultrachat=500
+[2026-10-28T00:54:26Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:54:27Z] ===== 03_stage1_sl_cai.py =====
+[2026-10-28T00:54:37Z] single LLM model: deepseek-flash base=https://api.deepseek.com thinking=disabled peak_now=False next_peak=2026-10-28T01:00:00+00:00
+[2026-10-28T00:54:37Z] step3 constitution n=2756
+[2026-10-28T00:54:43Z] step3 pending=2500; sampling principles on main thread
+[2026-10-28T00:55:32Z] runner start model=deepseek-flash peak_now=False next_peak=2026-10-28 01:00:00+00:00 next_offpeak=2026-10-28 00:55:32.763655+00:00
+[2026-10-28T00:55:32Z] ===== 00_select_and_fetch.py =====
+[2026-10-28T00:55:35Z] step0 select+fetch start
+[2026-10-28T00:55:40Z] step0 skip 1/40 Q3090506 already fetched n=59158
+[2026-10-28T00:55:41Z] step0 skip 2/40 Q8012011 already fetched n=124211
+[2026-10-28T00:55:42Z] step0 skip 3/40 Q4018797 already fetched n=121851
+[2026-10-28T00:55:43Z] step0 skip 4/40 Q6547707 already fetched n=116922
+[2026-10-28T00:55:44Z] step0 skip 5/40 Q60059 already fetched n=77083
+[2026-10-28T00:55:45Z] step0 skip 6/40 Q5536061 already fetched n=83233
+[2026-10-28T00:55:46Z] step0 skip 7/40 Q4821449 already fetched n=1810485
+[2026-10-28T00:55:48Z] step0 skip 8/40 Q44281 already fetched n=339036
+[2026-10-28T00:55:49Z] step0 skip 9/40 Q6518053 already fetched n=145450
+[2026-10-28T00:55:50Z] step0 skip 10/40 Q231256 already fetched n=109050
+[2026-10-28T00:55:50Z] step0 skip 11/40 Q5481512 already fetched n=148330
+[2026-10-28T00:55:51Z] step0 skip 12/40 Q2713471 already fetched n=88221
+[2026-10-28T00:55:52Z] step0 skip 13/40 Q560915 already fetched n=65396
+[2026-10-28T00:55:53Z] step0 skip 14/40 Q4800431 already fetched n=773650
+[2026-10-28T00:55:55Z] step0 skip 15/40 Q367745 already fetched n=49664
+[2026-10-28T00:55:55Z] step0 skip 16/40 Q7367226 already fetched n=178786
+[2026-10-28T00:55:56Z] step0 skip 17/40 Q1365446 already fetched n=89832
+[2026-10-28T00:55:57Z] step0 skip 18/40 Q431614 already fetched n=249192
+[2026-10-28T00:55:58Z] step0 skip 19/40 Q4209439 already fetched n=288063
+[2026-10-28T00:55:59Z] step0 skip 20/40 Q540244 already fetched n=278219
+[2026-10-28T00:56:00Z] step0 skip 21/40 Q4684528 already fetched n=329011
+[2026-10-28T00:56:01Z] step0 skip 22/40 Q2895878 already fetched n=415543
+[2026-10-28T00:56:02Z] step0 skip 23/40 Q235069 already fetched n=1329575
+[2026-10-28T00:56:02Z] step0 skip 24/40 Q3177480 already fetched n=207168
+[2026-10-28T00:56:04Z] step0 skip 25/40 Q41513 already fetched n=31274
+[2026-10-28T00:56:04Z] step0 skip 26/40 Q236699 already fetched n=446686
+[2026-10-28T00:56:05Z] step0 skip 27/40 Q336315 already fetched n=238687
+[2026-10-28T00:56:06Z] step0 skip 28/40 Q470718 already fetched n=237614
+[2026-10-28T00:56:07Z] step0 skip 29/40 Q273334 already fetched n=1189971
+[2026-10-28T00:56:08Z] step0 skip 30/40 Q5729746 already fetched n=277049
+[2026-10-28T00:56:08Z] step0 skip 31/40 Q76911 already fetched n=109327
+[2026-10-28T00:56:09Z] step0 skip 32/40 Q41505357 already fetched n=1331794
+[2026-10-28T00:56:10Z] step0 skip 33/40 Q1700283 already fetched n=659116
+[2026-10-28T00:56:11Z] step0 skip 34/40 Q1617267 already fetched n=2739536
+[2026-10-28T00:56:12Z] step0 skip 35/40 Q955187 already fetched n=299044
+[2026-10-28T00:56:13Z] step0 skip 36/40 Q5365272 already fetched n=423652
+[2026-10-28T00:56:13Z] step0 skip 37/40 Q3624318 already fetched n=35343
+[2026-10-28T00:56:14Z] step0 skip 38/40 Q982197 already fetched n=1375409
+[2026-10-28T00:56:15Z] step0 skip 39/40 Q164699 already fetched n=984129
+[2026-10-28T00:56:16Z] step0 skip 40/40 Q366142 already fetched n=1255521
+[2026-10-28T00:56:18Z] step0 done books_ok=40/40 manifest=/cursor/stores/self/cai-pipeline/data/corpus_manifest.json
+[2026-10-28T00:56:24Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:56:24Z] ===== 01_extract_constitution.py =====
+[2026-10-28T00:56:31Z] single LLM model: deepseek-flash base=https://api.deepseek.com thinking=disabled peak_now=False next_peak=2026-10-28T01:00:00+00:00
+[2026-10-28T00:56:31Z] step1 start n_books=40
+[2026-10-28T00:56:32Z] step1 1/40 Q3090506 already extracted model=deepseek-flash
+[2026-10-28T00:56:33Z] step1 2/40 Q8012011 already extracted model=deepseek-flash
+[2026-10-28T00:56:33Z] step1 3/40 Q4018797 already extracted model=deepseek-flash
+[2026-10-28T00:56:34Z] step1 4/40 Q6547707 already extracted model=deepseek-flash
+[2026-10-28T00:56:34Z] step1 5/40 Q60059 already extracted model=deepseek-flash
+[2026-10-28T00:56:35Z] step1 6/40 Q5536061 already extracted model=deepseek-flash
+[2026-10-28T00:56:35Z] step1 7/40 Q4821449 already extracted model=deepseek-flash
+[2026-10-28T00:56:36Z] step1 8/40 Q44281 already extracted model=deepseek-flash
+[2026-10-28T00:56:36Z] step1 9/40 Q6518053 already extracted model=deepseek-flash
+[2026-10-28T00:56:37Z] step1 10/40 Q231256 already extracted model=deepseek-flash
+[2026-10-28T00:56:37Z] step1 11/40 Q5481512 already extracted model=deepseek-flash
+[2026-10-28T00:56:38Z] step1 12/40 Q2713471 already extracted model=deepseek-flash
+[2026-10-28T00:56:39Z] step1 13/40 Q560915 already extracted model=deepseek-flash
+[2026-10-28T00:56:40Z] step1 14/40 Q4800431 already extracted model=deepseek-flash
+[2026-10-28T00:56:41Z] step1 15/40 Q367745 already extracted model=deepseek-flash
+[2026-10-28T00:56:41Z] step1 16/40 Q7367226 already extracted model=deepseek-flash
+[2026-10-28T00:56:42Z] step1 17/40 Q1365446 already extracted model=deepseek-flash
+[2026-10-28T00:56:43Z] step1 18/40 Q431614 already extracted model=deepseek-flash
+[2026-10-28T00:56:43Z] step1 19/40 Q4209439 already extracted model=deepseek-flash
+[2026-10-28T00:56:44Z] step1 20/40 Q540244 already extracted model=deepseek-flash
+[2026-10-28T00:56:44Z] step1 21/40 Q4684528 already extracted model=deepseek-flash
+[2026-10-28T00:56:45Z] step1 22/40 Q2895878 already extracted model=deepseek-flash
+[2026-10-28T00:56:46Z] step1 23/40 Q235069 already extracted model=deepseek-flash
+[2026-10-28T00:56:46Z] step1 24/40 Q3177480 already extracted model=deepseek-flash
+[2026-10-28T00:56:46Z] step1 25/40 Q41513 already extracted model=deepseek-flash
+[2026-10-28T00:56:47Z] step1 26/40 Q236699 already extracted model=deepseek-flash
+[2026-10-28T00:56:48Z] step1 27/40 Q336315 already extracted model=deepseek-flash
+[2026-10-28T00:56:48Z] step1 28/40 Q470718 already extracted model=deepseek-flash
+[2026-10-28T00:56:49Z] step1 29/40 Q273334 already extracted model=deepseek-flash
+[2026-10-28T00:56:53Z] step1 30/40 Q5729746 already extracted model=deepseek-flash
+[2026-10-28T00:56:53Z] step1 31/40 Q76911 already extracted model=deepseek-flash
+[2026-10-28T00:56:54Z] step1 32/40 Q41505357 already extracted model=deepseek-flash
+[2026-10-28T00:56:54Z] step1 33/40 Q1700283 already extracted model=deepseek-flash
+[2026-10-28T00:56:55Z] step1 34/40 Q1617267 already extracted model=deepseek-flash
+[2026-10-28T00:56:55Z] step1 35/40 Q955187 already extracted model=deepseek-flash
+[2026-10-28T00:56:56Z] step1 36/40 Q5365272 already extracted model=deepseek-flash
+[2026-10-28T00:56:56Z] step1 37/40 Q3624318 already extracted model=deepseek-flash
+[2026-10-28T00:56:57Z] step1 38/40 Q982197 already extracted model=deepseek-flash
+[2026-10-28T00:56:57Z] step1 39/40 Q164699 already extracted model=deepseek-flash
+[2026-10-28T00:56:58Z] step1 40/40 Q366142 already extracted model=deepseek-flash
+[2026-10-28T00:56:58Z] step1 skip cluster extracted=40 constitution=2756
+[2026-10-28T00:57:04Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:57:04Z] ===== 02_build_prompt_set.py =====
+[2026-10-28T00:57:23Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T00:57:23Z] ===== 03_stage1_sl_cai.py =====
+[2026-10-28T00:57:30Z] single LLM model: deepseek-flash base=https://api.deepseek.com thinking=disabled peak_now=False next_peak=2026-10-28T01:00:00+00:00
+[2026-10-28T00:57:31Z] step3 constitution n=2756
+[2026-10-28T00:57:41Z] step3 pending=2500; sampling principles on main thread
+[2026-10-28T00:59:45Z] peak imminent in 15s; sleeping 10815s until 2026-10-28T04:00:00+00:00
+[2026-10-28T00:59:55Z] peak imminent in 4s; sleeping 10804s until 2026-10-28T04:00:00+00:00
+[2026-10-28T00:59:58Z] step3 batches 10/500 sl_ok=61
+[2026-10-28T01:00:26Z] peak window: sleeping 10774s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:00:30Z] peak window: sleeping 10769s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:00:35Z] peak window: sleeping 10764s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:00:37Z] peak window: sleeping 10763s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:00:43Z] peak window: sleeping 10757s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:00:46Z] peak window: sleeping 10754s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:00:51Z] peak window: sleeping 10749s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:00:54Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T01:01:00Z] peak window: sleeping 10740s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:01Z] peak window: sleeping 10738s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:06Z] peak window: sleeping 10734s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:07Z] peak window: sleeping 10732s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:14Z] peak window: sleeping 10726s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:16Z] peak window: sleeping 10723s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:16Z] peak window: sleeping 10723s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:21Z] peak window: sleeping 10718s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:30Z] peak window: sleeping 10709s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:31Z] peak window: sleeping 10708s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:36Z] peak window: sleeping 10703s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:38Z] peak window: sleeping 10702s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:44Z] peak window: sleeping 10695s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:46Z] peak window: sleeping 10693s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:47Z] peak window: sleeping 10693s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:01:51Z] peak window: sleeping 10688s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:01Z] peak window: sleeping 10679s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:02Z] peak window: sleeping 10678s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:06Z] peak window: sleeping 10673s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:08Z] peak window: sleeping 10672s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:14Z] peak window: sleeping 10665s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:17Z] peak window: sleeping 10663s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:17Z] peak window: sleeping 10662s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:22Z] peak window: sleeping 10658s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:31Z] peak window: sleeping 10649s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:32Z] peak window: sleeping 10648s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:37Z] peak window: sleeping 10643s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:38Z] peak window: sleeping 10641s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:45Z] peak window: sleeping 10635s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:47Z] peak window: sleeping 10632s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:47Z] peak window: sleeping 10632s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:02:52Z] peak window: sleeping 10627s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:01Z] peak window: sleeping 10618s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:02Z] peak window: sleeping 10617s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:07Z] peak window: sleeping 10612s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:08Z] peak window: sleeping 10611s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:15Z] peak window: sleeping 10605s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:17Z] peak window: sleeping 10602s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:18Z] peak window: sleeping 10602s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:22Z] peak window: sleeping 10597s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:31Z] peak window: sleeping 10588s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:33Z] peak window: sleeping 10587s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:37Z] peak window: sleeping 10582s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:39Z] peak window: sleeping 10580s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:45Z] peak window: sleeping 10574s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:48Z] peak window: sleeping 10572s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:48Z] peak window: sleeping 10571s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:03:53Z] peak window: sleeping 10567s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:02Z] peak window: sleeping 10558s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:03Z] peak window: sleeping 10557s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:08Z] peak window: sleeping 10552s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:10Z] peak window: sleeping 10550s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:16Z] peak window: sleeping 10544s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:18Z] peak window: sleeping 10541s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:18Z] peak window: sleeping 10541s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:23Z] peak window: sleeping 10537s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:32Z] peak window: sleeping 10527s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:33Z] peak window: sleeping 10526s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:38Z] peak window: sleeping 10522s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:40Z] peak window: sleeping 10520s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:46Z] peak window: sleeping 10514s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:49Z] peak window: sleeping 10511s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:49Z] peak window: sleeping 10511s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:04:53Z] peak window: sleeping 10506s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:03Z] peak window: sleeping 10497s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:03Z] peak window: sleeping 10496s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:08Z] peak window: sleeping 10491s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:10Z] peak window: sleeping 10489s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:16Z] peak window: sleeping 10483s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:19Z] peak window: sleeping 10481s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:19Z] peak window: sleeping 10480s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:23Z] peak window: sleeping 10476s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:33Z] peak window: sleeping 10466s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:34Z] peak window: sleeping 10466s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:38Z] peak window: sleeping 10461s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:40Z] peak window: sleeping 10459s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:47Z] peak window: sleeping 10453s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:49Z] peak window: sleeping 10450s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:49Z] peak window: sleeping 10450s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:05:54Z] peak window: sleeping 10446s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:03Z] peak window: sleeping 10436s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:04Z] peak window: sleeping 10435s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:09Z] peak window: sleeping 10431s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:11Z] peak window: sleeping 10429s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:17Z] peak window: sleeping 10422s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:19Z] peak window: sleeping 10420s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:20Z] peak window: sleeping 10420s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:24Z] peak window: sleeping 10416s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:34Z] peak window: sleeping 10406s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:35Z] peak window: sleeping 10405s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:39Z] peak window: sleeping 10401s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:41Z] peak window: sleeping 10398s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:47Z] peak window: sleeping 10392s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:50Z] peak window: sleeping 10390s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:50Z] peak window: sleeping 10389s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:06:54Z] peak window: sleeping 10385s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:04Z] peak window: sleeping 10375s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:05Z] peak window: sleeping 10375s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:09Z] peak window: sleeping 10370s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:11Z] peak window: sleeping 10368s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:18Z] peak window: sleeping 10361s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:20Z] peak window: sleeping 10359s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:21Z] peak window: sleeping 10359s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:25Z] peak window: sleeping 10355s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:34Z] peak window: sleeping 10345s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:35Z] peak window: sleeping 10344s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:39Z] peak window: sleeping 10340s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:42Z] peak window: sleeping 10338s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:49Z] peak window: sleeping 10331s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:51Z] peak window: sleeping 10329s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:51Z] peak window: sleeping 10328s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:07:55Z] peak window: sleeping 10324s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:05Z] peak window: sleeping 10314s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:06Z] peak window: sleeping 10314s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:10Z] peak window: sleeping 10310s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:13Z] peak window: sleeping 10306s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:19Z] peak window: sleeping 10301s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:21Z] peak window: sleeping 10299s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:21Z] peak window: sleeping 10298s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:25Z] peak window: sleeping 10294s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:35Z] peak window: sleeping 10284s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:36Z] peak window: sleeping 10284s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:40Z] peak window: sleeping 10279s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:44Z] peak window: sleeping 10276s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:49Z] peak window: sleeping 10270s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:51Z] peak window: sleeping 10268s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:52Z] peak window: sleeping 10268s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:08:56Z] peak window: sleeping 10264s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:06Z] peak window: sleeping 10254s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:06Z] peak window: sleeping 10253s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:10Z] peak window: sleeping 10249s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:14Z] peak window: sleeping 10246s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:20Z] peak window: sleeping 10240s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:21Z] peak window: sleeping 10238s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:22Z] peak window: sleeping 10237s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:26Z] peak window: sleeping 10234s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:36Z] peak window: sleeping 10223s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:37Z] peak window: sleeping 10223s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:41Z] peak window: sleeping 10219s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:44Z] peak window: sleeping 10215s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:50Z] peak window: sleeping 10210s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:52Z] peak window: sleeping 10208s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:52Z] peak window: sleeping 10207s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:09:56Z] peak window: sleeping 10203s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:07Z] peak window: sleeping 10193s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:07Z] peak window: sleeping 10193s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:11Z] peak window: sleeping 10189s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:15Z] peak window: sleeping 10185s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:20Z] peak window: sleeping 10179s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:22Z] peak window: sleeping 10178s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:23Z] peak window: sleeping 10177s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:27Z] peak window: sleeping 10173s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:37Z] peak window: sleeping 10163s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:37Z] peak window: sleeping 10162s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:41Z] peak window: sleeping 10158s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:45Z] peak window: sleeping 10155s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:51Z] peak window: sleeping 10149s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:52Z] peak window: sleeping 10147s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:53Z] peak window: sleeping 10146s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:10:57Z] peak window: sleeping 10143s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:07Z] peak window: sleeping 10132s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:08Z] peak window: sleeping 10132s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:11Z] peak window: sleeping 10128s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:15Z] peak window: sleeping 10124s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:21Z] peak window: sleeping 10119s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:23Z] peak window: sleeping 10117s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:24Z] peak window: sleeping 10116s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:27Z] peak window: sleeping 10112s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:38Z] peak window: sleeping 10102s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:38Z] peak window: sleeping 10102s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:42Z] peak window: sleeping 10098s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:45Z] peak window: sleeping 10094s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:51Z] peak window: sleeping 10088s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:53Z] peak window: sleeping 10087s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:54Z] peak window: sleeping 10086s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:11:57Z] peak window: sleeping 10082s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:08Z] peak window: sleeping 10072s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:08Z] peak window: sleeping 10071s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:13Z] peak window: sleeping 10067s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:16Z] peak window: sleeping 10064s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:22Z] peak window: sleeping 10058s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:23Z] peak window: sleeping 10056s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:24Z] peak window: sleeping 10055s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:28Z] peak window: sleeping 10052s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:38Z] peak window: sleeping 10041s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:39Z] peak window: sleeping 10041s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:43Z] peak window: sleeping 10037s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:46Z] peak window: sleeping 10034s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:52Z] peak window: sleeping 10028s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:54Z] peak window: sleeping 10026s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:54Z] peak window: sleeping 10025s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:12:59Z] peak window: sleeping 10021s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:09Z] peak window: sleeping 10011s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:09Z] peak window: sleeping 10011s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:14Z] peak window: sleeping 10006s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:17Z] peak window: sleeping 10003s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:22Z] peak window: sleeping 9997s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:24Z] peak window: sleeping 9995s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:25Z] peak window: sleeping 9995s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:29Z] peak window: sleeping 9990s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:39Z] peak window: sleeping 9981s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:39Z] peak window: sleeping 9980s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:44Z] peak window: sleeping 9976s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:47Z] peak window: sleeping 9973s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:52Z] peak window: sleeping 9967s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:54Z] peak window: sleeping 9965s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:55Z] peak window: sleeping 9965s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:13:59Z] peak window: sleeping 9960s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:09Z] peak window: sleeping 9950s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:10Z] peak window: sleeping 9950s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:14Z] peak window: sleeping 9945s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:17Z] peak window: sleeping 9942s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:23Z] peak window: sleeping 9937s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:25Z] peak window: sleeping 9935s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:25Z] peak window: sleeping 9934s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:30Z] peak window: sleeping 9930s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:40Z] peak window: sleeping 9920s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:40Z] peak window: sleeping 9920s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:44Z] peak window: sleeping 9915s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:47Z] peak window: sleeping 9912s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:53Z] peak window: sleeping 9906s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:55Z] peak window: sleeping 9905s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:14:56Z] peak window: sleeping 9904s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:00Z] peak window: sleeping 9900s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:10Z] peak window: sleeping 9890s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:10Z] peak window: sleeping 9889s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:15Z] peak window: sleeping 9885s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:18Z] peak window: sleeping 9882s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:24Z] peak window: sleeping 9876s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:25Z] peak window: sleeping 9874s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:26Z] peak window: sleeping 9874s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:30Z] peak window: sleeping 9869s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:40Z] peak window: sleeping 9859s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:41Z] peak window: sleeping 9859s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:45Z] peak window: sleeping 9855s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:48Z] peak window: sleeping 9852s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:54Z] peak window: sleeping 9845s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:57Z] peak window: sleeping 9842s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:15:58Z] peak window: sleeping 9842s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:01Z] peak window: sleeping 9839s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:11Z] peak window: sleeping 9829s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:11Z] peak window: sleeping 9828s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:15Z] peak window: sleeping 9824s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:18Z] peak window: sleeping 9821s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:24Z] peak window: sleeping 9815s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:28Z] peak window: sleeping 9812s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:28Z] peak window: sleeping 9812s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:31Z] peak window: sleeping 9809s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:41Z] peak window: sleeping 9799s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:41Z] peak window: sleeping 9798s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:46Z] peak window: sleeping 9794s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:49Z] peak window: sleeping 9791s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:55Z] peak window: sleeping 9785s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:58Z] peak window: sleeping 9781s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:16:58Z] peak window: sleeping 9781s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:01Z] peak window: sleeping 9778s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:11Z] peak window: sleeping 9768s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:12Z] peak window: sleeping 9768s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:16Z] peak window: sleeping 9764s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:19Z] peak window: sleeping 9760s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:25Z] peak window: sleeping 9754s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:28Z] peak window: sleeping 9751s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:29Z] peak window: sleeping 9751s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:32Z] peak window: sleeping 9748s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:42Z] peak window: sleeping 9738s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:42Z] peak window: sleeping 9737s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:46Z] peak window: sleeping 9733s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:49Z] peak window: sleeping 9730s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:55Z] peak window: sleeping 9724s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:59Z] peak window: sleeping 9721s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:17:59Z] peak window: sleeping 9720s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:02Z] peak window: sleeping 9718s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:12Z] peak window: sleeping 9708s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:12Z] peak window: sleeping 9707s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:16Z] peak window: sleeping 9703s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:20Z] peak window: sleeping 9700s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:26Z] peak window: sleeping 9694s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:29Z] peak window: sleeping 9690s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:30Z] peak window: sleeping 9690s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:32Z] peak window: sleeping 9687s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:42Z] peak window: sleeping 9677s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:43Z] peak window: sleeping 9677s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:47Z] peak window: sleeping 9673s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:50Z] peak window: sleeping 9670s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:18:56Z] peak window: sleeping 9664s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:00Z] peak window: sleeping 9660s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:00Z] peak window: sleeping 9659s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:03Z] peak window: sleeping 9657s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:13Z] peak window: sleeping 9647s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:13Z] peak window: sleeping 9647s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:17Z] peak window: sleeping 9642s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:20Z] peak window: sleeping 9639s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:26Z] peak window: sleeping 9633s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:31Z] peak window: sleeping 9629s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:31Z] peak window: sleeping 9629s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:33Z] peak window: sleeping 9626s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:43Z] peak window: sleeping 9616s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:43Z] peak window: sleeping 9616s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:48Z] peak window: sleeping 9611s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:51Z] peak window: sleeping 9609s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:19:57Z] peak window: sleeping 9603s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:01Z] peak window: sleeping 9599s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:01Z] peak window: sleeping 9598s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:04Z] peak window: sleeping 9596s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:13Z] peak window: sleeping 9586s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:14Z] peak window: sleeping 9586s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:19Z] peak window: sleeping 9581s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:21Z] peak window: sleeping 9579s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:27Z] peak window: sleeping 9573s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:32Z] peak window: sleeping 9568s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:32Z] peak window: sleeping 9568s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:34Z] peak window: sleeping 9565s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:44Z] peak window: sleeping 9556s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:44Z] peak window: sleeping 9555s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:49Z] peak window: sleeping 9551s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:51Z] peak window: sleeping 9548s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:20:57Z] peak window: sleeping 9542s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:02Z] peak window: sleeping 9538s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:02Z] peak window: sleeping 9537s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:04Z] peak window: sleeping 9535s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:14Z] peak window: sleeping 9525s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:15Z] peak window: sleeping 9525s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:19Z] peak window: sleeping 9520s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:22Z] peak window: sleeping 9518s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:28Z] peak window: sleeping 9512s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:32Z] peak window: sleeping 9507s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:33Z] peak window: sleeping 9507s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:35Z] peak window: sleeping 9505s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:44Z] peak window: sleeping 9495s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:45Z] peak window: sleeping 9495s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:49Z] peak window: sleeping 9490s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:52Z] peak window: sleeping 9488s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:21:58Z] peak window: sleeping 9482s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:03Z] peak window: sleeping 9476s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:03Z] peak window: sleeping 9476s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:05Z] peak window: sleeping 9475s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:15Z] peak window: sleeping 9464s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:15Z] peak window: sleeping 9464s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:20Z] peak window: sleeping 9460s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:22Z] peak window: sleeping 9457s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:28Z] peak window: sleeping 9451s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:33Z] peak window: sleeping 9446s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:34Z] peak window: sleeping 9446s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:35Z] peak window: sleeping 9444s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:46Z] peak window: sleeping 9434s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:46Z] peak window: sleeping 9434s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:50Z] peak window: sleeping 9430s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:52Z] peak window: sleeping 9427s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:22:59Z] peak window: sleeping 9421s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:04Z] peak window: sleeping 9416s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:04Z] peak window: sleeping 9415s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:06Z] peak window: sleeping 9414s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:16Z] peak window: sleeping 9404s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:16Z] peak window: sleeping 9403s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:21Z] peak window: sleeping 9399s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:23Z] peak window: sleeping 9397s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:29Z] peak window: sleeping 9391s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:34Z] peak window: sleeping 9385s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:35Z] peak window: sleeping 9385s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:36Z] peak window: sleeping 9384s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:46Z] peak window: sleeping 9373s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:47Z] peak window: sleeping 9373s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:51Z] peak window: sleeping 9368s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:53Z] peak window: sleeping 9366s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:23:59Z] peak window: sleeping 9360s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:04Z] peak window: sleeping 9355s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:05Z] peak window: sleeping 9354s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:06Z] peak window: sleeping 9353s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:17Z] peak window: sleeping 9343s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:17Z] peak window: sleeping 9343s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:21Z] peak window: sleeping 9338s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:23Z] peak window: sleeping 9336s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:29Z] peak window: sleeping 9330s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:36Z] peak window: sleeping 9324s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:36Z] peak window: sleeping 9324s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:37Z] peak window: sleeping 9323s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:47Z] peak window: sleeping 9313s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:47Z] peak window: sleeping 9312s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:52Z] peak window: sleeping 9308s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:24:54Z] peak window: sleeping 9306s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:00Z] peak window: sleeping 9300s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:06Z] peak window: sleeping 9293s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:06Z] peak window: sleeping 9293s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:07Z] peak window: sleeping 9292s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:17Z] peak window: sleeping 9282s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:18Z] peak window: sleeping 9282s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:23Z] peak window: sleeping 9277s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:24Z] peak window: sleeping 9275s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:30Z] peak window: sleeping 9269s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:36Z] peak window: sleeping 9263s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:37Z] peak window: sleeping 9263s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:37Z] peak window: sleeping 9262s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:47Z] peak window: sleeping 9252s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:49Z] peak window: sleeping 9251s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:53Z] peak window: sleeping 9247s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:25:54Z] peak window: sleeping 9245s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:00Z] peak window: sleeping 9239s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:07Z] peak window: sleeping 9233s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:07Z] peak window: sleeping 9233s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:08Z] peak window: sleeping 9232s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:18Z] peak window: sleeping 9222s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:19Z] peak window: sleeping 9220s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:23Z] peak window: sleeping 9216s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:25Z] peak window: sleeping 9215s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:31Z] peak window: sleeping 9209s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:37Z] peak window: sleeping 9203s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:37Z] peak window: sleeping 9202s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:38Z] peak window: sleeping 9201s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:48Z] peak window: sleeping 9191s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:50Z] peak window: sleeping 9190s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:54Z] peak window: sleeping 9186s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:26:55Z] peak window: sleeping 9184s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:01Z] peak window: sleeping 9178s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:07Z] peak window: sleeping 9172s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:08Z] peak window: sleeping 9172s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:08Z] peak window: sleeping 9171s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:19Z] peak window: sleeping 9161s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:20Z] peak window: sleeping 9160s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:24Z] peak window: sleeping 9156s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:26Z] peak window: sleeping 9154s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:31Z] peak window: sleeping 9148s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:38Z] peak window: sleeping 9142s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:39Z] peak window: sleeping 9141s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:39Z] peak window: sleeping 9141s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:49Z] peak window: sleeping 9131s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:50Z] peak window: sleeping 9129s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:54Z] peak window: sleeping 9125s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:27:56Z] peak window: sleeping 9124s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:02Z] peak window: sleeping 9118s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:08Z] peak window: sleeping 9111s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:09Z] peak window: sleeping 9111s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:09Z] peak window: sleeping 9110s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:19Z] peak window: sleeping 9100s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:21Z] peak window: sleeping 9099s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:25Z] peak window: sleeping 9095s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:26Z] peak window: sleeping 9093s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:32Z] peak window: sleeping 9087s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:38Z] peak window: sleeping 9081s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:39Z] peak window: sleeping 9080s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:40Z] peak window: sleeping 9080s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:49Z] peak window: sleeping 9070s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:51Z] peak window: sleeping 9069s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:55Z] peak window: sleeping 9065s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:28:57Z] peak window: sleeping 9063s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:02Z] peak window: sleeping 9057s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:09Z] peak window: sleeping 9051s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:09Z] peak window: sleeping 9050s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:10Z] peak window: sleeping 9050s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:20Z] peak window: sleeping 9040s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:21Z] peak window: sleeping 9038s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:25Z] peak window: sleeping 9034s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:27Z] peak window: sleeping 9033s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:33Z] peak window: sleeping 9027s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:39Z] peak window: sleeping 9020s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:40Z] peak window: sleeping 9019s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:41Z] peak window: sleeping 9019s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:50Z] peak window: sleeping 9009s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:52Z] peak window: sleeping 9008s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:55Z] peak window: sleeping 9004s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:29:57Z] peak window: sleeping 9002s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:03Z] peak window: sleeping 8997s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:09Z] peak window: sleeping 8990s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:11Z] peak window: sleeping 8989s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:11Z] peak window: sleeping 8989s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:20Z] peak window: sleeping 8979s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:22Z] peak window: sleeping 8978s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:26Z] peak window: sleeping 8974s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:28Z] peak window: sleeping 8972s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:33Z] peak window: sleeping 8966s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:40Z] peak window: sleeping 8959s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:41Z] peak window: sleeping 8959s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:41Z] peak window: sleeping 8958s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:51Z] peak window: sleeping 8948s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:52Z] peak window: sleeping 8947s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:56Z] peak window: sleeping 8943s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:30:58Z] peak window: sleeping 8942s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:04Z] peak window: sleeping 8936s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:11Z] peak window: sleeping 8929s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:11Z] peak window: sleeping 8928s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:12Z] peak window: sleeping 8928s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:21Z] peak window: sleeping 8918s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:23Z] peak window: sleeping 8917s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:26Z] peak window: sleeping 8913s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:28Z] peak window: sleeping 8911s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:34Z] peak window: sleeping 8906s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:42Z] peak window: sleeping 8897s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:43Z] peak window: sleeping 8897s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:43Z] peak window: sleeping 8896s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:52Z] peak window: sleeping 8888s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:53Z] peak window: sleeping 8887s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:57Z] peak window: sleeping 8883s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:31:59Z] peak window: sleeping 8881s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:04Z] peak window: sleeping 8875s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:13Z] peak window: sleeping 8867s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:13Z] peak window: sleeping 8866s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:13Z] peak window: sleeping 8866s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:22Z] peak window: sleeping 8858s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:24Z] peak window: sleeping 8856s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:27Z] peak window: sleeping 8853s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:29Z] peak window: sleeping 8851s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:34Z] peak window: sleeping 8845s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:43Z] peak window: sleeping 8836s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:43Z] peak window: sleeping 8836s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:44Z] peak window: sleeping 8836s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:52Z] peak window: sleeping 8827s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:54Z] peak window: sleeping 8825s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:58Z] peak window: sleeping 8822s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:32:59Z] peak window: sleeping 8820s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:05Z] peak window: sleeping 8815s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:14Z] peak window: sleeping 8806s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:14Z] peak window: sleeping 8805s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:14Z] peak window: sleeping 8805s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:22Z] peak window: sleeping 8797s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:25Z] peak window: sleeping 8795s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:28Z] peak window: sleeping 8792s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:29Z] peak window: sleeping 8790s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:35Z] peak window: sleeping 8784s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:44Z] peak window: sleeping 8775s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:45Z] peak window: sleeping 8774s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:45Z] peak window: sleeping 8774s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:53Z] peak window: sleeping 8767s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:55Z] peak window: sleeping 8765s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:33:59Z] peak window: sleeping 8761s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:00Z] peak window: sleeping 8760s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:05Z] peak window: sleeping 8754s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:14Z] peak window: sleeping 8745s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:15Z] peak window: sleeping 8744s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:16Z] peak window: sleeping 8744s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:23Z] peak window: sleeping 8736s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:25Z] peak window: sleeping 8734s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:29Z] peak window: sleeping 8731s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:30Z] peak window: sleeping 8729s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:36Z] peak window: sleeping 8724s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:45Z] peak window: sleeping 8715s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:46Z] peak window: sleeping 8714s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:46Z] peak window: sleeping 8713s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:54Z] peak window: sleeping 8706s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:34:55Z] peak window: sleeping 8704s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:00Z] peak window: sleeping 8699s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:00Z] peak window: sleeping 8699s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:06Z] peak window: sleeping 8693s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:15Z] peak window: sleeping 8684s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:16Z] peak window: sleeping 8684s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:16Z] peak window: sleeping 8683s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:24Z] peak window: sleeping 8675s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:26Z] peak window: sleeping 8674s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:30Z] peak window: sleeping 8669s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:31Z] peak window: sleeping 8669s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:37Z] peak window: sleeping 8663s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:45Z] peak window: sleeping 8654s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:46Z] peak window: sleeping 8653s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:47Z] peak window: sleeping 8653s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:54Z] peak window: sleeping 8645s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:35:56Z] peak window: sleeping 8643s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:01Z] peak window: sleeping 8639s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:01Z] peak window: sleeping 8638s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:07Z] peak window: sleeping 8633s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:16Z] peak window: sleeping 8624s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:17Z] peak window: sleeping 8623s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:17Z] peak window: sleeping 8623s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:26Z] peak window: sleeping 8614s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:26Z] peak window: sleeping 8613s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:31Z] peak window: sleeping 8608s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:32Z] peak window: sleeping 8608s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:37Z] peak window: sleeping 8602s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:46Z] peak window: sleeping 8594s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:47Z] peak window: sleeping 8592s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:47Z] peak window: sleeping 8592s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:56Z] peak window: sleeping 8584s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:36:57Z] peak window: sleeping 8583s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:01Z] peak window: sleeping 8578s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:03Z] peak window: sleeping 8576s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:08Z] peak window: sleeping 8572s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:16Z] peak window: sleeping 8563s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:18Z] peak window: sleeping 8562s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:18Z] peak window: sleeping 8562s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:26Z] peak window: sleeping 8553s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:27Z] peak window: sleeping 8552s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:32Z] peak window: sleeping 8548s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:33Z] peak window: sleeping 8546s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:38Z] peak window: sleeping 8542s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:47Z] peak window: sleeping 8532s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:48Z] peak window: sleeping 8532s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:48Z] peak window: sleeping 8531s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:57Z] peak window: sleeping 8523s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:37:57Z] peak window: sleeping 8522s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:02Z] peak window: sleeping 8518s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:04Z] peak window: sleeping 8516s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:08Z] peak window: sleeping 8511s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:18Z] peak window: sleeping 8502s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:19Z] peak window: sleeping 8500s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:19Z] peak window: sleeping 8500s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:27Z] peak window: sleeping 8493s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:28Z] peak window: sleeping 8492s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:32Z] peak window: sleeping 8487s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:34Z] peak window: sleeping 8486s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:38Z] peak window: sleeping 8481s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:48Z] peak window: sleeping 8472s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:49Z] peak window: sleeping 8470s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:50Z] peak window: sleeping 8470s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:57Z] peak window: sleeping 8462s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:38:58Z] peak window: sleeping 8461s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:02Z] peak window: sleeping 8457s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:04Z] peak window: sleeping 8455s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:09Z] peak window: sleeping 8451s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:18Z] peak window: sleeping 8441s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:20Z] peak window: sleeping 8440s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:20Z] peak window: sleeping 8439s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:28Z] peak window: sleeping 8432s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:28Z] peak window: sleeping 8431s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:33Z] peak window: sleeping 8427s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:34Z] peak window: sleeping 8425s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:39Z] peak window: sleeping 8420s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:49Z] peak window: sleeping 8411s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:50Z] peak window: sleeping 8409s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:50Z] peak window: sleeping 8409s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:59Z] peak window: sleeping 8401s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:39:59Z] peak window: sleeping 8400s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:03Z] peak window: sleeping 8396s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:05Z] peak window: sleeping 8395s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:10Z] peak window: sleeping 8390s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:19Z] peak window: sleeping 8381s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:20Z] peak window: sleeping 8379s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:21Z] peak window: sleeping 8379s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:29Z] peak window: sleeping 8371s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:30Z] peak window: sleeping 8370s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:33Z] peak window: sleeping 8366s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:35Z] peak window: sleeping 8364s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:40Z] peak window: sleeping 8360s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:49Z] peak window: sleeping 8350s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:51Z] peak window: sleeping 8349s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:51Z] peak window: sleeping 8348s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:40:59Z] peak window: sleeping 8340s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:00Z] peak window: sleeping 8340s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:04Z] peak window: sleeping 8336s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:06Z] peak window: sleeping 8334s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:10Z] peak window: sleeping 8329s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:20Z] peak window: sleeping 8319s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:21Z] peak window: sleeping 8318s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:22Z] peak window: sleeping 8318s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:30Z] peak window: sleeping 8309s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:31Z] peak window: sleeping 8309s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:34Z] peak window: sleeping 8305s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:36Z] peak window: sleeping 8303s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:40Z] peak window: sleeping 8299s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:50Z] peak window: sleeping 8289s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:51Z] peak window: sleeping 8288s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:41:52Z] peak window: sleeping 8288s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:00Z] peak window: sleeping 8279s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:01Z] peak window: sleeping 8279s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:04Z] peak window: sleeping 8275s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:06Z] peak window: sleeping 8273s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:11Z] peak window: sleeping 8269s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:21Z] peak window: sleeping 8259s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:22Z] peak window: sleeping 8258s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:22Z] peak window: sleeping 8257s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:31Z] peak window: sleeping 8249s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:31Z] peak window: sleeping 8248s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:35Z] peak window: sleeping 8245s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:37Z] peak window: sleeping 8243s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:41Z] peak window: sleeping 8238s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:51Z] peak window: sleeping 8228s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:52Z] peak window: sleeping 8228s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:42:53Z] peak window: sleeping 8227s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:01Z] peak window: sleeping 8218s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:01Z] peak window: sleeping 8218s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:05Z] peak window: sleeping 8215s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:07Z] peak window: sleeping 8213s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:11Z] peak window: sleeping 8208s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:22Z] peak window: sleeping 8198s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:22Z] peak window: sleeping 8197s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:23Z] peak window: sleeping 8196s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:31Z] peak window: sleeping 8188s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:33Z] peak window: sleeping 8187s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:35Z] peak window: sleeping 8184s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:37Z] peak window: sleeping 8182s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:42Z] peak window: sleeping 8178s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:52Z] peak window: sleeping 8167s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:53Z] peak window: sleeping 8167s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:43:54Z] peak window: sleeping 8166s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:02Z] peak window: sleeping 8158s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:03Z] peak window: sleeping 8157s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:05Z] peak window: sleeping 8154s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:08Z] peak window: sleeping 8152s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:12Z] peak window: sleeping 8147s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:22Z] peak window: sleeping 8137s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:23Z] peak window: sleeping 8137s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:24Z] peak window: sleeping 8136s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:32Z] peak window: sleeping 8127s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:33Z] peak window: sleeping 8126s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:36Z] peak window: sleeping 8124s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:39Z] peak window: sleeping 8120s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:42Z] peak window: sleeping 8117s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:53Z] peak window: sleeping 8107s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:53Z] peak window: sleeping 8106s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:44:54Z] peak window: sleeping 8105s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:02Z] peak window: sleeping 8097s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:03Z] peak window: sleeping 8096s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:06Z] peak window: sleeping 8093s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:09Z] peak window: sleeping 8090s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:13Z] peak window: sleeping 8087s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:23Z] peak window: sleeping 8076s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:24Z] peak window: sleeping 8076s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:25Z] peak window: sleeping 8075s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:34Z] peak window: sleeping 8066s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:34Z] peak window: sleeping 8066s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:36Z] peak window: sleeping 8063s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:40Z] peak window: sleeping 8059s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:43Z] peak window: sleeping 8056s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:53Z] peak window: sleeping 8046s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:54Z] peak window: sleeping 8046s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:45:55Z] peak window: sleeping 8044s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:04Z] peak window: sleeping 8036s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:04Z] peak window: sleeping 8035s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:07Z] peak window: sleeping 8033s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:11Z] peak window: sleeping 8029s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:13Z] peak window: sleeping 8026s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:24Z] peak window: sleeping 8016s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:24Z] peak window: sleeping 8015s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:26Z] peak window: sleeping 8014s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:34Z] peak window: sleeping 8005s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:35Z] peak window: sleeping 8005s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:37Z] peak window: sleeping 8003s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:41Z] peak window: sleeping 7999s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:44Z] peak window: sleeping 7996s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:54Z] peak window: sleeping 7985s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:55Z] peak window: sleeping 7985s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:46:57Z] peak window: sleeping 7983s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:05Z] peak window: sleeping 7975s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:05Z] peak window: sleeping 7975s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:07Z] peak window: sleeping 7972s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:11Z] peak window: sleeping 7968s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:14Z] peak window: sleeping 7966s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:25Z] peak window: sleeping 7955s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:25Z] peak window: sleeping 7955s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:27Z] peak window: sleeping 7952s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:35Z] peak window: sleeping 7945s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:35Z] peak window: sleeping 7944s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:37Z] peak window: sleeping 7942s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:42Z] peak window: sleeping 7938s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:44Z] peak window: sleeping 7935s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:55Z] peak window: sleeping 7925s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:55Z] peak window: sleeping 7924s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:47:57Z] peak window: sleeping 7922s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:05Z] peak window: sleeping 7914s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:05Z] peak window: sleeping 7914s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:08Z] peak window: sleeping 7912s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:12Z] peak window: sleeping 7908s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:15Z] peak window: sleeping 7905s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:25Z] peak window: sleeping 7894s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:26Z] peak window: sleeping 7894s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:28Z] peak window: sleeping 7892s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:36Z] peak window: sleeping 7884s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:36Z] peak window: sleeping 7884s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:38Z] peak window: sleeping 7881s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:42Z] peak window: sleeping 7877s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:46Z] peak window: sleeping 7873s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:56Z] peak window: sleeping 7864s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:56Z] peak window: sleeping 7864s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:48:58Z] peak window: sleeping 7861s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:06Z] peak window: sleeping 7854s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:06Z] peak window: sleeping 7853s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:08Z] peak window: sleeping 7851s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:13Z] peak window: sleeping 7847s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:16Z] peak window: sleeping 7843s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:26Z] peak window: sleeping 7833s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:26Z] peak window: sleeping 7833s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:28Z] peak window: sleeping 7831s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:36Z] peak window: sleeping 7823s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:36Z] peak window: sleeping 7823s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:39Z] peak window: sleeping 7821s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:43Z] peak window: sleeping 7817s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:47Z] peak window: sleeping 7813s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:56Z] peak window: sleeping 7803s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:57Z] peak window: sleeping 7803s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:49:59Z] peak window: sleeping 7801s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:06Z] peak window: sleeping 7793s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:07Z] peak window: sleeping 7793s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:09Z] peak window: sleeping 7791s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:13Z] peak window: sleeping 7786s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:17Z] peak window: sleeping 7782s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:27Z] peak window: sleeping 7773s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:27Z] peak window: sleeping 7772s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:29Z] peak window: sleeping 7771s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:37Z] peak window: sleeping 7763s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:37Z] peak window: sleeping 7762s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:39Z] peak window: sleeping 7760s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:44Z] peak window: sleeping 7756s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:47Z] peak window: sleeping 7752s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:57Z] peak window: sleeping 7742s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:57Z] peak window: sleeping 7742s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:50:59Z] peak window: sleeping 7740s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:07Z] peak window: sleeping 7732s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:07Z] peak window: sleeping 7732s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:10Z] peak window: sleeping 7730s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:14Z] peak window: sleeping 7725s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:18Z] peak window: sleeping 7722s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:27Z] peak window: sleeping 7712s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:28Z] peak window: sleeping 7712s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:29Z] peak window: sleeping 7710s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:37Z] peak window: sleeping 7702s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:38Z] peak window: sleeping 7702s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:40Z] peak window: sleeping 7700s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:45Z] peak window: sleeping 7695s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:48Z] peak window: sleeping 7691s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:58Z] peak window: sleeping 7682s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:51:58Z] peak window: sleeping 7681s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:00Z] peak window: sleeping 7680s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:08Z] peak window: sleeping 7672s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:08Z] peak window: sleeping 7671s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:10Z] peak window: sleeping 7669s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:15Z] peak window: sleeping 7665s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:18Z] peak window: sleeping 7661s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:28Z] peak window: sleeping 7651s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:28Z] peak window: sleeping 7651s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:30Z] peak window: sleeping 7649s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:38Z] peak window: sleeping 7642s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:38Z] peak window: sleeping 7641s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:41Z] peak window: sleeping 7639s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:45Z] peak window: sleeping 7634s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:49Z] peak window: sleeping 7631s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:58Z] peak window: sleeping 7621s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:52:59Z] peak window: sleeping 7621s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:01Z] peak window: sleeping 7619s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:08Z] peak window: sleeping 7611s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:09Z] peak window: sleeping 7610s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:11Z] peak window: sleeping 7609s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:16Z] peak window: sleeping 7604s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:19Z] peak window: sleeping 7600s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:29Z] peak window: sleeping 7590s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:29Z] peak window: sleeping 7590s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:31Z] peak window: sleeping 7588s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:39Z] peak window: sleeping 7581s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:39Z] peak window: sleeping 7580s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:41Z] peak window: sleeping 7578s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:46Z] peak window: sleeping 7574s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:49Z] peak window: sleeping 7570s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:53:59Z] peak window: sleeping 7560s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:00Z] peak window: sleeping 7560s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:01Z] peak window: sleeping 7558s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:09Z] peak window: sleeping 7551s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:10Z] peak window: sleeping 7550s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:11Z] peak window: sleeping 7548s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:16Z] peak window: sleeping 7543s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:20Z] peak window: sleeping 7540s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:30Z] peak window: sleeping 7530s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:30Z] peak window: sleeping 7529s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:32Z] peak window: sleeping 7528s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:39Z] peak window: sleeping 7520s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:40Z] peak window: sleeping 7519s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:42Z] peak window: sleeping 7518s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:47Z] peak window: sleeping 7513s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:54:50Z] peak window: sleeping 7509s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:00Z] peak window: sleeping 7500s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:00Z] peak window: sleeping 7499s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:02Z] peak window: sleeping 7498s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:10Z] peak window: sleeping 7490s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:11Z] peak window: sleeping 7489s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:12Z] peak window: sleeping 7488s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:17Z] peak window: sleeping 7483s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:20Z] peak window: sleeping 7479s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:30Z] peak window: sleeping 7469s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:31Z] peak window: sleeping 7469s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:32Z] peak window: sleeping 7467s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:40Z] peak window: sleeping 7459s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:41Z] peak window: sleeping 7458s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:42Z] peak window: sleeping 7457s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:48Z] peak window: sleeping 7452s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:55:51Z] peak window: sleeping 7449s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:56:00Z] peak window: sleeping 7439s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:56:01Z] peak window: sleeping 7439s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:56:02Z] peak window: sleeping 7437s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:56:11Z] peak window: sleeping 7429s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:56:11Z] peak window: sleeping 7428s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:56:13Z] peak window: sleeping 7427s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:56:18Z] peak window: sleeping 7421s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T01:56:21Z] peak window: sleeping 7418s until off-peak 2026-10-28T04:00:00+00:00
+[2026-10-28T04:02:37Z] step3 batches 20/500 sl_ok=123
+[2026-10-28T04:02:50Z] step3 batch fail (5): batch_len 1 != 5; falling back to singles
+[2026-10-28T04:04:15Z] runner start model=deepseek-flash peak_now=False next_peak=2026-10-28 06:00:00+00:00 next_offpeak=2026-10-28 04:04:15.739527+00:00
+[2026-10-28T04:04:17Z] ===== 00_select_and_fetch.py =====
+[2026-10-28T04:04:19Z] step0 select+fetch start
+[2026-10-28T04:04:24Z] step0 skip 1/40 Q3090506 already fetched n=59158
+[2026-10-28T04:04:24Z] step0 skip 2/40 Q8012011 already fetched n=124211
+[2026-10-28T04:04:26Z] step0 skip 3/40 Q4018797 already fetched n=121851
+[2026-10-28T04:04:26Z] step0 skip 4/40 Q6547707 already fetched n=116922
+[2026-10-28T04:04:27Z] step0 skip 5/40 Q60059 already fetched n=77083
+[2026-10-28T04:04:28Z] step0 skip 6/40 Q5536061 already fetched n=83233
+[2026-10-28T04:04:29Z] step0 skip 7/40 Q4821449 already fetched n=1810485
+[2026-10-28T04:04:31Z] step0 skip 8/40 Q44281 already fetched n=339036
+[2026-10-28T04:04:31Z] step0 skip 9/40 Q6518053 already fetched n=145450
+[2026-10-28T04:04:32Z] step0 skip 10/40 Q231256 already fetched n=109050
+[2026-10-28T04:04:33Z] step0 skip 11/40 Q5481512 already fetched n=148330
+[2026-10-28T04:04:34Z] step0 skip 12/40 Q2713471 already fetched n=88221
+[2026-10-28T04:04:36Z] step0 skip 13/40 Q560915 already fetched n=65396
+[2026-10-28T04:04:37Z] step0 skip 14/40 Q4800431 already fetched n=773650
+[2026-10-28T04:04:38Z] step0 skip 15/40 Q367745 already fetched n=49664
+[2026-10-28T04:04:39Z] step0 skip 16/40 Q7367226 already fetched n=178786
+[2026-10-28T04:04:40Z] step0 skip 17/40 Q1365446 already fetched n=89832
+[2026-10-28T04:04:40Z] step0 skip 18/40 Q431614 already fetched n=249192
+[2026-10-28T04:04:41Z] step0 skip 19/40 Q4209439 already fetched n=288063
+[2026-10-28T04:04:42Z] step0 skip 20/40 Q540244 already fetched n=278219
+[2026-10-28T04:04:43Z] step0 skip 21/40 Q4684528 already fetched n=329011
+[2026-10-28T04:04:44Z] step0 skip 22/40 Q2895878 already fetched n=415543
+[2026-10-28T04:04:44Z] step0 skip 23/40 Q235069 already fetched n=1329575
+[2026-10-28T04:04:45Z] step0 skip 24/40 Q3177480 already fetched n=207168
+[2026-10-28T04:04:47Z] step0 skip 25/40 Q41513 already fetched n=31274
+[2026-10-28T04:04:48Z] step0 skip 26/40 Q236699 already fetched n=446686
+[2026-10-28T04:04:49Z] step0 skip 27/40 Q336315 already fetched n=238687
+[2026-10-28T04:04:49Z] step0 skip 28/40 Q470718 already fetched n=237614
+[2026-10-28T04:04:50Z] step0 skip 29/40 Q273334 already fetched n=1189971
+[2026-10-28T04:04:51Z] step0 skip 30/40 Q5729746 already fetched n=277049
+[2026-10-28T04:04:53Z] step0 skip 31/40 Q76911 already fetched n=109327
+[2026-10-28T04:04:54Z] step0 skip 32/40 Q41505357 already fetched n=1331794
+[2026-10-28T04:04:54Z] step0 skip 33/40 Q1700283 already fetched n=659116
+[2026-10-28T04:04:55Z] step0 skip 34/40 Q1617267 already fetched n=2739536
+[2026-10-28T04:04:56Z] step0 skip 35/40 Q955187 already fetched n=299044
+[2026-10-28T04:04:57Z] step0 skip 36/40 Q5365272 already fetched n=423652
+[2026-10-28T04:04:58Z] step0 skip 37/40 Q3624318 already fetched n=35343
+[2026-10-28T04:04:59Z] step0 skip 38/40 Q982197 already fetched n=1375409
+[2026-10-28T04:05:01Z] step0 skip 39/40 Q164699 already fetched n=984129
+[2026-10-28T04:05:02Z] step0 skip 40/40 Q366142 already fetched n=1255521
+[2026-10-28T04:05:04Z] step0 done books_ok=40/40 manifest=/cursor/stores/self/cai-pipeline/data/corpus_manifest.json
+[2026-10-28T04:05:10Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T04:05:11Z] ===== 01_extract_constitution.py =====
+[2026-10-28T04:05:18Z] single LLM model: deepseek-flash base=https://api.deepseek.com thinking=disabled peak_now=False next_peak=2026-10-28T06:00:00+00:00
+[2026-10-28T04:05:19Z] step1 start n_books=40
+[2026-10-28T04:05:19Z] step1 1/40 Q3090506 already extracted model=deepseek-flash
+[2026-10-28T04:05:20Z] step1 2/40 Q8012011 already extracted model=deepseek-flash
+[2026-10-28T04:05:21Z] step1 3/40 Q4018797 already extracted model=deepseek-flash
+[2026-10-28T04:05:22Z] step1 4/40 Q6547707 already extracted model=deepseek-flash
+[2026-10-28T04:05:24Z] step1 5/40 Q60059 already extracted model=deepseek-flash
+[2026-10-28T04:05:25Z] step1 6/40 Q5536061 already extracted model=deepseek-flash
+[2026-10-28T04:05:26Z] step1 7/40 Q4821449 already extracted model=deepseek-flash
+[2026-10-28T04:05:27Z] step1 8/40 Q44281 already extracted model=deepseek-flash
+[2026-10-28T04:05:28Z] step1 9/40 Q6518053 already extracted model=deepseek-flash
+[2026-10-28T04:05:32Z] step1 10/40 Q231256 already extracted model=deepseek-flash
+[2026-10-28T04:05:33Z] step1 11/40 Q5481512 already extracted model=deepseek-flash
+[2026-10-28T04:05:33Z] step1 12/40 Q2713471 already extracted model=deepseek-flash
+[2026-10-28T04:05:34Z] step1 13/40 Q560915 already extracted model=deepseek-flash
+[2026-10-28T04:05:34Z] step1 14/40 Q4800431 already extracted model=deepseek-flash
+[2026-10-28T04:05:35Z] step1 15/40 Q367745 already extracted model=deepseek-flash
+[2026-10-28T04:05:35Z] step1 16/40 Q7367226 already extracted model=deepseek-flash
+[2026-10-28T04:05:36Z] step1 17/40 Q1365446 already extracted model=deepseek-flash
+[2026-10-28T04:05:37Z] step1 18/40 Q431614 already extracted model=deepseek-flash
+[2026-10-28T04:05:37Z] step1 19/40 Q4209439 already extracted model=deepseek-flash
+[2026-10-28T04:05:38Z] step1 20/40 Q540244 already extracted model=deepseek-flash
+[2026-10-28T04:05:38Z] step1 21/40 Q4684528 already extracted model=deepseek-flash
+[2026-10-28T04:05:39Z] step1 22/40 Q2895878 already extracted model=deepseek-flash
+[2026-10-28T04:05:39Z] step1 23/40 Q235069 already extracted model=deepseek-flash
+[2026-10-28T04:05:40Z] step1 24/40 Q3177480 already extracted model=deepseek-flash
+[2026-10-28T04:05:41Z] step1 25/40 Q41513 already extracted model=deepseek-flash
+[2026-10-28T04:05:41Z] step1 26/40 Q236699 already extracted model=deepseek-flash
+[2026-10-28T04:05:42Z] step1 27/40 Q336315 already extracted model=deepseek-flash
+[2026-10-28T04:05:42Z] step1 28/40 Q470718 already extracted model=deepseek-flash
+[2026-10-28T04:05:43Z] step1 29/40 Q273334 already extracted model=deepseek-flash
+[2026-10-28T04:05:44Z] step1 30/40 Q5729746 already extracted model=deepseek-flash
+[2026-10-28T04:05:44Z] step1 31/40 Q76911 already extracted model=deepseek-flash
+[2026-10-28T04:05:45Z] step1 32/40 Q41505357 already extracted model=deepseek-flash
+[2026-10-28T04:05:45Z] step1 33/40 Q1700283 already extracted model=deepseek-flash
+[2026-10-28T04:05:46Z] step1 34/40 Q1617267 already extracted model=deepseek-flash
+[2026-10-28T04:05:47Z] step1 35/40 Q955187 already extracted model=deepseek-flash
+[2026-10-28T04:05:47Z] step1 36/40 Q5365272 already extracted model=deepseek-flash
+[2026-10-28T04:05:48Z] step1 37/40 Q3624318 already extracted model=deepseek-flash
+[2026-10-28T04:05:49Z] step1 38/40 Q982197 already extracted model=deepseek-flash
+[2026-10-28T04:05:50Z] step1 39/40 Q164699 already extracted model=deepseek-flash
+[2026-10-28T04:05:50Z] step1 40/40 Q366142 already extracted model=deepseek-flash
+[2026-10-28T04:05:51Z] step1 skip cluster extracted=40 constitution=2756
+[2026-10-28T04:06:00Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T04:06:00Z] ===== 02_build_prompt_set.py =====
+[2026-10-28T04:06:09Z] step2 wrote 2500 prompts elicited=2000 ultrachat=500
+[2026-10-28T04:06:19Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T04:06:19Z] ===== 03_stage1_sl_cai.py =====
+[2026-10-28T04:06:27Z] single LLM model: deepseek-flash base=https://api.deepseek.com thinking=disabled peak_now=False next_peak=2026-10-28T06:00:00+00:00
+[2026-10-28T04:06:28Z] step3 constitution n=2756
+[2026-10-28T04:06:37Z] step3 pending=2331; sampling principles on main thread
+[2026-10-28T04:09:07Z] step3 batch fail (5): batch_len 1 != 5; falling back to singles
+[2026-10-28T04:09:08Z] step3 batches 10/467 sl_ok=233
+[2026-10-28T04:15:56Z] step3 batch fail (5): batch_len 3 != 5; falling back to singles
+[2026-10-28T04:16:38Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T04:16:48Z] step3 batches 20/467 sl_ok=492
+[2026-10-28T04:18:53Z] step3 batch fail (5): batch_len 7 != 5; falling back to singles
+[2026-10-28T04:20:39Z] step3 batch fail (5): batch_len 1 != 5; falling back to singles
+[2026-10-28T04:30:45Z] wrote coverage /cursor/stores/self/docs/cai-deepseek-coverage.md
+[2026-10-28T04:30:57Z] step3 batches 30/467 sl_ok=941
+[2026-10-28T04:32:21Z] API_ERROR step=step3 model=deepseek-flash ref=57cc9d4434fd161b+fb5f50de9ff67284+c02f5437ecdb02f6+7cd95f9418618047+75338aac0590 type=APIConnectionError msg=Connection error.
+[2026-10-28T04:33:53Z] step3 batch fail (5): batch_len 1 != 5; falling back to singles
+[2026-10-28T04:35:46Z] step3 batch fail (5): batch_len 4 != 5; falling back to singles
+[2026-10-28T04:37:04Z] step3 batch fail (5): batch_len 1 != 5; falling back to singles
+[2026-10-28T04:37:42Z] API_ERROR step=step3 model=deepseek-flash ref=df8768ea81d13bac type=APIConnectionError msg=Connection error.
+[2026-10-28T04:39:42Z] API_ERROR step=step3 model=deepseek-flash ref=0d88ecd25db0103b+7d30b986103b4109+2a6095bc1a54cf0f+cd7e8eb055cc4723+3c1c137b9e84 type=APIConnectionError msg=Connection error.
+[2026-10-28T04:42:16Z] step3 batch fail (5): disk I/O error; falling back to singles
+[2026-10-28T04:42:16Z] step3 batch fail (5): disk I/O error; falling back to singles
+[2026-10-28T04:42:16Z] step3 batch fail (5): disk I/O error; falling back to singles
+[2026-10-28T04:46:45Z] API_ERROR step=step3 model=deepseek-flash ref=6e9600adb5190fe7+94a0e5fe6340f2bc+4a124bfc66740fa5+49e8a4c9c88d93b1+e4c6422684e4 type=APITimeoutError msg=Request timed out.
+[2026-10-28T04:47:13Z] API_ERROR step=step3 model=deepseek-flash ref=0d88ecd25db0103b+7d30b986103b4109+2a6095bc1a54cf0f+cd7e8eb055cc4723+3c1c137b9e84 type=APITimeoutError msg=Request timed out.
+[2026-10-28T04:47:16Z] API_ERROR step=step3 model=deepseek-flash ref=0154ee2d9b529391+49f508dc05974b52+f4a9d646e0ea1125+a05ef56ef504b26d+76430ce2531a type=APITimeoutError msg=Request timed out.
+[2026-10-28T04:58:48Z] API_ERROR step=step3 model=deepseek-flash ref=55333f175b419890+09d00c4bf0dd2630+47510c9cc11a8643+3039f56ef35b220f+3e2b16d42090 type=APIConnectionError msg=Connection error.
+[2026-10-28T05:14:52Z] API_ERROR step=step3 model=deepseek-flash ref=034b32fbc8ca5a9f+3de2cd8261428a0f+32149cb219e8fcd5+11724c6483e4afd8+c99e1c946240 type=APIConnectionError msg=Connection error.
+[2026-10-28T05:17:21Z] API_ERROR step=step3 model=deepseek-flash ref=056efdcef345468e+8b030ad38969f4e4+7de71a39c75cba00+fe9394c312c3ca05+435738db4fd6 type=APIConnectionError msg=Connection error.
+[2026-10-28T05:21:23Z] step3 batch fail (5): batch_len 4 != 5; falling back to singles

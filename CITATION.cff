@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: Christian Thinkers Writers
+message: If you use this corpus, please cite it.
+type: dataset
+authors:
+  - family-names: Wang
+    given-names: Phoenix
+    website: https://github.com/eulestadt
+repository-code: https://github.com/eulestadt/christian-thinkers-writers
+url: https://github.com/eulestadt/christian-thinkers-writers
+abstract: >-
+  Public archival corpus for Christian Thinkers Writers: a Wikipedia
+  Category:Christian writers census, closed-form Hoge and Gorsuch I/E-R
+  intrinsic-motivation scores on English public-domain works, and
+  Constitutional AI treatment (I/E-R intrinsic top 40) versus
+  citation-control (same year window, treatment authors excluded)
+  datasets generated with deepseek-flash.
+keywords:
+  - constitutional AI
+  - intrinsic religious motivation
+  - I/E-R
+  - Christian writers
+  - public domain
+  - alignment
+license: MIT

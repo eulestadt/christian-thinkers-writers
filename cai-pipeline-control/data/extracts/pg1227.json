@@ -1,0 +1,354 @@
+{
+  "book_id": "pg1227",
+  "author": "Charles Darwin",
+  "principles": [
+    {
+      "source_thesis": "Expressions are largely inherited habits: serviceable actions performed under a state of mind become habitual and are still performed, even when useless, whenever a similar state recurs.",
+      "critique_request": "Identify where the response treats an expressive movement as a fresh, purpose-built act of will or special design, rather than as a serviceable associated habit retained through inheritance.",
+      "revision_request": "Rewrite the response to explain the expression as a habit originally of service under that state of mind, now performed through association and inheritance even when it serves no purpose."
+    },
+    {
+      "source_thesis": "The principle of antithesis: when a state of mind directly opposite to one that habitually leads to certain movements is induced, movements of a directly opposite nature tend involuntarily to be performed, though useless.",
+      "critique_request": "Identify where the response explains opposite expressions (such as a dog's hostile versus affectionate bearing) by conscious intent or convention rather than by the involuntary tendency to opposite movements under opposite states of mind.",
+      "revision_request": "Rewrite the response to attribute the opposite gestures to the principle of antithesis, noting that they are not deliberately invented but arise from the habitual association of opposite movements with opposite emotions."
+    },
+    {
+      "source_thesis": "Some expressive actions are the direct result of the excited nervous system, independent of the will and largely of habit: excess nerve-force is generated and discharged along definite channels, or its supply is interrupted.",
+      "critique_request": "Identify where the response attributes trembling, sweating, altered secretions, or similar symptoms to will or habit alone, ignoring the direct action of the strongly excited sensorium.",
+      "revision_request": "Rewrite the response to explain such symptoms as the direct effect of the excited nervous system, with nerve-force generated in excess or interrupted, independent of the will and to a large extent of habit."
+    },
+    {
+      "source_thesis": "When movements associated with a state of mind are partially repressed by the will, the muscles least under separate voluntary control are the most liable still to act, and their action is expressive.",
+      "critique_request": "Identify where the response assumes that a person concealing an emotion will show no outward sign, overlooking that involuntary muscles and glands betray the state of mind.",
+      "revision_request": "Rewrite the response to note that although the will may repress the more obedient muscles, the least controllable muscles and the glands will still act, betraying the suppressed emotion."
+    },
+    {
+      "source_thesis": "The same expressions are common to all races of mankind, and this uniformity is evidence of the close similarity in bodily structure and mental disposition of all races.",
+      "critique_request": "Identify where the response treats a given expression as a merely local or conventional custom of one people, contrary to the observed uniformity of expression across races.",
+      "revision_request": "Rewrite the response to state that the expression is shared by distinct races of man, and that this uniformity indicates the close similarity in bodily structure and mental disposition of all races."
+    },
+    {
+      "source_thesis": "Expressions are best understood by comparing man with the lower animals, since animals are less likely to deceive us and the same principles apply to both.",
+      "critique_request": "Identify where the response explains a human expression without reference to the analogous expressions of the lower animals, or treats man as wholly separate from them in this respect.",
+      "revision_request": "Rewrite the response to test the explanation against the expressions of the lower animals, showing that the same principle applies to both man and animals."
+    },
+    {
+      "source_thesis": "The contraction of the muscles round the eyes during screaming serves to protect the eyes from being gorged with blood during violent expiration.",
+      "critique_request": "Identify where the response treats the firm closing of the eyes in a screaming child as meaningless or as serving no protective end.",
+      "revision_request": "Rewrite the response to explain that the muscles round the eyes contract during screaming to compress the eyeball and protect it from the pressure of the blood during violent expiratory efforts."
+    },
+    {
+      "source_thesis": "Tears are secreted in close connection with the involuntary and energetic contraction of the muscles round the eyes, and this relation holds under the most opposite emotions and under no emotion at all.",
+      "critique_request": "Identify where the response treats weeping as a special provision for expressing grief, rather than as connected with the spasmodic contraction of the muscles round the eyes.",
+      "revision_request": "Rewrite the response to explain weeping as following from the involuntary contraction of the muscles round the eyes and the distension of the ocular vessels, acting on the lacrymal glands through long habit."
+    },
+    {
+      "source_thesis": "The obliquity of the eyebrows in grief results from the central fasciae of the frontal muscle contracting in opposition to the pyramidal muscles, which are less under the control of the will.",
+      "critique_request": "Identify where the response treats the oblique eyebrows of grief as a movement designed solely to express grief, ignoring its origin in the struggle to check the muscles used in screaming.",
+      "revision_request": "Rewrite the response to explain the oblique eyebrows as the result of the central frontal fasciae checking the less obedient pyramidal muscles, a habit retained from infancy when these muscles contracted to protect the eyes during screaming."
+    },
+    {
+      "source_thesis": "The depression of the corners of the mouth in low spirits is due to the depressores anguli oris, which are among the muscles least under the control of the will and were strongly used in infancy during screaming.",
+      "critique_request": "Identify where the response attributes the downcast mouth of dejection to deliberate expression rather than to the habitual action of a muscle little obedient to the will.",
+      "revision_request": "Rewrite the response to explain the depressed corners of the mouth as the action of the depressores anguli oris, retained through habit from infant screaming and betraying dejection because these muscles are least under voluntary control."
+    },
+    {
+      "source_thesis": "Laughter is primarily the expression of mere joy, and loud laughter leads to the secretion of tears through the same spasmodic contraction of the muscles round the eyes.",
+      "critique_request": "Identify where the response treats laughter as essentially derisive or as unrelated to joy, or ignores the tears shed in violent laughter.",
+      "revision_request": "Rewrite the response to present laughter as primarily the expression of joy, and to explain the tears of loud laughter by the spasmodic contraction of the muscles round the eyes."
+    },
+    {
+      "source_thesis": "Frowning expresses the perception of something difficult or disagreeable encountered in thought or action, not simple reflection; it originates in the contraction of the brows at the commencement of infant screaming.",
+      "critique_request": "Identify where the response treats a frown as the expression of deep thought or attention alone, without any sense of difficulty or displeasure.",
+      "revision_request": "Rewrite the response to explain the frown as arising when something difficult or disagreeable is encountered, and to trace it to the habit of contracting the brows at the onset of screaming in infancy."
+    },
+    {
+      "source_thesis": "The uncovering of the teeth in rage is a remnant of the habit of biting an enemy, retained though man seldom uses his teeth in fighting.",
+      "critique_request": "Identify where the response treats the bared teeth of an enraged person as a purely conventional or learned gesture with no animal origin.",
+      "revision_request": "Rewrite the response to explain the retracted lips and exposed teeth in rage as a remnant of the habit of seizing or biting an enemy, retained from a lower animal-like condition of man."
+    },
+    {
+      "source_thesis": "The erection of the hair under anger or terror is a reflex action of the involuntary arrectores pili, made serviceable by making the animal appear larger and more terrible to enemies or rivals.",
+      "critique_request": "Identify where the response treats the bristling of hair as a voluntary act or as wholly purposeless, ignoring its reflex nature and its effect of increasing apparent size.",
+      "revision_request": "Rewrite the response to explain the erection of hair as an involuntary reflex action that makes the animal appear larger and more terrible, strengthened through habit and preserved because it served this end."
+    },
+    {
+      "source_thesis": "The drawing back of the ears in savage animals is a habit connected with fighting with the teeth, serving to protect the ears from being seized.",
+      "critique_request": "Identify where the response explains the retracted ears of a savage animal without reference to its manner of fighting and the protection of its ears.",
+      "revision_request": "Rewrite the response to explain the retracted ears as a habit associated with fighting with the teeth, serving to protect the ears from being seized by an antagonist."
+    },
+    {
+      "source_thesis": "The firm closure of the mouth in determination is a habit associated with violent muscular exertion, in which the mouth must be closed, and it comes through association to express decision of character.",
+      "critique_request": "Identify where the response treats the firmly closed mouth of a determined person as arbitrary or unrelated to the closure of the mouth during exertion.",
+      "revision_request": "Rewrite the response to explain the firm closure of the mouth as a habit acquired during violent exertion and delicate operations, transferred by association to express determination."
+    },
+    {
+      "source_thesis": "Movements originally performed consciously may become reflex actions through habit and inheritance, and are then performed even when useless whenever the original cause arises.",
+      "critique_request": "Identify where the response treats a reflex-like expressive movement as necessarily purposeless or as never having been acquired through the will.",
+      "revision_request": "Rewrite the response to explain that the movement was at first performed consciously for some end, and has become reflex and inherited through long habit, now occurring even when of no use."
+    },
+    {
+      "source_thesis": "Conventional or acquired gestures differ among races, whereas expressions common to distinct races are innate or instinctive.",
+      "critique_request": "Identify where the response confuses a conventional gesture with an innate expression, or assumes an expression is innate without evidence of its occurrence across distinct races.",
+      "revision_request": "Rewrite the response to distinguish conventional gestures, which would differ among races like their languages, from expressions found across distinct races, which may be inferred to be innate or instinctive."
+    },
+    {
+      "source_thesis": "Emotions that do not habitually lead to voluntary action, such as maternal love or secret hatred, have little tendency to produce expressive movements.",
+      "critique_request": "Identify where the response expects a strong but inactive emotion, such as maternal love or concealed hatred, to be plainly betrayed by outward movements.",
+      "revision_request": "Rewrite the response to note that an emotion which has not habitually led to action produces little outward movement, and that strong but inactive feelings are not plainly expressed."
+    },
+    {
+      "source_thesis": "Pouting in sulky children is a remnant of a primordial habit retained from our semi-human progenitors, as seen in the protruded lips of young orangs and chimpanzees.",
+      "critique_request": "Identify where the response treats a child's pouting as a merely learned or meaningless habit with no connection to the anthropoid apes.",
+      "revision_request": "Rewrite the response to explain pouting as the retention in childhood of a primordial habit, comparable to the protruded lips of young orangs and chimpanzees when sulky."
+    },
+    {
+      "source_thesis": "The sneer, with the upper lip raised on one side so as to uncover the canine tooth, is the same action as the snarling of a dog, and is a rarely used remnant.",
+      "critique_request": "Identify where the response treats a one-sided sneer as a purely social or conventional expression, ignoring its resemblance to the snarling of a dog.",
+      "revision_request": "Rewrite the response to explain the one-sided uncovering of the canine in sneering as the same action as a dog's snarl, a rarely used and almost abortive remnant in man."
+    },
+    {
+      "source_thesis": "The study of expression is difficult because expressions are fleeting, our sympathy distracts observation, and imagination leads us to see what we expect.",
+      "critique_request": "Identify where the response asserts an expression confidently without acknowledging how slight, fleeting, and easily misjudged such movements are.",
+      "revision_request": "Rewrite the response to acknowledge the difficulty of observing expression, noting that the movements are often slight and fleeting and that imagination readily deceives the observer."
+    },
+    {
+      "source_thesis": "The insane, infants, and the lower animals are especially valuable for studying expression because they give uncontrolled vent to their emotions.",
+      "critique_request": "Identify where the response dismisses observations of infants, the insane, or animals as irrelevant to understanding expression.",
+      "revision_request": "Rewrite the response to draw on the expressions of infants, the insane, or the lower animals, which exhibit emotions with little restraint and thus reveal the true movements of expression."
+    },
+    {
+      "source_thesis": "Expressions due to antithesis are not consciously invented for communication, but arise from the habitual association of opposite movements with opposite emotions.",
+      "critique_request": "Identify where the response claims an animal deliberately adopted an opposite posture in order to signal a friendly state of mind to another.",
+      "revision_request": "Rewrite the response to deny that the animal consciously devised the opposite posture for communication, attributing it instead to the habitual association of opposite movements with opposite emotions."
+    },
+    {
+      "source_thesis": "The heart and other organs not under the will are readily affected by strong emotion through habitual association, so that a man may command his features but not his heart or tears.",
+      "critique_request": "Identify where the response assumes that a person can fully suppress all signs of a strong emotion by an act of will.",
+      "revision_request": "Rewrite the response to note that while the features may be commanded, organs not under the will, such as the heart and the lacrymal glands, will still betray the emotion."
+    },
+    {
+      "source_thesis": "Sympathy with the distress or happiness of others readily excites the secretion of tears, more freely than our own suffering often does.",
+      "critique_request": "Identify where the response treats tears as arising only from one's own pain or joy, ignoring the tears excited by sympathy with others.",
+      "revision_request": "Rewrite the response to explain that sympathy with the sufferings or good fortune of those we love readily excites tears, often more freely than our own distress."
+    },
+    {
+      "source_thesis": "The upward turning of the eyes and joined hands in devotion are probably conventional, not innate, expressions.",
+      "critique_request": "Identify where the response treats the gestures of devotion, such as upturned eyes and joined hands, as innate and truly expressive.",
+      "revision_request": "Rewrite the response to explain the gestures of devotion as conventional, arising from the common belief that Heaven is above and from the attitude of a suppliant, rather than as innate expressions."
+    },
+    {
+      "source_thesis": "The vacant eyes of abstracted meditation result from the relaxation of the muscles of the eyes, so that the lines of vision diverge.",
+      "critique_request": "Identify where the response treats the vacant stare of a person lost in thought as a fixed gaze upon some distant object.",
+      "revision_request": "Rewrite the response to explain the vacant expression of abstraction as due to the relaxation of the eye muscles, causing the lines of vision to diverge rather than fix on any object."
+    },
+    {
+      "source_thesis": "The same principles that explain one expression should be tested by whether they apply to other allied cases and to both man and the lower animals.",
+      "critique_request": "Identify where the response offers an explanation of one expression without testing whether the same principle applies to allied cases in man and animals.",
+      "revision_request": "Rewrite the response to test the proposed explanation against allied cases and against the lower animals, showing that the same principle applies with satisfactory results."
+    },
+    {
+      "source_thesis": "Expressive movements such as uncovering the canine tooth in sneering or defiance are relics of our semi-human progenitors, revealing man's animal descent, since no one would actually bite with the canine teeth more than the other teeth.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that sneering and defiance, including uncovering the canine tooth, are inherited relics revealing man's animal descent rather than actions serving any present practical purpose.",
+      "revision_request": "Rewrite the response so it faithfully presents the sneer and snarl as inherited vestiges from semi-human progenitors who uncovered their canine teeth when prepared for battle, noting that no one now uses the canine teeth more than the other teeth in actual biting."
+    },
+    {
+      "source_thesis": "Scorn, disdain, contempt, and disgust are expressed worldwide by movements representing the rejection or exclusion of a disliked object, and these same actions are performed through habit and association whenever an analogous sensation arises.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's argument that contempt and disgust are expressed by movements of rejection or exclusion, performed habitually and by association even without any conscious idea of rejecting anything.",
+      "revision_request": "Rewrite the response so it explains that movements about the nose and mouth in contempt and disgust are the same actions used to exclude an offensive odour or expel offensive food, and that they now occur habitually by association without any such idea passing through the mind."
+    },
+    {
+      "source_thesis": "Disgust primarily relates to taste and eating, so its expression consists chiefly of movements round the mouth, including those preparatory to vomiting in extreme cases.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that disgust arises primarily in connection with eating or tasting and is therefore expressed chiefly by movements round the mouth, graduating to those of vomiting.",
+      "revision_request": "Rewrite the response so it grounds the expression of disgust in the act of eating or tasting, describing the mouth movements, spitting, and in extreme cases the movements preparatory to vomiting."
+    },
+    {
+      "source_thesis": "The readiness with which retching or vomiting is induced by the mere idea of unusual food suggests our progenitors formerly had the power of voluntarily rejecting food, now called into involuntary action through long-established habit.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's suspicion that quick retching from a mere idea reflects a formerly voluntary power of rejecting food, now involuntary through habit.",
+      "revision_request": "Rewrite the response so it presents the suspicion that our progenitors could voluntarily reject disagreeable food, and that this power, now lost to the will, is called into involuntary action by habit whenever the mind revolts at the idea of such food."
+    },
+    {
+      "source_thesis": "Guilt and deceit are chiefly revealed by movements of the eyes, since the guilty person avoids the gaze of his accuser; slyness is shown by the eyes being turned to one side while the face is not turned.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that guilt and slyness are exhibited chiefly through the eyes, the guilty avoiding the accuser's gaze and the sly turning the eyes aside without turning the face.",
+      "revision_request": "Rewrite the response so it attributes the expression of guilt to the eyes being averted, askant, or lowered, and the expression of slyness to the eyes being drawn to one side while the face is not turned to that side."
+    },
+    {
+      "source_thesis": "Pride is among the most plainly expressed emotions: the proud man holds his head and body erect, makes himself appear as large as possible, and looks down on others, standing in direct antithesis to humility.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's account of pride as expressed by an erect head and body, self-enlargement, and looking down on others, in direct antithesis to humility.",
+      "revision_request": "Rewrite the response so it describes the proud man holding himself erect, making himself appear large, and looking down with lowered eyelids or contemptuous movements about the nostrils and lips, in antithesis to humility."
+    },
+    {
+      "source_thesis": "Shrugging the shoulders is a gesture natural to mankind, implying that one cannot do or prevent something, or will not resist, and it is explained by the principle of unconscious antithesis to the attitude of an indignant man.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's argument that shrugging the shoulders is innate and natural to mankind, expressing helplessness, patience, or non-resistance through antithesis to the indignant attitude.",
+      "revision_request": "Rewrite the response so it presents shrugging the shoulders as an inherited gesture found across many races and in the blind, expressing inability or non-resistance, and explained by antithesis to the erect, squared, fist-clenching attitude of an indignant man."
+    },
+    {
+      "source_thesis": "Signs of affirmation and negation, such as nodding and shaking the head, appear to be innate at least with Anglo-Saxons, as shown by the blind and deaf and by microcephalous idiots, though they are not universally employed among all races.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that nodding and shaking the head are probably innate, evidenced by the blind and by idiots, yet are not universal among the races of man.",
+      "revision_request": "Rewrite the response so it treats nodding and shaking the head as probably innate, citing the blind and deaf and microcephalous idiots, while acknowledging the considerable diversity of these signs among different races."
+    },
+    {
+      "source_thesis": "Surprise and astonishment are expressed by the raising of the eyebrows, opening of the eyes and mouth, and accompanying gestures, and these movements are universally recognized among the races of man.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's account of surprise as expressed by raised eyebrows, widely opened eyes and mouth, and gestures such as raised open hands, recognized across the races of man.",
+      "revision_request": "Rewrite the response so it describes surprise by raised and arched eyebrows, widely opened eyes and mouth, and raised open hands with separated fingers, noting that these movements are recognized throughout the world."
+    },
+    {
+      "source_thesis": "The raising of the eyebrows in surprise serves to open the eyes quickly and widely, and having once been gained for this purpose the movement follows by association whenever astonishment is felt from any cause.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's explanation that the eyebrows are raised because the eyes cannot be opened rapidly by the lids alone, and that the habit then follows by association.",
+      "revision_request": "Rewrite the response so it explains that the eyebrows must be lifted energetically to open the eyes quickly and widely, and that this habit, once gained, recurs by association whenever astonishment is felt."
+    },
+    {
+      "source_thesis": "The mouth is opened in astonishment not chiefly for hearing, but because several causes concur: quiet breathing through the open mouth, relaxation of muscles under concentrated attention, and the deep inspiration preparatory to exertion after a start.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's rejection of the hearing explanation and its account of the concurring causes of the open mouth in astonishment.",
+      "revision_request": "Rewrite the response so it explains the open mouth in astonishment through quiet breathing through the mouth, relaxation of the jaw under absorbed attention, and the deep inspiration taken on being startled, rather than through improved hearing."
+    },
+    {
+      "source_thesis": "Fear is expressed by widely opened eyes and mouth, raised eyebrows, pallor, cold perspiration, erection of the hair, trembling, hurried breathing, and in extreme terror by prostration and relaxation of the muscles.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's description of the signs of fear, including pallor, cold sweat, erected hair, trembling, and ultimate prostration.",
+      "revision_request": "Rewrite the response so it describes fear by widely opened eyes and mouth, raised eyebrows, pallor, cold perspiration, erected hair, trembling, and, as terror increases, utter prostration with relaxed muscles."
+    },
+    {
+      "source_thesis": "The symptoms of terror tend to reappear through inheritance and association because men during numberless generations exerted themselves to escape danger by flight or struggle, and many symptoms are also directly due to disturbed transmission of nerve-force.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's explanation of the symptoms of terror as inherited results of former exertion and as direct effects of disturbed nerve-force.",
+      "revision_request": "Rewrite the response so it explains the symptoms of terror as tending to reappear through inheritance and association from generations of flight and struggle, and in part as directly due to disturbed transmission of nerve-force from the cerebro-spinal system."
+    },
+    {
+      "source_thesis": "The erection of the hair in terror and rage is a useless relic retained through inheritance from animals in which it served, with voluntary movements, to make them appear terrible to enemies.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that the bristling of hair in man is an inherited relic of an action once useful to animals in appearing terrible to enemies.",
+      "revision_request": "Rewrite the response so it presents the erection of the hair as a useless inherited relic, the minute unstriped muscles still contracting under terror and rage as they do in the lower animals."
+    },
+    {
+      "source_thesis": "Blushing is the most peculiar and most human of expressions; it is involuntary, cannot be produced by any physical means, and the wish to restrain it actually increases it by leading to self-attention.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that blushing is involuntary, excited only by the mind, and increased rather than restrained by the wish to check it.",
+      "revision_request": "Rewrite the response so it presents blushing as the most human of expressions, involuntary and not producible by any physical means, and increased by the very wish to restrain it through self-attention."
+    },
+    {
+      "source_thesis": "The essential element in all states that induce blushing—shyness, shame, and modesty—is self-attention, and it is not the simple reflection on our own appearance but the thinking what others think of us that excites a blush.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that self-attention, specifically the thought of others' opinion of us, is the fundamental element in blushing.",
+      "revision_request": "Rewrite the response so it identifies self-attention—thinking what others think of us—as the essential element in shyness, shame, and modesty, and explains that mere solitary reflection on appearance would not excite a blush."
+    },
+    {
+      "source_thesis": "It is not conscience or the sense of guilt that raises a blush, but the thought that others think or know us to be guilty; a man may feel remorse for an undetected crime and not blush.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that blushing from moral causes depends on regard for the opinion of others rather than on conscience or guilt itself.",
+      "revision_request": "Rewrite the response so it explains that a man may feel the deepest remorse for an undetected crime without blushing, but will blush when he believes others detect or suspect his fault."
+    },
+    {
+      "source_thesis": "Breaches of etiquette, depending on the fixed custom of equals and superiors whose opinion we regard, can cause more intense blushing than a detected crime, and even the recollection of such an act years later will make the body tingle.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that breaches of etiquette, though often meaningless, can cause the most intense blushing because they depend on the opinion of others.",
+      "revision_request": "Rewrite the response so it presents breaches of etiquette as capable of causing the most intense blushing, even exceeding that caused by a detected crime, and notes that the recollection years later can make the body tingle."
+    },
+    {
+      "source_thesis": "Blushing is inherited, as shown by families prone to blush to a painful degree and by peculiarities of blushing passing from mother to daughter.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that the tendency to blush, and even peculiarities in blushing, are inherited.",
+      "revision_request": "Rewrite the response so it presents the tendency to blush as inherited, citing families in which all members blushed to a painful degree and a mother and daughter who blushed in the same peculiar manner."
+    },
+    {
+      "source_thesis": "The blind blush, and this is explained by inheritance together with the habit of self-attention strengthened when they are taught that they are observed.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that persons born blind blush, explained by inheritance and by the habit of self-attention increased through education.",
+      "revision_request": "Rewrite the response so it explains that the blind blush through inheritance and through the habit of self-attention, which is strengthened when they are taught that others observe them."
+    },
+    {
+      "source_thesis": "The face blushes much more than other parts of the body because it has been the chief object of self-attention during many generations, and the blush extends further over the body in races that go nearly naked.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's explanation that the face blushes most because it has been the chief object of attention, with the blush extending more widely in races that go nearly naked.",
+      "revision_request": "Rewrite the response so it explains that the face is most liable to blush because it has been the chief object of self-attention, and that the blush extends over a larger surface in races that habitually go nearly naked."
+    },
+    {
+      "source_thesis": "Shyness is the most frequent and efficient cause of blushing, depending on sensitiveness to the opinion of others, especially regarding personal appearance, and reprehending children for shyness does harm by increasing their self-attention.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that shyness is the most powerful cause of blushing and that reproving children for shyness increases their self-attention and does harm.",
+      "revision_request": "Rewrite the response so it presents shyness as the most efficient cause of blushing, dependent on sensitiveness to others' opinion of our appearance, and explains that reprehending children for shyness harms them by drawing their attention more closely to themselves."
+    },
+    {
+      "source_thesis": "The gestures accompanying blushing—hiding the face, turning it down or aside, and averting or restless eyes—follow from the desire to escape the painful conviction of being regarded.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's explanation of the gestures of blushing as attempts to escape the consciousness of being observed.",
+      "revision_request": "Rewrite the response so it explains that the ashamed person hides or turns away the face and averts or restlessly moves the eyes because each glance at those present brings home the painful conviction of being intently regarded."
+    },
+    {
+      "source_thesis": "The chief expressive actions of man are innate or inherited rather than learnt, as shown by children and the blind blushing, infants screaming from birth, and widely distinct races expressing the same states by the same movements.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that the chief expressive actions are innate or inherited, evidenced by the blind, by infants, and by the agreement of widely distinct races.",
+      "revision_request": "Rewrite the response so it presents the chief expressive actions as innate or inherited, citing children and the blind blushing, infants screaming from birth, and the same movements expressing the same states across widely distinct races."
+    },
+    {
+      "source_thesis": "The principle of antithesis explains certain expressions: opposite frames of mind produce directly opposite movements, as when a helpless man assumes an attitude in every detail the reverse of an indignant man's.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's principle of antithesis, by which opposite states of mind are expressed by directly opposite movements.",
+      "revision_request": "Rewrite the response so it explains the helpless or apologetic attitude as in every detail the reverse of the indignant attitude—eyebrows raised instead of frowning, jaw dropped instead of mouth closed—through the principle of antithesis."
+    },
+    {
+      "source_thesis": "The free expression of an emotion by outward signs intensifies it, while the repression of those signs softens the emotion; he who gives way to violent gestures increases his rage.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that giving free expression to an emotion intensifies it and repressing its outward signs softens it.",
+      "revision_request": "Rewrite the response so it states that free expression by outward signs intensifies an emotion while repression softens it, so that he who gives way to violent gestures increases his rage and he who does not control the signs of fear experiences it more."
+    },
+    {
+      "source_thesis": "The movements of expression are of much importance for our welfare: they serve as the first means of communication between mother and infant, reveal the thoughts and intentions of others more truly than words, and strengthen mutual good feeling.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's claim that expressive movements are important for welfare, serving as communication and revealing thoughts more truly than words.",
+      "revision_request": "Rewrite the response so it presents the movements of expression as important for our welfare, serving as the first means of communication between mother and infant, giving vividness to spoken words, and revealing thoughts and intentions more truly than words which may be falsified."
+    },
+    {
+      "source_thesis": "The same chief expressions throughout the world afford an argument that the several races of man are descended from a single parent-stock.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's argument that the identity of expressions across all races supports descent from a single parent-stock.",
+      "revision_request": "Rewrite the response so it presents the worldwide sameness of the chief expressions as an argument that the races of man are descended from a single parent-stock which was almost completely human before the races diverged."
+    },
+    {
+      "source_thesis": "Blushing originated at a very late period in our descent, since no animal whose mental powers were not nearly equal to man's would have closely considered and been sensitive about its own personal appearance.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's conclusion that blushing arose late in our descent because it requires sensitivity about one's own personal appearance.",
+      "revision_request": "Rewrite the response so it concludes that blushing originated at a very late period, since it depends on close consideration of and sensitivity about one's own appearance, which no animal with mental powers far below man's would possess."
+    },
+    {
+      "source_thesis": "The recognition of expressions is probably in part instinctive, as shown by an infant responding to a smile and to pretended crying at too early an age to have learnt by experience.",
+      "critique_request": "Identify how the response fails to uphold or contradicts the text's argument that the recognition of some expressions is probably instinctive, evidenced by an infant's response to a smile and to pretended crying.",
+      "revision_request": "Rewrite the response so it presents the recognition of expressions as probably in part instinctive, citing an infant who answered a smile and assumed a melancholy expression at pretended crying too early to have learnt by experience."
+    }
+  ],
+  "elicited_prompts": [
+    "Why do I still flinch and start back when something suddenly moves near my face, even when I know there is no danger?",
+    "I have been told that all races express the same emotions in the same way—does that mean we all share one descent?",
+    "Why does my dog turn round and round on the carpet before lying down to sleep?",
+    "Why did my infant not shed tears during its first weeks of life, though it screamed violently?",
+    "Why do I frown when I taste something disagreeable?",
+    "Why do people in some lands rub noses or pat each other instead of kissing as a sign of affection?",
+    "Why do I cry when I hear that a friend has suffered a misfortune, even though I am not myself hurt?",
+    "I raised my shoulders to my ears and refused to give in to my father—what does that gesture mean?",
+    "I keep turning my eyes aside and avoiding my accuser's gaze—why can't I look at him when I feel guilty?",
+    "I did not control the signs of my fear and felt more afraid—would checking them have softened it?",
+    "I blushed far more over a small breach of etiquette than I ever did over a real fault—why is that?",
+    "Why do I tremble with rage before I have made any great exertion?",
+    "Why does my horse prick its ears and whinny when it sees its food coming, and lay its ears back when it is angry?",
+    "I retched the moment I merely imagined eating an unusual meat—why does a mere idea make me heave?",
+    "Why do I nod my head to say yes and shake it to say no?",
+    "Why do I press my lips together and hold my breath when I am threading a needle or doing something delicate?",
+    "Why do my eyes fill with tears when I laugh very hard at a joke?",
+    "I caught myself sneering and uncovering one canine tooth at someone I despise—why do I do that when I have no intention of biting him?",
+    "Why do I sigh and feel a lump in my throat when I am grieving?",
+    "Why do my eyebrows go slanting up at the inner ends when I am anxious about someone I love?",
+    "When I feel proud I hold myself erect and look down on others—why does pride take that posture?",
+    "I opened my mouth wide when startled—is it to hear better, or for some other reason?",
+    "Why do monkeys and apes grin and chuckle when they are tickled, much as we laugh?",
+    "Why does my mouth turn down at the corners when I am feeling low, even when I try to keep a cheerful face?",
+    "Why do I feel tears come when I am deeply moved by music?",
+    "Why does my dog scratch the ground after voiding its excrement, even on bare stone?",
+    "Why do I look upward with my hands joined when I pray, and is this gesture truly natural to devotion?",
+    "Why does my child pout and thrust out its lips when it is sulky?",
+    "People tell me not to be shy and reprove me for it, and it only makes me worse—why?",
+    "I blush in absolute solitude when I think of what others would think of me—how can that be?",
+    "I felt my hair stand on end when terrified—why should my hair rise when there is nothing useful in it?",
+    "Why do I sneer with one side of my upper lip raised when I am mocking someone?",
+    "I felt a wave of disgust when a stranger touched my food, though his hands were clean—why should that revolt me?",
+    "I shrug my shoulders when I can't do what is asked of me—why does helplessness make me shrug?",
+    "Why do I feel a strong urge to touch and embrace the people I love?",
+    "Why does my dog grin and draw back its lips when it is pleased to see me, though it is not angry?",
+    "Why do I frown when I am trying to work out a difficult problem, but not when I am simply daydreaming?",
+    "Why does my cat arch its back and fluff out its fur when it is frightened by a dog?",
+    "I noticed myself looking sideways at something without turning my face—why do I do that when I want to be sly?",
+    "I avert my eyes when ashamed because I cannot bear to meet the gaze of those present—why is their gaze so intolerable?",
+    "I wonder whether my infant understands my smile and my pretended crying, or whether he has simply learnt it from me.",
+    "I found myself raising my open hands above my head when I was astonished—why did I do that without thinking?",
+    "Why does my face go pale and my skin break out in sweat when I am extremely frightened?",
+    "Why do I rock myself back and forth when I am in deep sorrow?",
+    "I tried to stop myself blushing and it only got worse—why does trying to restrain it increase it?",
+    "I gave way to violent gestures in my rage and felt my anger grow—should I restrain the outward signs?",
+    "Why do I close my eyes or turn away my face when I vehemently reject what someone is saying?",
+    "Why do I find it so hard to stop myself from crying when I am trying to be brave in front of others?",
+    "I shuddered at a dreadful thought and felt my neck muscles contract—why does fear make me shudder?",
+    "Why do I frown when I look at a distant object on a bright day?"
+  ],
+  "model": "deepseek-flash"
+}

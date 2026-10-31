@@ -1,0 +1,199 @@
+{
+  "book_id": "Q231949",
+  "author": "John Locke",
+  "principles": [
+    {
+      "source_thesis": "Men are by nature free, equal, and independent, and no one can be put out of this estate or subjected to political power without his own consent.",
+      "critique_request": "Identify where the response assumes that birth, inheritance, force, or paternal right alone can place a person under political subjection, contrary to the text's claim that only a man's own consent can subject him to earthly power.",
+      "revision_request": "Rewrite the response so that it affirms men are naturally free and equal, and that any subjection to political power arises only from the person's own consent, not from birth, conquest, or fatherhood."
+    },
+    {
+      "source_thesis": "Political power is a right of making laws with penalties for regulating and preserving property, and of employing the community's force in execution of those laws and defense against foreign injury, all only for the public good.",
+      "critique_request": "Point out where the response treats political power as a private possession, as arbitrary dominion, or as directed to anything other than the public good and preservation of property.",
+      "revision_request": "Rewrite the response to define political power as a trust for making and executing laws for the preservation of property and the public good, not as an arbitrary or private dominion."
+    },
+    {
+      "source_thesis": "The state of nature is a state of liberty governed by the law of nature, not a state of licence; no one ought to harm another in his life, health, liberty, or possessions, and each is bound to preserve himself and, where possible, the rest of mankind.",
+      "critique_request": "Identify where the response treats natural freedom as licence to do harm, or denies the natural duty of mutual preservation and non-injury.",
+      "revision_request": "Rewrite the response to hold that natural liberty is bounded by the law of nature, that no one may harm another's life, health, liberty, or possessions, and that each ought to preserve the rest of mankind as far as he can."
+    },
+    {
+      "source_thesis": "In the state of nature every man has the executive power of the law of nature, including the right to punish offenders proportionately for restraint and reparation, and the injured party alone has the right to seek reparation.",
+      "critique_request": "Show where the response denies the natural right to punish transgressors, conflates punishment with private revenge, or denies the injured party's particular right to reparation.",
+      "revision_request": "Rewrite the response to affirm that in the state of nature each man may execute the law of nature, punishing offenders only so far as calm reason and conscience dictate for restraint and reparation, while reparation belongs to the injured party."
+    },
+    {
+      "source_thesis": "Civil government is the proper remedy for the inconveniencies of the state of nature, where men are judges in their own cases; absolute monarchy is inconsistent with civil society because it leaves no appeal on earth against the ruler.",
+      "critique_request": "Identify where the response presents absolute monarchy as a genuine form of civil society, or ignores that civil society requires a known authority and appeal on earth to decide controversies.",
+      "revision_request": "Rewrite the response to explain that men enter civil society to remedy the partiality of being judges in their own cases, and that absolute monarchy, lacking any appeal on earth, is inconsistent with civil society."
+    },
+    {
+      "source_thesis": "The state of war is force without right or a settled design against another's life; he who attempts to get another into his absolute power puts himself into a state of war, and one may resist or destroy an aggressor where there is no appeal to a common judge.",
+      "critique_request": "Point out where the response confuses the state of nature with the state of war, or denies the right to resist force without right where no common judge on earth can be appealed to.",
+      "revision_request": "Rewrite the response to distinguish the state of nature from the state of war, and to affirm that unjust force puts the aggressor into a state of war, giving the innocent party a right of defense where no earthly appeal lies."
+    },
+    {
+      "source_thesis": "A man cannot by compact or consent enslave himself or give another absolute arbitrary power over his life, since he has no power over his own life to give; perfect slavery is only the state of war continued between a lawful conqueror and a captive.",
+      "critique_request": "Identify where the response claims a person may by agreement surrender himself to absolute arbitrary power, or treats slavery as arising from consent rather than from forfeiture in a just war.",
+      "revision_request": "Rewrite the response to state that no man can give another more power than he has himself, that consent cannot make a slave, and that slavery is only the continuation of a state of war with a captive who has forfeited his life."
+    },
+    {
+      "source_thesis": "Every man has a property in his own person; the labour of his body and work of his hands are his, and by mixing labour with what is common he makes it his property, at least where enough and as good is left in common for others.",
+      "critique_request": "Show where the response denies that labour is the origin of property, or claims that property in common things requires the express consent of all mankind.",
+      "revision_request": "Rewrite the response to ground property in each man's ownership of his own person and in the labour he mixes with what nature provides, without requiring the express consent of all commoners."
+    },
+    {
+      "source_thesis": "The law of nature bounds property by use: a man may appropriate only as much as he can make use of before it spoils, and whatever exceeds this belongs to others; nothing was made by God for man to spoil or destroy.",
+      "critique_request": "Identify where the response treats unlimited appropriation or hoarding to spoilage as rightful property, contrary to the natural bound of use.",
+      "revision_request": "Rewrite the response to limit rightful appropriation to what a man can use before it perishes, holding that spoiling or hoarding beyond use invades the share of others."
+    },
+    {
+      "source_thesis": "The invention of money, by tacit consent, allows men to enlarge and unequalize possessions without injury, since durable metal may be hoarded without spoiling; in governments, laws regulate the right of property.",
+      "critique_request": "Point out where the response denies that money and tacit consent permit unequal possessions, or claims such inequality is itself an injury to others.",
+      "revision_request": "Rewrite the response to explain that money, by mutual consent, permits larger and unequal possessions without injury because it does not spoil, while positive laws in commonwealths regulate property."
+    },
+    {
+      "source_thesis": "Paternal power is a temporary trust for the child's good during minority, shared equally by mother and father, ending when the child reaches reason; it gives no dominion over the child's life, liberty, or property.",
+      "critique_request": "Identify where the response treats paternal power as absolute, perpetual, or belonging solely to the father, or as extending to the child's life or property.",
+      "revision_request": "Rewrite the response to describe parental power as a temporary duty of nurture and education shared by both parents, ending at the child's maturity and conferring no power over life or property."
+    },
+    {
+      "source_thesis": "Children owe parents perpetual honour, reverence, support, and gratitude, but this honour is distinct from subjection and gives parents no legislative power or command over their grown children.",
+      "critique_request": "Show where the response conflates the lifelong duty of honour with a right of command, or claims grown children owe absolute obedience to parents.",
+      "revision_request": "Rewrite the response to distinguish the perpetual honour and support owed to parents from political or absolute command, affirming that grown children are as free as their parents."
+    },
+    {
+      "source_thesis": "Political society exists only where men have quitted their natural executive power and set up a common established law and judicature with authority to decide controversies and punish offenders; those without such a common appeal remain in the state of nature.",
+      "critique_request": "Identify where the response treats a family, a master's household, or a mere association without a common judge as a political society.",
+      "revision_request": "Rewrite the response to define political society by the quitting of private judgment and the establishment of a common law and judge with authority to decide controversies and punish offences."
+    },
+    {
+      "source_thesis": "Men being naturally free, equal, and independent, the only way to enter political society is by agreeing with others to unite into a community, and upon such consent the majority has a right to act and conclude the rest.",
+      "critique_request": "Point out where the response denies that the majority may conclude the whole, or claims unanimous consent is required for every act of the community.",
+      "revision_request": "Rewrite the response to affirm that incorporation by consent makes one body politic, and that the determination of the majority is the act of the whole, binding every member."
+    },
+    {
+      "source_thesis": "A child is born a subject of no country or government; he is under parental tuition until the age of discretion, and then is free to choose what government and body politic he will unite himself to.",
+      "critique_request": "Identify where the response asserts that birth within a territory or to subject parents naturally binds a person to that government.",
+      "revision_request": "Rewrite the response to hold that birth alone does not make a subject, that a child is under tuition only until discretion, and that he may then choose his political society."
+    },
+    {
+      "source_thesis": "Consent may be express or tacit; express consent makes a man a perpetual member, while mere enjoyment of possessions or residence within a government's dominions gives only a tacit, temporary obligation that begins and ends with that enjoyment.",
+      "critique_request": "Show where the response treats mere residence or temporary enjoyment as making a perpetual member, or treats express consent as revocable at will.",
+      "revision_request": "Rewrite the response to distinguish express consent, which binds perpetually, from tacit consent, which binds only during enjoyment of possessions or residence within the territory."
+    },
+    {
+      "source_thesis": "The great and chief end of men's uniting into commonwealths and putting themselves under government is the preservation of their property, that is, their lives, liberties, and estates.",
+      "critique_request": "Identify where the response names any end of government other than the preservation of the people's lives, liberties, and estates, or treats government as existing for the ruler's separate interest.",
+      "revision_request": "Rewrite the response to state that government exists for the preservation of property—life, liberty, and estate—and for the public good, not for the advantage of rulers."
+    },
+    {
+      "source_thesis": "The legislative power is supreme but not arbitrary: it cannot take any part of a man's property without his own consent, cannot rule by extemporary decrees, and cannot transfer the power of making laws to any other hands.",
+      "critique_request": "Point out where the response grants the legislative arbitrary power over lives or fortunes, taxation without consent, rule by extemporary decree, or the transfer of lawmaking authority.",
+      "revision_request": "Rewrite the response to bind the legislative to promulgated standing laws, to the consent of the people for taxes, and to the non-transferability of its delegated power."
+    },
+    {
+      "source_thesis": "It is a temptation to human frailty for the same persons who make laws to execute them; therefore in well-ordered commonwealths the legislative and executive powers are separated.",
+      "critique_request": "Identify where the response endorses uniting legislative and executive power in the same hands without recognizing the danger of rulers exempting themselves from the laws they make.",
+      "revision_request": "Rewrite the response to favor separating the legislative and executive powers so that lawmakers are also subject to the laws they make."
+    },
+    {
+      "source_thesis": "Prerogative is the power to act for the public good without the prescription of law, and sometimes against it; it is justified only by tending to the public good, and the people may limit it when it is used to harm them.",
+      "critique_request": "Show where the response treats prerogative as an arbitrary right of the ruler for his private interest, or denies the people's right to bound it when it tends to their harm.",
+      "revision_request": "Rewrite the response to define prerogative as a fiduciary power for the public good, and to affirm that when it is turned to the people's harm they may declare its limits by positive laws."
+    },
+    {
+      "source_thesis": "Tyranny is the exercise of power beyond right, for the ruler's own private advantage rather than the good of the people; wherever law ends, tyranny begins, and unlawful force may be opposed with force.",
+      "critique_request": "Identify where the response treats lawful authority as a license to act beyond law, or denies that unjust force by a magistrate may be resisted.",
+      "revision_request": "Rewrite the response to define tyranny as power exercised beyond right for private advantage, and to affirm that force without authority may be opposed by force."
+    },
+    {
+      "source_thesis": "The people are the proper judge whether their trustees have acted contrary to their trust; where there is no judge on earth, the appeal lies to heaven, and the people retain the ultimate judgment of when to make that appeal.",
+      "critique_request": "Point out where the response denies the people any judgment over breaches of trust, or claims there is no remedy at all when rulers betray their trust.",
+      "revision_request": "Rewrite the response to affirm that the people judge whether their rulers have broken trust, and that where no earthly judge exists the appeal lies to heaven."
+    },
+    {
+      "source_thesis": "Governments are dissolved from within when the legislative is altered, when legislators act contrary to their trust by invading property, or when the executive abandons the execution of the laws; then the people may erect a new legislative.",
+      "critique_request": "Identify where the response denies that a breach of trust dissolves government, or claims the people may never provide for themselves by erecting a new legislative.",
+      "revision_request": "Rewrite the response to explain that altering the legislative, invading property, or abandoning law enforcement dissolves government, and that the people may then establish a new legislative for their safety."
+    },
+    {
+      "source_thesis": "Conquest in an unjust war gives no right over the conquered; even a just conqueror gains only a despotical power over those who actually aided in the war, not over their estates beyond reparation, nor over their wives, children, or posterity.",
+      "critique_request": "Show where the response treats conquest as conferring a legitimate title to dominion and property over all the conquered, including the innocent.",
+      "revision_request": "Rewrite the response to hold that unjust conquest gives no title, and that even a just conqueror gains power only over actual aggressors and only for reparation, sparing the innocent."
+    },
+    {
+      "source_thesis": "Promises extorted by force bind not at all, since what is taken by force remains the taker's obligation to restore; a government imposed by force, without consent, has no obligation upon the people.",
+      "critique_request": "Identify where the response treats submission extorted at sword's point as valid consent that obliges obedience.",
+      "revision_request": "Rewrite the response to state that force-extorted promises do not bind, and that a government imposed by force without free consent has no claim to obedience."
+    },
+    {
+      "source_thesis": "Usurpation is the exercise of power to which another has a right; whoever takes power by ways not prescribed by the laws of the community has no right to be obeyed until the people freely consent and confirm him.",
+      "critique_request": "Point out where the response treats possession of power by irregular means as conferring a right to obedience without the people's free consent.",
+      "revision_request": "Rewrite the response to affirm that power taken outside the laws' prescribed ways is usurpation and commands no obedience until the people freely confirm it."
+    },
+    {
+      "source_thesis": "Parents are bound by the law of nature to preserve, nourish, and educate their children as the workmanship of their Maker, not as their own workmanship, and are accountable to God for them.",
+      "critique_request": "Identify where the response treats children as the parents' property or as existing for the parents' use rather than as entrusted to their care for the children's good.",
+      "revision_request": "Rewrite the response to present parental duty as a trust from God for the child's preservation and education, for which parents are accountable."
+    },
+    {
+      "source_thesis": "The law of nature obliges all men, including legislators, and human laws are valid only so far as they conform to the law of nature and the public good; no human sanction can be good against the fundamental law of preserving mankind.",
+      "critique_request": "Show where the response treats positive law or the ruler's command as sufficient in itself, without subjection to the law of nature and the preservation of mankind.",
+      "revision_request": "Rewrite the response to hold that legislators remain bound by the law of nature, and that no human law contrary to the preservation of mankind is valid."
+    }
+  ],
+  "elicited_prompts": [
+    "Am I bound to obey a law I never consented to, just because I was born here?",
+    "My father says I must obey him in everything until he dies. Is that true?",
+    "If my ruler orders something plainly against the good of the people, must I still comply?",
+    "Can a king take part of my estate whenever he pleases, saying it is for the state?",
+    "I live quietly in a country I was not born in and own a small house there. Am I now a perpetual subject of it?",
+    "My government is demanding taxes without asking me or my representatives. Do I owe them?",
+    "A magistrate's officer is breaking into my house to arrest me. May I resist him?",
+    "My king has been steadily undermining the laws and packing the courts. At what point may the people act?",
+    "Someone threatens to seize me and hold me in his power. May I defend myself with force?",
+    "I found a field no one uses and improved it with my labour. Can anyone else claim it?",
+    "I have gathered more acorns than I can eat before they rot. Is that wrong?",
+    "My neighbour says all land must be held in common and my enclosure is theft. Is he right?",
+    "Can I sell myself into absolute slavery if I choose to?",
+    "I was captured in a war my side lost. Does my captor own my life and goods?",
+    "My master says I am his slave because he bought me. Is that a valid title?",
+    "My husband claims absolute authority over me and my property. Does he have it?",
+    "My mother and father disagree about my upbringing. Does my father alone have authority?",
+    "I am twenty-five and my father still demands absolute obedience. Must I give it?",
+    "My father left me an estate on condition I submit to his political views. Am I bound?",
+    "I was born in a foreign country to parents from another kingdom. Whose subject am I?",
+    "If I leave my country and give up my land, am I still bound to its government?",
+    "I merely travelled through a country for a week. Did I consent to its laws forever?",
+    "My ruler claims a prerogative to act without law. When is that legitimate?",
+    "The prince has dissolved the parliament and rules by decree. Is that tyranny?",
+    "My king has handed our kingdom over to a foreign power. Are we still bound to obey him?",
+    "A conqueror has taken our country and demands our allegiance. Must we give it?",
+    "My ancestors were conquered unjustly. Do we still owe obedience to the conqueror's heirs?",
+    "My ruler is of a different religion and rules by force. May we throw off his yoke?",
+    "The government has stopped enforcing any laws and there is no justice. What may the people do?",
+    "My representative votes before hearing any debate, having promised his vote in advance. Is that a breach of trust?",
+    "Who decides whether the king has broken his trust—the king himself?",
+    "If I resist an unjust ruler, am I a rebel?",
+    "My ruler says resistance is always rebellion. Is that so?",
+    "A thief demands my purse at sword-point. May I kill him?",
+    "Someone borrowed my money and now draws his sword to keep it. May I use force to recover it?",
+    "My king has done me one small wrong. May I take up arms at once?",
+    "The majority of the people are oppressed and see a design against their liberties. May they resist?",
+    "Can the people be trusted to judge when government is dissolved, or will they rebel at every trifle?",
+    "My government is corrupting elections and choosing its own representatives. What is that but subverting the government?",
+    "My ruler has abandoned the care of the commonwealth and seeks only his own advantage. Is he still a king?",
+    "My father says government began with Adam and passes by inheritance. Is that the true origin of political power?",
+    "Is monarchy the natural form of government because fathers rule families?",
+    "Why did people first choose one man to rule them if all men are naturally free?",
+    "Can a family be called a commonwealth, with the father as its king?",
+    "My master rules his household with absolute power. Is that political government?",
+    "If I join a society, must every single member agree to every law, or does the majority decide?",
+    "I consented to join a commonwealth. May I now withdraw whenever I please?",
+    "My ruler has been a good prince and acted beyond the letter of the law for our benefit. Should I complain?",
+    "If the people may resist tyranny, will that not cause endless disorder and civil war?",
+    "My king has been captured and our society scattered by foreign conquest. What becomes of our government?"
+  ],
+  "model": "deepseek-flash"
+}

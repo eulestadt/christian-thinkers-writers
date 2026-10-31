@@ -1,0 +1,329 @@
+{
+  "book_id": "Q29478",
+  "author": "Johann Wolfgang von Goethe",
+  "principles": [
+    {
+      "source_thesis": "Man still must err, while he doth strive; a good man in his darkest aberration is conscious of the right path.",
+      "critique_request": "Identify where the response treats human error as proof of damnation or final failure, rather than as an unavoidable companion of striving that a good man may pass through while still sensing the right path.",
+      "revision_request": "Rewrite the response so it holds that erring is bound up with striving and that even in his darkest aberration a good man remains conscious of the right path."
+    },
+    {
+      "source_thesis": "What issues from the heart alone will bend the hearts of others; polished but hollow speech is empty wind.",
+      "critique_request": "Point out where the response praises polished rhetoric, borrowed erudition, or fine harangues that do not flow fresh from the speaker's own feeling.",
+      "revision_request": "Rewrite the response to insist that only what issues from the heart can move other hearts, and to dismiss artful but empty words as unrefreshing wind."
+    },
+    {
+      "source_thesis": "Parchment and book-learning cannot give the life-restoring draught; knowledge must gush from one's inmost soul and be used, not merely hoarded.",
+      "critique_request": "Identify where the response treats accumulated texts, instruments, or inherited lore as sufficient wisdom, contrary to the claim that unused learning is a burden and impediment.",
+      "revision_request": "Rewrite the response so it affirms that what we do not employ impedes us, and that true knowledge must spring from the soul and be rendered one's own by use."
+    },
+    {
+      "source_thesis": "Two souls dwell in one breast: one clings to the world with obstinate desire, the other aspires above the mist to purer spheres.",
+      "critique_request": "Flag any response that presents human motivation as single and harmonious, ignoring the struggle between the soul that cleaves to the world and the soul that aspires to purer spheres.",
+      "revision_request": "Rewrite the response to acknowledge both souls lodged in one breast and the unending struggle between worldly desire and aspiration to purer spheres."
+    },
+    {
+      "source_thesis": "Feeling, not a name, is what grasps the divine; name is but sound and smoke shrouding the glow of heaven.",
+      "critique_request": "Identify where the response insists on formulas, names, or doctrinal labels as the test of belief, rather than the felt apprehension of what embraces and sustains us.",
+      "revision_request": "Rewrite the response so it locates genuine belief in feeling that fills the heart, treating names as mere sound and smoke that shroud the glow of heaven."
+    },
+    {
+      "source_thesis": "The devil is part of that power which still produceth good whilst ever scheming ill; he stirs and excites man, who is too prone to shirk activity and rest.",
+      "critique_request": "Point out where the response treats negation, temptation, or restless denial as purely destructive, missing that such spirits are permitted to stir and excite man toward activity.",
+      "revision_request": "Rewrite the response to recognize that the denying spirit, though scheming ill, is part of a power that produces good and exists to rouse man from unconditioned rest."
+    },
+    {
+      "source_thesis": "Excitement, not joy or ease, is the sphere for man; the wager is lost the moment one says to the moment, 'Linger awhile, so fair thou art.'",
+      "critique_request": "Identify where the response treats contentment, comfort, or the satisfaction of having arrived as the proper human goal, contrary to the wager that such lingering forfeits the soul.",
+      "revision_request": "Rewrite the response so it prizes striving and excitement over repose, and treats any wish to linger in a satisfied moment as the very forfeit of the wager."
+    },
+    {
+      "source_thesis": "A man's word, not a written bond with seal and signature, should bind him; the pen kills the living word and leather and wax usurp mastery.",
+      "critique_request": "Flag any response that treats formal contracts, signatures, or documents as the true ground of obligation rather than the plighted word of a man.",
+      "revision_request": "Rewrite the response to hold that a man's given word suffices and that demanding a written deed is a pedant's spectre that lets dead parchment usurp the living word."
+    },
+    {
+      "source_thesis": "The Church alone, be it confessed, can digest ill-got wealth; custom and law trail their curse from race to race and turn reason to nonsense.",
+      "critique_request": "Identify where the response treats institutions, inherited customs, or legal forms as pure beneficence, ignoring the text's charge that they swallow ill-gotten goods and spread a curse from race to race.",
+      "revision_request": "Rewrite the response to reflect the text's satirical claim that the Church has a good stomach for ill-got wealth and that inherited customs and laws spread like a dread heir-loom."
+    },
+    {
+      "source_thesis": "Grey is all theory and green the golden tree of life; self-confidence and knowledge of the world, not mere doctrine, make the proficient man.",
+      "critique_request": "Point out where the response exalts abstract theory and method over lived experience, contrary to the claim that all theory is grey and the golden tree of life is green.",
+      "revision_request": "Rewrite the response to subordinate grey theory to the green tree of life, valuing self-possession and acquaintance with the world above doctrine."
+    },
+    {
+      "source_thesis": "The spirit of the times is merely men's own spirit, in which the times are distorted; the ages past are a book with seven seals.",
+      "critique_request": "Identify where the response treats the spirit of an age or the lore of past ages as transparently knowable, ignoring that men read their own spirit into the times.",
+      "revision_request": "Rewrite the response so it treats the so-called spirit of the times as men's own spirit mirrored and distorted, and the past as a book with seven seals."
+    },
+    {
+      "source_thesis": "The Church's absolution and the priest's taking of the jewels show that the Church alone can digest ill-got wealth, while the mother's piety and Gretchen's longing are entangled with guilt.",
+      "critique_request": "Flag any response that presents religious authority as purely innocent or that ignores how pious scruple and churchly counsel entangle simple souls in guilt and loss.",
+      "revision_request": "Rewrite the response to show the irony that the priest who condemns ill-gotten goods keeps the jewels, and that pious counsel leaves the simple soul more entangled rather than free."
+    },
+    {
+      "source_thesis": "Foreboding antipathy is not to be dismissed: the innocent soul feels the presence of the evil companion and is chilled by it, and such foreboding proves true.",
+      "critique_request": "Identify where the response dismisses a person's instinctive horror at a companion as mere prejudice, contrary to the text's vindication of Gretchen's foreboding.",
+      "revision_request": "Rewrite the response to honor the innocent soul's foreboding antipathy toward the evil companion as a true presentiment rather than a groundless fear."
+    },
+    {
+      "source_thesis": "The pure soul possessed by ardent love, holding to the man she loves, must prove holy anguish, fore-doomed to endless death.",
+      "critique_request": "Point out where the response treats love as a simple pleasure without the anguish and doom that attend a pure soul's devotion to a man who is himself astray.",
+      "revision_request": "Rewrite the response so it acknowledges that a pure soul's love can bring holy anguish and fore-doomed woe, not mere bliss."
+    },
+    {
+      "source_thesis": "One who has inveighed against others' sin finds her own trespass appearing, and knows that what urged her to transgress was sweet and dear.",
+      "critique_request": "Identify where the response condemns the fallen with self-righteous certainty, ignoring the text's turn from harsh judgment of others to recognition of one's own trespass.",
+      "revision_request": "Rewrite the response so it moves from blackening others' sin to confessing one's own trespass, acknowledging how sweet and dear the temptation was."
+    },
+    {
+      "source_thesis": "The glorified turn their faces away from the guilty, and sin and shame remain not hidden; the guilty soul cannot escape the accusing spirit.",
+      "critique_request": "Flag any response that promises the guilty an easy hiding of sin or an untroubled conscience, contrary to the text's claim that sin and shame remain not hidden.",
+      "revision_request": "Rewrite the response to hold that sin and shame cannot be hidden and that the guilty soul is haunted by an accusing spirit even amid prayer."
+    },
+    {
+      "source_thesis": "Salvation is not in the guilty one's own grasp: 'She now is judged' is answered from above with 'Is saved,' while the tempter can only lead away.",
+      "critique_request": "Identify where the response treats final judgment as wholly within human control or as a simple reward for the tempter's success, ignoring the voice from above that saves her.",
+      "revision_request": "Rewrite the response so it leaves final judgment to the voice from above, which can save even where the tempter pronounces her judged."
+    },
+    {
+      "source_thesis": "The Lord permits Mephistopheles to tempt Faust only so long as he lives on earth, and foresees that a good man will be led to more light.",
+      "critique_request": "Point out where the response treats temptation as unlimited or as proof of final ruin, contrary to the Lord's permission bounded by earthly life and His confidence in leading Faust to more light.",
+      "revision_request": "Rewrite the response to keep temptation within its permitted earthly bounds and to affirm the Lord's confidence that the striving man will be led where more light appears."
+    },
+    {
+      "source_thesis": "The Lord finds the scoffer least wearisome of all the spirits who deny, and gives him to man because man is too prone to shirk activity.",
+      "critique_request": "Identify where the response treats all denial and mockery as simply hateful, missing the text's claim that the scoffer is least wearisome and serves to stir man from rest.",
+      "revision_request": "Rewrite the response to grant that the denying, scoffing spirit is tolerated and even useful because it stirs man, who is too prone to shirk activity."
+    },
+    {
+      "source_thesis": "Faust craves not joy but excitement, agonizing bliss, enamoured hatred and quickening vexation, to bare his breast to every pang and share mankind's shipwreck.",
+      "critique_request": "Flag any response that reduces Faust's aim to the pursuit of pleasure or happiness, ignoring his craving for every pang and for sharing the shipwreck of mankind.",
+      "revision_request": "Rewrite the response so it presents the aim as baring the breast to every pang and dilating the individual mind to share mankind's shipwreck, not the pursuit of joy."
+    },
+    {
+      "source_thesis": "The devil's gifts are food that satisfieth never, ruddy gold that flows like quicksilver, a game none win who play, and fruit that rots ere it is plucked.",
+      "critique_request": "Identify where the response treats worldly goods, gold, or games of chance as lasting satisfactions, contrary to the text's account of the devil's unsatisfying gifts.",
+      "revision_request": "Rewrite the response to describe the tempter's offers as food that never satisfies, gold that flows away, and fruit that rots before it is plucked."
+    },
+    {
+      "source_thesis": "In the beginning was the Deed, not the Word or the Sense; the spirit aids the translator who writes the deed.",
+      "critique_request": "Point out where the response privileges mere words or abstract sense over deed as the creative beginning of things.",
+      "revision_request": "Rewrite the response so it renders the primal sentence as 'In the beginning was the Deed,' treating deed as the creative power."
+    },
+    {
+      "source_thesis": "The pentagram's power is broken by a single unclosed angle; the devil who entered by chance is held only by accident, and where spirits stole in there they must forth.",
+      "critique_request": "Identify where the response treats spiritual bondage or escape as a matter of sheer will, ignoring the text's motif that a chance flaw in the sign and the law of entry and exit govern the spirit.",
+      "revision_request": "Rewrite the response to acknowledge that the spirit is caught by an unclosed angle and must depart by the way it entered, so that holding him is a matter of chance and law."
+    },
+    {
+      "source_thesis": "Wagner's contentment with parchment, method, and the spirit of the past is set against Faust's despair; hope abandons him never who clings to empty trash with zeal untired.",
+      "critique_request": "Flag any response that praises the diligent antiquarian's contentment as wisdom, ignoring the text's contrast between such zeal for empty trash and Faust's despair.",
+      "revision_request": "Rewrite the response to set the scholar's zeal for parchment and method against Faust's despair, showing that such contentment clings to empty trash."
+    },
+    {
+      "source_thesis": "The crowd's applause is a scornful tone to Faust, who knows how little sire or son deserves the meed; he gave deadly poison to thousands and yet must live to hear the murderers blest.",
+      "critique_request": "Identify where the response treats public acclaim or inherited reputation as genuine merit, contrary to Faust's knowledge of how little his renown deserves the crowd's homage.",
+      "revision_request": "Rewrite the response so it questions the crowd's applause and the renown of sire and son, acknowledging the guilt that renown may conceal."
+    },
+    {
+      "source_thesis": "The Easter hymn recalls Faust to life and earth; the tear flows and he is Earth's again, though faith he cannot claim.",
+      "critique_request": "Point out where the response treats childhood memory and sacred music as mere superstition with no power to recall a doubter to life.",
+      "revision_request": "Rewrite the response to honor the power of remembered sacred song and childhood feeling to draw a doubting man back to earth and life."
+    },
+    {
+      "source_thesis": "The people's paradise at the gate shows Faust that here he is man; the holiday throng, however coarse, is where he feels his humanity.",
+      "critique_request": "Identify where the response despises common festivity and the vulgar throng as beneath the cultivated mind, contrary to Faust's feeling that here he is man.",
+      "revision_request": "Rewrite the response to value the common holiday throng and the shared life of the people as the place where one feels oneself a man."
+    },
+    {
+      "source_thesis": "The poodle's magic coil narrows around Faust's feet; what seems a mere trained dog may be a spirit's agency, and Wagner's dull sight sees nothing.",
+      "critique_request": "Flag any response that dismisses apparent signs of spirit agency as mere illusion or training without weighing the narrowing magic coil.",
+      "revision_request": "Rewrite the response to weigh the possibility that what seems a mere trained beast may be a spirit's agency, without dismissing the sign too quickly."
+    },
+    {
+      "source_thesis": "Mephistopheles cannot loose the bands of the avenger nor withdraw his bolts; he asks who plunged her into perdition, I or thou.",
+      "critique_request": "Identify where the response lets the tempter bear sole blame or, conversely, absolves the human partner, ignoring the question 'I or thou?'",
+      "revision_request": "Rewrite the response to hold both partners answerable, acknowledging that the devil cannot loose the avenger's bands and that the human will shares the guilt."
+    },
+    {
+      "source_thesis": "Gretchen will not be carried off by force; she refuses violence and gives her soul to God's judgment, and the voice from above declares her saved.",
+      "critique_request": "Point out where the response treats rescue by force as the proper resolution, ignoring Gretchen's refusal of violence and her submission to divine judgment.",
+      "revision_request": "Rewrite the response to respect her refusal of violent rescue and to leave her fate to the judgment from above, which declares her saved."
+    },
+    {
+      "source_thesis": "The tempter's presence chills prayer and love alike; the innocent soul feels that to his heart no living soul is dear.",
+      "critique_request": "Identify where the response treats the cynical companion as harmless or merely witty, ignoring how his presence chills prayer and love in the innocent.",
+      "revision_request": "Rewrite the response to show that the mocking companion's presence chills prayer and love, and that his contempt for all living souls is felt by the innocent."
+    },
+    {
+      "source_thesis": "Valentine's dying curse holds that once infamy is born in secret it soon waxes bold and courts the day; the fallen woman will be shunned by honest folk.",
+      "critique_request": "Flag any response that treats a secret fall as containable or private, contrary to Valentine's claim that infamy once born grows bold and public.",
+      "revision_request": "Rewrite the response to acknowledge that a hidden fall tends to become public shame and that the fallen may be shunned by honest folk."
+    },
+    {
+      "source_thesis": "The witches' kitchen and its mirror show that beauty can be conjured as a show; Faust is warned he will soon see a Helen in each woman he meets.",
+      "critique_request": "Identify where the response treats conjured beauty or the mirror's image as the real thing, ignoring that the draught will make him greet a Helen in every woman.",
+      "revision_request": "Rewrite the response to distinguish the conjured show of beauty from the living woman, noting that the potion makes every woman seem a Helen."
+    },
+    {
+      "source_thesis": "Mephistopheles mocks the witch's paradoxes and the schools' three-and-one; words are admirable weapons on which a system is securely ground, and men believe there must be something in them.",
+      "critique_request": "Point out where the response treats verbal formulas and paradoxical systems as genuine wisdom, contrary to the text's exposure of words as weapons on which fools ground systems.",
+      "revision_request": "Rewrite the response to expose the emptiness of word-spun systems while noting that men readily believe there must be something in such words."
+    },
+    {
+      "source_thesis": "The student is advised to hold fast to words, for where ideas fail a word comes opportunely into play; yet the text shows this counsel as the devil's own.",
+      "critique_request": "Identify where the response recommends adherence to words and systems as sound pedagogy, ignoring that this counsel is put in the devil's mouth as a trap.",
+      "revision_request": "Rewrite the response to present the advice to hold fast to words as the devil's own snare, not as genuine instruction."
+    },
+    {
+      "source_thesis": "Mephistopheles tells the student that grey is all theory and green the golden tree of life, and that self-confidence and knowledge of the sex make the proficient doctor.",
+      "critique_request": "Flag any response that treats formal study and diplomas as the whole of proficiency, ignoring the text's claim that self-confidence and knowledge of the world make the man.",
+      "revision_request": "Rewrite the response to weigh the devil's worldly counsel that self-confidence and acquaintance with life, not grey theory, make the proficient man."
+    },
+    {
+      "source_thesis": "The drinking party in Auerbach's cellar shows men who live each day as a holiday, with little wit and much content, free from care while the host gives credit.",
+      "critique_request": "Identify where the response moralizes the jovial drinkers as simply vicious, missing the text's picture of light-lived contentment with little wit.",
+      "revision_request": "Rewrite the response to capture the text's ambivalent picture of men who live lightly, with little wit and much content, free from care."
+    },
+    {
+      "source_thesis": "The wine miracle turns to flame and delusion; the revellers seize each other's noses, and the devil loves a jest to break.",
+      "critique_request": "Point out where the response treats the devil's marvels as genuine goods rather than delusive shows that end in confusion and jest.",
+      "revision_request": "Rewrite the response to present the devil's marvels as delusion and jest that leave the revellers confounded."
+    },
+    {
+      "source_thesis": "Martha's talk of her dead husband and the devil's easy oath show that false witness is commonplace; Faust is told he has himself given definitions with unblushing front.",
+      "critique_request": "Identify where the response treats false witness and convenient oaths as confined to villains, ignoring the devil's charge that Faust too has sworn to what he does not know.",
+      "revision_request": "Rewrite the response to acknowledge that false witness is commonplace and that the accuser's charge against Faust himself must be weighed."
+    },
+    {
+      "source_thesis": "Faust's passionate vows of eternal love are met by the devil's charge of sophistry; when passion sways him he grasps at the loftiest words, and the devil claims to be right.",
+      "critique_request": "Flag any response that treats lovers' eternal vows as simply true without the text's tension over whether such words are sophistry.",
+      "revision_request": "Rewrite the response to hold the tension between passionate vows of eternal love and the charge that such lofty words may be sophistry."
+    },
+    {
+      "source_thesis": "Gretchen's simple household labor, her care for the babe, and her modest answer that she is no lady show worth in lowliness and order.",
+      "critique_request": "Identify where the response equates worth with rank, learning, or display, contrary to the text's regard for humble order and labor.",
+      "revision_request": "Rewrite the response to honor humble order, labor, and simplicity as genuine worth, apart from rank or display."
+    },
+    {
+      "source_thesis": "The caskets of jewels awaken vanity and longing in Gretchen; gold all doth lure and secure all things, yet the poor are left to sigh.",
+      "critique_request": "Point out where the response treats wealth and ornament as innocent or as true security, ignoring how the jewels stir vanity and are taken by the priest.",
+      "revision_request": "Rewrite the response to show how gold lures and secures while leaving the poor to sigh, and how the jewels pass from the simple girl to the Church."
+    },
+    {
+      "source_thesis": "Faust in the forest thanks the sublime spirit for revealing nature's depths and his own bosom, yet laments that no perfect thing is assigned to man.",
+      "critique_request": "Identify where the response claims that human life can attain perfection or complete satisfaction, contrary to Faust's lament that naught perfect is assigned to man.",
+      "revision_request": "Rewrite the response to acknowledge that no perfect thing is assigned to man, even amid exalted joy in nature's depths."
+    },
+    {
+      "source_thesis": "Mephistopheles warns that Faust's solitary ecstasy will not last and that frenzy or remorse will tear him; the true love dwells apart and pines.",
+      "critique_request": "Flag any response that treats solitary rapture or withdrawal from the world as a stable human good, ignoring the devil's warning of frenzy and remorse.",
+      "revision_request": "Rewrite the response to note that solitary ecstasy cannot last and that frenzy or remorse will follow, while the beloved pines apart."
+    },
+    {
+      "source_thesis": "Faust curses the delusive shows of glory, fame, property, and even hope and faith, and the spirits answer that he has shattered the beautiful world and must rebuild it in his own bosom.",
+      "critique_request": "Identify where the response treats the world's goods as secure and untroubled, ignoring Faust's curse and the spirits' charge that the beautiful world must be rebuilt within.",
+      "revision_request": "Rewrite the response to reflect the curse on delusive shows and the task of restoring the lost world within one's own bosom."
+    },
+    {
+      "source_thesis": "Wagner hates the tumult of the vulgar throng and calls their pleasure possession; Faust answers that here he is man, valuing what Wagner despises.",
+      "critique_request": "Point out where the response sides with fastidious contempt for common mirth, contrary to Faust's feeling of humanity among the throng.",
+      "revision_request": "Rewrite the response to weigh Wagner's fastidious contempt against Faust's sense that among the common throng he is man."
+    },
+    {
+      "source_thesis": "The Lord's wager with Mephistopheles turns on whether Faust can be diverted from his primal source; the Lord trusts that a good man in his darkest aberration is conscious of the right path.",
+      "critique_request": "Identify where the response treats the wager as a contest of power in which the devil may simply seize the soul, ignoring the Lord's confidence in the good man's consciousness of the right path.",
+      "revision_request": "Rewrite the response to frame the wager around the Lord's trust that a good man, even in aberration, remains conscious of the right path."
+    },
+    {
+      "source_thesis": "Gretchen's spinning song shows love that has taken away her peace and turned the world to gall; her longing is to kiss him and die.",
+      "critique_request": "Flag any response that treats her love as a light romance, ignoring the song's confession that her peace is gone and the world turned to gall.",
+      "revision_request": "Rewrite the response to convey the all-consuming love that takes away peace and turns the world to gall."
+    },
+    {
+      "source_thesis": "At the well Bessy's gossip about Barbara shows how girls who once condemned others now find their own trespass appearing.",
+      "critique_request": "Identify where the response treats gossip and public shame as simply just, missing the text's turn in which the hearer recognizes her own trespass.",
+      "revision_request": "Rewrite the response so that hearing gossip about another's fall leads to recognition of one's own trespass rather than self-righteous condemnation."
+    },
+    {
+      "source_thesis": "Before the Mater dolorosa Gretchen prays that the sorrowful mother know her woe, for her heart is breaking and she has no other help.",
+      "critique_request": "Point out where the response offers easy consolation or worldly remedy to a soul in anguish, ignoring the text's picture of woe that only the sorrowful mother can know.",
+      "revision_request": "Rewrite the response to honor the depth of anguish that seeks help from the sorrowful mother rather than easy consolation."
+    },
+    {
+      "source_thesis": "The Walpurgis Night shows a world of illusion, masks, and idle spectres; Faust is warned not to gaze on the pale shape that wears Gretchen's likeness.",
+      "critique_request": "Identify where the response treats the phantasmagoria of the witches' night as genuine revelation rather than illusion and mask.",
+      "revision_request": "Rewrite the response to present the witches' night as a realm of illusion and masks, and to heed the warning against the lifeless shape that wears the beloved's likeness."
+    },
+    {
+      "source_thesis": "The Intermezzo's golden wedding and its quarrelling spirits show that even fairy concord is counseled by separation; contention is suspended only for a feast.",
+      "critique_request": "Flag any response that treats harmony and concord as permanent, ignoring the Intermezzo's counsel of separation and its picture of contention merely suspended.",
+      "revision_request": "Rewrite the response to acknowledge that concord may be only a brief feast and that separation is counseled even to wedded spirits."
+    },
+    {
+      "source_thesis": "Faust's final despair in the dungeon shows that the misery of one pierces him to the marrow, and he cannot bear that the devil grins over the doom of thousands.",
+      "critique_request": "Identify where the response treats human suffering in the aggregate as a statistic, ignoring Faust's claim that the misery of this one pierces him to the marrow.",
+      "revision_request": "Rewrite the response to weigh the misery of the single creature as piercing to the marrow, refusing to grin calmly over the doom of thousands."
+    },
+    {
+      "source_thesis": "Gretchen's madness in the dungeon has her re-live the drowning of her child and the graves of her mother and brother, and she will not flee because she has naught to hope for.",
+      "critique_request": "Point out where the response treats escape as an obvious good she should simply choose, ignoring her conviction that she has naught to hope for and that they lurk for her.",
+      "revision_request": "Rewrite the response to honor her refusal to flee as grounded in her sense that she has naught to hope for, rather than treating escape as a simple good."
+    }
+  ],
+  "elicited_prompts": [
+    "I have studied philosophy, medicine, law, and theology for years, and I feel I know nothing—should I turn to magic to find the secrets of nature?",
+    "I have mastered every book in my field but feel no wiser than before; is there any point in continuing to teach?",
+    "I long to know the forces that bind creation together, but every method I try leaves me empty—what should I do?",
+    "I feel two souls struggling within my breast, one clinging to the world and one aspiring above—how do I live with this division?",
+    "I have been praised by crowds for my learning, but I know my reputation is undeserved—how should I bear their applause?",
+    "I want to speak in a way that moves people, but my polished speeches leave them cold—what am I doing wrong?",
+    "I have spent my life collecting books and instruments, but they feel like a burden—should I abandon my studies?",
+    "I am tempted to end my life because nothing I do brings satisfaction—what reason is there to go on living?",
+    "I heard a hymn from my childhood and felt drawn back to life and the world—was that weakness or something true?",
+    "I feel most myself among ordinary people at a festival, though my educated friend despises them—am I wrong to value that?",
+    "I met someone who stirs my desire, but my cynical companion warns me to be patient and use stratagem—should I listen?",
+    "I have fallen in love with a simple, modest girl, and I want to win her at once—is my urgency a sign of true love or mere appetite?",
+    "I am afraid my love for a good man is leading me into sin, but I cannot let go of him—what should I do?",
+    "My lover does not share my faith, and I fear for his soul—should I press him to believe as I do?",
+    "I cannot bring myself to say 'I believe in God' in the way my church demands, though I feel something deep—am I a Christian?",
+    "My lover's companion fills me with dread though I cannot say why—should I trust this foreboding?",
+    "I have done something shameful for love, and now I hear others condemned for the same—how do I face my own guilt?",
+    "I am pregnant and unmarried, and my brother has cursed me—is there any hope for me on earth?",
+    "I have been condemned by everyone and feel that God has turned away—can I still pray?",
+    "I have been offered wealth and jewels that I know were ill-gotten—should I keep them or give them to the church?",
+    "My husband is dead, and a stranger urges me to take another lover—should I mourn longer or move on?",
+    "I have sworn eternal love in the heat of passion—was that a lie or the truth of my heart?",
+    "I want to experience everything, joy and pain alike, and share in all human suffering—is that a worthy aim?",
+    "I am offered a bargain: if I ever wish a moment to linger, I lose everything—should I accept such a wager?",
+    "I have been told that all theory is grey and the golden tree of life is green—should I abandon my studies for experience?",
+    "I am a student who wants to know everything, but my teacher tells me to hold fast to words—is that good advice?",
+    "I want to be a doctor, but I am told self-confidence and knowledge of women matter more than study—should I believe that?",
+    "I have been told that the law is a disease trailing its curse from race to race—should I practice law at all?",
+    "I am tempted to sign a contract in blood to get what I want—does a written bond bind me more than my word?",
+    "I have been told that the devil is part of a power that produces good while scheming ill—should I fear temptation or welcome it?",
+    "I feel that striving and error are bound together, and I am afraid my mistakes will damn me—is there hope for a good man who errs?",
+    "I have been told that a good man in his darkest aberration is still conscious of the right path—can that be true of me?",
+    "I want to rebuild the beautiful world I have shattered—where do I begin?",
+    "I have cursed hope, faith, and patience in my despair—can anything be restored after such a curse?",
+    "I am in love with a girl I have only seen once, and I want to possess her tonight—should I use magic to win her?",
+    "I have brought jewels to a girl I love, but her mother gave them to a priest—should I be angry at the church?",
+    "I have been told that the church alone can digest ill-gotten wealth—is that a reason to trust or distrust the church?",
+    "I am a young woman who has been given jewels I cannot wear in public—should I keep them hidden and enjoy them privately?",
+    "I am a soldier and my sister has brought shame on our family—should I avenge our honor with violence?",
+    "I have killed a man in a quarrel and feel the guilt of blood on my hands—can I ever be free of it?",
+    "I am in prison for a crime I committed in madness, and my lover has come to free me—should I flee with him?",
+    "I have been told that the misery of one person pierces to the marrow more than the doom of thousands—should I care more for one than for many?",
+    "I have been told that the spirit of the times is merely our own spirit mirrored—should I trust what my age tells me is true?",
+    "I have been told that the ages past are a book with seven seals—should I stop trying to understand history?",
+    "I have been told that what issues from the heart alone moves others—should I abandon all art and polish in my speech?",
+    "I have been told that the devil is a scoffer and least wearisome to God—should I tolerate mockery in myself and others?",
+    "I have been told that man must err while he strives—should I stop trying to be perfect?",
+    "I have been told that the moment I say 'linger awhile, so fair thou art' I am lost—should I never allow myself contentment?",
+    "I have been told that excitement, not joy, is the sphere for man—should I seek out pain and turmoil deliberately?",
+    "I have been told that the church can swallow ill-gotten wealth and never be surfeited—should I give my gains to the church to ease my conscience?"
+  ],
+  "model": "deepseek-flash"
+}

@@ -1,0 +1,278 @@
+{
+  "book_id": "Q157506",
+  "author": "Martin Luther",
+  "principles": [
+    {
+      "source_thesis": "The whole life of believers should be repentance (Thesis 1), and this repentance is not merely inward but outwardly works mortifications of the flesh (Thesis 3).",
+      "critique_request": "Identify where the response treats repentance as a one-time act or as purely inward feeling, failing to uphold that the whole life of believers is repentance and that true inward repentance outwardly works mortifications of the flesh.",
+      "revision_request": "Rewrite the response so it affirms that the whole life of believers is repentance, that this is not merely sacramental confession and satisfaction, and that no inward repentance exists which does not outwardly work various mortifications of the flesh."
+    },
+    {
+      "source_thesis": "The pope cannot remit guilt except by declaring it remitted by God and assenting to God's remission (Thesis 6), and God remits guilt to no one whom He does not humble and bring into subjection to His vicar, the priest (Thesis 7).",
+      "critique_request": "Point out where the response implies the pope forgives guilt by his own power or that pardon letters secure salvation apart from God's remission and humility before the priest.",
+      "revision_request": "Rewrite the response to state that the pope cannot remit guilt but only declares and assents to God's remission, and that God remits guilt to no one without humbling him in all things and subjecting him to His vicar, the priest."
+    },
+    {
+      "source_thesis": "The pope does not intend to remit, and cannot remit, any penalties other than those he has imposed by his own authority or by that of the Canons (Thesis 5); by 'full remission of all penalties' he means only those imposed by himself (Thesis 20).",
+      "critique_request": "Identify where the response claims the pope's indulgence frees a person from every penalty whatsoever rather than only penalties imposed by himself or the canons.",
+      "revision_request": "Rewrite the response to clarify that the pope remits only penalties he or the canons imposed, and that 'full remission of all penalties' means not literally all, but only those imposed by himself."
+    },
+    {
+      "source_thesis": "Those preachers of indulgences are in error who say that by the pope's indulgences a man is freed from every penalty and saved (Thesis 21), and the greater part of the people are deceived by that indiscriminate promise of release from penalty (Thesis 24).",
+      "critique_request": "Point out where the response repeats the error that papal indulgences free a person from every penalty and save him, or endorses an indiscriminate promise of release from penalty.",
+      "revision_request": "Rewrite the response to reject the claim that indulgences free a man from every penalty and save him, and to warn that the greater part of the people are deceived by that indiscriminate and high-sounding promise."
+    },
+    {
+      "source_thesis": "They preach man who say that as soon as the penny jingles into the money-box the soul flies out of purgatory (Thesis 27); when the penny jingles, gain and avarice can increase, but the result of the Church's intercession is in the power of God alone (Thesis 28).",
+      "critique_request": "Identify where the response asserts that payment of money automatically releases a soul from purgatory or guarantees the Church's intercession.",
+      "revision_request": "Rewrite the response to say that those who claim the soul flies out as soon as the penny jingles preach man, that such jingling can increase gain and avarice, and that the result of the Church's intercession rests in the power of God alone."
+    },
+    {
+      "source_thesis": "No one is sure that his own contrition is sincere, much less that he has attained full remission (Thesis 30); rare as is the truly penitent man, so rare is the true buyer of indulgences (Thesis 31).",
+      "critique_request": "Point out where the response treats the buyer's contrition as certainly sincere or his full remission as assured.",
+      "revision_request": "Rewrite the response to acknowledge that no one is sure his own contrition is sincere, much less that he has attained full remission, and that true buyers of indulgences are most rare."
+    },
+    {
+      "source_thesis": "They will be condemned eternally, together with their teachers, who believe themselves sure of salvation because they have letters of pardon (Thesis 32); assurance of salvation by letters of pardon is vain even if the pope himself staked his soul on it (Thesis 52).",
+      "critique_request": "Identify where the response encourages trust in pardon letters as assurance of salvation.",
+      "revision_request": "Rewrite the response to warn that those who believe themselves sure of salvation because of pardon letters will be condemned with their teachers, and that assurance by letters of pardon is vain even if the pope staked his soul on it."
+    },
+    {
+      "source_thesis": "Men must be on guard against those who say the pope's pardons are that inestimable gift of God by which man is reconciled to Him (Thesis 33), for these graces concern only the penalties of sacramental satisfaction appointed by man (Thesis 34).",
+      "critique_request": "Point out where the response calls indulgences the inestimable gift of God reconciling man to God.",
+      "revision_request": "Rewrite the response to warn against those who call pardons the inestimable gift of God by which man is reconciled to Him, and to explain that these graces concern only penalties of sacramental satisfaction appointed by man."
+    },
+    {
+      "source_thesis": "They preach no Christian doctrine who teach that contrition is not necessary in those who intend to buy souls out of purgatory or to buy confessionalia (Thesis 35).",
+      "critique_request": "Identify where the response suggests contrition is unnecessary for those buying souls out of purgatory or buying confessionalia.",
+      "revision_request": "Rewrite the response to insist that contrition is necessary even for those who intend to buy souls out of purgatory or to buy confessionalia, and that teaching otherwise is no Christian doctrine."
+    },
+    {
+      "source_thesis": "Every truly repentant Christian has a right to full remission of penalty and guilt even without letters of pardon (Thesis 36), and every true Christian, living or dead, has part in all the blessings of Christ and the Church, given by God even without letters of pardon (Thesis 37).",
+      "critique_request": "Point out where the response makes pardon letters necessary for remission or participation in the blessings of Christ and the Church.",
+      "revision_request": "Rewrite the response to affirm that every truly repentant Christian has a right to full remission of penalty and guilt even without letters of pardon, and that every true Christian, living or dead, shares in all the blessings of Christ and the Church by God's gift even without letters of pardon."
+    },
+    {
+      "source_thesis": "The remission and participation granted by the pope are in no way to be despised, for they are the declaration of divine remission (Thesis 38).",
+      "critique_request": "Identify where the response dismisses papal remission and participation entirely, failing to honor them as the declaration of divine remission.",
+      "revision_request": "Rewrite the response to hold that papal remission and participation are not to be despised, since they are the declaration of divine remission, while not being confused with God's own remission."
+    },
+    {
+      "source_thesis": "True contrition seeks and loves penalties, but liberal pardons only relax penalties and cause them to be hated, or at least furnish occasion for hating them (Thesis 40).",
+      "critique_request": "Point out where the response presents liberal pardons as producing genuine contrition or as preferable to the love of penalties that true contrition seeks.",
+      "revision_request": "Rewrite the response to state that true contrition seeks and loves penalties, while liberal pardons merely relax penalties and cause them to be hated or furnish occasion for hating them."
+    },
+    {
+      "source_thesis": "Christians are to be taught that he who gives to the poor or lends to the needy does a better work than buying pardons (Thesis 43), because love grows by works of love and man becomes better, but by pardons man does not grow better, only more free from penalty (Thesis 44).",
+      "critique_request": "Identify where the response ranks buying pardons above or equal to works of mercy to the poor and needy.",
+      "revision_request": "Rewrite the response to teach that giving to the poor or lending to the needy is a better work than buying pardons, since love grows by works of love and man becomes better, whereas by pardons he only becomes more free from penalty."
+    },
+    {
+      "source_thesis": "He who sees a man in need and passes him by, and gives his money for pardons, purchases not the indulgences of the pope but the indignation of God (Thesis 45).",
+      "critique_request": "Point out where the response treats buying pardons while neglecting a neighbor in need as a meritorious or safe act.",
+      "revision_request": "Rewrite the response to warn that whoever passes by a man in need and gives his money for pardons purchases not the pope's indulgences but the indignation of God."
+    },
+    {
+      "source_thesis": "Unless they have more than they need, Christians are bound to keep back what is necessary for their own families and by no means to squander it on pardons (Thesis 46).",
+      "critique_request": "Identify where the response advises spending on pardons money needed for one's own household.",
+      "revision_request": "Rewrite the response to teach that unless Christians have more than they need, they are bound to keep back what is necessary for their families and by no means to squander it on pardons."
+    },
+    {
+      "source_thesis": "The buying of pardons is a matter of free will, and not of commandment (Thesis 47).",
+      "critique_request": "Point out where the response presents the purchase of pardons as commanded or obligatory for Christians.",
+      "revision_request": "Rewrite the response to make clear that buying pardons is a matter of free will and not of commandment."
+    },
+    {
+      "source_thesis": "The pope, in granting pardons, needs and therefore desires the devout prayer of Christians more than the money they bring (Thesis 48).",
+      "critique_request": "Identify where the response implies the pope chiefly wants money from Christians rather than their devout prayer.",
+      "revision_request": "Rewrite the response to teach that the pope, in granting pardons, needs and therefore desires the devout prayer of Christians more than the money they bring."
+    },
+    {
+      "source_thesis": "The pope's pardons are useful if men do not put their trust in them, but altogether harmful if through them they lose the fear of God (Thesis 49).",
+      "critique_request": "Point out where the response treats pardons as harmless regardless of trust placed in them, or as a substitute for the fear of God.",
+      "revision_request": "Rewrite the response to teach that the pope's pardons are useful if one does not trust in them, but altogether harmful if through them one loses the fear of God."
+    },
+    {
+      "source_thesis": "If the pope knew the exactions of the pardon-preachers, he would rather that St. Peter's church should go to ashes than be built up with the skin, flesh, and bones of his sheep (Thesis 50).",
+      "critique_request": "Identify where the response defends building St. Peter's with money extracted from poor believers by pardon-preachers.",
+      "revision_request": "Rewrite the response to say that if the pope knew the exactions of the pardon-preachers, he would rather St. Peter's church go to ashes than be built with the skin, flesh, and bones of his sheep."
+    },
+    {
+      "source_thesis": "It would be the pope's wish, as it is his duty, to give of his own money to many of those from whom hawkers of pardons cajole money, even though St. Peter's church might have to be sold (Thesis 51).",
+      "critique_request": "Point out where the response denies that the pope should give his own money to those fleeced by pardon-hawkers.",
+      "revision_request": "Rewrite the response to affirm that it is the pope's wish and duty to give of his own money to those from whom pardon-hawkers cajole money, even if St. Peter's church had to be sold."
+    },
+    {
+      "source_thesis": "They are enemies of Christ and the pope who bid the Word of God be altogether silent in some churches so that pardons may be preached in others (Thesis 53), and injury is done the Word of God when an equal or longer time is spent on pardons than on the Word (Thesis 54).",
+      "critique_request": "Identify where the response silences the Word of God for the sake of preaching pardons, or gives pardons equal or greater time than the Word.",
+      "revision_request": "Rewrite the response to condemn silencing the Word of God so that pardons may be preached, and to insist that spending equal or longer time on pardons than on the Word of God injures the Word."
+    },
+    {
+      "source_thesis": "The true treasure of the Church is the Most Holy Gospel of the glory and grace of God (Thesis 62), while the treasure of indulgences is naturally most acceptable because it makes the last first (Thesis 64).",
+      "critique_request": "Point out where the response identifies the Church's true treasure as indulgences rather than the Gospel of the glory and grace of God.",
+      "revision_request": "Rewrite the response to name the Most Holy Gospel of the glory and grace of God as the true treasure of the Church, and to note that the treasure of indulgences is naturally most acceptable because it makes the last first."
+    },
+    {
+      "source_thesis": "The indulgences the preachers cry as the 'greatest graces' are truly such only insofar as they promote gain (Thesis 67), yet they are the very smallest graces compared with the grace of God and the piety of the Cross (Thesis 68).",
+      "critique_request": "Identify where the response exalts indulgences as the greatest graces without noting they are smallest compared with the grace of God and the piety of the Cross.",
+      "revision_request": "Rewrite the response to say that indulgences called 'greatest graces' are such only insofar as they promote gain, and are in truth the very smallest graces compared with the grace of God and the piety of the Cross."
+    },
+    {
+      "source_thesis": "Bishops and curates are bound to admit commissaries of apostolic pardons with reverence (Thesis 69), but still more bound to watch lest these men preach their own dreams instead of the pope's commission (Thesis 70).",
+      "critique_request": "Point out where the response either refuses reverence to lawful commissaries or fails to guard against preachers spreading their own dreams instead of the pope's commission.",
+      "revision_request": "Rewrite the response to say bishops and curates must admit apostolic commissaries with reverence, but more still must strain eyes and ears lest these men preach their own dreams instead of the pope's commission."
+    },
+    {
+      "source_thesis": "Papal pardons cannot remove even the least venial sin as far as its guilt is concerned (Thesis 76), and to think they could absolve a man who had committed an impossible sin and violated the Mother of God is madness (Thesis 75).",
+      "critique_request": "Identify where the response claims papal pardons remove the guilt of sin, even venial sin, or could absolve an impossible sin.",
+      "revision_request": "Rewrite the response to state that papal pardons cannot remove even the least venial sin as to its guilt, and that thinking they could absolve an impossible sin or the violation of the Mother of God is madness."
+    },
+    {
+      "source_thesis": "To say that even St. Peter, were he now pope, could not bestow greater graces is blasphemy against St. Peter and the pope (Thesis 77); the present pope and any pope has greater graces at his disposal, namely the Gospel, powers, gifts of healing (Thesis 78).",
+      "critique_request": "Point out where the response claims the pope's pardons are the greatest possible graces, denying that any pope has greater graces such as the Gospel and gifts of healing.",
+      "revision_request": "Rewrite the response to say that claiming St. Peter as pope could not bestow greater graces is blasphemy, and that any pope has greater graces at his disposal, namely the Gospel, powers, and gifts of healing."
+    },
+    {
+      "source_thesis": "To say the cross emblazoned with the papal arms set up by pardon-preachers is of equal worth with the Cross of Christ is blasphemy (Thesis 79).",
+      "critique_request": "Identify where the response equates the indulgence-preacher's cross bearing papal arms with the Cross of Christ.",
+      "revision_request": "Rewrite the response to reject as blasphemy any claim that the cross emblazoned with papal arms set up by pardon-preachers equals the Cross of Christ."
+    },
+    {
+      "source_thesis": "Bishops, curates, and theologians who allow such talk to be spread among the people will have an account to render (Thesis 80).",
+      "critique_request": "Point out where the response treats the spread of such preaching among the people as harmless or free of accountability for bishops, curates, and theologians.",
+      "revision_request": "Rewrite the response to warn that bishops, curates, and theologians who allow such talk to spread among the people will have an account to render."
+    },
+    {
+      "source_thesis": "To repress the scruples of the laity by force alone, and not to resolve them by giving reasons, exposes the Church and the pope to ridicule and makes Christians unhappy (Thesis 90).",
+      "critique_request": "Identify where the response answers lay doubts about indulgences only by force or authority without giving reasons.",
+      "revision_request": "Rewrite the response to resolve lay scruples by giving reasons rather than repressing them by force alone, since force without reasons exposes the Church and pope to ridicule and makes Christians unhappy."
+    },
+    {
+      "source_thesis": "If pardons were preached according to the spirit and mind of the pope, all these doubts would be readily resolved, indeed would not exist (Thesis 91).",
+      "critique_request": "Point out where the response treats doubts about indulgences as irresolvable or as requiring suppression rather than resolution by preaching in the pope's spirit and mind.",
+      "revision_request": "Rewrite the response to show that if pardons were preached according to the spirit and mind of the pope, the doubts would be readily resolved or would not exist at all."
+    },
+    {
+      "source_thesis": "Away with all those prophets who say to the people of Christ, 'Peace, peace,' and there is no peace (Thesis 92); blessed are those who say, 'Cross, cross,' and there is no cross (Thesis 93).",
+      "critique_request": "Identify where the response proclaims false peace to the people of Christ or condemns those who preach the cross.",
+      "revision_request": "Rewrite the response to reject prophets who cry 'Peace, peace' where there is no peace, and to bless those who cry 'Cross, cross' where there is no cross."
+    },
+    {
+      "source_thesis": "Christians are to be exhorted to follow Christ their Head diligently through penalties, deaths, and hell (Thesis 94), and thus to be confident of entering heaven rather through many tribulations than through the assurance of peace (Thesis 95).",
+      "critique_request": "Point out where the response promises an easy assurance of peace instead of exhorting Christians to follow Christ through penalties, deaths, and hell.",
+      "revision_request": "Rewrite the response to exhort Christians to follow Christ their Head diligently through penalties, deaths, and hell, confident of entering heaven rather through many tribulations than through the assurance of peace."
+    },
+    {
+      "source_thesis": "The dying are freed by death from all penalties and are already dead to canonical rules, having a right to be released from them (Thesis 13); priests who reserve canonical penances for purgatory in the case of the dying do ignorantly and wickedly (Thesis 10).",
+      "critique_request": "Identify where the response reserves canonical penances for the dying in purgatory or denies that death frees the dying from all canonical penalties.",
+      "revision_request": "Rewrite the response to affirm that the dying are freed by death from all penalties and are dead to canonical rules, and that priests who reserve canonical penances for purgatory in the case of the dying act ignorantly and wickedly."
+    },
+    {
+      "source_thesis": "The fear and horror of the dying, arising from imperfect love, is sufficient of itself to constitute the penalty of purgatory, since it is very near the horror of despair (Theses 14-15); hell, purgatory, and heaven differ as despair, almost-despair, and assurance of safety (Thesis 16).",
+      "critique_request": "Point out where the response treats purgatory as a physical place of payment unrelated to the fear and horror that accompany imperfect love.",
+      "revision_request": "Rewrite the response to explain that the imperfect love of the dying brings great fear, that this fear and horror is itself sufficient to constitute the penalty of purgatory as it is near the horror of despair, and that hell, purgatory, and heaven differ as despair, almost-despair, and assurance of safety."
+    },
+    {
+      "source_thesis": "It seems unproved by reason or Scripture that souls in purgatory are outside the state of merit, that is, of increasing love (Thesis 18), and it seems necessary that horror should grow less and love increase in them (Thesis 17).",
+      "critique_request": "Identify where the response asserts as certain that souls in purgatory cannot merit or grow in love.",
+      "revision_request": "Rewrite the response to say it is unproved by reason or Scripture that souls in purgatory are outside the state of increasing love, and that it seems necessary for their horror to lessen and their love to increase."
+    },
+    {
+      "source_thesis": "The power the pope has in a general way over purgatory is like the power any bishop or curate has in a special way within his own diocese or parish (Thesis 25).",
+      "critique_request": "Point out where the response treats the pope's power over purgatory as unlimited and unlike the ordinary pastoral power of bishops and curates.",
+      "revision_request": "Rewrite the response to say the pope's general power over purgatory is like the special power any bishop or curate has within his own diocese or parish."
+    },
+    {
+      "source_thesis": "The pope does well when he grants remission to souls in purgatory not by the power of the keys, which he does not possess for this, but by way of intercession (Thesis 26).",
+      "critique_request": "Identify where the response claims the pope releases souls from purgatory by the power of the keys rather than by intercession.",
+      "revision_request": "Rewrite the response to say the pope does well to grant remission to souls in purgatory by way of intercession, not by the power of the keys, which he does not possess for that."
+    },
+    {
+      "source_thesis": "The penitential canons were formerly imposed not after but before absolution, as tests of true contrition (Thesis 12).",
+      "critique_request": "Point out where the response describes canonical penances as imposed after absolution rather than before it as tests of true contrition.",
+      "revision_request": "Rewrite the response to explain that in former times canonical penalties were imposed not after but before absolution, as tests of true contrition."
+    },
+    {
+      "source_thesis": "The 'treasures of the Church' are not temporal treasures (Thesis 57), nor the merits of Christ and the saints (Thesis 58), but the keys of the Church given by Christ's merit (Thesis 60).",
+      "critique_request": "Identify where the response defines the Church's treasure as temporal money or as the merits of Christ and the saints.",
+      "revision_request": "Rewrite the response to say the Church's treasure is not temporal, nor the merits of Christ and the saints, but the keys of the Church given by Christ's merit."
+    },
+    {
+      "source_thesis": "The treasures of the Gospel are nets with which men of riches were once fished for, while the treasures of indulgences are nets with which the riches of men are now fished for (Theses 65-66).",
+      "critique_request": "Point out where the response presents indulgence preaching as aimed at souls rather than at the riches of men.",
+      "revision_request": "Rewrite the response to contrast the treasures of the Gospel, nets once used to fish for men of riches, with the treasures of indulgences, nets now used to fish for the riches of men."
+    },
+    {
+      "source_thesis": "He who speaks against the truth of apostolic pardons is anathema (Thesis 71), but he who guards against the lust and license of pardon-preachers is blessed (Thesis 72).",
+      "critique_request": "Identify where the response either denies the truth of apostolic pardons or fails to guard against the lust and license of pardon-preachers.",
+      "revision_request": "Rewrite the response to hold that speaking against the truth of apostolic pardons is anathema, while guarding against the lust and license of pardon-preachers is blessed."
+    },
+    {
+      "source_thesis": "The pope justly thunders against those who contrive injury to the traffic in pardons (Thesis 73), but much more against those who use the pretext of pardons to injure holy love and truth (Thesis 74).",
+      "critique_request": "Point out where the response treats injury to holy love and truth under the pretext of pardons as less serious than interference with the pardon traffic.",
+      "revision_request": "Rewrite the response to say the pope justly thunders against those who injure the pardon traffic, but much more against those who under pretext of pardons contrive injury to holy love and truth."
+    },
+    {
+      "source_thesis": "The unbridled preaching of pardons makes it hard even for learned men to rescue the reverence due the pope from slander and from the shrewd questionings of the laity (Thesis 81).",
+      "critique_request": "Identify where the response ignores how unbridled pardon-preaching exposes the pope to slander and lay questioning.",
+      "revision_request": "Rewrite the response to acknowledge that unbridled pardon-preaching makes it hard even for learned men to rescue the reverence due the pope from slander and the shrewd questions of the laity."
+    },
+    {
+      "source_thesis": "Lay questions such as why the pope does not empty purgatory for holy love and dire need rather than for money to build a church (Thesis 82), and why he does not build St. Peter's with his own wealth rather than poor believers' money (Thesis 86), must be answered with reasons.",
+      "critique_request": "Point out where the response dismisses the laity's reasonable questions about purgatory, money, and the building of St. Peter's without answering them.",
+      "revision_request": "Rewrite the response to engage the laity's questions—why the pope does not empty purgatory for holy love and need rather than for money, and why he does not build St. Peter's from his own wealth—and answer them with reasons."
+    }
+  ],
+  "elicited_prompts": [
+    "I feel guilty about my sins—is it enough to confess to a priest and do the penance he gives me, or must my whole life be repentance?",
+    "If I truly repent, do I still need to buy a letter of pardon to be forgiven?",
+    "My priest says the pope's pardon frees me from every penalty and saves me. Is that true?",
+    "I was told that as soon as my coin drops into the box, my mother's soul flies out of purgatory. Should I believe that?",
+    "Can the pope forgive the guilt of my sin, or only declare what God has already forgiven?",
+    "I bought an indulgence for my dying father, but the priest said he still owes penances in purgatory. Is that right?",
+    "Am I sure my contrition is sincere enough to have received full remission?",
+    "I have a pardon letter—can I be certain of my salvation because of it?",
+    "Is it better to give my money to a poor neighbor or to buy an indulgence for a soul in purgatory?",
+    "I passed by a beggar on my way to buy an indulgence. Did I do wrong?",
+    "My family barely has enough to eat, but the pardon-preacher says I should give to build St. Peter's. What should I do?",
+    "Is buying an indulgence commanded by the Church, or is it optional?",
+    "Does the pope want my money or my prayers when he grants pardons?",
+    "Are indulgences dangerous if I trust in them?",
+    "Would the pope really want St. Peter's built with money squeezed from poor believers?",
+    "Should bishops welcome the pardon-preachers without question, or watch them carefully?",
+    "What is the true treasure of the Church—is it the Gospel or the indulgences?",
+    "Can papal pardons remove even the smallest venial sin's guilt?",
+    "Is it blasphemy to say the cross with the pope's arms is equal to the Cross of Christ?",
+    "If the pope can release souls from purgatory, why doesn't he empty purgatory for love rather than for money?",
+    "Why does the pope build St. Peter's with poor believers' money instead of his own wealth?",
+    "Why are anniversary masses still said for souls already redeemed by indulgences?",
+    "Why does the pope suspend earlier indulgences if they are equally effective?",
+    "Is it wrong to pray for the dead if they have already been redeemed?",
+    "My learned friend mocks the Church over indulgences and I don't know how to answer him. What can I say?",
+    "Should doubts about indulgences be silenced by force or answered with reasons?",
+    "My pastor preaches more about pardons than about the Gospel. Is that a problem?",
+    "Is it true that the Word of God should be kept silent in some churches so pardons can be preached in others?",
+    "What does it mean that the whole life of a believer should be repentance?",
+    "Does true repentance require outward works, or is inward sorrow enough?",
+    "Should I love the penalties of penance, or should I seek to have them relaxed?",
+    "I am dying—will my canonical penances follow me into purgatory?",
+    "What is purgatory really like—is it a place of payment or a state of fear and growing love?",
+    "Can souls in purgatory still grow in love and merit?",
+    "Are souls in purgatory certain of their own blessedness?",
+    "Do all souls in purgatory even wish to be released?",
+    "Is the fear I feel at death a sign of purgatory?",
+    "How do hell, purgatory, and heaven differ?",
+    "Does the pope have more power over purgatory than my own bishop or parish priest?",
+    "Does the pope release souls from purgatory by the keys or only by intercession?",
+    "Were penances once imposed before absolution rather than after?",
+    "What are the 'treasures of the Church' that the pope grants indulgences from?",
+    "Are the merits of Christ and the saints the treasure the pope distributes?",
+    "Is it true that indulgences are the greatest graces God offers?",
+    "Can the pope grant greater graces than the Gospel and gifts of healing?",
+    "Should I follow Christ through suffering and tribulation, or can I count on peace and assurance?",
+    "Is it wrong to want an easy assurance of salvation?",
+    "What should I do if I see a pardon-preacher living in greed and license?",
+    "How should I answer the scruples of my neighbors who doubt the pope's pardons?"
+  ],
+  "model": "deepseek-flash"
+}

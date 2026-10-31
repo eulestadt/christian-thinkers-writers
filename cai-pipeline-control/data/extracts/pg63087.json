@@ -1,0 +1,164 @@
+{
+  "book_id": "pg63087",
+  "author": "Robert Ridgway",
+  "principles": [
+    {
+      "source_thesis": "The motive of the work is the standardization of colors and color names, so that anyone who writes or speaks of a color may do so with certainty as to the particular tint, shade, or degree of grayness meant.",
+      "critique_request": "Identify where the response leaves color names or color values vague or dependent on personal judgment, rather than fixed to a standard so that the particular tint, shade, or degree of grayness meant is certain.",
+      "revision_request": "Rewrite the response so that every color reference is tied to a definite standard, making clear exactly which tint, shade, or degree of grayness is meant and eliminating any uncertainty about the color intended."
+    },
+    {
+      "source_thesis": "Color nomenclature remains vague and practically meaningless without standardization, seriously impeding progress in industry and research; without standardization, even if arbitrary, color nomenclature must remain in absolute chaos.",
+      "critique_request": "Point out where the response treats color naming as a matter of taste or leaves terms unstandardized, thereby perpetuating the vagueness and chaos the author says impedes progress.",
+      "revision_request": "Rewrite the response to insist on fixed, standardized color names and to show that leaving color terms vague or arbitrary keeps nomenclature in chaos and impedes practical work."
+    },
+    {
+      "source_thesis": "The element of personal equation must be eliminated in the matter of color and color names; agreement on distinctions such as violet versus purple is impossible otherwise.",
+      "critique_request": "Identify where the response allows individual perception or personal preference to decide a color name or distinction, rather than eliminating the personal equation.",
+      "revision_request": "Rewrite the response so that color identifications and distinctions rest on fixed standards rather than individual perception, explicitly removing the element of personal equation."
+    },
+    {
+      "source_thesis": "Color names as commonly used are worthless unless fixed or standardized, because pigments and named substances vary greatly: samples of the same named color are often widely different.",
+      "critique_request": "Show where the response relies on a color name or pigment name as if it were a reliable identifier, ignoring that samples of the same name vary widely and that such names are worthless unless standardized.",
+      "revision_request": "Rewrite the response to acknowledge that named colors and pigments vary widely between samples, and to rely on standardized color standards rather than on the mere name."
+    },
+    {
+      "source_thesis": "Trade names and fanciful names (such as 'zulu,' 'baby blue,' 'London smoke,' 'ashes of roses') are capricious, vague, variable, and lack stability, and must be ignored in a practical color nomenclature.",
+      "critique_request": "Identify where the response adopts or defers to fanciful or trade color names that are capricious, vague, or unstable, contrary to the author's rejection of such names.",
+      "revision_request": "Rewrite the response to avoid fanciful or trade color names, replacing them with stable, standardized designations suitable for a practical color nomenclature."
+    },
+    {
+      "source_thesis": "The purpose of the plates is not to show the color of the particular objects or substances the names suggest, but to provide appropriate names for the colors selected for illustration; objects vary in color, so a name like 'orange' or 'lilac' need not match any one specimen.",
+      "critique_request": "Point out where the response treats a color name as a claim about the exact color of the object or substance named, rather than as a standard name for a represented color.",
+      "revision_request": "Rewrite the response to explain that the named colors are standards for the colors represented, not exact descriptions of the objects or substances the names suggest, since such objects vary in color."
+    },
+    {
+      "source_thesis": "Hue, tint, shade, and tone have distinct meanings: hue refers to position in the spectrum scale without reference to lightness or darkness; tint means paler than the full color; shade means darkened; tone is a step in a scale of a single color.",
+      "critique_request": "Identify where the response misuses the terms hue, tint, shade, or tone, for example by speaking of a 'dark tint,' a 'light shade,' or an 'orange shade of red.'",
+      "revision_request": "Rewrite the response using hue, tint, shade, and tone in their precise senses: hue for position in the spectrum scale, tint for a paler color, shade for a darkened color, and tone for a step in a scale of one color."
+    },
+    {
+      "source_thesis": "It is not correct to say a 'dark tint' or 'light shade,' nor an 'orange shade (or tint) of red'; hue is the only term correctly used for relative position in the spectrum scale.",
+      "critique_request": "Find any phrase in the response that pairs tint or shade with lightness or darkness in the way the author calls incorrect, or that uses shade or tint where hue is required.",
+      "revision_request": "Rewrite the response correcting such phrases, using hue for spectrum position and reserving tint for paler and shade for darker variations of a color."
+    },
+    {
+      "source_thesis": "The standardization of color terms is almost if not quite as important, in the interest of educational progress, as that of the colors themselves and their names.",
+      "critique_request": "Show where the response neglects to define or standardize its color terms, undermining the clear understanding the author says is essential to educational progress.",
+      "revision_request": "Rewrite the response with color terms defined and used consistently, so that the meaning of each term is clear and standardized."
+    },
+    {
+      "source_thesis": "Where short distinctive names are lacking, any color or intermediate between two colors, as to hue, tint, or shade, may be designated by a simple system of symbols (numerals and letters), locating first the hue by number and then the tone by letter.",
+      "critique_request": "Identify where the response leaves a color undescribed or described only vaguely when it could be precisely designated by hue number and tone letter under the author's symbolic system.",
+      "revision_request": "Rewrite the response to designate the color precisely by the author's system, giving the hue number and the tone letter, with primes affixed for broken colors, rather than leaving it vague."
+    },
+    {
+      "source_thesis": "The scientific arrangement is based on the solar spectrum with its six fundamental colors and intermediate hues, augmented by the series of hues connecting violet with red, which the spectrum fails to show, forming a continuous circle of gradual hue change.",
+      "critique_request": "Point out where the response treats the spectrum as complete or omits the hues between violet and red, contrary to the author's circular arrangement of hues.",
+      "revision_request": "Rewrite the response to present the colors as a continuous circle based on the six spectrum colors plus the connecting hues between violet and red, with gradual change of hue step by step."
+    },
+    {
+      "source_thesis": "Thirty-six is the practicable limit for dividing the ideal chromatic scale, and the number of intermediate hues differs between series because spectrum orange is nearer red than yellow.",
+      "critique_request": "Identify where the response assumes equal numbers of intermediate hues between all fundamental colors, ignoring the author's unequal division and the thirty-six-hue limit.",
+      "revision_request": "Rewrite the response to reflect the thirty-six-hue scheme with unequal numbers of intermediates, more between red and orange than between orange and yellow, and more in the violet-red series than in the blue-violet."
+    },
+    {
+      "source_thesis": "Color-effect cannot be measured by the pint of mixed paint or the ounce of dry pigment, but the color-wheel and Maxwell disks allow the relative proportions of colors in a mixture to be precisely measured.",
+      "critique_request": "Show where the response treats pigment quantity or paint volume as a measure of color mixture, contrary to the author's point that color-effect cannot be so measured.",
+      "revision_request": "Rewrite the response to measure color mixtures by color-wheel proportions of the component colors rather than by quantities of pigment or paint."
+    },
+    {
+      "source_thesis": "The scales of the work are prepared from definite color-wheel formulas based on calculated curves, with progressive increments of white for tints, black for shades, and neutral gray for broken colors.",
+      "critique_request": "Identify where the response describes tints, shades, or broken colors without reference to the definite proportional increments of white, black, or neutral gray that define them in the author's scales.",
+      "revision_request": "Rewrite the response specifying the proportional increments of white for tints, black for shades, and neutral gray for broken colors, as in the author's color-wheel-based scales."
+    },
+    {
+      "source_thesis": "Broken colors are spectrum colors or hues dulled by admixture of neutral gray or by varying proportions of black and white; they are far more numerous in Nature than pure spectrum colors and include brown, russet, citrine, olive, and drab.",
+      "critique_request": "Point out where the response treats broken or dull colors as if they were pure spectrum colors, or fails to recognize them as colors reduced by neutral gray or black and white.",
+      "revision_request": "Rewrite the response distinguishing broken colors from pure spectrum colors and describing them as dulled by neutral gray or by black and white, noting their great abundance in Nature."
+    },
+    {
+      "source_thesis": "The absence of pure chromatic shades is not so serious from the standpoint of utility, because broken dark colors are infinitely more common in Nature than saturated darkened pure colors.",
+      "critique_request": "Identify where the response overstates the importance of pure dark shades or ignores that broken dark colors are far more common in Nature and more useful.",
+      "revision_request": "Rewrite the response to recognize that broken dark colors are far more numerous in Nature than pure darkened colors, so that their representation serves practical utility."
+    },
+    {
+      "source_thesis": "Metallic colors are in reality only ordinary colors reflected from a metallic or burnished surface; the actual hue is the same, and variations of surface quality are handled by adjectives such as matt, velvety, glossy, and burnished metallic.",
+      "critique_request": "Show where the response treats metallic colors as a distinct class of hue rather than ordinary colors seen on a metallic surface, or fails to use adjectives for surface quality.",
+      "revision_request": "Rewrite the response treating metallic colors as ordinary hues reflected from a metallic surface and using adjectives such as matt, velvety, glossy, or burnished metallic to describe surface quality."
+    },
+    {
+      "source_thesis": "The colors of the old Nomenclature of Colors (1886) are retained where they can be matched, because they have become established through common usage among zoologists and botanists, even where they do not agree strictly with the usual conception of the colors.",
+      "critique_request": "Identify where the response discards established color usages without regard to their long use by zoologists and botanists, contrary to the author's consideration for common usage.",
+      "revision_request": "Rewrite the response to retain established color standards where they can be matched, acknowledging their authority through long common usage even if imperfect."
+    },
+    {
+      "source_thesis": "Colors not represented on the plates, being intermediate in hue or tone, are correlated with the scheme by showing the position of each in the blank intervals.",
+      "critique_request": "Point out where the response leaves an intermediate color unlocated, rather than correlating it with the scheme by its position in the blank intervals.",
+      "revision_request": "Rewrite the response to locate each intermediate color within the scheme, indicating the hue number and tone letter of the blank interval in which it falls."
+    },
+    {
+      "source_thesis": "The plates must be protected from light because some pigments used are sensitive to prolonged exposure, and the caution not to expose them unnecessarily must be observed.",
+      "critique_request": "Identify where the response ignores the need to protect the color standards from light or treats the pigments as uniformly permanent.",
+      "revision_request": "Rewrite the response to include the caution that the plates and color standards be protected from light and not exposed longer than necessary, since some pigments are sensitive to prolonged exposure."
+    },
+    {
+      "source_thesis": "The work is based on a thorough study of the subject from every standpoint, with practically all authoritative works on color carefully consulted.",
+      "critique_request": "Show where the response asserts color conclusions without grounding them in careful study of authoritative works, contrary to the author's insistence on thorough study.",
+      "revision_request": "Rewrite the response to ground its color claims in careful study and consultation of authoritative works on color rather than in casual assertion."
+    }
+  ],
+  "elicited_prompts": [
+    "I need to describe the color of a bird's plumage in a scientific paper so that another naturalist will know exactly what I mean—how should I do it?",
+    "My colleague calls a color 'purple' and I call the same color 'violet.' How can we settle which name is right?",
+    "I want to say a red is somewhat orange but not fully orange. What is the correct way to express that?",
+    "Is it correct to describe a color as a 'dark tint' of red?",
+    "Someone told me to write 'a greenish shade of blue.' Is that proper usage?",
+    "What is the difference between a tint and a shade, and why does it matter in my descriptions?",
+    "I keep seeing the term 'tone' used for steps in a color scale—when is that correct and when is it not?",
+    "I have a color that falls between two colors on the plates and has no name. How do I designate it?",
+    "How do I indicate a color that is intermediate in hue between spectrum red and scarlet-red and also between the full color and a tint?",
+    "What do the primes after a color number mean when I record a color?",
+    "My paint sample of 'olive' looks nothing like my colleague's 'olive.' Whose is right?",
+    "I bought two bottles of 'vandyke brown' from the same maker and they differ greatly. Which one should I trust as the standard?",
+    "Should I use fanciful trade names like 'baby blue' or 'London smoke' in my descriptions?",
+    "A fabric seller calls a color 'ashes of roses.' Can I use that name in a scientific description?",
+    "The 'orange' on the plate does not match the orange on my desk. Is the standard wrong?",
+    "The 'lilac' standard does not match the lilac in my garden. Does that invalidate the name?",
+    "How can I be sure that a color I name will mean the same thing to a reader years from now?",
+    "I want to describe a dull brownish color found on many animals. Is there a category for colors dulled by gray?",
+    "What exactly is a broken color, and how is it produced?",
+    "Why are there so many more browns and olives in nature than pure spectrum colors?",
+    "I need to describe a metallic sheen on a beetle. Should I treat the metallic color as a separate hue?",
+    "How should I describe a color that is glossy rather than dull on the same object?",
+    "My color lies between the full color and a tint on the vertical scale. How is that step named?",
+    "What is the difference between a chromatic scale and a tone scale on the plates?",
+    "How many distinguishable hues are there, and why does the scheme use only thirty-six?",
+    "Why are there more intermediate hues between red and orange than between orange and yellow?",
+    "Why does the scheme include hues between violet and red that the spectrum does not show?",
+    "How do I measure the proportions of two colors in a mixture if I cannot measure pigments by volume or weight?",
+    "I mixed two pigments and the hue changed after they dried. What does that mean for my color standard?",
+    "Can I rely on the color of a pigment straight from the manufacturer as a standard?",
+    "I have an old color name from the 1886 nomenclature that I have used for years. Should I abandon it for the new standards?",
+    "My old color does not appear on the new plates. How do I record it?",
+    "How should I protect my color plates so the colors do not change?",
+    "Is it safe to leave the color plates in sunlight on my desk?",
+    "Why is it important to standardize color terms and not just the colors themselves?",
+    "People use 'hue,' 'tint,' and 'shade' interchangeably. Does that really matter?",
+    "I want to say a color is a 'light shade' of blue. Is there a better way?",
+    "How do I describe a color that is intermediate between two spectrum colors without using the word 'shade'?",
+    "What does 'chroma' mean, and how is it different from luminosity?",
+    "Which spectrum color is the brightest, and why do shades of yellow look so different from shades of violet?",
+    "Why do the shades of yellow and violet look so different in darkness even though the same percentage of black is used?",
+    "I need to name a color for which no suitable short name exists. What should I do?",
+    "How do I use the blank spaces between the colored squares on the plates?",
+    "What is the difference between a full color and a pure color?",
+    "What are the fundamental colors, and how do they differ from the primary colors?",
+    "I was taught that red, green, and violet are the primary colors, but I can make red from orange and violet. How do I reconcile that?",
+    "How do I know which two colors are complementary?",
+    "What is neutral gray made of, and how is it used in the color scheme?",
+    "I want to describe a color that is neither warm nor cool, like green. How should I classify it?",
+    "How do I describe a color that is intermediate in tone between two named colors on the same plate?"
+  ],
+  "model": "deepseek-flash"
+}

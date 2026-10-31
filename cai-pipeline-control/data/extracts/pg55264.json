@@ -1,0 +1,509 @@
+{
+  "book_id": "pg55264",
+  "author": "D’Arcy Wentworth Thompson",
+  "principles": [
+    {
+      "source_thesis": "The form of an organism is a 'diagram of forces': its conformation and its changes of form are to be interpreted in terms of force, and no organic forms exist save such as conform to ordinary physical laws.",
+      "critique_request": "Identify where the response explains organic form by appeal to design, vital purpose, or an unanalysed 'something more' instead of treating the form as a diagram of forces and referring it to physical law.",
+      "revision_request": "Rewrite the response so that it treats the form in question as a diagram of forces, deducing from the conformation the forces that have acted upon it and insisting that no organic form exists save in conformity with ordinary physical laws."
+    },
+    {
+      "source_thesis": "Mechanism and teleology are interwoven like warp and woof and neither should be despised; but leaning to the final cause has too often intercepted severe and diligent inquiry into real and physical causes.",
+      "critique_request": "Point out where the response rests content with a final cause, purpose, or 'satisfactory and specious cause' and thereby stays severe and diligent inquiry into the physical antecedents of the phenomenon.",
+      "revision_request": "Rewrite the response so that it acknowledges teleology without cleaving to it, and presses the enquiry onward to the physical antecedents and conditions sine quâ non of the phenomenon."
+    },
+    {
+      "source_thesis": "Matter as such produces nothing, changes nothing, does nothing; the spermatozoon, nucleus, chromosomes or germ-plasm can never act as matter alone, but only as seats of energy and centres of force.",
+      "critique_request": "Identify where the response attributes causal power to material particles or visible structures as such, rather than to the energy and distribution of force associated with them.",
+      "revision_request": "Rewrite the response so that it treats the material elements as seats of energy and centres of force, making clear that matter alone does nothing and that the actions, not the visible things, are what require explanation."
+    },
+    {
+      "source_thesis": "Scale has a marked effect on physical phenomena (the principle of similitude): surface varies as the square and volume as the cube of linear dimensions, so geometrically similar structures of different size are not dynamically similar.",
+      "critique_request": "Identify where the response assumes that differences of magnitude make no essential difference, or compares structures of different size as though they were dynamically similar.",
+      "revision_request": "Rewrite the response applying the principle of similitude, showing how the ratios of surface to mass and of strength to weight change with size, and drawing the consequences for the form and actions of the organism."
+    },
+    {
+      "source_thesis": "There is an essential difference in kind between the phenomena of form in larger and smaller organisms; in minute organisms and cells the intermolecular forces, especially surface-tension, outweigh gravity and determine form.",
+      "critique_request": "Identify where the response explains the form of a minute organism or cell by the same molar, gravitational or growth-rate considerations that apply to large bodies, ignoring the predominance of molecular forces at that order of magnitude.",
+      "revision_request": "Rewrite the response distinguishing the two orders of magnitude, referring the form of the minute organism or cell to surface-tension and intermolecular forces, and reserving growth-rate and gravitational considerations for the larger organism."
+    },
+    {
+      "source_thesis": "The form of an organism is determined by its specific rate of growth in various directions, and is mathematically a function of time; changes of form result from altered ratios between the rates of growth in different directions.",
+      "critique_request": "Identify where the response treats form as fixed or as independent of the time-element, failing to refer the observed configuration to differing rates of growth in different directions or parts.",
+      "revision_request": "Rewrite the response so that it derives the form and the changes of form from specific rates of growth in various directions, treating form as a function of time and the time-element as never wholly neglected."
+    },
+    {
+      "source_thesis": "Growth is a phenomenon of rate or velocity, subject to definite laws; its curve shows an early maximum followed by decline, and is interrupted at physiological epochs such as birth, puberty and metamorphosis.",
+      "critique_request": "Identify where the response treats growth as a mere increase in size without regard to its velocity, acceleration, and the interruptions that mark physiological epochs.",
+      "revision_request": "Rewrite the response in terms of rate and acceleration of growth, noting the maximum early in life, the subsequent decline, and the interruptions at epochs such as birth, puberty or metamorphosis."
+    },
+    {
+      "source_thesis": "Growth may be negative: organisms may grow smaller, and such negative growth commonly accompanies metamorphosis and old age.",
+      "critique_request": "Identify where the response assumes growth is always positive increase, overlooking the loss of bulk and weight that accompanies metamorphosis and old age.",
+      "revision_request": "Rewrite the response acknowledging negative growth, showing where loss of mass occurs in metamorphosis or in old age and treating it as part of the same phenomenon of rate."
+    },
+    {
+      "source_thesis": "Regeneration is but a particular case of the general phenomenon of growth, following the same lines and laws, started into activity by the stimulus of a wound; it begins with a rapid acceleration to a maximum and then declines.",
+      "critique_request": "Identify where the response treats regeneration as a peculiar or metaphysical process distinct from ordinary growth, or dwells on beneficent purpose rather than on rate and law.",
+      "revision_request": "Rewrite the response treating regeneration as a particular case of ordinary growth, describing its velocity rising rapidly to a maximum and then declining according to law, without metaphysical speculation."
+    },
+    {
+      "source_thesis": "The rate of growth is directly affected by temperature and other physical conditions, following a temperature coefficient akin to that of chemical reactions, subject to a law of optimum.",
+      "critique_request": "Identify where the response treats the rate of growth as fixed for the organism without regard to temperature, season, climate or other physical conditions, or ignores the existence of an optimum.",
+      "revision_request": "Rewrite the response showing the rate of growth as a function of temperature and other physical conditions, applying the temperature coefficient and the law of optimum, and noting that maximum rate and maximum total work are different things."
+    },
+    {
+      "source_thesis": "The normal curve of growth closely resembles the velocity-curve of chemical autocatalysis, in which a product of the reaction accelerates the reaction; but the resemblance is not identity.",
+      "critique_request": "Identify where the response either ignores the autocatalytic character of growth or asserts an identity between organic growth and chemical autocatalysis beyond what the evidence permits.",
+      "revision_request": "Rewrite the response presenting growth as resembling the velocity-curve of autocatalysis—acceleration, then retardation by limiting conditions, then decline—while asserting resemblance rather than identity."
+    },
+    {
+      "source_thesis": "The cell is a sphere of action of localised forces, and surface-tension is especially responsible for giving it its outline and morphological individuality; cell division must be explained as a conflict between surface-tension and opposing forces.",
+      "critique_request": "Identify where the response explains the cell's outline or its division by structure or vital agency alone, without reference to surface-tension and the balance of forces at its surface.",
+      "revision_request": "Rewrite the response treating the cell as a sphere of action of localised forces, referring its outline and its division to surface-tension and the conflict of forces at its boundary."
+    },
+    {
+      "source_thesis": "The caryokinetic figures of dividing cells are to be understood as the visible manifestation of a polarised field of force, analogous to magnetic or electrical fields; the enquiry aims only to show that known physical actions could produce such configurations.",
+      "critique_request": "Identify where the response treats the nuclear spindle and asters as peculiar vital structures, or claims to have identified the actual force at work rather than merely showing that physical forces could produce such configurations.",
+      "revision_request": "Rewrite the response interpreting the caryokinetic figures as the materialised lines of a polarised field of force, and confining the claim to showing that known physical actions could produce just such configurations."
+    },
+    {
+      "source_thesis": "The living organism is not a mere sum or colony of independent cells; the organism dominates cell-formation, and physiological unity is a continuity of forces, not merely of protoplasm.",
+      "critique_request": "Identify where the response treats the multicellular organism as a colony of independent living units, or makes the whole a mere sum of the properties of its cells.",
+      "revision_request": "Rewrite the response treating the organism as dominating cell-formation, with physiological unity resting on a continuous field of force that is not broken by cell-boundaries."
+    },
+    {
+      "source_thesis": "Embryological data prior to and long after segmentation are essentially a subject for physiological and physical investigation and have but the slightest link with problems of zoological or phylogenetic classification.",
+      "critique_request": "Identify where the response uses early embryological phenomena as direct evidence for phylogeny or systematic classification, or treats each cellular configuration as a specific character of the organism.",
+      "revision_request": "Rewrite the response treating early embryological phenomena as physical and physiological events, and refusing to draw phylogenetic or classificatory conclusions from them where the evidence does not warrant it."
+    },
+    {
+      "source_thesis": "Natural selection does not create but removes: the great function of selection is to weed, prune, cut down and cast into the fire, while the world of things living grows of itself under the creative stimulus of forces from within and without.",
+      "critique_request": "Identify where the response credits natural selection with originating form and variety, rather than with removing what has passed the bounds of physical and physiological equilibrium.",
+      "revision_request": "Rewrite the response assigning to natural selection the function of removal and pruning, while referring the origination of form to the creative energies of growth and the physical forces at work."
+    },
+    {
+      "source_thesis": "The living cell grows by imbibition throughout its whole substance, and this graded distribution of fluid forces leads it to assume rounded, bubble-like forms rather than the straight lines and sharp angles of crystals.",
+      "critique_request": "Identify where the response fails to uphold the text's claim that cellular growth by imbibition produces rounded contours, or where it contradicts this by attributing angular or crystalline form to the living cell.",
+      "revision_request": "Rewrite the response so that it faithfully presents imbibition as the mode of cellular growth and explains the rounded, bubble-like contours of cells as a consequence of graded distribution of fluid forces, in contrast to crystalline growth."
+    },
+    {
+      "source_thesis": "Surface tension is a property of liquids manifested at or near surfaces, and wherever unlike substances meet—externally or throughout the interstices of a heterogeneous mass—there are surfaces and surface tensions.",
+      "critique_request": "Identify how the response fails to uphold the text's claim that surface tension operates at interior and interfacial surfaces throughout a heterogeneous cell, not only at the outer surface.",
+      "revision_request": "Rewrite the response so that it treats surface tension as operating at all surfaces where like meets unlike, including interior surfaces within the heterogeneous substance of the cell."
+    },
+    {
+      "source_thesis": "The potential energy of a system tends to a minimum, and in that minimum finds its stable equilibrium; the surface energy term may be diminished by reducing surface area (the principle of minimal areas) or by lowering specific surface energy.",
+      "critique_request": "Identify where the response contradicts the text's claim that equilibrium corresponds to a minimum of potential energy achieved either by reduction of surface area or by diminution of specific surface energy.",
+      "revision_request": "Rewrite the response so that it grounds cell form in the tendency of potential energy toward a minimum, distinguishing the reduction of surface area from the lowering of specific surface energy."
+    },
+    {
+      "source_thesis": "The sphere is the only one of the surfaces of revolution that can enclose space and is absolutely the surface of minimal area, so a homogeneous unicellular organism in homogeneous surroundings naturally assumes a spherical form.",
+      "critique_request": "Identify how the response fails to uphold the text's claim that the sphere is the absolutely minimal surface and the natural form of a homogeneous cell in symmetrical surroundings.",
+      "revision_request": "Rewrite the response so that it presents the sphere as the only surface enclosing space and as the absolute minimal area, naturally assumed by homogeneous cells under symmetrical conditions."
+    },
+    {
+      "source_thesis": "The other figures of equilibrium—plane, cylinder, catenoid, unduloid, nodoid—are only surfaces minimae areae relatively, under given conditions of pressure or restraint, such as solidification of the cell-wall.",
+      "critique_request": "Identify where the response treats cylinder, catenoid, unduloid or nodoid as absolute minimal surfaces rather than relative ones conditioned by pressure or restraint.",
+      "revision_request": "Rewrite the response so that it presents these figures as relative surfaces of minimal area, stable only under the particular pressures and restraints of the case."
+    },
+    {
+      "source_thesis": "Except for the sphere and the plane, the surfaces of revolution are in complete equilibrium only within certain dimensional limits; beyond these limits equilibrium becomes unstable and the figure breaks up, as when a cylinder exceeds a length equal to its circumference.",
+      "critique_request": "Identify how the response fails to uphold the text's claim that cylinders, catenoids and unduloids have definite limits of stability beyond which they break up.",
+      "revision_request": "Rewrite the response so that it acknowledges the definite dimensional limits of stability for these figures and describes their breakdown beyond those limits."
+    },
+    {
+      "source_thesis": "The incipient cell-wall retains the properties of a liquid film, and the growing cell behaves very much like a fluid drop; asymmetrical forms are retained only by solidification and consequent rigidity of the membranous wall.",
+      "critique_request": "Identify where the response fails to uphold the text's claim that the incipient cell-wall behaves as a liquid film and that non-spherical forms persist only through solidification.",
+      "revision_request": "Rewrite the response so that it treats the incipient cell-wall as a liquid film and explains the retention of asymmetrical form by solidification and rigidity of the wall."
+    },
+    {
+      "source_thesis": "Departures from sphericity in freely growing cells are to be ascribed chiefly to anisotropy of the surface membrane—unequal tensions in different directions—rather than to unequal internal pressure.",
+      "critique_request": "Identify how the response fails to uphold the text's preference for explaining ellipsoidal and cylindrical cells by anisotropic surface tension rather than by unsymmetrical internal pressure.",
+      "revision_request": "Rewrite the response so that it explains departures from sphericity as due to anisotropy of the developing surface-membrane, rendering extension easier in one direction than another."
+    },
+    {
+      "source_thesis": "Adsorption is the tendency of a constituent that lowers surface tension to concentrate at the surface, following the Gibbs-Thomson law, and it accounts for the formation of cell-membranes and cell-walls.",
+      "critique_request": "Identify where the response fails to uphold the text's account of membrane formation as a chemico-physical phenomenon of adsorption rather than the activity of a special vital agency.",
+      "revision_request": "Rewrite the response so that it presents cell-wall formation as adsorption, whereby substances that lower surface tension accumulate at the surface and constitute a membrane."
+    },
+    {
+      "source_thesis": "Adsorption can only take place where surface tension is greater than zero; hence creeping protoplasm with little surface tension forms no encysting membrane, and encystment follows when the protoplasm gathers into a rounded body with positive surface tension.",
+      "critique_request": "Identify how the response fails to uphold the text's claim that membrane formation depends on the prior existence of positive surface tension, explaining encystment and cyst formation accordingly.",
+      "revision_request": "Rewrite the response so that it explains the absence of membranes in creeping protoplasm and the appearance of cysts when protoplasm rounds itself up with positive surface tension."
+    },
+    {
+      "source_thesis": "When three similar liquid surfaces meet, they do so at equal angles of 120°; and in solid systems the edges of partition-walls meet at the angle of 109° 28′ 16″.",
+      "critique_request": "Identify where the response fails to uphold the text's geometric rules that three similar films meet at 120° and that partition edges meet at 109° 28′ 16″.",
+      "revision_request": "Rewrite the response so that it applies the rules of 120° for three meeting films and 109° 28′ 16″ for edges meeting in a solid system."
+    },
+    {
+      "source_thesis": "In dividing a closed space into chambers by partition-walls, the least total area of partition is attained only when the walls meet in groups of three at equal angles of 120°; four walls meeting in a simple cross is unstable and passes into the triple arrangement.",
+      "critique_request": "Identify how the response fails to uphold the text's claim that partitions meeting three by three at 120° give the minimal total area, and that fourfold intersections are unstable.",
+      "revision_request": "Rewrite the response so that it explains cell partitions as meeting three by three at 120°, treating fourfold crosses as unstable arrangements that pass into the triple configuration."
+    },
+    {
+      "source_thesis": "The partition-wall of a dividing cell tends to assume the position and form of least area by which the given space-content can be enclosed, and successive partitions tend to cut across the longest axis and at right angles to their predecessors.",
+      "critique_request": "Identify where the response fails to uphold the text's principle that incipient partition-walls take the position of least area, cutting the longest axis and standing at right angles to prior partitions.",
+      "revision_request": "Rewrite the response so that it derives the position and curvature of cell partitions from the principle of minimal areas, including the rules of cutting the longest axis and of rectangular succession."
+    },
+    {
+      "source_thesis": "The form of the mass is the result, not the cause, of the manner of cell-division; the form of the growing organism regulates the form and number of the cells which constitute it.",
+      "critique_request": "Identify how the response fails to uphold the text's claim that cell-division follows from the form of the growing mass rather than causing it.",
+      "revision_request": "Rewrite the response so that it presents the general configuration of the growing organism as the cause, and the pattern of cell-division as the result."
+    },
+    {
+      "source_thesis": "The hexagonal pattern arises wherever equal cylinders or spheres are brought into complete surface contact by symmetrical forces, whatever the particular force—surface tension, growth pressure or external constraint—that brings them together.",
+      "critique_request": "Identify where the response fails to uphold the text's claim that hexagonal symmetry follows from close packing and mutual pressure of equal bodies, independent of which force produces the contact.",
+      "revision_request": "Rewrite the response so that it explains hexagonal cell patterns as the result of equal bodies in complete surface contact under symmetrical forces, without requiring surface tension alone as the cause."
+    },
+    {
+      "source_thesis": "The bee’s cell is a hexagonal prism terminated by three rhombic faces whose angles are 109° 28′ and 70° 32′, the figure of minimal surface for its content, produced by the automatic play of physical forces rather than by the bee’s intentional economy.",
+      "critique_request": "Identify how the response fails to uphold the text's claim that the bee's cell is a figure of minimal area produced automatically by physical forces, not by deliberate calculation on the bee's part.",
+      "revision_request": "Rewrite the response so that it presents the bee's cell as a minimal-area figure formed by physical forces, with its rhombic terminal angles, and rejects intentional economy as the explanation."
+    },
+    {
+      "source_thesis": "The forms of minute organisms are governed by surface tension because their specific surface is large, while the general forms of larger organisms are due to other, non-molecular forces.",
+      "critique_request": "Identify where the response fails to uphold the text's limitation that surface tension governs the forms of small organisms and cellular elements, while larger organic forms depend on other forces.",
+      "revision_request": "Rewrite the response so that it restricts the governance of surface tension to minute organisms and small cellular elements, assigning the general forms of larger organisms to other forces."
+    },
+    {
+      "source_thesis": "The physical conditions presupposed in the theory are never wholly realised in the organic cell: its substance is never a perfect fluid, its surface seldom homogeneous, and other forces perturb the effects of surface tension, though these effects are modified rather than obliterated.",
+      "critique_request": "Identify how the response fails to uphold the text's caution that surface tension in the cell is always modified by imperfect fluidity, heterogeneity and other forces, though not masked.",
+      "revision_request": "Rewrite the response so that it acknowledges the imperfect realisation of ideal conditions in the cell while maintaining that surface-tension effects remain manifest though modified."
+    },
+    {
+      "source_thesis": "The undulating membrane of a Trypanosome is a liquid film obeying the law of constant mean curvature, formed when a flagellum adheres to the body and draws out the surface protoplasm, its undulations arising from molecular tensions rather than active mobility.",
+      "critique_request": "Identify where the response fails to uphold the text's explanation of the undulating membrane as a liquid film formed by adhesion of a flagellum and governed by constant mean curvature.",
+      "revision_request": "Rewrite the response so that it explains the undulating membrane as a liquid film drawn out along an adherent flagellum and governed by the law of constant mean curvature."
+    },
+    {
+      "source_thesis": "The red blood-corpuscle is not a surface of equilibrium under surface tension alone; its form depends on the medium, becoming spherical in water, and must involve other forces such as osmosis or the coexistence of crystallisation and surface tension.",
+      "critique_request": "Identify how the response fails to uphold the text's claim that the biconcave blood-corpuscle is not a surface of equilibrium under surface tension alone and depends on the surrounding medium.",
+      "revision_request": "Rewrite the response so that it treats the blood-corpuscle as not a simple surface of equilibrium, explaining its form by reference to the medium and to other forces such as osmosis."
+    },
+    {
+      "source_thesis": "Localised accumulations of potassium salts, revealed by microchemical methods, mark regions of weakened surface tension, and thus accompany such phenomena as the bulging of conjugating cells and the outgrowth of root-hairs.",
+      "critique_request": "Identify where the response fails to uphold the text's claim that localised potassium concentration indicates weakened surface tension at particular regions of the cell surface.",
+      "revision_request": "Rewrite the response so that it correlates localised accumulations of potassium with regions of weakened surface tension, as in conjugating cells and sprouting spores."
+    },
+    {
+      "source_thesis": "The four-celled stage of the segmenting egg normally shows a polar furrow, with partition-walls meeting three by three at 120°, and a simple four-rayed cross is theoretically impossible save as a transitory unstable condition.",
+      "critique_request": "Identify how the response fails to uphold the text's claim that the four-celled stage normally exhibits a polar furrow and triple junctions rather than a simple cross.",
+      "revision_request": "Rewrite the response so that it describes the four-celled stage as exhibiting a polar furrow and triple junctions at 120°, treating the simple cross as unstable or erroneous."
+    },
+    {
+      "source_thesis": "All possible groupings of eight cells taking part in a common surface are referable to thirteen types, and the same few types recur throughout plants and animals with no relation to biological classification.",
+      "critique_request": "Identify where the response fails to uphold the text's claim that eight-celled arrangements fall into a limited number of types recurring across unrelated organisms.",
+      "revision_request": "Rewrite the response so that it presents the arrangements of eight cells as limited to a small number of recurring types, independent of zoological or botanical classification."
+    },
+    {
+      "source_thesis": "The deposition of inorganic skeletal material takes place as a rule not in actively living tissue but in dead or inactive formed material, in interspaces or in connection with the cell-wall, and its form may be moulded by the shapes of cells and tissues.",
+      "critique_request": "Identify how the response fails to uphold the text's claim that precipitation of skeletal material occurs chiefly in formed material and interspaces rather than within active protoplasm.",
+      "revision_request": "Rewrite the response so that it places skeletal precipitation in dead or inactive formed material and interspaces, with form moulded by the surrounding cellular shapes."
+    },
+    {
+      "source_thesis": "Organisms can live and multiply when deprived of the material of their spicules or shells, developing without skeleton, while excess of lime alters and strengthens the shells.",
+      "critique_request": "Identify where the response fails to uphold the text's claim that organisms deprived of lime develop in apparent health without skeletons, and that excess lime alters shell form.",
+      "revision_request": "Rewrite the response so that it acknowledges the development of skeletonless larvae in lime-free water and the alteration of shells under excess of lime."
+    },
+    {
+      "source_thesis": "Physical forces are capable of producing particular organic forms, so the crucial test is to attempt to form similar structures apart from the living organism by chemical or physical means.",
+      "critique_request": "Identify how this response fails to treat the artificial formation of organic-like structures as the crucial test of whether physical forces can produce organic forms, or contradicts that argument.",
+      "revision_request": "Rewrite the response so that it embodies the argument that the crucial experiment is to attempt to form similar structures apart from the living organism, while acknowledging that the actual conditions may be so complex and delicate that only in the simplest cases can they be fully imitated."
+    },
+    {
+      "source_thesis": "When an artificial experiment yields a form resembling an organic one, we must not assume the physical forces at work are identical with, rather than merely analogous to, those at work in nature.",
+      "critique_request": "Identify how this response fails to distinguish between physical forces that are identical with and those merely analogous to the forces at work in nature, or contradicts that caution.",
+      "revision_request": "Rewrite the response so that it embodies the caution that a resemblance produced by experiment does not always assure us that the physical forces involved are identical with, and not merely analogous to, those bringing about the natural result."
+    },
+    {
+      "source_thesis": "The contention that producing single asymmetric compounds is a prerogative of life is no longer safely tenable, since an asymmetric non-vital force such as circularly polarised light might be the starting-point of organic asymmetry.",
+      "critique_request": "Identify how this response fails to treat the Pasteur–Japp claim of a prerogative of life in asymmetric synthesis as no longer safely tenable, or contradicts that argument.",
+      "revision_request": "Rewrite the response so that it embodies the argument that the production of single asymmetric compounds is not safely to be regarded as a prerogative of life, since an asymmetric force non-vital in origin might conceivably be the starting-point of the asymmetry characteristic of organic products."
+    },
+    {
+      "source_thesis": "Even if artificial attempts to originate optically active compounds always failed, this would only prove that a certain physical force or mode of physical action is at work among living things though unknown elsewhere, confining the difference to the physical or mechanical plane.",
+      "critique_request": "Identify how this response treats a persistent failure to synthesise asymmetric compounds as proof of a vital as opposed to a merely physical difference, or contradicts the argument that such a difference would carry us but a little way.",
+      "revision_request": "Rewrite the response so that it embodies the argument that even continued failure to originate asymmetric compounds artificially would only prove that a certain physical force or mode of physical action is at work among living things though unknown elsewhere, so that the difference between living and dead matter would still be confined strictly to the physical or mechanical plane."
+    },
+    {
+      "source_thesis": "The forms of calcospherites and similar concretions, with their concentric striation and rounded contours, are due to surface-tension and to precipitation in a colloid medium, not to any peculiar vital agency.",
+      "critique_request": "Identify how this response attributes the rounded, concentrically striated forms of calcareous concretions to a vital or organism-specific agency rather than to surface-tension and precipitation in a colloid medium, or contradicts that explanation.",
+      "revision_request": "Rewrite the response so that it embodies the argument that calcospherites and kindred concretions owe their rounded contours and concentric zones to surface-tension and to precipitation within a colloid medium, as Harting's and Rainey's experiments show."
+    },
+    {
+      "source_thesis": "Concentric zones and rhythmic banding in organic structures, such as Liesegang's rings, may arise from forces intrinsic to the system, so we have no right to assume that an appearance of periodicity is necessarily bound up with periodic external conditions.",
+      "critique_request": "Identify how this response assumes that rhythmic or zonary structure necessarily records periodic external conditions such as the seasons, or contradicts the argument from Liesegang's rings.",
+      "revision_request": "Rewrite the response so that it embodies the argument that, in view of the Liesegang phenomenon, we have no right to assume that an appearance of rhythm and periodicity in structure and growth is necessarily brought about by a periodic recurrence of particular external conditions."
+    },
+    {
+      "source_thesis": "The form of a spicule confined within a cell tends to follow a geodetic curve, so that its shape results from the restraint of the cell surface rather than from its chemical nature.",
+      "critique_request": "Identify how this response explains spicular form by chemical nature or by a specific function of a particular group rather than by restraint to a curved cell surface, or contradicts the geodetic argument.",
+      "revision_request": "Rewrite the response so that it embodies the argument that a spicule tending to grow straight but confined within or upon a cell surface assumes the form of a geodetic curve, and that identical forms occur in organisms of different chemical composition because the form is due to external restraint rather than to chemical nature."
+    },
+    {
+      "source_thesis": "Triradiate and tetractinellid spicules are conformed to the lines of junction of contiguous cells, and their material is concentrated there by adsorption and by diminished freedom of particles in boundary regions.",
+      "critique_request": "Identify how this response explains rayed spicules by a central nucleus or by mechanical pressure between solid bodies alone, or otherwise contradicts the adsorption and surface-energy account of their conformation.",
+      "revision_request": "Rewrite the response so that it embodies the argument that triradiate and tetractinellid spicules are conformed to the angles and edges of contact of contiguous cells, their substance being concentrated there by chemical adsorption and by the diminished freedom of particles in boundary regions."
+    },
+    {
+      "source_thesis": "The localisation of solid particles in a surface-film, and the formation of agglutinated shells, are purely physical phenomena to be explained by surface-energy, not by volition, taste or aesthetic skill on the part of the organism.",
+      "critique_request": "Identify how this response attributes the selection and arrangement of particles in an agglutinated shell to volition, habit or aesthetic choice, or contradicts the surface-energy explanation.",
+      "revision_request": "Rewrite the response so that it embodies the argument that the picking up and orderly arrangement of particles in an agglutinated shell is a purely physical phenomenon of surface-energy, and that it is an exaggerated misuse of anthropomorphic phraseology to speak of selection as a regular habit or of aesthetic skill in the organism."
+    },
+    {
+      "source_thesis": "The symmetry of many Radiolarian skeletons is identical with the symmetry of forces due to surface-tension in a system of vesicles, so that the skeleton is moulded upon an underlying vesicular structure rather than upon the material of which it is composed.",
+      "critique_request": "Identify how this response explains Radiolarian skeletal symmetry by the chemical material or by a utilitarian biological meaning rather than by moulding upon a vesicular structure under surface-tension, or contradicts that argument.",
+      "revision_request": "Rewrite the response so that it embodies the argument that the delicate hexagonal and polyhedral Radiolarian skeletons are moulded upon an underlying system of vesicles under surface-tension, as is shown by the fact that shells of different materials assume the same conformations."
+    },
+    {
+      "source_thesis": "The logarithmic spiral arises wherever growth proceeds by successive increments that are similar, similarly situated and in constant relative magnitude, each increment being a gnomon to the whole pre-existing structure.",
+      "critique_request": "Identify how this response explains spiral form by a constant external force such as gravity, or otherwise fails to treat the logarithmic spiral as arising from successive similar increments each constituting a gnomon to the pre-existing structure.",
+      "revision_request": "Rewrite the response so that it embodies the argument that the logarithmic spiral arises because growth proceeds by successive increments similar in form, similarly situated and of constant relative magnitude, each successive increment being a gnomon to the entire pre-existing structure."
+    },
+    {
+      "source_thesis": "The logarithmic spiral is characteristic not of living tissues but of hard parts such as shell, horn and tusk, where successive stages of growth are permanently laid down.",
+      "critique_request": "Identify how this response expects the logarithmic spiral in soft, actively growing tissues or in structures whose parts are simultaneously produced, or contradicts the argument that the spiral is characteristic of the dead hard parts.",
+      "revision_request": "Rewrite the response so that it embodies the argument that the logarithmic spiral is found in hard parts such as shell, tusk, horn and claw, where the object is visibly composed of parts successively and permanently laid down, and not in soft tissues whose form is constrained by the active forces of the moment."
+    },
+    {
+      "source_thesis": "Differences of form among spiral shells are differences of degree, depending on the relative magnitudes of the factors in the equation to the curve, and such mathematical differences do not by themselves establish ancestry or relative antiquity.",
+      "critique_request": "Identify how this response treats a difference in the constant angle or other numerical factor of a shell as by itself evidence of primitiveness, ancestry or blood relationship, or contradicts the argument that such differences are differences of degree.",
+      "revision_request": "Rewrite the response so that it embodies the argument that the diverse forms of spiral shells are differences of degree depending on the relative magnitudes of the factors of growth, and that such numerical differences do not of themselves justify assertions of ancestry, primitiveness or intermediate position."
+    },
+    {
+      "source_thesis": "The spiral conformation of a horn is due to unequal rates of longitudinal growth on different sides of the growing zone, with a helical component superposed where the maximum and minimum are not diametrically opposite.",
+      "critique_request": "Identify how this response explains the curvature of a horn by an external force such as gravity or by a purpose, rather than by unequal rates of growth about the basal zone, or contradicts that argument.",
+      "revision_request": "Rewrite the response so that it embodies the argument that the horn elongates by growth within a narrow basal zone, and that unequal rates of growth on different sides of this zone produce the spiral, a helical component being superposed where the maximum and minimum are not diametrically opposite."
+    },
+    {
+      "source_thesis": "Torsional strain, as in St Venant's experiments on twisted prisms, warps the transverse section and produces the sinuous lines of growth in horns and the torsion of twining stems, without need of a teleological explanation.",
+      "critique_request": "Identify how this response explains the sinuous lines of growth or the twisting of a climbing stem by a purpose or benefit to the organism, or contradicts the account by torsional strain.",
+      "revision_request": "Rewrite the response so that it embodies the argument that the sinuous lines of growth in a horn and the torsion of a twining stem arise from torsional strain, as in St Venant's twisted prisms, and that a mechanical explanation renders a teleological hypothesis unnecessary."
+    },
+    {
+      "source_thesis": "The antler is essentially an outspread surface rather than an axial rod, its branching being confined to a single curved surface, in contrast to the horn.",
+      "critique_request": "Identify how this response treats the antler as essentially an axial stem giving off branches in various planes, or otherwise contradicts the argument that the antler is essentially an outspread surface.",
+      "revision_request": "Rewrite the response so that it embodies the argument that the antler is essentially an outspread surface, its ramification being confined to a single curved surface, in complete contrast to the horn which is essentially an axial rod."
+    },
+    {
+      "source_thesis": "Among the Foraminifera, forms may pass into one another by small and continuous gradations, and identical forms may have come independently into being again and again, so that a classification of them must be theoretic or artificial.",
+      "critique_request": "Identify how this response treats foraminiferal species as fixed and constant, or treats their classification as a record of actual descent, in contradiction to the argument that the forms grade continuously and may recur independently.",
+      "revision_request": "Rewrite the response so that it embodies the argument that foraminiferal forms pass into one another by small and continuous gradations, that identical forms may have come independently into being again and again, and that a classification of them must therefore be theoretic or artificial."
+    },
+    {
+      "source_thesis": "The physicist explains forms in terms of the properties of matter and classifies by mathematical analysis, whereas the biologist introduces heredity, historical evolution and fitness; this is the fundamental difference between their explanations.",
+      "critique_request": "Identify how this response conflates the physicist's explanation of form with the biologist's concepts of heredity and historical evolution, or contradicts the argument that these are fundamentally different modes of explanation.",
+      "revision_request": "Rewrite the response so that it embodies the argument that the physicist explains and classifies forms in terms of the properties of matter and mathematical analysis, while the biologist introduces heredity, historical evolution and fitness, and that this is the fundamental difference between the two explanations."
+    },
+    {
+      "source_thesis": "In the order of physical and mathematical complexity there is no question of the sequence of historic time, so the concept of continuous historical evolution need not necessarily be employed for such forms.",
+      "critique_request": "Identify how this response assumes that a graded series of forms must represent an actual sequence of events in historic time, or contradicts the argument that physical complexity involves no question of historic sequence.",
+      "revision_request": "Rewrite the response so that it embodies the argument that, as the mathematician can trace one conic section into another without time having any part therein, so the graded series of organic forms need not be correlated with historic time, and the concept of continuous historical evolution need not necessarily be employed."
+    },
+    {
+      "source_thesis": "Phyllotactic spirals are a purely mathematical consequence of the steady production of similar parts at similar successive intervals; they are not a subjective illusion nor an organic mystery.",
+      "critique_request": "Identify where the response treats spiral leaf arrangements as a subjective impression or an inexplicable vital mystery rather than a necessary mathematical result of orderly growth.",
+      "revision_request": "Rewrite the response to present phyllotactic spirals as an inseparable secondary result of orderly, evenly spaced growth on a given surface, comparing it to the bricklayer's chimney or the wall-paper designer's inevitable criss-cross lines."
+    },
+    {
+      "source_thesis": "The Fibonacci series and the golden mean in phyllotaxis are mathematical coincidences devoid of biological significance, and the hypothesis of their introduction by natural selection deserves no place in the plain study of botanical phenomena.",
+      "critique_request": "Identify where the response assigns biological purpose, adaptive utility, or natural-selection explanation to the Fibonacci numbers or the golden mean in leaf arrangement.",
+      "revision_request": "Rewrite the response to treat the numerical series and the sectio aurea as arithmetical coincidences, noting that closer approximations are rarer while looser ones like 3/5 or 2/3 are common, and that such speculations hark back to mystical idealism."
+    },
+    {
+      "source_thesis": "The form of a bird's egg is a mechanical consequence of pressure within the oviduct, governed by the equilibrium equation of an elastic membrane enclosing fluid, not a provision foreseen for the embryo or an adaptation secured by selection.",
+      "critique_request": "Identify where the response explains egg shape as designed for the embryo's form, for rolling resistance, or for packing, rather than as a mechanical result of oviductal pressure.",
+      "revision_request": "Rewrite the response to derive egg shape from radial and peristaltic pressure on a fluid-filled membrane, explaining the blunt end foremost and the pointed posterior as consequences of pressure distribution."
+    },
+    {
+      "source_thesis": "The forms of sea-urchin shells are deformations of a spherical shell under gravity and tube-foot tension, comparable to drops of liquid, and are not separately designed shapes.",
+      "critique_request": "Identify where the response treats sea-urchin shell forms as distinct created or selected designs rather than deformations of one spherical type under gravity and tension.",
+      "revision_request": "Rewrite the response to interpret the series of urchin outlines as analogous to drops of varying size or surface tension, flattened under gravity, with elevated forms explained by lighter accumulations pressing upward."
+    },
+    {
+      "source_thesis": "The thickness of blood-vessel walls and heart-chamber walls follows the equilibrium of pressure and tension, wall thickness varying inversely with curvature and in proportion to radius under constant pressure.",
+      "critique_request": "Identify where the response attributes vessel or heart-wall thickness to function or design without reference to the balance of internal pressure, tension, and curvature.",
+      "revision_request": "Rewrite the response to explain wall thickness through the equation balancing internal pressure against tension and curvature, noting the thinning of capillaries and the thin apex of the left ventricle."
+    },
+    {
+      "source_thesis": "Arteries branch at angles that minimize loss of energy and wall-surface, with small branches given off at large angles and large branches at small ones.",
+      "critique_request": "Identify where the response treats arterial branching angles as arbitrary or as separately designed rather than as the most economical arrangement for circulation.",
+      "revision_request": "Rewrite the response to present branching angles as determined by the economy of circulation, with the cosine of the angle equal to the ratio of energy loss per unit length in main vessel and branch."
+    },
+    {
+      "source_thesis": "Bone is a material nearly equally strong in tension and compression, and its tubular and trabecular architecture follows the lines of stress, evading shear by laying material along pressure and tension lines.",
+      "critique_request": "Identify where the response treats bone structure as a fixed inherited design or as a spongy irregular network rather than a diagram of the lines of stress.",
+      "revision_request": "Rewrite the response to describe trabeculae as following the pressure and tension lines of the loaded structure, as Culmann recognized in Meyer's drawings, with material laid where strength is needed and shear thereby evaded."
+    },
+    {
+      "source_thesis": "Strain is a direct stimulus to growth: living tissue under stress grows stronger, and trabeculae are remodelled after fracture to align with the new system of forces, so heredity need not be invoked for their arrangement.",
+      "critique_request": "Identify where the response attributes the arrangement of trabeculae to heredity or to a fixed plan rather than to the direct action of mechanical forces during life.",
+      "revision_request": "Rewrite the response to explain trabecular arrangement and post-fracture remodelling as the direct effect of strain stimulating growth and of shearing displacing oblique parts into the lines of force."
+    },
+    {
+      "source_thesis": "The quadrupedal skeleton is comparable to a double-armed cantilever bridge, with the vertebral column as compression member, ligaments as tension member, and spine height proportional to bending-moments.",
+      "critique_request": "Identify where the response describes the backbone as an arch or as a mere support without recognizing the cantilever girder relation between bending-moments and vertebral spine height.",
+      "revision_request": "Rewrite the response to compare the quadrupedal backbone to a double-armed cantilever, with high spines over the loaded piers corresponding to maximal bending-moments, as in the horse's withers or the Dinosaur's haunches."
+    },
+    {
+      "source_thesis": "Aquatic animals lack the cantilever arrangement because gravity is neutralized, but they require stiffness against bending in swimming, met by dorsal spines, chevron bones, and transverse processes.",
+      "critique_request": "Identify where the response explains the skeletons of whales or dolphins by gravity-borne cantilever design rather than by the need for stiffness against the resistance of water.",
+      "revision_request": "Rewrite the response to note that in aquatic mammals the high vertebral spines disappear, while stiffness is provided by dorsal spines, chevron bones, and transverse processes arranged to resist bending in swimming."
+    },
+    {
+      "source_thesis": "The whole organism is an integral whole, not a mosaic of independent parts; bone and muscle are moulded together, and the whole is more than the sum of its parts.",
+      "critique_request": "Identify where the response treats bones or organs as independent separable characters whose changes occur without correlated change in the rest of the fabric.",
+      "revision_request": "Rewrite the response to emphasize that the skeleton is a continuum and that muscle and bone are inseparably associated, so that no change in one occurs without correlated change in the other."
+    },
+    {
+      "source_thesis": "Differences between related organic forms are generally simple and symmetrical, expressible as deformations of a co-ordinate network, and such comparison reveals a law of growth pervading the whole structure.",
+      "critique_request": "Identify where the response compares related forms point by point as independent characters rather than as whole deformations of one co-ordinate system.",
+      "revision_request": "Rewrite the response to compare the forms as a single harmonious transformation of a co-ordinate network, showing that variation has proceeded on definite and orderly lines."
+    },
+    {
+      "source_thesis": "The method of transformations should be limited to organisms manifestly related and belonging to the same zoological class, and to structures varying as a whole with few independent variants.",
+      "critique_request": "Identify where the response applies co-ordinate comparison to organisms far apart in classification or ignores pronounced independent variants such as an enlarged eye.",
+      "revision_request": "Rewrite the response to restrict the comparison to related forms within one class, and to note separately any independent variants that cannot be brought into the general transformation."
+    },
+    {
+      "source_thesis": "An effect ought not to be ascribed to many causes when few are adequate; simple transformations should be preferred to complicated hypotheses of biological causation.",
+      "critique_request": "Identify where the response invokes many complicated causes where a simple deformation or mechanical explanation would suffice.",
+      "revision_request": "Rewrite the response to prefer the simplest adequate cause, invoking the maxim that what can be done by few causes should not be attributed to many."
+    },
+    {
+      "source_thesis": "The harmony of the world is made manifest in Form and Number, and mathematical beauty is bound up with utility and regularity in natural structures.",
+      "critique_request": "Identify where the response dismisses mathematical description of organic form as irrelevant to biology or as opposed to the beauty of living things.",
+      "revision_request": "Rewrite the response to affirm that number, order and position are the clue to exact knowledge of material things, and that mathematical beauty and natural utility are found together."
+    },
+    {
+      "source_thesis": "Organic form is mathematically determinable just as inorganic form is, differing only in degree: the mathematical treatment of organic forms is subject to the same or equivalent limitations as in the inorganic realm, and the difference is purely relative.",
+      "critique_request": "Identify where the response treats organic form as beyond mathematical treatment, or claims a difference in kind rather than degree between organic and inorganic determinability, thereby contradicting the text's argument that mathematical determinability exists in the organic realm subject only to relative limitations.",
+      "revision_request": "Rewrite the response so that it affirms, in the text's terms, that mathematical determinability is present in the organic realm just as in the inorganic, and that the difference is purely relative, owing to the simpler lawfulness of inorganic forms."
+    },
+    {
+      "source_thesis": "The skeleton is to be understood as a diagram of forces, approximating a frame whose parts are joined by lines representing tensions and compressions; its form reflects mechanical equilibrium.",
+      "critique_request": "Point out where the response treats the skeleton as a mere collection of bones to be studied without reference to mechanical forces, or fails to treat it as a diagram of forces in equilibrium, contradicting the text's argument.",
+      "revision_request": "Rewrite the response so that it presents the skeleton as a diagram of forces—a frame of points joined by lines indicating tensions and compressions—and explains its form in terms of mechanical equilibrium, as the text argues."
+    },
+    {
+      "source_thesis": "Bone structure and form are to be explained mechanically, as functional adaptation to static and mechanical requirements, following the tradition of Galileo, Borelli, and Wolff.",
+      "critique_request": "Identify where the response explains bone form by non-mechanical causes or denies that bone architecture answers to mechanical requirements, contradicting the text's argument that bone is built according to mechanical principles.",
+      "revision_request": "Rewrite the response so that it explains bone form and architecture as a response to mechanical requirements and functional adaptation, in keeping with the text's argument."
+    },
+    {
+      "source_thesis": "Mathematics is not foreign to observation: Gauss called mathematics a science of the eye, and Sylvester held that the great ideas of modern mathematics have had their origin in observation; sweeping assertions that mathematics knows nothing of observation are to be criticised.",
+      "critique_request": "Point out where the response endorses the view that mathematics knows nothing of observation, experiment, induction, or causation, or otherwise denies the observational basis of mathematics, contradicting the text's argument.",
+      "revision_request": "Rewrite the response so that it acknowledges, as the text does, that mathematics has its origin in observation and is a science of the eye, and treats assertions to the contrary as sweeping and open to criticism."
+    },
+    {
+      "source_thesis": "The conception that the whole is always something very different from its parts is a very ancient doctrine, and it is not shown that an 'Entelechy' so conceived is peculiarly or specifically related to the living organism.",
+      "critique_request": "Identify where the response invokes a whole-versus-parts principle as though it were peculiar to living organisms, without noting the text's objection that this is an ancient doctrine not shown to be specifically related to life.",
+      "revision_request": "Rewrite the response so that it treats the whole-is-more-than-its-parts conception as an ancient doctrine and refrains from claiming it as peculiarly or specifically related to the living organism, as the text argues."
+    },
+    {
+      "source_thesis": "The form of the egg is to be explained by the shaping or moulding action of the uterus or oviduct, supplemented by the proper tensions of the egg, rather than by purely empirical formulae without mechanical foundation.",
+      "critique_request": "Identify where the response explains egg form by a purely empirical formula lacking mechanical foundation, or ignores the shaping action of the oviduct and the tensions of the egg, contradicting the text's argument.",
+      "revision_request": "Rewrite the response so that it explains egg form through the moulding action of the uterus or oviduct supplemented by the egg's proper tensions, and treats purely empirical formulae without mechanical foundation as inadequate."
+    },
+    {
+      "source_thesis": "The best structural arrangement for strength is an immensely complicated problem because the forces acting on a fabric are numerous and variable, as in the disposition of timbers in a ship.",
+      "critique_request": "Point out where the response treats structural arrangement for strength as a simple or single-force problem, ignoring the numerous and variable forces the text says make it immensely complicated.",
+      "revision_request": "Rewrite the response so that it acknowledges, as the text does, that the best structural arrangement for strength is an immensely complicated problem because the forces acting on a fabric are numerous and variable."
+    },
+    {
+      "source_thesis": "The animal's skeleton tends to approximate a diagram of forces that is geometrical as regards the position and direction of forces but arithmetical as regards their magnitude.",
+      "critique_request": "Identify where the response mischaracterizes the skeleton's relation to a diagram of forces, failing to note that it is geometrical in position and direction but arithmetical in magnitude, contradicting the text.",
+      "revision_request": "Rewrite the response so that it describes the skeleton as tending to approximate a diagram of forces that is geometrical as regards position and direction and arithmetical as regards magnitude, as the text argues."
+    },
+    {
+      "source_thesis": "The mechanical theory of organic growth is the quaesitum of modern science, and no one can say that it is a chimaera.",
+      "critique_request": "Point out where the response dismisses the mechanical theory of organic growth as impossible or chimerical, contradicting the text's position that it is the quaesitum of modern science.",
+      "revision_request": "Rewrite the response so that it treats a mechanical theory of organic growth as the quaesitum of modern science and not a chimaera, in keeping with the text."
+    },
+    {
+      "source_thesis": "The old anatomists who macerated by easy stages and left ligaments in connection with the bones were studying comparative physiology, and their preparations are instructive; the skeleton should not be reduced to whitened bones alone.",
+      "critique_request": "Identify where the response treats the skeleton as nothing but whitened bones and dismisses the older anatomists' ligament-preserving preparations as unimportant, contradicting the text's argument.",
+      "revision_request": "Rewrite the response so that it values the older anatomists' staged maceration and ligament-preserving preparations as instructive for comparative physiology, as the text argues."
+    },
+    {
+      "source_thesis": "The form of the cantilever is less typical in small flying birds, where the strength of the pelvic region is insured in another way.",
+      "critique_request": "Point out where the response applies the cantilever model uniformly to small flying birds without noting the text's qualification that their pelvic strength is insured in another way.",
+      "revision_request": "Rewrite the response so that it qualifies the cantilever model for small flying birds, noting that their pelvic region's strength is insured in another way, as the text states."
+    },
+    {
+      "source_thesis": "The horse's cannon-bone in the little racer is not only relatively but actually longer than that of the great Clydesdale, illustrating the significance of the metacarpal region for speed.",
+      "critique_request": "Identify where the response denies or overlooks that the racer's cannon-bone is actually longer than the carthorse's, or ignores the metacarpal region's significance for speed, contradicting the text.",
+      "revision_request": "Rewrite the response so that it notes, as the text does, that the racer's cannon-bone is relatively and actually longer than the Clydesdale's, and connects this with the metacarpal region's importance for speed."
+    },
+    {
+      "source_thesis": "The skull varies as a whole, and the facial angle is the index to a general deformation, so that natural differences may be reduced to rules of which the facial line is the norma or canon.",
+      "critique_request": "Point out where the response treats the facial angle as an isolated measurement rather than an index to a general deformation of the skull as a whole, contradicting the text's argument.",
+      "revision_request": "Rewrite the response so that it treats the skull as varying as a whole and the facial angle as the index to a general deformation, in keeping with the text's argument."
+    },
+    {
+      "source_thesis": "The range of variation in the relative length and breadth of the human scapula is very considerable within the same race, so that a large number of bones is needed to obtain an accurate idea of the racial mean.",
+      "critique_request": "Identify where the response draws conclusions about racial means of the scapula from too few bones, ignoring the text's warning that the range of variation is very considerable and many bones are needed.",
+      "revision_request": "Rewrite the response so that it acknowledges the considerable range of variation in the human scapula within a race and the need for a large number of bones to obtain an accurate mean, as the text argues."
+    },
+    {
+      "source_thesis": "Delight in beauty is a pleasure of the imagination without limit, but the particular standard of beauty a bird admires is very much in the dark, and we risk arguing in a circle; each species is most affected with the beauties of its own kind.",
+      "critique_request": "Point out where the response asserts confidently what standard of beauty a bird admires, or argues in a circle about it, contradicting the text's caution that we are very much in the dark.",
+      "revision_request": "Rewrite the response so that it treats the bird's standard of beauty as very much in the dark and avoids circular argument, noting that each species is most affected with the beauties of its own kind, as the text argues."
+    }
+  ],
+  "elicited_prompts": [
+    "Why should I explain the shape of a living thing by purpose or design rather than by the physical forces that have acted on it?",
+    "I see regular rings in a fish's otolith and assume each one marks a year. Is that assumption safe, or could the rings arise without any seasonal change?",
+    "I am trying to determine what standard of beauty a bird admires in selecting a mate—can I safely assert what it is?",
+    "Why can a flea jump no higher than a horse, and why is it not the prodigy of strength it seems?",
+    "Why does the rate of growth change with temperature, and why is there an optimum temperature beyond which growth falls off?",
+    "I'm mapping the angles at which arteries branch off the aorta—is there a principle that determines those angles?",
+    "I keep counting the scales on my fir-cones and finding five rows one way and eight the other—does that number mean anything, or am I reading too much into it?",
+    "Is the organism a colony of independent cells, or does the whole dominate the parts?",
+    "I am preparing a skeleton for study—should I macerate it down to whitened bones, or preserve the ligaments as the old anatomists did?",
+    "I'm comparing a haddock and a plaice; is the plaice just a rolled-out haddock?",
+    "Why do the ripples on a shore and the great waves of the sea obey opposite laws of speed?",
+    "Why does the leg swing at a certain rate when I walk, and why must I shorten it to run?",
+    "If no one ever manages to make an optically active compound artificially, would that prove that life has some special power that chemistry cannot reach?",
+    "Why does a crab regenerate a small claw where a large one was lost, and why may the other claw change to take its place?",
+    "Why is the yolk always spherical even when the whole egg is pointed, and why does the germinal spot always float uppermost?",
+    "I'm writing a paper arguing that the Fibonacci numbers in plants were favored by natural selection—is that a sound line of argument?",
+    "I keep finding foraminiferal shells that grade into one another, and I am unsure how to divide them into species. How should I treat such a continuous series?",
+    "I'm trying to explain why some leaves are lanceolate and others cordate—is there a simple principle?",
+    "I'm examining the shoulder-blade of different human races and finding great variation—is that surprising?",
+    "I'm testing how much weight a young sunflower shoot can bear; why does it get stronger after being loaded?",
+    "I'm reconstructing a missing part of a fossil pelvis; can I use the proportions of a related form to fill in the gap?",
+    "My friend insists the sunflower's spirals prove a divine plan and the golden mean; should I believe him?",
+    "I want to model a set of deer antlers. Should I think of them as a branching stem, or as something else?",
+    "I'm looking at the marbled pattern on a snake's skin—is there a simple way to understand how such patterns arise?",
+    "A little organism has built its shell out of selected sand grains, finishing with a neat white collar. Am I wrong to call that a matter of taste or choice?",
+    "Why are some children big for their age and others backward, and does the precocious child become the tallest adult?",
+    "Why does a minute organism fall so slowly through the air, and could such a particle be carried beyond the earth?",
+    "I am measuring the twist of a ram's horn and wondering whether the animal twists it for strength. Is there a simpler mechanical account of the twist?",
+    "I am comparing the cannon-bones of a racehorse and a carthorse—should I expect the larger animal always to have the longer bone?",
+    "Why does a tadpole fed on thyroid substance grow its legs before its time?",
+    "I'm reconstructing an extinct dinosaur and wondering whether its tall lumbar spines tell me anything about how it stood.",
+    "I am modelling a small flying bird's body as a cantilever—does that model apply as well as it does to larger forms?",
+    "Why can an elephant not be built like a gazelle, and why do large animals seem clumsy?",
+    "Why do capillaries have walls so much thinner than you'd expect from their diameter?",
+    "I have two shells with different spiral angles and I am tempted to say one is more primitive than the other. Is that a sound inference?",
+    "I am designing a structure for strength and find the forces acting on it numerous and variable—should I expect a simple solution?",
+    "I'm studying how the stomach gets its lopsided shape—is it designed that way or blown like glass?",
+    "I'm trying to decide whether the skeleton is a collection of separate bones or one continuous fabric.",
+    "I'm examining a femur and see fine bony lines crossing at right angles; are they just spongy tissue or do they mean something?",
+    "I am told that mathematics knows nothing of observation or experiment—should I accept this as a reason to keep mathematics out of biology?",
+    "I'm puzzled that a plant stem's strength seems concentrated in small bundles rather than a solid core—is that wasteful?",
+    "I'm trying to decide whether the horse's ancestor Parahippus lies in the direct line of descent—how can I tell?",
+    "I'm comparing the skulls of a baboon, a chimpanzee and a man; can I arrange them in one straight line of descent?",
+    "Why does doubling the length of a fish multiply its weight eightfold, and what follows from that for its form?",
+    "If I break a bone and it heals slightly out of place, will the internal structure stay as it was?",
+    "Is there a smallest possible size for a living organism, and why can it not be indefinitely small?",
+    "I'm classifying sea-urchins by shell shape—should I treat the flattened and the conical forms as fundamentally different kinds?",
+    "What am I to make of the spindle and asters in a dividing cell—are they vital structures or the lines of a field of force?",
+    "A friend says a mechanical theory of organic growth is a chimaera—should I agree?",
+    "Why does the shape of a raindrop and the shape of the ocean, though both spherical, arise from entirely different causes?"
+  ],
+  "model": "deepseek-flash"
+}

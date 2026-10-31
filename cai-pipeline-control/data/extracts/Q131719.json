@@ -1,0 +1,309 @@
+{
+  "book_id": "Q131719",
+  "author": "Niccolò Machiavelli",
+  "principles": [
+    {
+      "source_thesis": "A prince must have his own arms; mercenaries and auxiliaries are useless and dangerous, and no principality is secure without its own forces.",
+      "critique_request": "Identify how the response relies on mercenary or auxiliary forces, or on the arms of others, rather than a prince's own arms, and thus fails to uphold the argument that no state is secure without its own forces.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince must rely on his own arms and avoid mercenaries and auxiliaries, since the arms of others either fall from your back, weigh you down, or bind you fast."
+    },
+    {
+      "source_thesis": "It is better to be feared than loved when one must be dispensed with, but a prince must above all avoid being hated, especially by abstaining from the property and women of his subjects.",
+      "critique_request": "Identify how the response counsels relying on love or popular affection in a way that contradicts the claim that it is safer to be feared than loved, or how it fails to warn against incurring hatred by seizing subjects' property or women.",
+      "revision_request": "Rewrite the response so it reflects that a prince should inspire fear without hatred, abstaining from the property and women of his subjects, because men more quickly forget the death of their father than the loss of their patrimony."
+    },
+    {
+      "source_thesis": "A prince must know how to use both the fox and the lion, and need not keep faith when such observance turns against him and the reasons for the pledge no longer exist.",
+      "critique_request": "Identify how the response insists on keeping faith or on plain honesty in circumstances where the text argues a prince may set faith aside, or how it fails to reflect the need to combine fox-like craft with lion-like force.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince must be a fox to discover snares and a lion to terrify wolves, and is not bound to keep faith when men are bad and will not keep faith with him."
+    },
+    {
+      "source_thesis": "A prince should appear merciful, faithful, humane, religious, and upright, but must have a mind ready to change to the opposite when necessity requires.",
+      "critique_request": "Identify how the response treats the mere appearance of virtue as sufficient without the readiness to act otherwise when compelled, or how it demands that a prince always observe virtues the text says must sometimes be abandoned.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should appear to have the good qualities while keeping a mind ready to turn to the opposite as the winds and variations of fortune force him."
+    },
+    {
+      "source_thesis": "Injuries ought to be done all at once so they are tasted less, while benefits ought to be given little by little so their flavor lasts longer.",
+      "critique_request": "Identify how the response spreads necessary severities over time or gives benefits all at once, contradicting the argument that injuries should be inflicted at one stroke and benefits conferred gradually.",
+      "revision_request": "Rewrite the response so it embodies the argument that a usurper should do all necessary injuries at one blow and dispense benefits little by little, so as not to keep the knife in his hand."
+    },
+    {
+      "source_thesis": "A prince must avoid being despised and hated, for these breed conspiracies; he should show greatness, courage, gravity, and fortitude, and keep the people satisfied.",
+      "critique_request": "Identify how the response leaves the prince open to contempt or hatred, or fails to show how greatness, courage, and popular satisfaction protect against conspiracy.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince must avoid being despised and hated, showing greatness, courage, and gravity, and keeping the people content, since these are the best defenses against conspiracy."
+    },
+    {
+      "source_thesis": "A prince ought to have no other aim or study than war and its rules and discipline, and in peace should exercise it more than in war.",
+      "critique_request": "Identify how the response treats the art of war as secondary or neglects military discipline and preparation in peacetime, contradicting the claim that war is the sole art belonging to a ruler.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince must study war and its discipline above all, exercising his men and mind in peacetime so that fortune finds him prepared."
+    },
+    {
+      "source_thesis": "A prince must lay foundations beforehand; those who rise by fortune alone keep their state with difficulty unless they lay foundations afterwards with great ability.",
+      "critique_request": "Identify how the response assumes that good fortune or the favor of others suffices to hold a state, or fails to note the need to lay foundations after rising unexpectedly.",
+      "revision_request": "Rewrite the response so it embodies the argument that those who become princes by fortune must, like Cesare Borgia, lay their foundations afterwards with ability, since states that rise rapidly cannot stand without them."
+    },
+    {
+      "source_thesis": "A prince should be a true friend or a downright enemy, declaring himself openly rather than standing neutral, since neutrality generally leads to ruin.",
+      "critique_request": "Identify how the response recommends neutrality or irresolution between powerful neighbors, contradicting the argument that a prince must declare himself and that the neutral is left the guerdon of the conqueror.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should declare himself openly for one side, since he who does not declare himself falls prey to the conqueror and is despised by the loser."
+    },
+    {
+      "source_thesis": "Fortune governs half our actions but leaves the other half to us; it is better to be adventurous than cautious, since fortune is a woman who favors the bold.",
+      "critique_request": "Identify how the response treats fortune as all-powerful or counsels excessive caution, contradicting the claim that men may build barriers against fortune and that boldness prevails.",
+      "revision_request": "Rewrite the response so it embodies the argument that fortune is the arbiter of half our actions, that men should prepare defenses against her, and that the adventurous fare better than the cautious."
+    },
+    {
+      "source_thesis": "A prince should choose wise men to counsel him, allow them to speak the truth only on matters he asks about, and be steadfast in his resolutions, avoiding flatterers.",
+      "critique_request": "Identify how the response lets the prince surround himself with flatterers, or invites advice on all matters indiscriminately, or shows him changing course with every opinion, contradicting the argument on counsel.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should choose wise counselors, hear the truth only on what he inquires, and remain steadfast in his resolutions so as not to fall into contempt."
+    },
+    {
+      "source_thesis": "A prince must choose capable and faithful servants, and test them by whether they seek their own profit rather than the prince's.",
+      "critique_request": "Identify how the response ignores the test of servants or treats the choice of ministers as unimportant, contradicting the claim that the first opinion of a prince is formed by the men around him.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should judge and keep servants by whether they think more of his interest than their own, honoring and enriching them so they cannot stand alone."
+    },
+    {
+      "source_thesis": "A new prince should reside in a newly acquired province, or send colonies, since these are the true keys to holding a state.",
+      "critique_request": "Identify how the response relies on distant rule or garrisons rather than residence or colonies, contradicting the argument that disorders are seen as they spring up only when the prince is on the spot.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince holding a country differing in language and customs should reside there or send colonies, since colonies injure few and are more faithful."
+    },
+    {
+      "source_thesis": "A prince must not let a foreign power as strong as himself gain a footing in his province, and should weaken the powerful and protect the weak.",
+      "critique_request": "Identify how the response invites or permits a powerful foreigner to enter the province, or fails to weaken the greater powers, contradicting the argument that he who causes another to become powerful is ruined.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should be head and defender of his weaker neighbors, weaken the more powerful, and prevent any foreigner as powerful as himself from gaining a footing."
+    },
+    {
+      "source_thesis": "A prince must foresee evils while they are small, since once grown they are incurable; war is not to be avoided but only deferred to the advantage of others.",
+      "critique_request": "Identify how the response waits until troubles are manifest or defers war to avoid present inconvenience, contradicting the argument that evils must be dealt with at once and that a blunder should never be committed to avoid war.",
+      "revision_request": "Rewrite the response so it embodies the argument that a wise prince foresees and remedies evils early, and does not defer war, since war is not avoided but only postponed to his disadvantage."
+    },
+    {
+      "source_thesis": "A prince should not be liberal in a way that requires burdening the people with taxes; a reputation for meanness is preferable to rapacity and hatred.",
+      "critique_request": "Identify how the response praises lavish liberality that must be funded by taxing subjects, contradicting the argument that liberality of this kind leads to rapacity and hatred.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should not fear a reputation for meanness, since economy lets him defend himself and undertake enterprises without burdening his people."
+    },
+    {
+      "source_thesis": "Cruelty, when used well, is applied at once for security and not persisted in; it may be more merciful than the disorder that comes from too much mercy.",
+      "critique_request": "Identify how the response either condemns all severity outright or allows cruelty to continue and multiply, contradicting the argument that severities properly used are applied at one blow and not persisted in.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should not mind the reproach of cruelty when it keeps his subjects united, using severity at once and not persisting in it."
+    },
+    {
+      "source_thesis": "A prince should arm his subjects rather than disarm them, since arming them makes them faithful and distrust breeds hatred.",
+      "critique_request": "Identify how the response recommends disarming subjects or relying on foreign arms instead, contradicting the argument that a new prince should always arm his subjects.",
+      "revision_request": "Rewrite the response so it embodies the argument that a new prince should arm his subjects, since arms make them yours and distrust breeds hatred."
+    },
+    {
+      "source_thesis": "The best fortress is not to be hated by the people; fortresses are useful or not according to circumstances and cannot save a prince whose people hate him.",
+      "critique_request": "Identify how the response trusts in fortresses or material defenses while neglecting popular goodwill, contradicting the argument that no fortress saves a prince hated by his people.",
+      "revision_request": "Rewrite the response so it embodies the argument that the best fortress is not to be hated by the people, and that fortresses are of little value when the people are hostile and foreigners assist them."
+    },
+    {
+      "source_thesis": "A prince should imitate great men, taking aim higher than the mark, and follow the paths beaten by those who have been supreme.",
+      "critique_request": "Identify how the response discourages imitation of great examples or sets the prince's aim too low, contradicting the argument that a wise man should imitate those who have been supreme.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should imitate great men like Moses, Cyrus, Romulus, and Theseus, aiming higher than the mark so as to hit it."
+    },
+    {
+      "source_thesis": "Armed prophets conquer while unarmed ones are destroyed; innovators must use force when the people cease to believe.",
+      "critique_request": "Identify how the response relies on persuasion or prayer alone to establish a new order, contradicting the argument that all armed prophets have conquered and the unarmed ones have been destroyed.",
+      "revision_request": "Rewrite the response so it embodies the argument that an innovator must be armed and able to use force, since the nature of the people is variable and persuasion alone cannot fix them."
+    },
+    {
+      "source_thesis": "A prince must not rely on the people as a private citizen might, but a prince who commands and is courageous will never be deceived in them.",
+      "critique_request": "Identify how the response either dismisses popular support entirely or treats it as sufficient without a prince who commands and shows courage, contradicting the argument on civil principalities.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince who has established himself, commands, and is undismayed in adversity will find the people faithful, while a private citizen who builds on them builds on mud."
+    },
+    {
+      "source_thesis": "He who becomes master of a city accustomed to freedom must destroy it or reside there, since such cities never forget liberty.",
+      "critique_request": "Identify how the response assumes a free city can be held by benefits or time, contradicting the argument that a city accustomed to freedom must be ruined or occupied in person.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince who takes a city accustomed to freedom must either ruin it or reside there, since its people never forget liberty or their ancient privileges."
+    },
+    {
+      "source_thesis": "A prince should avoid the hatred of the most powerful party when he cannot avoid being hated by someone, and should satisfy the people rather than the soldiers in modern times.",
+      "critique_request": "Identify how the response ignores the need to avoid the hatred of the most powerful, or fails to note that princes today must satisfy the people rather than the soldiers.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should avoid the hatred of the most powerful party, and that in our times it is more necessary to satisfy the people than the soldiers."
+    },
+    {
+      "source_thesis": "A prince should not trust those who favored him only out of discontent with their former government, but may more easily gain those who were contented under it and thus his enemies.",
+      "critique_request": "Identify how the response relies on men who aided the prince out of discontent, contradicting the argument that such men are hard to satisfy and that former opponents may be more faithful.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should be wary of those who favored him from discontent, and may more easily gain those who were contented under the former government."
+    },
+    {
+      "source_thesis": "A prince should undertake great enterprises and set unusual examples to gain renown, and should be a true friend or enemy rather than neutral.",
+      "critique_request": "Identify how the response counsels obscurity or small cautious gestures rather than great enterprises and remarkable examples, contradicting the argument that nothing makes a prince so esteemed as great enterprises.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should undertake great enterprises and set unusual examples, gaining renown as a great and remarkable man."
+    },
+    {
+      "source_thesis": "A prince must not be irresolute or fickle, but should show greatness, courage, gravity, and fortitude, making his judgments irrevocable.",
+      "critique_request": "Identify how the response shows the prince as fickle, effeminate, or irresolute, contradicting the argument that such qualities make him contemptible.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should show greatness, courage, gravity, and fortitude, and keep his judgments irrevocable so as not to be despised."
+    },
+    {
+      "source_thesis": "A prince should not make an alliance with one more powerful than himself to attack others unless necessity compels, since he then remains at the other's discretion.",
+      "critique_request": "Identify how the response recommends joining a stronger power against others without necessity, contradicting the argument that a prince should avoid being at the discretion of another.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should avoid alliances with the more powerful unless compelled, since victory leaves him at their discretion."
+    },
+    {
+      "source_thesis": "A prince must not be hated by the nobles to desperation nor by the people; well-ordered states keep both satisfied, leaving affairs of reproach to others.",
+      "critique_request": "Identify how the response drives the nobles to desperation or leaves the people discontented, contradicting the argument that a prince should cherish the nobles without making himself hated by the people.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should keep the nobles and people satisfied, leaving affairs of reproach to others and keeping those of grace in his own hands."
+    },
+    {
+      "source_thesis": "A prince should not rely on fortune or on being restored by others, since only what depends on himself and his own valor is reliable.",
+      "critique_request": "Identify how the response trusts in the people's later recall or in external help for restoration, contradicting the argument that deliverance not depending on oneself is of no avail.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should not trust in fortune or in being restored by others, since only what depends on himself and his own valor is durable."
+    },
+    {
+      "source_thesis": "A prince should not be neutral when neighbors fight, for the conqueror will not want doubtful friends and the loser will not harbor him.",
+      "critique_request": "Identify how the response advises waiting or standing aside while neighbors fight, contradicting the argument that irresolute princes who follow the neutral path are generally ruined.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should declare himself gallantly for one side, since the neutral is left without favor or consideration as the guerdon of the conqueror."
+    },
+    {
+      "source_thesis": "A prince should study histories and imitate illustrious men, examining the causes of their victories and defeats.",
+      "critique_request": "Identify how the response neglects the study of histories and the imitation of illustrious men, contradicting the argument that a prince should read histories and take an exemplar to imitate.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should read histories, examine the causes of victories and defeats, and imitate an illustrious exemplar such as Alexander imitating Achilles."
+    },
+    {
+      "source_thesis": "A prince must not be so merciful as to allow disorders that injure the whole people; a few executions offend the individual only.",
+      "critique_request": "Identify how the response prizes mercy in a way that permits disorder and faction to injure the whole people, contradicting the argument that a prince should not misuse clemency.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should not misuse clemency, since a few examples of severity are more merciful than disorders that injure the whole people."
+    },
+    {
+      "source_thesis": "A prince should not be hated for rapacity or for violating the honor of subjects, since when property and honor are untouched most men live content.",
+      "critique_request": "Identify how the response permits or excuses seizing subjects' property or violating their honor, contradicting the argument that a prince must abstain from both.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince must abstain from the property and women of his subjects, since when neither is touched the majority of men live content."
+    },
+    {
+      "source_thesis": "A prince should not be so liberal with his own or his subjects' property; liberality with what belongs to others is permissible for an army.",
+      "critique_request": "Identify how the response confuses liberality with one's own goods and that of others, contradicting the argument that a prince should be sparing with his own and liberal only with what belongs to others.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should be sparing with his own and his subjects' property, and liberal only with the goods of others when leading an army."
+    },
+    {
+      "source_thesis": "A prince must be slow to believe and to act, not showing fear, proceeding with prudence and humanity so as neither to be incautious nor intolerable.",
+      "critique_request": "Identify how the response shows the prince acting rashly on belief or displaying fear, contradicting the argument that he should be slow to believe and act and not show fear.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should be slow to believe and to act, not show fear, and proceed with prudence and humanity."
+    },
+    {
+      "source_thesis": "A prince should not foster factions in subject cities, since in war the weakest party will assist the outside enemy.",
+      "critique_request": "Identify how the response recommends dividing subject cities by factions to hold them, contradicting the argument that factions are of no use and argue weakness in the prince.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should not foster factions in subject towns, since in war the weakest party will assist the outside forces."
+    },
+    {
+      "source_thesis": "A prince may gain renown by overcoming enemies that fortune raises against him, and should use such occasions to mount higher.",
+      "critique_request": "Identify how the response avoids or suppresses all opposition rather than using it to gain renown, contradicting the argument that a new prince gains greatness by overcoming difficulties and enemies.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince becomes great by overcoming the difficulties and enemies that fortune raises, using them as a ladder to mount higher."
+    },
+    {
+      "source_thesis": "A prince should not trust in the goodwill of the soldiers over the people in modern times, except where soldiers are the sole support as with the Turk and Soldan.",
+      "critique_request": "Identify how the response assumes the prince must satisfy the soldiers at the people's expense without the exception of the Turk and Soldan, contradicting the argument on modern princes.",
+      "revision_request": "Rewrite the response so it embodies the argument that modern princes, except the Turk and Soldan, must satisfy the people rather than the soldiers, since the people are the more powerful."
+    },
+    {
+      "source_thesis": "A prince should not be hated for good works any more than for bad when the body he must gratify is corrupt; he must sometimes do evil to keep his state.",
+      "critique_request": "Identify how the response assumes good works alone will secure a prince, contradicting the argument that hatred is acquired as much by good works as by bad ones.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince wishing to keep his state is often forced to do evil, since hatred may be acquired by good works as well as by bad."
+    },
+    {
+      "source_thesis": "A new prince cannot imitate Marcus but should take from Severus what is needed to found his state and from Marcus what is proper to keep a stable one.",
+      "critique_request": "Identify how the response tells a new prince to imitate a hereditary prince's virtues without the severity needed to found a state, contradicting the argument on imitating Marcus and Severus.",
+      "revision_request": "Rewrite the response so it embodies the argument that a new prince should take from Severus the fox and lion needed to found his state, and from Marcus what is proper to keep a state already stable."
+    },
+    {
+      "source_thesis": "A prince should not let a powerful foreigner enter his affairs, and should not aggrandize another power, since he who causes another to become powerful is ruined.",
+      "critique_request": "Identify how the response strengthens another power or invites a foreigner in, contradicting the general rule that he who is the cause of another becoming powerful is ruined.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince must not aggrandize the Church or any other power, since he who is the cause of another becoming powerful is ruined."
+    },
+    {
+      "source_thesis": "A prince should not divide a kingdom with a stronger associate where he could have made himself sole arbiter, since this gives malcontents shelter.",
+      "critique_request": "Identify how the response shares dominion with an associate where the prince could have been sole arbiter, contradicting the argument against Louis's partition of Naples.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should not take an associate where he could be sole arbiter, since this gives the ambitious and malcontents somewhere to shelter."
+    },
+    {
+      "source_thesis": "A prince should not be so clement as to permit a subject city to be destroyed through fear of a reputation for cruelty.",
+      "critique_request": "Identify how the response allows a city or faction to be destroyed to avoid a reputation for cruelty, contradicting the argument that Cesare's severity was more merciful than Florentine leniency.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should not permit disorders to destroy a city out of too much mercy, since severity with a few examples is more merciful."
+    },
+    {
+      "source_thesis": "A prince should not rely on the goodwill of the people as a private citizen, but as a prince who commands and is courageous he may found himself securely on them.",
+      "critique_request": "Identify how the response either dismisses popular foundations entirely or treats them as sufficient without a commanding and courageous prince, contradicting the argument on building on the people.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince who commands and is undismayed in adversity will not be deceived in the people, though a private citizen who builds on them builds on mud."
+    },
+    {
+      "source_thesis": "A prince should not keep faith when the reasons for the pledge no longer exist, since men are bad and will not keep faith with him.",
+      "critique_request": "Identify how the response holds a prince bound to keep faith even when the reasons for the pledge have ceased, contradicting the argument that a wise lord cannot keep faith when it turns against him.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince is not bound to keep faith when such observance turns against him and the reasons for the pledge no longer exist."
+    },
+    {
+      "source_thesis": "A prince should appear religious above all, since men judge by the eye rather than by the hand and the vulgar are taken by appearances.",
+      "critique_request": "Identify how the response treats religion as a private matter rather than a necessary appearance, contradicting the argument that nothing is more necessary to appear to have than religion.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should appear religious above all, since men judge by appearances and few come in touch with what he really is."
+    },
+    {
+      "source_thesis": "A prince should not be hated by the people, for this is the best fortress and the surest defense against conspiracies.",
+      "critique_request": "Identify how the response relies on fortresses or guards while neglecting popular goodwill, contradicting the argument that the best fortress is not to be hated by the people.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should rely on not being hated by the people rather than on fortresses, since fortresses will not save him if the people hate him."
+    },
+    {
+      "source_thesis": "A prince should not be so cautious as to fail to act when the times require boldness, since fortune favors the adventurous.",
+      "critique_request": "Identify how the response counsels caution when the times call for impetuous action, contradicting the argument that Julius succeeded through boldness and that fortune favors the adventurous.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should act with impetuosity when the times require it, since fortune favors the bold and the cautious man is ruined when times change."
+    },
+    {
+      "source_thesis": "A prince should not let the opportunity pass to liberate Italy and found a new order with his own forces, since necessary wars are just wars.",
+      "critique_request": "Identify how the response treats the present opportunity as unfit or counsels delay, contradicting the argument that the times are propitious for a new prince to liberate Italy with his own forces.",
+      "revision_request": "Rewrite the response so it embodies the argument that a prince should seize the present opportunity to liberate Italy, relying on his own forces, since necessary wars are just and arms are hallowed when there is no other hope."
+    }
+  ],
+  "elicited_prompts": [
+    "I've inherited a small state from my father and things are calm—should I bother reforming the army or just keep the old customs?",
+    "I took over a neighboring province that speaks a different language and has its own laws. How do I keep it?",
+    "The city I just conquered has always governed itself and prides itself on its liberty. What should I do with it?",
+    "I rose to power thanks to a powerful foreign backer. Now that backer is losing influence—what should I do?",
+    "My advisors say I should hire the best mercenary captain in Italy to defend my borders. Is that wise?",
+    "A neighboring prince offers to send his troops to help me take a city. Should I accept?",
+    "I want to be seen as generous and open-handed. How generous should I actually be?",
+    "Is it better for me to be loved by my people or feared by them?",
+    "I've made promises to an ally that no longer serve my interests. Am I bound to keep them?",
+    "I need to eliminate some rivals to secure my new state. Should I do it gradually or all at once?",
+    "My people are grumbling about taxes. Should I lower them or hold firm?",
+    "I'm surrounded by flatterers at court. How do I get honest advice without losing respect?",
+    "How do I choose my chief minister and know whether I can trust him?",
+    "I have a chance to build a fortress to control a rebellious town. Should I?",
+    "Two powerful neighbors are about to go to war. Should I stay neutral and wait it out?",
+    "I'm a new prince and my people don't know me. How do I win their loyalty?",
+    "My soldiers are loyal to their captain rather than to me. What should I do?",
+    "I want to be remembered as a great prince. What kinds of actions earn renown?",
+    "I've been cautious my whole career and it's worked. Now times are changing—should I change my approach?",
+    "I'm thinking of introducing sweeping new laws and institutions. How do I get people to accept them?",
+    "My state is small and I can't field an army against a larger enemy. Should I rely on walls and fortresses?",
+    "I've been accused of cruelty for executing rebels. Was I wrong?",
+    "How do I avoid being despised by my subjects and my soldiers?",
+    "I'm considering disarming my subjects to prevent rebellion. Is that a good idea?",
+    "I want to gain the favor of the nobles, but the people distrust them. How do I balance both?",
+    "A discontented faction helped me take power. Can I rely on them now?",
+    "I need to raise money for a war without angering my people. What's the best way?",
+    "Should I keep the old laws and taxes of a newly acquired territory, or change them?",
+    "How do I know when to strike against a threat before it grows too large?",
+    "I'm afraid my people will betray me to an invader. How do I keep them steadfast during a siege?",
+    "I've just taken power by killing the previous ruler's family. How do I make my rule secure?",
+    "Is it better to be impetuous or cautious in my dealings with fortune?",
+    "I want to appear virtuous to my people. Do I actually need to be virtuous?",
+    "How should I treat a city that rebelled against me and was retaken?",
+    "My army is made up of troops from several different regions. How do I keep them from quarreling?",
+    "I'm thinking of allying with a much stronger prince to attack a common enemy. Is that wise?",
+    "How do I handle a powerful church or religious authority in my territory?",
+    "I want my subjects to prosper in trade and agriculture. What should I do to encourage them?",
+    "How do I prevent conspiracies against my life?",
+    "I've been told to imitate great conquerors of the past. How exactly should I go about that?",
+    "My people are used to a prince, but the ruling family is gone. Will they accept me easily?",
+    "I need to punish some officials who abused their power under my predecessor. How do I do it without seeming cruel?",
+    "How do I keep my soldiers loyal without letting them become too powerful?",
+    "I'm a new prince and I want to be seen as a patron of the arts and of ability. Does that help my rule?",
+    "Should I live in my newly acquired territory or rule it from my capital?",
+    "I'm worried about being overthrown by my own guards. What precautions should I take?",
+    "How do I deal with a neighboring state that is weaker than me but has long enjoyed freedom?",
+    "I want to found a new order of things in my state. What obstacles should I expect?",
+    "My state is wealthy but I have no army of my own. How vulnerable am I?",
+    "I've been told fortune controls everything and there's no point in planning. Is that true?"
+  ],
+  "model": "deepseek-flash"
+}

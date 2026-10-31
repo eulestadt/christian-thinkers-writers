@@ -1,0 +1,7175 @@
+[
+  {
+    "author": "William James",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "The Principles of Psychology, Volume 1 (of 2)",
+    "year": 1890,
+    "gutenberg_id": "57628",
+    "openalex_cites": 25773,
+    "wiki_inlinks": 0,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "57628"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Charles D. Darwin",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "The Expression of the Emotions in Man and Animals",
+    "year": 1872,
+    "gutenberg_id": "1227",
+    "openalex_cites": 12119,
+    "wiki_inlinks": 156,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "1227"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Charles Robert Darwin",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "On the Origin of Species By Means of Natural Selection",
+    "year": 1859,
+    "gutenberg_id": "1228",
+    "openalex_cites": 7000,
+    "wiki_inlinks": 0,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "1228"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Sigmund Freud",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "The Interpretation of Dreams",
+    "year": 1913,
+    "gutenberg_id": "66048",
+    "openalex_cites": 6957,
+    "wiki_inlinks": 333,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "66048"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "JOHN M. DEWEY",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "How We Think",
+    "year": 1910,
+    "gutenberg_id": "37423",
+    "openalex_cites": 6767,
+    "wiki_inlinks": 9,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "37423"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "William James",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "The Varieties of Religious Experience: A Study in Human Nature",
+    "year": 1902,
+    "gutenberg_id": "621",
+    "openalex_cites": 5204,
+    "wiki_inlinks": 0,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "621"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Charles Robert Darwin",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "The Descent of Man, and Selection in Relation to Sex",
+    "year": 1871,
+    "gutenberg_id": "2300",
+    "openalex_cites": 4081,
+    "wiki_inlinks": 181,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "2300"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Sigmund Freud",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "Group Psychology and The Analysis of The Ego",
+    "year": 1922,
+    "gutenberg_id": "35877",
+    "openalex_cites": 3360,
+    "wiki_inlinks": 0,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "35877"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Francis Galton",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "Inquiries into human faculty and its development",
+    "year": 1883,
+    "gutenberg_id": "11562",
+    "openalex_cites": 2257,
+    "wiki_inlinks": 0,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "11562"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "D’Arcy Wentworth Thompson",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "On Growth and Form",
+    "year": 1917,
+    "gutenberg_id": "55264",
+    "openalex_cites": 1917,
+    "wiki_inlinks": 72,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "55264"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Charles Robert Darwin",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "The Descent of Man and Selection in Relation to Sex, Vol. I",
+    "year": 1871,
+    "gutenberg_id": "34967",
+    "openalex_cites": 1911,
+    "wiki_inlinks": 0,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "34967"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "William James",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "Pragmatism: A New Name for Some Old Ways of Thinking",
+    "year": 1907,
+    "gutenberg_id": "5116",
+    "openalex_cites": 1797,
+    "wiki_inlinks": 0,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "5116"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Charles Robert Darwin",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "The Variation of Animals and Plants under Domestication",
+    "year": 1905,
+    "gutenberg_id": "3332",
+    "openalex_cites": 1707,
+    "wiki_inlinks": 158,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "3332"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Sigmund Freud",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "Beyond the pleasure principle",
+    "year": 1922,
+    "gutenberg_id": "76031",
+    "openalex_cites": 1701,
+    "wiki_inlinks": 243,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "76031"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "John Stuart Mill",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "Considerations on Representative Government",
+    "year": 1862,
+    "gutenberg_id": "5669",
+    "openalex_cites": 1679,
+    "wiki_inlinks": 36,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "5669"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Sigmund Freud",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "The future of an illusion",
+    "year": 1927,
+    "gutenberg_id": "76774",
+    "openalex_cites": 1656,
+    "wiki_inlinks": 0,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "76774"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Sigmund Freud",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "Totem and taboo",
+    "year": 1913,
+    "gutenberg_id": "41214",
+    "openalex_cites": 1653,
+    "wiki_inlinks": 165,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "41214"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Charles Robert Darwin",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "The Power of Movement in Plants",
+    "year": 1880,
+    "gutenberg_id": "5605",
+    "openalex_cites": 1595,
+    "wiki_inlinks": 84,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "5605"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Friedrich Nietzsche",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "The Will to Power",
+    "year": 1901,
+    "gutenberg_id": "52914",
+    "openalex_cites": 1497,
+    "wiki_inlinks": 8,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "52914"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Sigmund Freud",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "A General Introduction to Psychoanalysis",
+    "year": 1920,
+    "gutenberg_id": "38219",
+    "openalex_cites": 1484,
+    "wiki_inlinks": 121,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "38219"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Robert Ridgway",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "Color Standards and Color Nomenclature",
+    "year": 1912,
+    "gutenberg_id": "63087",
+    "openalex_cites": 1473,
+    "wiki_inlinks": 0,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "63087"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Charles Robert Darwin",
+    "author_qid": null,
+    "work_qid": null,
+    "work_title": "The Different Forms of Flowers on Plants of the Same Species",
+    "year": 1892,
+    "gutenberg_id": "3807",
+    "openalex_cites": 1437,
+    "wiki_inlinks": 77,
+    "sitelinks": 0,
+    "source_pool": "openalex_book",
+    "gutenberg_ids": [
+      "3807"
+    ],
+    "author_qids": []
+  },
+  {
+    "author": "Friedrich Engels",
+    "author_qid": "Q34787",
+    "work_qid": "Q40591",
+    "work_title": "The Communist Manifesto",
+    "year": 1848,
+    "gutenberg_id": "61",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 143,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "61"
+    ],
+    "author_qids": [
+      "Q34787",
+      "Q9061"
+    ]
+  },
+  {
+    "author": "Joseph Smith",
+    "author_qid": "Q47102",
+    "work_qid": "Q459842",
+    "work_title": "Book of Mormon",
+    "year": 1830,
+    "gutenberg_id": "17",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 126,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "17"
+    ],
+    "author_qids": [
+      "Q47102"
+    ]
+  },
+  {
+    "author": "Fyodor Dostoyevsky",
+    "author_qid": "Q991",
+    "work_qid": "Q165318",
+    "work_title": "Crime and Punishment",
+    "year": 1866,
+    "gutenberg_id": "2554",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 109,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2554"
+    ],
+    "author_qids": [
+      "Q991"
+    ]
+  },
+  {
+    "author": "Niccolò Machiavelli",
+    "author_qid": "Q1399",
+    "work_qid": "Q131719",
+    "work_title": "The Prince",
+    "year": 1532,
+    "gutenberg_id": "57037",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 101,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1232",
+      "57037"
+    ],
+    "author_qids": [
+      "Q1399"
+    ]
+  },
+  {
+    "author": "Jane Austen",
+    "author_qid": "Q36322",
+    "work_qid": "Q170583",
+    "work_title": "Pride and Prejudice",
+    "year": 1813,
+    "gutenberg_id": "1342",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 100,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1342"
+    ],
+    "author_qids": [
+      "Q36322"
+    ]
+  },
+  {
+    "author": "Daniel Defoe",
+    "author_qid": "Q40946",
+    "work_qid": "Q483034",
+    "work_title": "Robinson Crusoe",
+    "year": 1719,
+    "gutenberg_id": "70841",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 99,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "12623",
+      "70841"
+    ],
+    "author_qids": [
+      "Q40946"
+    ]
+  },
+  {
+    "author": "Q535",
+    "author_qid": "Q535",
+    "work_qid": "Q180736",
+    "work_title": "Les Misérables",
+    "year": 1862,
+    "gutenberg_id": "135",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 98,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "135"
+    ],
+    "author_qids": [
+      "Q535"
+    ]
+  },
+  {
+    "author": "William Shakespeare",
+    "author_qid": "Q692",
+    "work_qid": "Q26833",
+    "work_title": "Othello",
+    "year": 1622,
+    "gutenberg_id": "2267",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 94,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2267"
+    ],
+    "author_qids": [
+      "Q692"
+    ]
+  },
+  {
+    "author": "Alexandre Dumas",
+    "author_qid": "Q38337",
+    "work_qid": "Q140527",
+    "work_title": "The Three Musketeers",
+    "year": 1844,
+    "gutenberg_id": "1257",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 88,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1257"
+    ],
+    "author_qids": [
+      "Q38337"
+    ]
+  },
+  {
+    "author": "Johann Wolfgang von Goethe",
+    "author_qid": "Q5879",
+    "work_qid": "Q29478",
+    "work_title": "Faust",
+    "year": 1808,
+    "gutenberg_id": "3023",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 85,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3023"
+    ],
+    "author_qids": [
+      "Q5879"
+    ]
+  },
+  {
+    "author": "Robert Louis Stevenson",
+    "author_qid": "Q1512",
+    "work_qid": "Q185118",
+    "work_title": "Treasure Island",
+    "year": 1883,
+    "gutenberg_id": "120",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 85,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "120"
+    ],
+    "author_qids": [
+      "Q1512"
+    ]
+  },
+  {
+    "author": "Franz Kafka",
+    "author_qid": "Q905",
+    "work_qid": "Q184222",
+    "work_title": "The Metamorphosis",
+    "year": 1915,
+    "gutenberg_id": "5200",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 84,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "5200"
+    ],
+    "author_qids": [
+      "Q905"
+    ]
+  },
+  {
+    "author": "James Joyce",
+    "author_qid": "Q6882",
+    "work_qid": "Q6511",
+    "work_title": "Ulysses",
+    "year": 1922,
+    "gutenberg_id": "4300",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 84,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4300"
+    ],
+    "author_qids": [
+      "Q6882"
+    ]
+  },
+  {
+    "author": "F. Scott Fitzgerald",
+    "author_qid": "Q93354",
+    "work_qid": "Q214371",
+    "work_title": "The Great Gatsby",
+    "year": 1925,
+    "gutenberg_id": "64317",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 84,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "64317"
+    ],
+    "author_qids": [
+      "Q93354"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q164974",
+    "work_title": "Oliver Twist",
+    "year": 1839,
+    "gutenberg_id": "730",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 83,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "730"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Oscar Wilde",
+    "author_qid": "Q30875",
+    "work_qid": "Q82464",
+    "work_title": "The Picture of Dorian Gray",
+    "year": 1890,
+    "gutenberg_id": "4078",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 82,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4078"
+    ],
+    "author_qids": [
+      "Q30875"
+    ]
+  },
+  {
+    "author": "Martin Luther",
+    "author_qid": "Q9554",
+    "work_qid": "Q157506",
+    "work_title": "Ninety-five Theses",
+    "year": 1517,
+    "gutenberg_id": "274",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 76,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "274"
+    ],
+    "author_qids": [
+      "Q9554"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q62879",
+    "work_title": "A Christmas Carol",
+    "year": 1843,
+    "gutenberg_id": "46",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 75,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "46"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Charlotte Brontë",
+    "author_qid": "Q127332",
+    "work_qid": "Q182961",
+    "work_title": "Q182961",
+    "year": 1847,
+    "gutenberg_id": "1260",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 70,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1260"
+    ],
+    "author_qids": [
+      "Q127332"
+    ]
+  },
+  {
+    "author": "Matvei Golovinski",
+    "author_qid": "Q924927",
+    "work_qid": "Q26193",
+    "work_title": "The Protocols of the Elders of Zion",
+    "year": 1903,
+    "gutenberg_id": "19200",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 70,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "19200"
+    ],
+    "author_qids": [
+      "Q924927"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q219552",
+    "work_title": "Great Expectations",
+    "year": 1861,
+    "gutenberg_id": "1400",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 69,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1400"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Q34743",
+    "author_qid": "Q34743",
+    "work_qid": "Q189509",
+    "work_title": "The Jungle Book",
+    "year": 1894,
+    "gutenberg_id": "236",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 69,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "236"
+    ],
+    "author_qids": [
+      "Q34743"
+    ]
+  },
+  {
+    "author": "William Shakespeare",
+    "author_qid": "Q692",
+    "work_qid": "Q206400",
+    "work_title": "The Merchant of Venice",
+    "year": 1600,
+    "gutenberg_id": "2243",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 68,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2243"
+    ],
+    "author_qids": [
+      "Q692"
+    ]
+  },
+  {
+    "author": "L. Frank Baum",
+    "author_qid": "Q207544",
+    "work_qid": "Q130295",
+    "work_title": "The Wonderful Wizard of Oz",
+    "year": 1900,
+    "gutenberg_id": "43936",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 67,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "43936"
+    ],
+    "author_qids": [
+      "Q207544"
+    ]
+  },
+  {
+    "author": "Lewis Carroll",
+    "author_qid": "Q38082",
+    "work_qid": "Q220331",
+    "work_title": "Through the Looking-Glass",
+    "year": 1871,
+    "gutenberg_id": "12",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 61,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "12"
+    ],
+    "author_qids": [
+      "Q38082"
+    ]
+  },
+  {
+    "author": "Robert Louis Stevenson",
+    "author_qid": "Q1512",
+    "work_qid": "Q217352",
+    "work_title": "Strange Case of Dr Jekyll and Mr Hyde",
+    "year": 1886,
+    "gutenberg_id": "43",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 60,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "43"
+    ],
+    "author_qids": [
+      "Q1512"
+    ]
+  },
+  {
+    "author": "Thomas Hobbes",
+    "author_qid": "Q37621",
+    "work_qid": "Q193034",
+    "work_title": "Leviathan",
+    "year": 1651,
+    "gutenberg_id": "3207",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 59,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3207"
+    ],
+    "author_qids": [
+      "Q37621"
+    ]
+  },
+  {
+    "author": "Louisa May Alcott",
+    "author_qid": "Q185696",
+    "work_qid": "Q523076",
+    "work_title": "Little Women",
+    "year": 1868,
+    "gutenberg_id": "514",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 52,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "514"
+    ],
+    "author_qids": [
+      "Q185696"
+    ]
+  },
+  {
+    "author": "Henrik Ibsen",
+    "author_qid": "Q36661",
+    "work_qid": "Q669694",
+    "work_title": "A Doll's House",
+    "year": 1879,
+    "gutenberg_id": "15492",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 52,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "15492"
+    ],
+    "author_qids": [
+      "Q36661"
+    ]
+  },
+  {
+    "author": "Walter Scott",
+    "author_qid": "Q79025",
+    "work_qid": "Q840974",
+    "work_title": "Ivanhoe",
+    "year": 1819,
+    "gutenberg_id": "82",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 51,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "82"
+    ],
+    "author_qids": [
+      "Q79025"
+    ]
+  },
+  {
+    "author": "William Shakespeare",
+    "author_qid": "Q692",
+    "work_qid": "Q652011",
+    "work_title": "Richard III",
+    "year": null,
+    "gutenberg_id": "2257",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 48,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2257"
+    ],
+    "author_qids": [
+      "Q692"
+    ]
+  },
+  {
+    "author": "William Shakespeare",
+    "author_qid": "Q692",
+    "work_qid": "Q495954",
+    "work_title": "Henry V",
+    "year": null,
+    "gutenberg_id": "1521",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 45,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1119",
+      "1521",
+      "1784"
+    ],
+    "author_qids": [
+      "Q692"
+    ]
+  },
+  {
+    "author": "George Bernard Shaw",
+    "author_qid": "Q19185",
+    "work_qid": "Q637200",
+    "work_title": "Pygmalion",
+    "year": 1913,
+    "gutenberg_id": "3825",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 43,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3825"
+    ],
+    "author_qids": [
+      "Q19185"
+    ]
+  },
+  {
+    "author": "Anton Chekhov",
+    "author_qid": "Q5685",
+    "work_qid": "Q650063",
+    "work_title": "The Seagull",
+    "year": 1896,
+    "gutenberg_id": "1754",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 42,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1754"
+    ],
+    "author_qids": [
+      "Q5685"
+    ]
+  },
+  {
+    "author": "Alexander Hamilton",
+    "author_qid": "Q178903",
+    "work_qid": "Q858036",
+    "work_title": "Federalist Papers",
+    "year": 1788,
+    "gutenberg_id": "1404",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 41,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1404"
+    ],
+    "author_qids": [
+      "Q11813",
+      "Q178903",
+      "Q310847"
+    ]
+  },
+  {
+    "author": "T. S. Eliot",
+    "author_qid": "Q37767",
+    "work_qid": "Q581458",
+    "work_title": "The Waste Land",
+    "year": 1922,
+    "gutenberg_id": "1321",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 37,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1321"
+    ],
+    "author_qids": [
+      "Q37767"
+    ]
+  },
+  {
+    "author": "George Wilkins",
+    "author_qid": "Q5546272",
+    "work_qid": "Q584729",
+    "work_title": "Pericles, Prince of Tyre",
+    "year": 1609,
+    "gutenberg_id": "1537",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 35,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1537"
+    ],
+    "author_qids": [
+      "Q5546272",
+      "Q692"
+    ]
+  },
+  {
+    "author": "William Shakespeare",
+    "author_qid": "Q692",
+    "work_qid": "Q833645",
+    "work_title": "First Folio",
+    "year": 1623,
+    "gutenberg_id": "2270",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 35,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2270"
+    ],
+    "author_qids": [
+      "Q692"
+    ]
+  },
+  {
+    "author": "J. M. Barrie",
+    "author_qid": "Q81796",
+    "work_qid": "Q3435337",
+    "work_title": "Peter Pan",
+    "year": 1911,
+    "gutenberg_id": "16",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 35,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "16"
+    ],
+    "author_qids": [
+      "Q81796"
+    ]
+  },
+  {
+    "author": "John Locke",
+    "author_qid": "Q9353",
+    "work_qid": "Q231949",
+    "work_title": "Two Treatises of Government",
+    "year": 1690,
+    "gutenberg_id": "7370",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 32,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "7370"
+    ],
+    "author_qids": [
+      "Q9353"
+    ]
+  },
+  {
+    "author": "Henrik Ibsen",
+    "author_qid": "Q36661",
+    "work_qid": "Q176465",
+    "work_title": "Hedda Gabler",
+    "year": 1890,
+    "gutenberg_id": "4093",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 32,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4093"
+    ],
+    "author_qids": [
+      "Q36661"
+    ]
+  },
+  {
+    "author": "Alexis de Tocqueville",
+    "author_qid": "Q140694",
+    "work_qid": "Q784882",
+    "work_title": "Democracy in America",
+    "year": null,
+    "gutenberg_id": "816",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 32,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "816"
+    ],
+    "author_qids": [
+      "Q140694"
+    ]
+  },
+  {
+    "author": "John Gay",
+    "author_qid": "Q321660",
+    "work_qid": "Q1472110",
+    "work_title": "The Beggar's Opera",
+    "year": 1800,
+    "gutenberg_id": "2421",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2421"
+    ],
+    "author_qids": [
+      "Q321660"
+    ]
+  },
+  {
+    "author": "Upton Sinclair",
+    "author_qid": "Q216134",
+    "work_qid": "Q260205",
+    "work_title": "The Jungle",
+    "year": 1905,
+    "gutenberg_id": "140",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "140"
+    ],
+    "author_qids": [
+      "Q216134"
+    ]
+  },
+  {
+    "author": "Jules Verne",
+    "author_qid": "Q33977",
+    "work_qid": "Q221765",
+    "work_title": "Facing the Flag",
+    "year": 1896,
+    "gutenberg_id": "11556",
+    "openalex_cites": 0,
+    "wiki_inlinks": 500,
+    "sitelinks": 25,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "11556"
+    ],
+    "author_qids": [
+      "Q33977"
+    ]
+  },
+  {
+    "author": "Gustave Flaubert",
+    "author_qid": "Q43444",
+    "work_qid": "Q193417",
+    "work_title": "Madame Bovary",
+    "year": 1857,
+    "gutenberg_id": "2413",
+    "openalex_cites": 0,
+    "wiki_inlinks": 499,
+    "sitelinks": 74,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2413"
+    ],
+    "author_qids": [
+      "Q43444"
+    ]
+  },
+  {
+    "author": "Thomas Paine",
+    "author_qid": "Q126462",
+    "work_qid": "Q843940",
+    "work_title": "Common Sense",
+    "year": 1776,
+    "gutenberg_id": "3755",
+    "openalex_cites": 0,
+    "wiki_inlinks": 495,
+    "sitelinks": 36,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "147",
+      "3755"
+    ],
+    "author_qids": [
+      "Q126462"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q308918",
+    "work_title": "A Tale of Two Cities",
+    "year": 1859,
+    "gutenberg_id": "98",
+    "openalex_cites": 0,
+    "wiki_inlinks": 492,
+    "sitelinks": 65,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "98"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q45192",
+    "work_title": "The Hound of the Baskervilles",
+    "year": 1902,
+    "gutenberg_id": "3070",
+    "openalex_cites": 0,
+    "wiki_inlinks": 490,
+    "sitelinks": 63,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3070"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Jules Verne",
+    "author_qid": "Q33977",
+    "work_qid": "Q183565",
+    "work_title": "Twenty Thousand Leagues Under the Sea",
+    "year": 1869,
+    "gutenberg_id": "164",
+    "openalex_cites": 0,
+    "wiki_inlinks": 489,
+    "sitelinks": 77,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "164"
+    ],
+    "author_qids": [
+      "Q33977"
+    ]
+  },
+  {
+    "author": "Kenneth Grahame",
+    "author_qid": "Q314897",
+    "work_qid": "Q936276",
+    "work_title": "The Wind in the Willows",
+    "year": 1908,
+    "gutenberg_id": "27805",
+    "openalex_cites": 0,
+    "wiki_inlinks": 469,
+    "sitelinks": 45,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "27805"
+    ],
+    "author_qids": [
+      "Q314897"
+    ]
+  },
+  {
+    "author": "Q535",
+    "author_qid": "Q535",
+    "work_qid": "Q191380",
+    "work_title": "The Hunchback of Notre Dame",
+    "year": 1831,
+    "gutenberg_id": "2610",
+    "openalex_cites": 0,
+    "wiki_inlinks": 450,
+    "sitelinks": 77,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2610"
+    ],
+    "author_qids": [
+      "Q535"
+    ]
+  },
+  {
+    "author": "Fyodor Dostoyevsky",
+    "author_qid": "Q991",
+    "work_qid": "Q183157",
+    "work_title": "The Brothers Karamazov",
+    "year": 1880,
+    "gutenberg_id": "28054",
+    "openalex_cites": 0,
+    "wiki_inlinks": 435,
+    "sitelinks": 91,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "28054"
+    ],
+    "author_qids": [
+      "Q991"
+    ]
+  },
+  {
+    "author": "Immanuel Kant",
+    "author_qid": "Q9312",
+    "work_qid": "Q220002",
+    "work_title": "Critique of Pure Reason",
+    "year": 1781,
+    "gutenberg_id": "4280",
+    "openalex_cites": 0,
+    "wiki_inlinks": 433,
+    "sitelinks": 59,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4280"
+    ],
+    "author_qids": [
+      "Q9312"
+    ]
+  },
+  {
+    "author": "D. H. Lawrence",
+    "author_qid": "Q34970",
+    "work_qid": "Q750670",
+    "work_title": "Lady Chatterley's Lover",
+    "year": 1928,
+    "gutenberg_id": "73144",
+    "openalex_cites": 0,
+    "wiki_inlinks": 432,
+    "sitelinks": 46,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "73144"
+    ],
+    "author_qids": [
+      "Q34970"
+    ]
+  },
+  {
+    "author": "John Bunyan",
+    "author_qid": "Q108206",
+    "work_qid": "Q268211",
+    "work_title": "The Pilgrim’s Progress",
+    "year": 1678,
+    "gutenberg_id": "131",
+    "openalex_cites": 0,
+    "wiki_inlinks": 430,
+    "sitelinks": 46,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "131"
+    ],
+    "author_qids": [
+      "Q108206"
+    ]
+  },
+  {
+    "author": "Henry George",
+    "author_qid": "Q355245",
+    "work_qid": "Q2896920",
+    "work_title": "Progress and Poverty",
+    "year": 1879,
+    "gutenberg_id": "55308",
+    "openalex_cites": 0,
+    "wiki_inlinks": 430,
+    "sitelinks": 31,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "55308"
+    ],
+    "author_qids": [
+      "Q355245"
+    ]
+  },
+  {
+    "author": "Voltaire",
+    "author_qid": "Q9068",
+    "work_qid": "Q215894",
+    "work_title": "Candide",
+    "year": 1759,
+    "gutenberg_id": "19942",
+    "openalex_cites": 0,
+    "wiki_inlinks": 422,
+    "sitelinks": 65,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "19942"
+    ],
+    "author_qids": [
+      "Q9068"
+    ]
+  },
+  {
+    "author": "Mark Twain",
+    "author_qid": "Q7245",
+    "work_qid": "Q326914",
+    "work_title": "The Adventures of Tom Sawyer",
+    "year": 1876,
+    "gutenberg_id": "74",
+    "openalex_cites": 0,
+    "wiki_inlinks": 420,
+    "sitelinks": 77,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "74"
+    ],
+    "author_qids": [
+      "Q7245"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q847642",
+    "work_title": "Nicholas Nickleby",
+    "year": 1839,
+    "gutenberg_id": "967",
+    "openalex_cites": 0,
+    "wiki_inlinks": 411,
+    "sitelinks": 31,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "967"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q460583",
+    "work_title": "The Pickwick Papers",
+    "year": 1836,
+    "gutenberg_id": "580",
+    "openalex_cites": 0,
+    "wiki_inlinks": 408,
+    "sitelinks": 40,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "580"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "William Shakespeare",
+    "author_qid": "Q692",
+    "work_qid": "Q1398793",
+    "work_title": "The Rape of Lucrece",
+    "year": 1594,
+    "gutenberg_id": "1505",
+    "openalex_cites": 0,
+    "wiki_inlinks": 404,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1505"
+    ],
+    "author_qids": [
+      "Q692"
+    ]
+  },
+  {
+    "author": "Anna Sewell",
+    "author_qid": "Q258741",
+    "work_qid": "Q880092",
+    "work_title": "Black Beauty",
+    "year": 1877,
+    "gutenberg_id": "271",
+    "openalex_cites": 0,
+    "wiki_inlinks": 400,
+    "sitelinks": 36,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "271"
+    ],
+    "author_qids": [
+      "Q258741"
+    ]
+  },
+  {
+    "author": "David Hume",
+    "author_qid": "Q37160",
+    "work_qid": "Q2451675",
+    "work_title": "A Treatise of Human Nature",
+    "year": 1739,
+    "gutenberg_id": "4705",
+    "openalex_cites": 0,
+    "wiki_inlinks": 391,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4705"
+    ],
+    "author_qids": [
+      "Q37160"
+    ]
+  },
+  {
+    "author": "Lucy Maud Montgomery",
+    "author_qid": "Q273034",
+    "work_qid": "Q565911",
+    "work_title": "Anne of Green Gables",
+    "year": 1908,
+    "gutenberg_id": "64365",
+    "openalex_cites": 0,
+    "wiki_inlinks": 382,
+    "sitelinks": 51,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "64365"
+    ],
+    "author_qids": [
+      "Q273034"
+    ]
+  },
+  {
+    "author": "Mark Twain",
+    "author_qid": "Q7245",
+    "work_qid": "Q869725",
+    "work_title": "The Prince and the Pauper",
+    "year": 1881,
+    "gutenberg_id": "1837",
+    "openalex_cites": 0,
+    "wiki_inlinks": 375,
+    "sitelinks": 43,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1837"
+    ],
+    "author_qids": [
+      "Q7245"
+    ]
+  },
+  {
+    "author": "Washington Irving",
+    "author_qid": "Q181667",
+    "work_qid": "Q1129589",
+    "work_title": "Rip Van Winkle",
+    "year": 1818,
+    "gutenberg_id": "64636",
+    "openalex_cites": 0,
+    "wiki_inlinks": 375,
+    "sitelinks": 35,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "60976",
+      "64636"
+    ],
+    "author_qids": [
+      "Q181667"
+    ]
+  },
+  {
+    "author": "Henrik Ibsen",
+    "author_qid": "Q36661",
+    "work_qid": "Q1217608",
+    "work_title": "The Wild Duck",
+    "year": 1884,
+    "gutenberg_id": "73631",
+    "openalex_cites": 0,
+    "wiki_inlinks": 368,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "73631"
+    ],
+    "author_qids": [
+      "Q36661"
+    ]
+  },
+  {
+    "author": "Ludovico Ariosto",
+    "author_qid": "Q48900",
+    "work_qid": "Q48922",
+    "work_title": "Orlando Furioso",
+    "year": 1516,
+    "gutenberg_id": "615",
+    "openalex_cites": 0,
+    "wiki_inlinks": 361,
+    "sitelinks": 44,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "615"
+    ],
+    "author_qids": [
+      "Q48900"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q883305",
+    "work_title": "Bleak House",
+    "year": 1853,
+    "gutenberg_id": "1023",
+    "openalex_cites": 0,
+    "wiki_inlinks": 360,
+    "sitelinks": 38,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1023"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Jules Verne",
+    "author_qid": "Q33977",
+    "work_qid": "Q1219561",
+    "work_title": "Around the World in Eighty Days",
+    "year": 1872,
+    "gutenberg_id": "103",
+    "openalex_cites": 0,
+    "wiki_inlinks": 352,
+    "sitelinks": 79,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "103"
+    ],
+    "author_qids": [
+      "Q33977"
+    ]
+  },
+  {
+    "author": "Sigmund Freud",
+    "author_qid": "Q9215",
+    "work_qid": "Q726382",
+    "work_title": "The Interpretation of Dreams",
+    "year": 1900,
+    "gutenberg_id": "66048",
+    "openalex_cites": 0,
+    "wiki_inlinks": 333,
+    "sitelinks": 44,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "66048"
+    ],
+    "author_qids": [
+      "Q9215"
+    ]
+  },
+  {
+    "author": "Jean-Jacques Rousseau",
+    "author_qid": "Q6527",
+    "work_qid": "Q135598",
+    "work_title": "Discourse on Inequality",
+    "year": 1755,
+    "gutenberg_id": "11136",
+    "openalex_cites": 0,
+    "wiki_inlinks": 333,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "11136"
+    ],
+    "author_qids": [
+      "Q6527"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q189811",
+    "work_title": "David Copperfield",
+    "year": 1850,
+    "gutenberg_id": "766",
+    "openalex_cites": 0,
+    "wiki_inlinks": 332,
+    "sitelinks": 68,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "766"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Franz Kafka",
+    "author_qid": "Q905",
+    "work_qid": "Q36097",
+    "work_title": "The Trial",
+    "year": 1925,
+    "gutenberg_id": "7849",
+    "openalex_cites": 0,
+    "wiki_inlinks": 323,
+    "sitelinks": 73,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "7849"
+    ],
+    "author_qids": [
+      "Q905"
+    ]
+  },
+  {
+    "author": "Mark Twain",
+    "author_qid": "Q7245",
+    "work_qid": "Q848612",
+    "work_title": "A Connecticut Yankee in King Arthur's Court",
+    "year": 1889,
+    "gutenberg_id": "86",
+    "openalex_cites": 0,
+    "wiki_inlinks": 320,
+    "sitelinks": 31,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "86"
+    ],
+    "author_qids": [
+      "Q7245"
+    ]
+  },
+  {
+    "author": "Molière",
+    "author_qid": "Q687",
+    "work_qid": "Q389933",
+    "work_title": "The Miser",
+    "year": 1668,
+    "gutenberg_id": "6923",
+    "openalex_cites": 0,
+    "wiki_inlinks": 319,
+    "sitelinks": 52,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "6923"
+    ],
+    "author_qids": [
+      "Q687"
+    ]
+  },
+  {
+    "author": "L. Frank Baum",
+    "author_qid": "Q207544",
+    "work_qid": "Q1659447",
+    "work_title": "The Marvelous Land of Oz",
+    "year": 1904,
+    "gutenberg_id": "54",
+    "openalex_cites": 0,
+    "wiki_inlinks": 318,
+    "sitelinks": 24,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "54"
+    ],
+    "author_qids": [
+      "Q207544"
+    ]
+  },
+  {
+    "author": "Oscar Wilde",
+    "author_qid": "Q30875",
+    "work_qid": "Q1469224",
+    "work_title": "Lady Windermere's Fan",
+    "year": null,
+    "gutenberg_id": "790",
+    "openalex_cites": 0,
+    "wiki_inlinks": 317,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "790"
+    ],
+    "author_qids": [
+      "Q30875"
+    ]
+  },
+  {
+    "author": "Oscar Wilde",
+    "author_qid": "Q30875",
+    "work_qid": "Q1143075",
+    "work_title": "An Ideal Husband",
+    "year": 1899,
+    "gutenberg_id": "885",
+    "openalex_cites": 0,
+    "wiki_inlinks": 315,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "885"
+    ],
+    "author_qids": [
+      "Q30875"
+    ]
+  },
+  {
+    "author": "Johann Wolfgang von Goethe",
+    "author_qid": "Q5879",
+    "work_qid": "Q151883",
+    "work_title": "The Sorrows of Young Werther",
+    "year": 1774,
+    "gutenberg_id": "2527",
+    "openalex_cites": 0,
+    "wiki_inlinks": 314,
+    "sitelinks": 64,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2527"
+    ],
+    "author_qids": [
+      "Q5879"
+    ]
+  },
+  {
+    "author": "Henry James",
+    "author_qid": "Q170509",
+    "work_qid": "Q861017",
+    "work_title": "The Portrait of a Lady",
+    "year": 1881,
+    "gutenberg_id": "2834",
+    "openalex_cites": 0,
+    "wiki_inlinks": 314,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2833",
+      "2834"
+    ],
+    "author_qids": [
+      "Q170509"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q223131",
+    "work_title": "A Study in Scarlet",
+    "year": 1887,
+    "gutenberg_id": "244",
+    "openalex_cites": 0,
+    "wiki_inlinks": 313,
+    "sitelinks": 61,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "244"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "William Makepeace Thackeray",
+    "author_qid": "Q167768",
+    "work_qid": "Q612836",
+    "work_title": "Vanity Fair",
+    "year": 1848,
+    "gutenberg_id": "599",
+    "openalex_cites": 0,
+    "wiki_inlinks": 308,
+    "sitelinks": 43,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "599"
+    ],
+    "author_qids": [
+      "Q167768"
+    ]
+  },
+  {
+    "author": "Agatha Christie",
+    "author_qid": "Q35064",
+    "work_qid": "Q472228",
+    "work_title": "The Mysterious Affair at Styles",
+    "year": 1920,
+    "gutenberg_id": "863",
+    "openalex_cites": 0,
+    "wiki_inlinks": 305,
+    "sitelinks": 44,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "863"
+    ],
+    "author_qids": [
+      "Q35064"
+    ]
+  },
+  {
+    "author": "Jane Austen",
+    "author_qid": "Q36322",
+    "work_qid": "Q223880",
+    "work_title": "Emma",
+    "year": 1815,
+    "gutenberg_id": "158",
+    "openalex_cites": 0,
+    "wiki_inlinks": 300,
+    "sitelinks": 49,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "158"
+    ],
+    "author_qids": [
+      "Q36322"
+    ]
+  },
+  {
+    "author": "Samuel Taylor Coleridge",
+    "author_qid": "Q82409",
+    "work_qid": "Q708177",
+    "work_title": "The Rime of the Ancient Mariner",
+    "year": 1798,
+    "gutenberg_id": "151",
+    "openalex_cites": 0,
+    "wiki_inlinks": 300,
+    "sitelinks": 38,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "151"
+    ],
+    "author_qids": [
+      "Q82409"
+    ]
+  },
+  {
+    "author": "Henry James",
+    "author_qid": "Q170509",
+    "work_qid": "Q625923",
+    "work_title": "The Turn of the Screw",
+    "year": 1898,
+    "gutenberg_id": "209",
+    "openalex_cites": 0,
+    "wiki_inlinks": 298,
+    "sitelinks": 28,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "209"
+    ],
+    "author_qids": [
+      "Q170509"
+    ]
+  },
+  {
+    "author": "Nathaniel Hawthorne",
+    "author_qid": "Q69339",
+    "work_qid": "Q907568",
+    "work_title": "The Scarlet Letter",
+    "year": 1850,
+    "gutenberg_id": "33",
+    "openalex_cites": 0,
+    "wiki_inlinks": 296,
+    "sitelinks": 45,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "33"
+    ],
+    "author_qids": [
+      "Q69339"
+    ]
+  },
+  {
+    "author": "Edgar Rice Burroughs",
+    "author_qid": "Q148234",
+    "work_qid": "Q655296",
+    "work_title": "Tarzan of the Apes",
+    "year": 1912,
+    "gutenberg_id": "78",
+    "openalex_cites": 0,
+    "wiki_inlinks": 293,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "78"
+    ],
+    "author_qids": [
+      "Q148234"
+    ]
+  },
+  {
+    "author": "Edward Gibbon",
+    "author_qid": "Q161841",
+    "work_qid": "Q313030",
+    "work_title": "The History of the Decline and Fall of the Roman Empire",
+    "year": 1776,
+    "gutenberg_id": "16575",
+    "openalex_cites": 0,
+    "wiki_inlinks": 290,
+    "sitelinks": 43,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "16575"
+    ],
+    "author_qids": [
+      "Q161841"
+    ]
+  },
+  {
+    "author": "Jane Austen",
+    "author_qid": "Q36322",
+    "work_qid": "Q274744",
+    "work_title": "Sense and Sensibility",
+    "year": 1811,
+    "gutenberg_id": "161",
+    "openalex_cites": 0,
+    "wiki_inlinks": 274,
+    "sitelinks": 56,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "161"
+    ],
+    "author_qids": [
+      "Q36322"
+    ]
+  },
+  {
+    "author": "Walt Whitman",
+    "author_qid": "Q81438",
+    "work_qid": "Q132042",
+    "work_title": "Leaves of Grass",
+    "year": 1855,
+    "gutenberg_id": "1322",
+    "openalex_cites": 0,
+    "wiki_inlinks": 273,
+    "sitelinks": 37,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1322"
+    ],
+    "author_qids": [
+      "Q81438"
+    ]
+  },
+  {
+    "author": "Gaston Leroux",
+    "author_qid": "Q298827",
+    "work_qid": "Q272506",
+    "work_title": "The Phantom of the Opera",
+    "year": 1910,
+    "gutenberg_id": "175",
+    "openalex_cites": 0,
+    "wiki_inlinks": 267,
+    "sitelinks": 46,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "175"
+    ],
+    "author_qids": [
+      "Q298827"
+    ]
+  },
+  {
+    "author": "Fyodor Dostoyevsky",
+    "author_qid": "Q991",
+    "work_qid": "Q210784",
+    "work_title": "The Idiot",
+    "year": 1869,
+    "gutenberg_id": "2638",
+    "openalex_cites": 0,
+    "wiki_inlinks": 265,
+    "sitelinks": 70,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2638"
+    ],
+    "author_qids": [
+      "Q991"
+    ]
+  },
+  {
+    "author": "Xenophon",
+    "author_qid": "Q129772",
+    "work_qid": "Q73112",
+    "work_title": "Anabasis",
+    "year": 1859,
+    "gutenberg_id": "1170",
+    "openalex_cites": 0,
+    "wiki_inlinks": 265,
+    "sitelinks": 48,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1170"
+    ],
+    "author_qids": [
+      "Q129772"
+    ]
+  },
+  {
+    "author": "Q34743",
+    "author_qid": "Q34743",
+    "work_qid": "Q589868",
+    "work_title": "Kim",
+    "year": 1901,
+    "gutenberg_id": "2226",
+    "openalex_cites": 0,
+    "wiki_inlinks": 264,
+    "sitelinks": 36,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2226"
+    ],
+    "author_qids": [
+      "Q34743"
+    ]
+  },
+  {
+    "author": "Emma Orczy",
+    "author_qid": "Q234530",
+    "work_qid": "Q1249536",
+    "work_title": "The Scarlet Pimpernel",
+    "year": 1905,
+    "gutenberg_id": "60",
+    "openalex_cites": 0,
+    "wiki_inlinks": 264,
+    "sitelinks": 31,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "60"
+    ],
+    "author_qids": [
+      "Q234530"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q500688",
+    "work_title": "The Sign of Four",
+    "year": 1890,
+    "gutenberg_id": "2097",
+    "openalex_cites": 0,
+    "wiki_inlinks": 256,
+    "sitelinks": 47,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2097"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "James Joyce",
+    "author_qid": "Q6882",
+    "work_qid": "Q465360",
+    "work_title": "A Portrait of the Artist as a Young Man",
+    "year": 1918,
+    "gutenberg_id": "4217",
+    "openalex_cites": 0,
+    "wiki_inlinks": 252,
+    "sitelinks": 46,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4217"
+    ],
+    "author_qids": [
+      "Q6882"
+    ]
+  },
+  {
+    "author": "Agatha Christie",
+    "author_qid": "Q35064",
+    "work_qid": "Q617379",
+    "work_title": "The Secret Adversary",
+    "year": 1922,
+    "gutenberg_id": "1155",
+    "openalex_cites": 0,
+    "wiki_inlinks": 251,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1155"
+    ],
+    "author_qids": [
+      "Q35064"
+    ]
+  },
+  {
+    "author": "James Fenimore Cooper",
+    "author_qid": "Q167856",
+    "work_qid": "Q493574",
+    "work_title": "The Last of the Mohicans",
+    "year": 1824,
+    "gutenberg_id": "940",
+    "openalex_cites": 0,
+    "wiki_inlinks": 247,
+    "sitelinks": 52,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "940"
+    ],
+    "author_qids": [
+      "Q167856"
+    ]
+  },
+  {
+    "author": "François Rabelais",
+    "author_qid": "Q131018",
+    "work_qid": "Q822290",
+    "work_title": "Gargantua and Pantagruel",
+    "year": 1534,
+    "gutenberg_id": "1200",
+    "openalex_cites": 0,
+    "wiki_inlinks": 242,
+    "sitelinks": 45,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1200"
+    ],
+    "author_qids": [
+      "Q131018"
+    ]
+  },
+  {
+    "author": "Alessandro Manzoni",
+    "author_qid": "Q1064",
+    "work_qid": "Q28491",
+    "work_title": "The Betrothed",
+    "year": 1827,
+    "gutenberg_id": "35155",
+    "openalex_cites": 0,
+    "wiki_inlinks": 240,
+    "sitelinks": 38,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "35155"
+    ],
+    "author_qids": [
+      "Q1064"
+    ]
+  },
+  {
+    "author": "Jules Verne",
+    "author_qid": "Q33977",
+    "work_qid": "Q53592",
+    "work_title": "From the Earth to the Moon",
+    "year": 1865,
+    "gutenberg_id": "12901",
+    "openalex_cites": 0,
+    "wiki_inlinks": 239,
+    "sitelinks": 45,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "12901"
+    ],
+    "author_qids": [
+      "Q33977"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q392147",
+    "work_title": "The Adventures of Sherlock Holmes",
+    "year": 1892,
+    "gutenberg_id": "1661",
+    "openalex_cites": 0,
+    "wiki_inlinks": 230,
+    "sitelinks": 52,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1661"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "H. P. Lovecraft",
+    "author_qid": "Q169566",
+    "work_qid": "Q1141815",
+    "work_title": "The Call of Cthulhu",
+    "year": 1928,
+    "gutenberg_id": "68283",
+    "openalex_cites": 0,
+    "wiki_inlinks": 229,
+    "sitelinks": 34,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "68283"
+    ],
+    "author_qids": [
+      "Q169566"
+    ]
+  },
+  {
+    "author": "Lord Byron",
+    "author_qid": "Q5679",
+    "work_qid": "Q1245187",
+    "work_title": "Don Juan",
+    "year": 1900,
+    "gutenberg_id": "1708",
+    "openalex_cites": 0,
+    "wiki_inlinks": 228,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1708"
+    ],
+    "author_qids": [
+      "Q5679"
+    ]
+  },
+  {
+    "author": "Frances Hodgson Burnett",
+    "author_qid": "Q276028",
+    "work_qid": "Q472194",
+    "work_title": "The Secret Garden",
+    "year": 1912,
+    "gutenberg_id": "17396",
+    "openalex_cites": 0,
+    "wiki_inlinks": 225,
+    "sitelinks": 39,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "17396"
+    ],
+    "author_qids": [
+      "Q276028"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q863438",
+    "work_title": "The Valley of Fear",
+    "year": 1915,
+    "gutenberg_id": "3289",
+    "openalex_cites": 0,
+    "wiki_inlinks": 224,
+    "sitelinks": 39,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3289"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Agatha Christie",
+    "author_qid": "Q35064",
+    "work_qid": "Q734675",
+    "work_title": "The Big Four",
+    "year": 1927,
+    "gutenberg_id": "70114",
+    "openalex_cites": 0,
+    "wiki_inlinks": 221,
+    "sitelinks": 31,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "70114"
+    ],
+    "author_qids": [
+      "Q35064"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q565638",
+    "work_title": "Little Dorrit",
+    "year": 1857,
+    "gutenberg_id": "963",
+    "openalex_cites": 0,
+    "wiki_inlinks": 220,
+    "sitelinks": 28,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "963"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "James Joyce",
+    "author_qid": "Q6882",
+    "work_qid": "Q459592",
+    "work_title": "Dubliners",
+    "year": 1914,
+    "gutenberg_id": "2814",
+    "openalex_cites": 0,
+    "wiki_inlinks": 219,
+    "sitelinks": 45,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2814"
+    ],
+    "author_qids": [
+      "Q6882"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q2700616",
+    "work_title": "The Old Curiosity Shop",
+    "year": 1840,
+    "gutenberg_id": "700",
+    "openalex_cites": 0,
+    "wiki_inlinks": 219,
+    "sitelinks": 25,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "700"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Antoine François Prévost",
+    "author_qid": "Q311480",
+    "work_qid": "Q1141032",
+    "work_title": "Manon Lescaut",
+    "year": 1731,
+    "gutenberg_id": "468",
+    "openalex_cites": 0,
+    "wiki_inlinks": 218,
+    "sitelinks": 33,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "468"
+    ],
+    "author_qids": [
+      "Q311480"
+    ]
+  },
+  {
+    "author": "Agatha Christie",
+    "author_qid": "Q35064",
+    "work_qid": "Q542293",
+    "work_title": "Murder on the Links",
+    "year": 1923,
+    "gutenberg_id": "58866",
+    "openalex_cites": 0,
+    "wiki_inlinks": 218,
+    "sitelinks": 30,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "58866"
+    ],
+    "author_qids": [
+      "Q35064"
+    ]
+  },
+  {
+    "author": "Leo Tolstoy",
+    "author_qid": "Q7243",
+    "work_qid": "Q146866",
+    "work_title": "Resurrection",
+    "year": 1899,
+    "gutenberg_id": "1938",
+    "openalex_cites": 0,
+    "wiki_inlinks": 211,
+    "sitelinks": 44,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1938"
+    ],
+    "author_qids": [
+      "Q7243"
+    ]
+  },
+  {
+    "author": "William Wordsworth",
+    "author_qid": "Q45546",
+    "work_qid": "Q738958",
+    "work_title": "Lyrical Ballads",
+    "year": 1798,
+    "gutenberg_id": "9622",
+    "openalex_cites": 0,
+    "wiki_inlinks": 210,
+    "sitelinks": 31,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "9622"
+    ],
+    "author_qids": [
+      "Q45546",
+      "Q82409"
+    ]
+  },
+  {
+    "author": "Henryk Sienkiewicz",
+    "author_qid": "Q41502",
+    "work_qid": "Q335315",
+    "work_title": "Quo Vadis",
+    "year": 1896,
+    "gutenberg_id": "2853",
+    "openalex_cites": 0,
+    "wiki_inlinks": 209,
+    "sitelinks": 45,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2853"
+    ],
+    "author_qids": [
+      "Q41502"
+    ]
+  },
+  {
+    "author": "Jane Austen",
+    "author_qid": "Q36322",
+    "work_qid": "Q477508",
+    "work_title": "Northanger Abbey",
+    "year": 1818,
+    "gutenberg_id": "121",
+    "openalex_cites": 0,
+    "wiki_inlinks": 208,
+    "sitelinks": 36,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "121"
+    ],
+    "author_qids": [
+      "Q36322"
+    ]
+  },
+  {
+    "author": "Charles Darwin",
+    "author_qid": "Q1035",
+    "work_qid": "Q1768515",
+    "work_title": "The Voyage of the Beagle",
+    "year": 1839,
+    "gutenberg_id": "3704",
+    "openalex_cites": 0,
+    "wiki_inlinks": 208,
+    "sitelinks": 25,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3704"
+    ],
+    "author_qids": [
+      "Q1035"
+    ]
+  },
+  {
+    "author": "Jane Austen",
+    "author_qid": "Q36322",
+    "work_qid": "Q469690",
+    "work_title": "Mansfield Park",
+    "year": 1814,
+    "gutenberg_id": "141",
+    "openalex_cites": 0,
+    "wiki_inlinks": 203,
+    "sitelinks": 44,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "141"
+    ],
+    "author_qids": [
+      "Q36322"
+    ]
+  },
+  {
+    "author": "René Descartes",
+    "author_qid": "Q9191",
+    "work_qid": "Q731224",
+    "work_title": "Discourse on the Method",
+    "year": 1637,
+    "gutenberg_id": "59",
+    "openalex_cites": 0,
+    "wiki_inlinks": 202,
+    "sitelinks": 43,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "59"
+    ],
+    "author_qids": [
+      "Q9191"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q725752",
+    "work_title": "The Return of Sherlock Holmes",
+    "year": 1905,
+    "gutenberg_id": "108",
+    "openalex_cites": 0,
+    "wiki_inlinks": 200,
+    "sitelinks": 36,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "108"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Laurence Sterne",
+    "author_qid": "Q218960",
+    "work_qid": "Q1164083",
+    "work_title": "The Life and Opinions of Tristram Shandy, Gentleman",
+    "year": 1759,
+    "gutenberg_id": "1079",
+    "openalex_cites": 0,
+    "wiki_inlinks": 200,
+    "sitelinks": 34,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1079"
+    ],
+    "author_qids": [
+      "Q218960"
+    ]
+  },
+  {
+    "author": "Thomas More",
+    "author_qid": "Q42544",
+    "work_qid": "Q404158",
+    "work_title": "Utopia",
+    "year": null,
+    "gutenberg_id": "2130",
+    "openalex_cites": 0,
+    "wiki_inlinks": 199,
+    "sitelinks": 53,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2130"
+    ],
+    "author_qids": [
+      "Q42544"
+    ]
+  },
+  {
+    "author": "Isaac Newton",
+    "author_qid": "Q935",
+    "work_qid": "Q74263",
+    "work_title": "Opticks, or a Treatise of the Reflections, Refractions, Inflections and Colours of Light",
+    "year": 1704,
+    "gutenberg_id": "33504",
+    "openalex_cites": 0,
+    "wiki_inlinks": 198,
+    "sitelinks": 34,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "33504"
+    ],
+    "author_qids": [
+      "Q935"
+    ]
+  },
+  {
+    "author": "Alexandre Dumas",
+    "author_qid": "Q38337",
+    "work_qid": "Q1639633",
+    "work_title": "Twenty Years After",
+    "year": 1845,
+    "gutenberg_id": "1259",
+    "openalex_cites": 0,
+    "wiki_inlinks": 197,
+    "sitelinks": 35,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1259"
+    ],
+    "author_qids": [
+      "Q38337"
+    ]
+  },
+  {
+    "author": "Thomas Mann",
+    "author_qid": "Q37030",
+    "work_qid": "Q828296",
+    "work_title": "Death in Venice",
+    "year": 1912,
+    "gutenberg_id": "66073",
+    "openalex_cites": 0,
+    "wiki_inlinks": 196,
+    "sitelinks": 46,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "66073"
+    ],
+    "author_qids": [
+      "Q37030"
+    ]
+  },
+  {
+    "author": "Jack London",
+    "author_qid": "Q45765",
+    "work_qid": "Q476871",
+    "work_title": "The Call of the Wild",
+    "year": 1903,
+    "gutenberg_id": "215",
+    "openalex_cites": 0,
+    "wiki_inlinks": 195,
+    "sitelinks": 54,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "215"
+    ],
+    "author_qids": [
+      "Q45765"
+    ]
+  },
+  {
+    "author": "Leo Tolstoy",
+    "author_qid": "Q7243",
+    "work_qid": "Q1214091",
+    "work_title": "The Kreutzer Sonata",
+    "year": 1889,
+    "gutenberg_id": "689",
+    "openalex_cites": 0,
+    "wiki_inlinks": 191,
+    "sitelinks": 32,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "689"
+    ],
+    "author_qids": [
+      "Q7243"
+    ]
+  },
+  {
+    "author": "Michel de Montaigne",
+    "author_qid": "Q41568",
+    "work_qid": "Q624852",
+    "work_title": "Essays",
+    "year": null,
+    "gutenberg_id": "3600",
+    "openalex_cites": 0,
+    "wiki_inlinks": 191,
+    "sitelinks": 31,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3600"
+    ],
+    "author_qids": [
+      "Q41568"
+    ]
+  },
+  {
+    "author": "Agatha Christie",
+    "author_qid": "Q35064",
+    "work_qid": "Q1167555",
+    "work_title": "The Man in the Brown Suit",
+    "year": 1924,
+    "gutenberg_id": "61168",
+    "openalex_cites": 0,
+    "wiki_inlinks": 191,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "61168"
+    ],
+    "author_qids": [
+      "Q35064"
+    ]
+  },
+  {
+    "author": "Pierre Choderlos de Laclos",
+    "author_qid": "Q212476",
+    "work_qid": "Q862050",
+    "work_title": "Les Liaisons dangereuses",
+    "year": 1782,
+    "gutenberg_id": "69891",
+    "openalex_cites": 0,
+    "wiki_inlinks": 190,
+    "sitelinks": 38,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "69891"
+    ],
+    "author_qids": [
+      "Q212476"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q1129378",
+    "work_title": "The Case-Book of Sherlock Holmes",
+    "year": 1927,
+    "gutenberg_id": "69700",
+    "openalex_cites": 0,
+    "wiki_inlinks": 188,
+    "sitelinks": 32,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "69700"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Agatha Christie",
+    "author_qid": "Q35064",
+    "work_qid": "Q174654",
+    "work_title": "The Secret of Chimneys",
+    "year": 1925,
+    "gutenberg_id": "65238",
+    "openalex_cites": 0,
+    "wiki_inlinks": 187,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "65238"
+    ],
+    "author_qids": [
+      "Q35064"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q1340493",
+    "work_title": "Hard Times: For These Times",
+    "year": 1854,
+    "gutenberg_id": "786",
+    "openalex_cites": 0,
+    "wiki_inlinks": 186,
+    "sitelinks": 28,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "786"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "H. Rider Haggard",
+    "author_qid": "Q237196",
+    "work_qid": "Q640513",
+    "work_title": "She: A History of Adventure",
+    "year": 1887,
+    "gutenberg_id": "3155",
+    "openalex_cites": 0,
+    "wiki_inlinks": 185,
+    "sitelinks": 28,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3155"
+    ],
+    "author_qids": [
+      "Q237196"
+    ]
+  },
+  {
+    "author": "Peter Kropotkin",
+    "author_qid": "Q5752",
+    "work_qid": "Q3141640",
+    "work_title": "The Conquest of Bread",
+    "year": 1892,
+    "gutenberg_id": "23428",
+    "openalex_cites": 0,
+    "wiki_inlinks": 185,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "23428"
+    ],
+    "author_qids": [
+      "Q5752"
+    ]
+  },
+  {
+    "author": "Jane Austen",
+    "author_qid": "Q36322",
+    "work_qid": "Q333179",
+    "work_title": "Persuasion",
+    "year": 1817,
+    "gutenberg_id": "105",
+    "openalex_cites": 0,
+    "wiki_inlinks": 183,
+    "sitelinks": 46,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "105"
+    ],
+    "author_qids": [
+      "Q36322"
+    ]
+  },
+  {
+    "author": "Charles Darwin",
+    "author_qid": "Q1035",
+    "work_qid": "Q1165434",
+    "work_title": "The Descent of Man, and Selection in Relation to Sex",
+    "year": 1871,
+    "gutenberg_id": "2300",
+    "openalex_cites": 0,
+    "wiki_inlinks": 181,
+    "sitelinks": 30,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2300"
+    ],
+    "author_qids": [
+      "Q1035"
+    ]
+  },
+  {
+    "author": "Anthony Hope",
+    "author_qid": "Q457287",
+    "work_qid": "Q1193766",
+    "work_title": "The Prisoner of Zenda",
+    "year": 1894,
+    "gutenberg_id": "95",
+    "openalex_cites": 0,
+    "wiki_inlinks": 181,
+    "sitelinks": 28,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "95"
+    ],
+    "author_qids": [
+      "Q457287"
+    ]
+  },
+  {
+    "author": "Johann Wolfgang von Goethe",
+    "author_qid": "Q5879",
+    "work_qid": "Q1194031",
+    "work_title": "Wilhelm Meister's Apprenticeship",
+    "year": 1790,
+    "gutenberg_id": "36483",
+    "openalex_cites": 0,
+    "wiki_inlinks": 180,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "36483"
+    ],
+    "author_qids": [
+      "Q5879"
+    ]
+  },
+  {
+    "author": "Edgar Allan Poe",
+    "author_qid": "Q16867",
+    "work_qid": "Q615383",
+    "work_title": "The Narrative of Arthur Gordon Pym of Nantucket",
+    "year": 1838,
+    "gutenberg_id": "2149",
+    "openalex_cites": 0,
+    "wiki_inlinks": 179,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2149"
+    ],
+    "author_qids": [
+      "Q16867"
+    ]
+  },
+  {
+    "author": "Oscar Wilde",
+    "author_qid": "Q30875",
+    "work_qid": "Q797466",
+    "work_title": "The Happy Prince and Other Tales",
+    "year": 1888,
+    "gutenberg_id": "902",
+    "openalex_cites": 0,
+    "wiki_inlinks": 179,
+    "sitelinks": 28,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "902"
+    ],
+    "author_qids": [
+      "Q30875"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q2362527",
+    "work_title": "Barnaby Rudge",
+    "year": 1840,
+    "gutenberg_id": "917",
+    "openalex_cites": 0,
+    "wiki_inlinks": 178,
+    "sitelinks": 24,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "917"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Jerome K. Jerome",
+    "author_qid": "Q218698",
+    "work_qid": "Q955910",
+    "work_title": "Three Men in a Boat",
+    "year": 1889,
+    "gutenberg_id": "308",
+    "openalex_cites": 0,
+    "wiki_inlinks": 174,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "308"
+    ],
+    "author_qids": [
+      "Q218698"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q733582",
+    "work_title": "His Last Bow",
+    "year": 1917,
+    "gutenberg_id": "2350",
+    "openalex_cites": 0,
+    "wiki_inlinks": 172,
+    "sitelinks": 36,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2350"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Jack London",
+    "author_qid": "Q45765",
+    "work_qid": "Q152267",
+    "work_title": "White Fang",
+    "year": 1906,
+    "gutenberg_id": "910",
+    "openalex_cites": 0,
+    "wiki_inlinks": 160,
+    "sitelinks": 48,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "910"
+    ],
+    "author_qids": [
+      "Q45765"
+    ]
+  },
+  {
+    "author": "Beatrix Potter",
+    "author_qid": "Q214565",
+    "work_qid": "Q580463",
+    "work_title": "The Tale of Peter Rabbit",
+    "year": 1902,
+    "gutenberg_id": "14838",
+    "openalex_cites": 0,
+    "wiki_inlinks": 155,
+    "sitelinks": 31,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "14838"
+    ],
+    "author_qids": [
+      "Q214565"
+    ]
+  },
+  {
+    "author": "Frances Hodgson Burnett",
+    "author_qid": "Q276028",
+    "work_qid": "Q387480",
+    "work_title": "Little Lord Fauntleroy",
+    "year": 1885,
+    "gutenberg_id": "479",
+    "openalex_cites": 0,
+    "wiki_inlinks": 150,
+    "sitelinks": 30,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "479"
+    ],
+    "author_qids": [
+      "Q276028"
+    ]
+  },
+  {
+    "author": "Jules Verne",
+    "author_qid": "Q33977",
+    "work_qid": "Q1327411",
+    "work_title": "Around the Moon",
+    "year": 1870,
+    "gutenberg_id": "16457",
+    "openalex_cites": 0,
+    "wiki_inlinks": 148,
+    "sitelinks": 37,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "16457"
+    ],
+    "author_qids": [
+      "Q33977"
+    ]
+  },
+  {
+    "author": "Fyodor Dostoyevsky",
+    "author_qid": "Q991",
+    "work_qid": "Q329989",
+    "work_title": "Demons",
+    "year": 1871,
+    "gutenberg_id": "8117",
+    "openalex_cites": 0,
+    "wiki_inlinks": 147,
+    "sitelinks": 53,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "8117"
+    ],
+    "author_qids": [
+      "Q991"
+    ]
+  },
+  {
+    "author": "Fyodor Dostoyevsky",
+    "author_qid": "Q991",
+    "work_qid": "Q695116",
+    "work_title": "Notes from Underground",
+    "year": 1864,
+    "gutenberg_id": "600",
+    "openalex_cites": 0,
+    "wiki_inlinks": 147,
+    "sitelinks": 50,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "600"
+    ],
+    "author_qids": [
+      "Q991"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q785255",
+    "work_title": "The Lost World",
+    "year": 1912,
+    "gutenberg_id": "139",
+    "openalex_cites": 0,
+    "wiki_inlinks": 147,
+    "sitelinks": 33,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "139"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Daniel Defoe",
+    "author_qid": "Q40946",
+    "work_qid": "Q612523",
+    "work_title": "Moll Flanders",
+    "year": 1722,
+    "gutenberg_id": "370",
+    "openalex_cites": 0,
+    "wiki_inlinks": 146,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "370"
+    ],
+    "author_qids": [
+      "Q40946"
+    ]
+  },
+  {
+    "author": "Wilkie Collins",
+    "author_qid": "Q210740",
+    "work_qid": "Q2362563",
+    "work_title": "The Moonstone",
+    "year": 1868,
+    "gutenberg_id": "155",
+    "openalex_cites": 0,
+    "wiki_inlinks": 144,
+    "sitelinks": 30,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "155"
+    ],
+    "author_qids": [
+      "Q210740"
+    ]
+  },
+  {
+    "author": "E. M. Forster",
+    "author_qid": "Q189119",
+    "work_qid": "Q622303",
+    "work_title": "A Passage to India",
+    "year": 1924,
+    "gutenberg_id": "61221",
+    "openalex_cites": 0,
+    "wiki_inlinks": 144,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "61221"
+    ],
+    "author_qids": [
+      "Q189119"
+    ]
+  },
+  {
+    "author": "Thomas Hardy",
+    "author_qid": "Q132805",
+    "work_qid": "Q5642996",
+    "work_title": "Far from the Madding Crowd",
+    "year": 1874,
+    "gutenberg_id": "107",
+    "openalex_cites": 0,
+    "wiki_inlinks": 140,
+    "sitelinks": 25,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "107"
+    ],
+    "author_qids": [
+      "Q132805"
+    ]
+  },
+  {
+    "author": "Friedrich Nietzsche",
+    "author_qid": "Q9358",
+    "work_qid": "Q579794",
+    "work_title": "Beyond Good and Evil",
+    "year": 1886,
+    "gutenberg_id": "4363",
+    "openalex_cites": 0,
+    "wiki_inlinks": 138,
+    "sitelinks": 43,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4363"
+    ],
+    "author_qids": [
+      "Q9358"
+    ]
+  },
+  {
+    "author": "Joseph Conrad",
+    "author_qid": "Q82925",
+    "work_qid": "Q727408",
+    "work_title": "Lord Jim",
+    "year": 1900,
+    "gutenberg_id": "5658",
+    "openalex_cites": 0,
+    "wiki_inlinks": 137,
+    "sitelinks": 39,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "5658"
+    ],
+    "author_qids": [
+      "Q82925"
+    ]
+  },
+  {
+    "author": "Thomas Robert Malthus",
+    "author_qid": "Q13526",
+    "work_qid": "Q851988",
+    "work_title": "An Essay on the Principle of Population",
+    "year": 1798,
+    "gutenberg_id": "4239",
+    "openalex_cites": 0,
+    "wiki_inlinks": 135,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4239"
+    ],
+    "author_qids": [
+      "Q13526"
+    ]
+  },
+  {
+    "author": "Jean-Jacques Rousseau",
+    "author_qid": "Q6527",
+    "work_qid": "Q913599",
+    "work_title": "Emile, or On Education",
+    "year": 1762,
+    "gutenberg_id": "5427",
+    "openalex_cites": 0,
+    "wiki_inlinks": 134,
+    "sitelinks": 40,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "5427"
+    ],
+    "author_qids": [
+      "Q6527"
+    ]
+  },
+  {
+    "author": "Stendhal",
+    "author_qid": "Q502",
+    "work_qid": "Q192649",
+    "work_title": "The Red and the Black",
+    "year": 1830,
+    "gutenberg_id": "44747",
+    "openalex_cites": 0,
+    "wiki_inlinks": 133,
+    "sitelinks": 52,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "44747"
+    ],
+    "author_qids": [
+      "Q502"
+    ]
+  },
+  {
+    "author": "Leo Tolstoy",
+    "author_qid": "Q7243",
+    "work_qid": "Q1269280",
+    "work_title": "How Much Land Does a Man Need?",
+    "year": 1886,
+    "gutenberg_id": "6157",
+    "openalex_cites": 0,
+    "wiki_inlinks": 130,
+    "sitelinks": 24,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "6157"
+    ],
+    "author_qids": [
+      "Q7243"
+    ]
+  },
+  {
+    "author": "John Milton",
+    "author_qid": "Q79759",
+    "work_qid": "Q642635",
+    "work_title": "Areopagitica",
+    "year": 1644,
+    "gutenberg_id": "608",
+    "openalex_cites": 0,
+    "wiki_inlinks": 129,
+    "sitelinks": 30,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "608"
+    ],
+    "author_qids": [
+      "Q79759"
+    ]
+  },
+  {
+    "author": "Jonathan Swift",
+    "author_qid": "Q41166",
+    "work_qid": "Q264143",
+    "work_title": "A Modest Proposal",
+    "year": 1729,
+    "gutenberg_id": "1080",
+    "openalex_cites": 0,
+    "wiki_inlinks": 127,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1080"
+    ],
+    "author_qids": [
+      "Q41166"
+    ]
+  },
+  {
+    "author": "Q44520",
+    "author_qid": "Q44520",
+    "work_qid": "Q44701",
+    "work_title": "The Tenant of Wildfell Hall",
+    "year": 1848,
+    "gutenberg_id": "969",
+    "openalex_cites": 0,
+    "wiki_inlinks": 126,
+    "sitelinks": 47,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "969"
+    ],
+    "author_qids": [
+      "Q44520"
+    ]
+  },
+  {
+    "author": "D. H. Lawrence",
+    "author_qid": "Q34970",
+    "work_qid": "Q80771",
+    "work_title": "Sons and Lovers",
+    "year": 1913,
+    "gutenberg_id": "217",
+    "openalex_cites": 0,
+    "wiki_inlinks": 126,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "217"
+    ],
+    "author_qids": [
+      "Q34970"
+    ]
+  },
+  {
+    "author": "Prosper Mérimée",
+    "author_qid": "Q160333",
+    "work_qid": "Q674832",
+    "work_title": "Carmen",
+    "year": 1847,
+    "gutenberg_id": "2465",
+    "openalex_cites": 0,
+    "wiki_inlinks": 124,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2465"
+    ],
+    "author_qids": [
+      "Q160333"
+    ]
+  },
+  {
+    "author": "Edgar Allan Poe",
+    "author_qid": "Q16867",
+    "work_qid": "Q1167993",
+    "work_title": "The Mystery of Marie Rogêt",
+    "year": 1842,
+    "gutenberg_id": "2147",
+    "openalex_cites": 0,
+    "wiki_inlinks": 123,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2147"
+    ],
+    "author_qids": [
+      "Q16867"
+    ]
+  },
+  {
+    "author": "Horace Walpole",
+    "author_qid": "Q309903",
+    "work_qid": "Q548576",
+    "work_title": "The Castle of Otranto",
+    "year": 1764,
+    "gutenberg_id": "696",
+    "openalex_cites": 0,
+    "wiki_inlinks": 122,
+    "sitelinks": 33,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "696"
+    ],
+    "author_qids": [
+      "Q309903"
+    ]
+  },
+  {
+    "author": "Jack London",
+    "author_qid": "Q45765",
+    "work_qid": "Q1196857",
+    "work_title": "The Sea-Wolf",
+    "year": 1904,
+    "gutenberg_id": "1074",
+    "openalex_cites": 0,
+    "wiki_inlinks": 122,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1074"
+    ],
+    "author_qids": [
+      "Q45765"
+    ]
+  },
+  {
+    "author": "Jules Verne",
+    "author_qid": "Q33977",
+    "work_qid": "Q143707",
+    "work_title": "The Child of the Cavern",
+    "year": 1877,
+    "gutenberg_id": "1355",
+    "openalex_cites": 0,
+    "wiki_inlinks": 121,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1355"
+    ],
+    "author_qids": [
+      "Q33977"
+    ]
+  },
+  {
+    "author": "Jules Verne",
+    "author_qid": "Q33977",
+    "work_qid": "Q1192756",
+    "work_title": "The Survivors of the Chancellor",
+    "year": 1875,
+    "gutenberg_id": "1652",
+    "openalex_cites": 0,
+    "wiki_inlinks": 121,
+    "sitelinks": 24,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1652"
+    ],
+    "author_qids": [
+      "Q33977"
+    ]
+  },
+  {
+    "author": "Jules Verne",
+    "author_qid": "Q33977",
+    "work_qid": "Q1212137",
+    "work_title": "An Antarctic Mystery",
+    "year": 1897,
+    "gutenberg_id": "10339",
+    "openalex_cites": 0,
+    "wiki_inlinks": 120,
+    "sitelinks": 31,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "10339"
+    ],
+    "author_qids": [
+      "Q33977"
+    ]
+  },
+  {
+    "author": "Honoré de Balzac",
+    "author_qid": "Q9711",
+    "work_qid": "Q1373644",
+    "work_title": "Eugénie Grandet",
+    "year": 1833,
+    "gutenberg_id": "1715",
+    "openalex_cites": 0,
+    "wiki_inlinks": 119,
+    "sitelinks": 30,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1715"
+    ],
+    "author_qids": [
+      "Q9711"
+    ]
+  },
+  {
+    "author": "Honoré de Balzac",
+    "author_qid": "Q9711",
+    "work_qid": "Q240617",
+    "work_title": "Père Goriot",
+    "year": 1835,
+    "gutenberg_id": "1237",
+    "openalex_cites": 0,
+    "wiki_inlinks": 118,
+    "sitelinks": 61,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1237"
+    ],
+    "author_qids": [
+      "Q9711"
+    ]
+  },
+  {
+    "author": "William Somerset Maugham",
+    "author_qid": "Q134942",
+    "work_qid": "Q1195793",
+    "work_title": "Of Human Bondage",
+    "year": 1915,
+    "gutenberg_id": "351",
+    "openalex_cites": 0,
+    "wiki_inlinks": 118,
+    "sitelinks": 24,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "351"
+    ],
+    "author_qids": [
+      "Q134942"
+    ]
+  },
+  {
+    "author": "Mikhail Lermontov",
+    "author_qid": "Q46599",
+    "work_qid": "Q1304649",
+    "work_title": "A Hero of Our Time",
+    "year": 1840,
+    "gutenberg_id": "913",
+    "openalex_cites": 0,
+    "wiki_inlinks": 117,
+    "sitelinks": 36,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "913"
+    ],
+    "author_qids": [
+      "Q46599"
+    ]
+  },
+  {
+    "author": "Hermann Hesse",
+    "author_qid": "Q25973",
+    "work_qid": "Q457289",
+    "work_title": "Siddhartha",
+    "year": 1922,
+    "gutenberg_id": "58344",
+    "openalex_cites": 0,
+    "wiki_inlinks": 115,
+    "sitelinks": 60,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2500",
+      "58344"
+    ],
+    "author_qids": [
+      "Q25973"
+    ]
+  },
+  {
+    "author": "Eleanor H. Porter",
+    "author_qid": "Q235368",
+    "work_qid": "Q2348190",
+    "work_title": "Pollyanna",
+    "year": 1913,
+    "gutenberg_id": "1450",
+    "openalex_cites": 0,
+    "wiki_inlinks": 115,
+    "sitelinks": 33,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1450"
+    ],
+    "author_qids": [
+      "Q235368"
+    ]
+  },
+  {
+    "author": "Jules Verne",
+    "author_qid": "Q33977",
+    "work_qid": "Q1169463",
+    "work_title": "The Fur Country",
+    "year": 1873,
+    "gutenberg_id": "8991",
+    "openalex_cites": 0,
+    "wiki_inlinks": 115,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "8991"
+    ],
+    "author_qids": [
+      "Q33977"
+    ]
+  },
+  {
+    "author": "Honoré de Balzac",
+    "author_qid": "Q9711",
+    "work_qid": "Q2092894",
+    "work_title": "Illusions perdues",
+    "year": 1837,
+    "gutenberg_id": "13159",
+    "openalex_cites": 0,
+    "wiki_inlinks": 115,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "13159"
+    ],
+    "author_qids": [
+      "Q9711"
+    ]
+  },
+  {
+    "author": "Fyodor Dostoyevsky",
+    "author_qid": "Q991",
+    "work_qid": "Q223688",
+    "work_title": "The Gambler",
+    "year": 1867,
+    "gutenberg_id": "2197",
+    "openalex_cites": 0,
+    "wiki_inlinks": 114,
+    "sitelinks": 49,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2197"
+    ],
+    "author_qids": [
+      "Q991"
+    ]
+  },
+  {
+    "author": "Honoré de Balzac",
+    "author_qid": "Q9711",
+    "work_qid": "Q1142149",
+    "work_title": "La Peau de chagrin",
+    "year": 1831,
+    "gutenberg_id": "1307",
+    "openalex_cites": 0,
+    "wiki_inlinks": 114,
+    "sitelinks": 32,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1307"
+    ],
+    "author_qids": [
+      "Q9711"
+    ]
+  },
+  {
+    "author": "Garci Rodríguez de Montalvo",
+    "author_qid": "Q723468",
+    "work_qid": "Q452075",
+    "work_title": "Amadis de Gaula",
+    "year": 1508,
+    "gutenberg_id": "17440",
+    "openalex_cites": 0,
+    "wiki_inlinks": 109,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "17440"
+    ],
+    "author_qids": [
+      "Q723468"
+    ]
+  },
+  {
+    "author": "Jack London",
+    "author_qid": "Q45765",
+    "work_qid": "Q1317839",
+    "work_title": "Martin Eden",
+    "year": 1909,
+    "gutenberg_id": "1056",
+    "openalex_cites": 0,
+    "wiki_inlinks": 107,
+    "sitelinks": 49,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1056"
+    ],
+    "author_qids": [
+      "Q45765"
+    ]
+  },
+  {
+    "author": "Émile Zola",
+    "author_qid": "Q504",
+    "work_qid": "Q1197590",
+    "work_title": "L'Assommoir",
+    "year": 1876,
+    "gutenberg_id": "8558",
+    "openalex_cites": 0,
+    "wiki_inlinks": 106,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "8558"
+    ],
+    "author_qids": [
+      "Q504"
+    ]
+  },
+  {
+    "author": "Francis Bacon",
+    "author_qid": "Q37388",
+    "work_qid": "Q1233830",
+    "work_title": "New Atlantis",
+    "year": 1627,
+    "gutenberg_id": "2434",
+    "openalex_cites": 0,
+    "wiki_inlinks": 104,
+    "sitelinks": 33,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2434"
+    ],
+    "author_qids": [
+      "Q37388"
+    ]
+  },
+  {
+    "author": "Edwin Abbott Abbott",
+    "author_qid": "Q531606",
+    "work_qid": "Q728312",
+    "work_title": "Flatland",
+    "year": 1884,
+    "gutenberg_id": "201",
+    "openalex_cites": 0,
+    "wiki_inlinks": 103,
+    "sitelinks": 35,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "201"
+    ],
+    "author_qids": [
+      "Q531606"
+    ]
+  },
+  {
+    "author": "John Stuart Mill",
+    "author_qid": "Q50020",
+    "work_qid": "Q3407659",
+    "work_title": "The Subjection of Women",
+    "year": 1869,
+    "gutenberg_id": "27083",
+    "openalex_cites": 0,
+    "wiki_inlinks": 103,
+    "sitelinks": 25,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "27083"
+    ],
+    "author_qids": [
+      "Q50020"
+    ]
+  },
+  {
+    "author": "Jack London",
+    "author_qid": "Q45765",
+    "work_qid": "Q2465752",
+    "work_title": "The Iron Heel",
+    "year": 1908,
+    "gutenberg_id": "1164",
+    "openalex_cites": 0,
+    "wiki_inlinks": 99,
+    "sitelinks": 25,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1164"
+    ],
+    "author_qids": [
+      "Q45765"
+    ]
+  },
+  {
+    "author": "Fyodor Dostoyevsky",
+    "author_qid": "Q991",
+    "work_qid": "Q1113102",
+    "work_title": "The Grand Inquisitor",
+    "year": null,
+    "gutenberg_id": "8578",
+    "openalex_cites": 0,
+    "wiki_inlinks": 98,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "8578"
+    ],
+    "author_qids": [
+      "Q991"
+    ]
+  },
+  {
+    "author": "Immanuel Kant",
+    "author_qid": "Q9312",
+    "work_qid": "Q870851",
+    "work_title": "Critique of Practical Reason",
+    "year": 1788,
+    "gutenberg_id": "5683",
+    "openalex_cites": 0,
+    "wiki_inlinks": 97,
+    "sitelinks": 32,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "5683"
+    ],
+    "author_qids": [
+      "Q9312"
+    ]
+  },
+  {
+    "author": "Friedrich Nietzsche",
+    "author_qid": "Q9358",
+    "work_qid": "Q1364539",
+    "work_title": "Human, All Too Human",
+    "year": 1878,
+    "gutenberg_id": "38145",
+    "openalex_cites": 0,
+    "wiki_inlinks": 96,
+    "sitelinks": 28,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "38145"
+    ],
+    "author_qids": [
+      "Q9358"
+    ]
+  },
+  {
+    "author": "Fyodor Dostoyevsky",
+    "author_qid": "Q991",
+    "work_qid": "Q1161171",
+    "work_title": "The House of the Dead",
+    "year": 1862,
+    "gutenberg_id": "37536",
+    "openalex_cites": 0,
+    "wiki_inlinks": 94,
+    "sitelinks": 42,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "37536"
+    ],
+    "author_qids": [
+      "Q991"
+    ]
+  },
+  {
+    "author": "Heinrich Hoffmann",
+    "author_qid": "Q215724",
+    "work_qid": "Q27912",
+    "work_title": "Struwwelpeter",
+    "year": 1845,
+    "gutenberg_id": "12116",
+    "openalex_cites": 0,
+    "wiki_inlinks": 94,
+    "sitelinks": 38,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "12116"
+    ],
+    "author_qids": [
+      "Q215724"
+    ]
+  },
+  {
+    "author": "Blaise Pascal",
+    "author_qid": "Q1290",
+    "work_qid": "Q17360856",
+    "work_title": "Pensées",
+    "year": 1670,
+    "gutenberg_id": "18269",
+    "openalex_cites": 0,
+    "wiki_inlinks": 94,
+    "sitelinks": 28,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "18269"
+    ],
+    "author_qids": [
+      "Q1290"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q265546",
+    "work_title": "A Scandal in Bohemia",
+    "year": 1892,
+    "gutenberg_id": "1661",
+    "openalex_cites": 0,
+    "wiki_inlinks": 92,
+    "sitelinks": 42,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1661"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Selma Lagerlöf",
+    "author_qid": "Q44519",
+    "work_qid": "Q726254",
+    "work_title": "The Wonderful Adventures of Nils",
+    "year": 1906,
+    "gutenberg_id": "10935",
+    "openalex_cites": 0,
+    "wiki_inlinks": 91,
+    "sitelinks": 45,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "10935"
+    ],
+    "author_qids": [
+      "Q44519"
+    ]
+  },
+  {
+    "author": "Friedrich Nietzsche",
+    "author_qid": "Q9358",
+    "work_qid": "Q861527",
+    "work_title": "Ecce Homo",
+    "year": 1888,
+    "gutenberg_id": "52190",
+    "openalex_cites": 0,
+    "wiki_inlinks": 86,
+    "sitelinks": 41,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "52190"
+    ],
+    "author_qids": [
+      "Q9358"
+    ]
+  },
+  {
+    "author": "Alexandre Dumas",
+    "author_qid": "Q38337",
+    "work_qid": "Q1141764",
+    "work_title": "The Black Tulip",
+    "year": 1850,
+    "gutenberg_id": "965",
+    "openalex_cites": 0,
+    "wiki_inlinks": 86,
+    "sitelinks": 25,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "965"
+    ],
+    "author_qids": [
+      "Q38337"
+    ]
+  },
+  {
+    "author": "Ambrose Bierce",
+    "author_qid": "Q191050",
+    "work_qid": "Q1147121",
+    "work_title": "The Devil's Dictionary",
+    "year": 1911,
+    "gutenberg_id": "972",
+    "openalex_cites": 0,
+    "wiki_inlinks": 84,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "972"
+    ],
+    "author_qids": [
+      "Q191050"
+    ]
+  },
+  {
+    "author": "Gustave Flaubert",
+    "author_qid": "Q43444",
+    "work_qid": "Q117182",
+    "work_title": "Salammbô",
+    "year": 1862,
+    "gutenberg_id": "1290",
+    "openalex_cites": 0,
+    "wiki_inlinks": 82,
+    "sitelinks": 34,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1290"
+    ],
+    "author_qids": [
+      "Q43444"
+    ]
+  },
+  {
+    "author": "Jane Austen",
+    "author_qid": "Q36322",
+    "work_qid": "Q581180",
+    "work_title": "Lady Susan",
+    "year": 1871,
+    "gutenberg_id": "946",
+    "openalex_cites": 0,
+    "wiki_inlinks": 79,
+    "sitelinks": 28,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "946"
+    ],
+    "author_qids": [
+      "Q36322"
+    ]
+  },
+  {
+    "author": "Stendhal",
+    "author_qid": "Q502",
+    "work_qid": "Q1165714",
+    "work_title": "The Charterhouse of Parma",
+    "year": 1839,
+    "gutenberg_id": "66374",
+    "openalex_cites": 0,
+    "wiki_inlinks": 77,
+    "sitelinks": 33,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "66374"
+    ],
+    "author_qids": [
+      "Q502"
+    ]
+  },
+  {
+    "author": "Fyodor Dostoyevsky",
+    "author_qid": "Q991",
+    "work_qid": "Q117293",
+    "work_title": "Poor Folk",
+    "year": 1846,
+    "gutenberg_id": "2302",
+    "openalex_cites": 0,
+    "wiki_inlinks": 76,
+    "sitelinks": 47,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2302"
+    ],
+    "author_qids": [
+      "Q991"
+    ]
+  },
+  {
+    "author": "Q44520",
+    "author_qid": "Q44520",
+    "work_qid": "Q517172",
+    "work_title": "Agnes Grey",
+    "year": 1847,
+    "gutenberg_id": "767",
+    "openalex_cites": 0,
+    "wiki_inlinks": 76,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "767"
+    ],
+    "author_qids": [
+      "Q44520"
+    ]
+  },
+  {
+    "author": "Lucy Maud Montgomery",
+    "author_qid": "Q273034",
+    "work_qid": "Q1331757",
+    "work_title": "Anne of Avonlea",
+    "year": 1909,
+    "gutenberg_id": "47",
+    "openalex_cites": 0,
+    "wiki_inlinks": 73,
+    "sitelinks": 28,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "47"
+    ],
+    "author_qids": [
+      "Q273034"
+    ]
+  },
+  {
+    "author": "Lucy Maud Montgomery",
+    "author_qid": "Q273034",
+    "work_qid": "Q1352419",
+    "work_title": "Anne of the Island",
+    "year": 1915,
+    "gutenberg_id": "51",
+    "openalex_cites": 0,
+    "wiki_inlinks": 72,
+    "sitelinks": 25,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "51"
+    ],
+    "author_qids": [
+      "Q273034"
+    ]
+  },
+  {
+    "author": "Theodor Herzl",
+    "author_qid": "Q44003",
+    "work_qid": "Q1141090",
+    "work_title": "Der Judenstaat",
+    "year": 1896,
+    "gutenberg_id": "25282",
+    "openalex_cites": 0,
+    "wiki_inlinks": 71,
+    "sitelinks": 39,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "25282"
+    ],
+    "author_qids": [
+      "Q44003"
+    ]
+  },
+  {
+    "author": "Jack London",
+    "author_qid": "Q45765",
+    "work_qid": "Q2634129",
+    "work_title": "The Scarlet Plague",
+    "year": 1912,
+    "gutenberg_id": "21970",
+    "openalex_cites": 0,
+    "wiki_inlinks": 70,
+    "sitelinks": 25,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "21970"
+    ],
+    "author_qids": [
+      "Q45765"
+    ]
+  },
+  {
+    "author": "Tommaso Campanella",
+    "author_qid": "Q191850",
+    "work_qid": "Q913656",
+    "work_title": "The City of the Sun",
+    "year": 1623,
+    "gutenberg_id": "2816",
+    "openalex_cites": 0,
+    "wiki_inlinks": 52,
+    "sitelinks": 33,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2816"
+    ],
+    "author_qids": [
+      "Q191850"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q1151748",
+    "work_title": "The Man with the Twisted Lip",
+    "year": 1891,
+    "gutenberg_id": "1661",
+    "openalex_cites": 0,
+    "wiki_inlinks": 50,
+    "sitelinks": 35,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1661"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Octave Mirbeau",
+    "author_qid": "Q23441",
+    "work_qid": "Q384635",
+    "work_title": "The Diary of a Chambermaid",
+    "year": 1900,
+    "gutenberg_id": "44303",
+    "openalex_cites": 0,
+    "wiki_inlinks": 49,
+    "sitelinks": 40,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "44303"
+    ],
+    "author_qids": [
+      "Q23441"
+    ]
+  },
+  {
+    "author": "Ethel Lilian Voynich",
+    "author_qid": "Q466068",
+    "work_qid": "Q2426986",
+    "work_title": "The Gadfly",
+    "year": 1897,
+    "gutenberg_id": "3431",
+    "openalex_cites": 0,
+    "wiki_inlinks": 48,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3431"
+    ],
+    "author_qids": [
+      "Q466068"
+    ]
+  },
+  {
+    "author": "Jules Verne",
+    "author_qid": "Q33977",
+    "work_qid": "Q219457",
+    "work_title": "A Journey to the Centre of the Earth",
+    "year": 1864,
+    "gutenberg_id": "18857",
+    "openalex_cites": 0,
+    "wiki_inlinks": 45,
+    "sitelinks": 64,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "18857"
+    ],
+    "author_qids": [
+      "Q33977"
+    ]
+  },
+  {
+    "author": "Johannes Kepler",
+    "author_qid": "Q8963",
+    "work_qid": "Q1066757",
+    "work_title": "Harmonices Mundi",
+    "year": 1619,
+    "gutenberg_id": "12406",
+    "openalex_cites": 0,
+    "wiki_inlinks": 43,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "12406"
+    ],
+    "author_qids": [
+      "Q8963"
+    ]
+  },
+  {
+    "author": "Edmondo de Amicis",
+    "author_qid": "Q240576",
+    "work_qid": "Q11336",
+    "work_title": "Heart",
+    "year": 1886,
+    "gutenberg_id": "28961",
+    "openalex_cites": 0,
+    "wiki_inlinks": 42,
+    "sitelinks": 32,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "28961"
+    ],
+    "author_qids": [
+      "Q240576"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q466166",
+    "work_title": "The Adventure of the Dying Detective",
+    "year": 1913,
+    "gutenberg_id": "2347",
+    "openalex_cites": 0,
+    "wiki_inlinks": 38,
+    "sitelinks": 24,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2347"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q499059",
+    "work_title": "The Adventure of the Cardboard Box",
+    "year": 1893,
+    "gutenberg_id": "2344",
+    "openalex_cites": 0,
+    "wiki_inlinks": 36,
+    "sitelinks": 29,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2344"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Ivan Turgenev",
+    "author_qid": "Q42831",
+    "work_qid": "Q1189993",
+    "work_title": "First Love",
+    "year": 1860,
+    "gutenberg_id": "9911",
+    "openalex_cites": 0,
+    "wiki_inlinks": 34,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "9911"
+    ],
+    "author_qids": [
+      "Q42831"
+    ]
+  },
+  {
+    "author": "Miguel de Cervantes",
+    "author_qid": "Q5682",
+    "work_qid": "Q2348040",
+    "work_title": "La Galatea",
+    "year": 1585,
+    "gutenberg_id": "63404",
+    "openalex_cites": 0,
+    "wiki_inlinks": 33,
+    "sitelinks": 27,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "63404"
+    ],
+    "author_qids": [
+      "Q5682"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q2420223",
+    "work_title": "The Adventure of Wisteria Lodge",
+    "year": 1908,
+    "gutenberg_id": "2343",
+    "openalex_cites": 0,
+    "wiki_inlinks": 32,
+    "sitelinks": 24,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2343"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q961957",
+    "work_title": "The Adventure of the Three Students",
+    "year": 1904,
+    "gutenberg_id": "108",
+    "openalex_cites": 0,
+    "wiki_inlinks": 27,
+    "sitelinks": 25,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "108"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Alexandre Dumas",
+    "author_qid": "Q38337",
+    "work_qid": "Q769001",
+    "work_title": "The Vicomte of Bragelonne: Ten Years Later",
+    "year": 1847,
+    "gutenberg_id": "2609",
+    "openalex_cites": 0,
+    "wiki_inlinks": 16,
+    "sitelinks": 32,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2609"
+    ],
+    "author_qids": [
+      "Q38337"
+    ]
+  },
+  {
+    "author": "Jules Verne",
+    "author_qid": "Q33977",
+    "work_qid": "Q1213684",
+    "work_title": "Eight Hundred Leagues on the Amazon",
+    "year": 1881,
+    "gutenberg_id": "3091",
+    "openalex_cites": 0,
+    "wiki_inlinks": 10,
+    "sitelinks": 26,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3091"
+    ],
+    "author_qids": [
+      "Q33977"
+    ]
+  },
+  {
+    "author": "John Milton",
+    "author_qid": "Q79759",
+    "work_qid": "Q2307419",
+    "work_title": "Paradise Regained",
+    "year": 1671,
+    "gutenberg_id": "58",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 23,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "58"
+    ],
+    "author_qids": [
+      "Q79759"
+    ]
+  },
+  {
+    "author": "Madame de Lafayette",
+    "author_qid": "Q237090",
+    "work_qid": "Q1157010",
+    "work_title": "La Princesse de Clèves",
+    "year": 1678,
+    "gutenberg_id": "467",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 23,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "467"
+    ],
+    "author_qids": [
+      "Q237090"
+    ]
+  },
+  {
+    "author": "Walter Scott",
+    "author_qid": "Q79025",
+    "work_qid": "Q678251",
+    "work_title": "Waverley",
+    "year": 1814,
+    "gutenberg_id": "5998",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 23,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "5998"
+    ],
+    "author_qids": [
+      "Q79025"
+    ]
+  },
+  {
+    "author": "Herman Melville",
+    "author_qid": "Q4985",
+    "work_qid": "Q780407",
+    "work_title": "Bartleby, the Scrivener",
+    "year": 1853,
+    "gutenberg_id": "11231",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 23,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "11231"
+    ],
+    "author_qids": [
+      "Q4985"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q1557935",
+    "work_title": "Our Mutual Friend",
+    "year": 1864,
+    "gutenberg_id": "883",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 23,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "883"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Voltaire",
+    "author_qid": "Q9068",
+    "work_qid": "Q140057",
+    "work_title": "Zadig or Destiny",
+    "year": null,
+    "gutenberg_id": "18972",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 23,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "18972"
+    ],
+    "author_qids": [
+      "Q9068"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q1903609",
+    "work_title": "Martin Chuzzlewit",
+    "year": 1844,
+    "gutenberg_id": "968",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 22,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "968"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "George Eliot",
+    "author_qid": "Q131333",
+    "work_qid": "Q638327",
+    "work_title": "Silas Marner",
+    "year": 1861,
+    "gutenberg_id": "550",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 22,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "550"
+    ],
+    "author_qids": [
+      "Q131333"
+    ]
+  },
+  {
+    "author": "Robert Louis Stevenson",
+    "author_qid": "Q1512",
+    "work_qid": "Q2349094",
+    "work_title": "Kidnapped",
+    "year": 1886,
+    "gutenberg_id": "56562",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 22,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "421",
+      "56562"
+    ],
+    "author_qids": [
+      "Q1512"
+    ]
+  },
+  {
+    "author": "Helena Blavatsky",
+    "author_qid": "Q189454",
+    "work_qid": "Q1047005",
+    "work_title": "The Secret Doctrine",
+    "year": 1888,
+    "gutenberg_id": "56880",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 22,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "56880"
+    ],
+    "author_qids": [
+      "Q189454"
+    ]
+  },
+  {
+    "author": "Theodore Dreiser",
+    "author_qid": "Q486096",
+    "work_qid": "Q1286961",
+    "work_title": "Sister Carrie",
+    "year": 1900,
+    "gutenberg_id": "5267",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 22,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "5267"
+    ],
+    "author_qids": [
+      "Q486096"
+    ]
+  },
+  {
+    "author": "Joseph Conrad",
+    "author_qid": "Q82925",
+    "work_qid": "Q1247666",
+    "work_title": "The Secret Agent",
+    "year": 1907,
+    "gutenberg_id": "974",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 22,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "974"
+    ],
+    "author_qids": [
+      "Q82925"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q2446784",
+    "work_title": "The Adventure of the Bruce-Partington Plans",
+    "year": 1908,
+    "gutenberg_id": "2346",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 22,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2346"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q3041819",
+    "work_title": "The Adventure of the Red Circle",
+    "year": 1911,
+    "gutenberg_id": "2345",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 22,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2345"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Jack London",
+    "author_qid": "Q45765",
+    "work_qid": "Q626663",
+    "work_title": "The Star Rover",
+    "year": 1915,
+    "gutenberg_id": "1162",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 22,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1162"
+    ],
+    "author_qids": [
+      "Q45765"
+    ]
+  },
+  {
+    "author": "William Somerset Maugham",
+    "author_qid": "Q134942",
+    "work_qid": "Q1792726",
+    "work_title": "The Moon and Sixpence",
+    "year": 1919,
+    "gutenberg_id": "222",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 22,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "222"
+    ],
+    "author_qids": [
+      "Q134942"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q2466799",
+    "work_title": "The Adventure of the Devil's Foot",
+    "year": null,
+    "gutenberg_id": "2349",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 22,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2349"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Martin Luther",
+    "author_qid": "Q9554",
+    "work_qid": "Q1194041",
+    "work_title": "Luther's Large Catechism",
+    "year": 1529,
+    "gutenberg_id": "1722",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 21,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1722"
+    ],
+    "author_qids": [
+      "Q9554"
+    ]
+  },
+  {
+    "author": "Robert Burton",
+    "author_qid": "Q259132",
+    "work_qid": "Q469755",
+    "work_title": "The Anatomy of Melancholy",
+    "year": 1621,
+    "gutenberg_id": "10800",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 21,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "10800"
+    ],
+    "author_qids": [
+      "Q259132"
+    ]
+  },
+  {
+    "author": "Jean de La Fontaine",
+    "author_qid": "Q49496",
+    "work_qid": "Q2748292",
+    "work_title": "La Fontaine's Fables",
+    "year": 1668,
+    "gutenberg_id": "50316",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 21,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "50316"
+    ],
+    "author_qids": [
+      "Q49496"
+    ]
+  },
+  {
+    "author": "Laurence Sterne",
+    "author_qid": "Q218960",
+    "work_qid": "Q768792",
+    "work_title": "A Sentimental Journey Through France and Italy",
+    "year": 1768,
+    "gutenberg_id": "804",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 21,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "804"
+    ],
+    "author_qids": [
+      "Q218960"
+    ]
+  },
+  {
+    "author": "Max Stirner",
+    "author_qid": "Q76725",
+    "work_qid": "Q1193108",
+    "work_title": "The Ego and Its Own",
+    "year": 1844,
+    "gutenberg_id": "34580",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 21,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "34580"
+    ],
+    "author_qids": [
+      "Q76725"
+    ]
+  },
+  {
+    "author": "Charlotte Brontë",
+    "author_qid": "Q127332",
+    "work_qid": "Q2449570",
+    "work_title": "Villette",
+    "year": 1853,
+    "gutenberg_id": "9182",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 21,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "9182"
+    ],
+    "author_qids": [
+      "Q127332"
+    ]
+  },
+  {
+    "author": "Elizabeth Gaskell",
+    "author_qid": "Q229226",
+    "work_qid": "Q1853142",
+    "work_title": "North and South",
+    "year": 1855,
+    "gutenberg_id": "4276",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 21,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4276"
+    ],
+    "author_qids": [
+      "Q229226"
+    ]
+  },
+  {
+    "author": "Henrik Ibsen",
+    "author_qid": "Q36661",
+    "work_qid": "Q289117",
+    "work_title": "John Gabriel Borkman",
+    "year": 1896,
+    "gutenberg_id": "18792",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 21,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "18792"
+    ],
+    "author_qids": [
+      "Q36661"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q3041826",
+    "work_title": "The Disappearance of Lady Frances Carfax",
+    "year": 1911,
+    "gutenberg_id": "2348",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 21,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2348"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Lucy Maud Montgomery",
+    "author_qid": "Q273034",
+    "work_qid": "Q73706",
+    "work_title": "Emily of New Moon",
+    "year": 1923,
+    "gutenberg_id": "61236",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 21,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "61236"
+    ],
+    "author_qids": [
+      "Q273034"
+    ]
+  },
+  {
+    "author": "Ann Radcliffe",
+    "author_qid": "Q231944",
+    "work_qid": "Q2600909",
+    "work_title": "The Mysteries of Udolpho",
+    "year": 1794,
+    "gutenberg_id": "3268",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3268"
+    ],
+    "author_qids": [
+      "Q231944"
+    ]
+  },
+  {
+    "author": "Friedrich de la Motte Fouqué",
+    "author_qid": "Q77371",
+    "work_qid": "Q664813",
+    "work_title": "Undine",
+    "year": 1811,
+    "gutenberg_id": "18752",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "18752"
+    ],
+    "author_qids": [
+      "Q77371"
+    ]
+  },
+  {
+    "author": "Honoré de Balzac",
+    "author_qid": "Q9711",
+    "work_qid": "Q1932742",
+    "work_title": "Colonel Chabert",
+    "year": 1829,
+    "gutenberg_id": "1954",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1954"
+    ],
+    "author_qids": [
+      "Q9711"
+    ]
+  },
+  {
+    "author": "Charlotte Brontë",
+    "author_qid": "Q127332",
+    "work_qid": "Q615175",
+    "work_title": "Shirley",
+    "year": 1849,
+    "gutenberg_id": "30486",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "30486"
+    ],
+    "author_qids": [
+      "Q127332"
+    ]
+  },
+  {
+    "author": "Henry James",
+    "author_qid": "Q170509",
+    "work_qid": "Q574887",
+    "work_title": "Daisy Miller",
+    "year": 1879,
+    "gutenberg_id": "208",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "208"
+    ],
+    "author_qids": [
+      "Q170509"
+    ]
+  },
+  {
+    "author": "Thomas Hardy",
+    "author_qid": "Q132805",
+    "work_qid": "Q2343169",
+    "work_title": "The Mayor of Casterbridge",
+    "year": 1886,
+    "gutenberg_id": "143",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "143"
+    ],
+    "author_qids": [
+      "Q132805"
+    ]
+  },
+  {
+    "author": "Edward Bellamy",
+    "author_qid": "Q455776",
+    "work_qid": "Q1305106",
+    "work_title": "Looking Backward",
+    "year": 1888,
+    "gutenberg_id": "624",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "624"
+    ],
+    "author_qids": [
+      "Q455776"
+    ]
+  },
+  {
+    "author": "Peter Kropotkin",
+    "author_qid": "Q5752",
+    "work_qid": "Q1498315",
+    "work_title": "Mutual Aid: A Factor of Evolution",
+    "year": 1902,
+    "gutenberg_id": "4341",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4341"
+    ],
+    "author_qids": [
+      "Q5752"
+    ]
+  },
+  {
+    "author": "Oscar Wilde",
+    "author_qid": "Q30875",
+    "work_qid": "Q1249459",
+    "work_title": "De Profundis",
+    "year": 1905,
+    "gutenberg_id": "921",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "921"
+    ],
+    "author_qids": [
+      "Q30875"
+    ]
+  },
+  {
+    "author": "Walter Shaw Sparrow",
+    "author_qid": "Q7966122",
+    "work_qid": "Q19507487",
+    "work_title": "Women Painters of the World, from the time of Caterina Vigri, 1413-1463, to Rosa Bonheur and the present day, 1905",
+    "year": 1905,
+    "gutenberg_id": "39000",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "39000"
+    ],
+    "author_qids": [
+      "Q7966122"
+    ]
+  },
+  {
+    "author": "Bertrand Russell",
+    "author_qid": "Q33760",
+    "work_qid": "Q3393210",
+    "work_title": "The Problems of Philosophy",
+    "year": 1912,
+    "gutenberg_id": "5827",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "5827"
+    ],
+    "author_qids": [
+      "Q33760"
+    ]
+  },
+  {
+    "author": "John Buchan",
+    "author_qid": "Q333004",
+    "work_qid": "Q2609365",
+    "work_title": "The Thirty-nine Steps",
+    "year": 1915,
+    "gutenberg_id": "558",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 20,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "558"
+    ],
+    "author_qids": [
+      "Q333004"
+    ]
+  },
+  {
+    "author": "Robert Boyle",
+    "author_qid": "Q43393",
+    "work_qid": "Q60161",
+    "work_title": "The Sceptical Chymist",
+    "year": 1661,
+    "gutenberg_id": "22914",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "22914"
+    ],
+    "author_qids": [
+      "Q43393"
+    ]
+  },
+  {
+    "author": "Charles Lamb",
+    "author_qid": "Q372984",
+    "work_qid": "Q589197",
+    "work_title": "Tales from Shakspeare",
+    "year": 1807,
+    "gutenberg_id": "20657",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "20657"
+    ],
+    "author_qids": [
+      "Q276126",
+      "Q372984"
+    ]
+  },
+  {
+    "author": "Mary Shelley",
+    "author_qid": "Q47152",
+    "work_qid": "Q2323961",
+    "work_title": "The Last Man",
+    "year": 1826,
+    "gutenberg_id": "18247",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "18247"
+    ],
+    "author_qids": [
+      "Q47152"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q963659",
+    "work_title": "Dombey and Son",
+    "year": 1848,
+    "gutenberg_id": "821",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "821"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Émile Zola",
+    "author_qid": "Q504",
+    "work_qid": "Q1170032",
+    "work_title": "The Ladies' Paradise",
+    "year": 1883,
+    "gutenberg_id": "54687",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "54687"
+    ],
+    "author_qids": [
+      "Q504"
+    ]
+  },
+  {
+    "author": "Oscar Wilde",
+    "author_qid": "Q30875",
+    "work_qid": "Q734607",
+    "work_title": "A House of Pomegranates",
+    "year": 1891,
+    "gutenberg_id": "873",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "873"
+    ],
+    "author_qids": [
+      "Q30875"
+    ]
+  },
+  {
+    "author": "Thomas Hardy",
+    "author_qid": "Q132805",
+    "work_qid": "Q1248773",
+    "work_title": "Jude the Obscure",
+    "year": 1895,
+    "gutenberg_id": "153",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "153"
+    ],
+    "author_qids": [
+      "Q132805"
+    ]
+  },
+  {
+    "author": "Thorstein Veblen",
+    "author_qid": "Q73646",
+    "work_qid": "Q1265755",
+    "work_title": "The Theory of the Leisure Class",
+    "year": 1899,
+    "gutenberg_id": "833",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "833"
+    ],
+    "author_qids": [
+      "Q73646"
+    ]
+  },
+  {
+    "author": "G. K. Chesterton",
+    "author_qid": "Q183167",
+    "work_qid": "Q959816",
+    "work_title": "The Man Who Was Thursday",
+    "year": 1908,
+    "gutenberg_id": "1695",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1695"
+    ],
+    "author_qids": [
+      "Q183167"
+    ]
+  },
+  {
+    "author": "E. M. Forster",
+    "author_qid": "Q189119",
+    "work_qid": "Q1146642",
+    "work_title": "Howards End",
+    "year": 1910,
+    "gutenberg_id": "2891",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2891"
+    ],
+    "author_qids": [
+      "Q189119"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q2573817",
+    "work_title": "His Last Bow",
+    "year": 1917,
+    "gutenberg_id": "2350",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2350"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Sherwood Anderson",
+    "author_qid": "Q233898",
+    "work_qid": "Q10958564",
+    "work_title": "Winesburg, Ohio",
+    "year": 1919,
+    "gutenberg_id": "416",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "416"
+    ],
+    "author_qids": [
+      "Q233898"
+    ]
+  },
+  {
+    "author": "F. Scott Fitzgerald",
+    "author_qid": "Q93354",
+    "work_qid": "Q2581681",
+    "work_title": "This Side of Paradise",
+    "year": 1920,
+    "gutenberg_id": "805",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "805"
+    ],
+    "author_qids": [
+      "Q93354"
+    ]
+  },
+  {
+    "author": "William Somerset Maugham",
+    "author_qid": "Q134942",
+    "work_qid": "Q795340",
+    "work_title": "The Painted Veil",
+    "year": 1925,
+    "gutenberg_id": "64682",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "64682"
+    ],
+    "author_qids": [
+      "Q134942"
+    ]
+  },
+  {
+    "author": "H. P. Lovecraft",
+    "author_qid": "Q169566",
+    "work_qid": "Q2468877",
+    "work_title": "The Dunwich Horror",
+    "year": 1929,
+    "gutenberg_id": "50133",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 19,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "50133"
+    ],
+    "author_qids": [
+      "Q169566"
+    ]
+  },
+  {
+    "author": "Samuel Richardson",
+    "author_qid": "Q295941",
+    "work_qid": "Q2048624",
+    "work_title": "Pamela; or, Virtue Rewarded",
+    "year": 1740,
+    "gutenberg_id": "6124",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "6124"
+    ],
+    "author_qids": [
+      "Q295941"
+    ]
+  },
+  {
+    "author": "Baron d'Holbach",
+    "author_qid": "Q7104",
+    "work_qid": "Q1111930",
+    "work_title": "The System of Nature",
+    "year": 1770,
+    "gutenberg_id": "8910",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "8910"
+    ],
+    "author_qids": [
+      "Q7104"
+    ]
+  },
+  {
+    "author": "Matthew Gregory Lewis",
+    "author_qid": "Q121060",
+    "work_qid": "Q2659564",
+    "work_title": "The Monk",
+    "year": 1796,
+    "gutenberg_id": "601",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "601"
+    ],
+    "author_qids": [
+      "Q121060"
+    ]
+  },
+  {
+    "author": "Edward Bulwer-Lytton",
+    "author_qid": "Q318462",
+    "work_qid": "Q1218985",
+    "work_title": "The Last Days of Pompeii",
+    "year": 1834,
+    "gutenberg_id": "1565",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1565"
+    ],
+    "author_qids": [
+      "Q318462"
+    ]
+  },
+  {
+    "author": "Honoré de Balzac",
+    "author_qid": "Q9711",
+    "work_qid": "Q2712800",
+    "work_title": "Cousin Bette",
+    "year": 1846,
+    "gutenberg_id": "1749",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1749"
+    ],
+    "author_qids": [
+      "Q9711"
+    ]
+  },
+  {
+    "author": "Theodor Mommsen",
+    "author_qid": "Q25351",
+    "work_qid": "Q1500229",
+    "work_title": "The History of Rome",
+    "year": 1854,
+    "gutenberg_id": "10705",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "10705"
+    ],
+    "author_qids": [
+      "Q25351"
+    ]
+  },
+  {
+    "author": "Ivan Turgenev",
+    "author_qid": "Q42831",
+    "work_qid": "Q144547",
+    "work_title": "On the Eve",
+    "year": 1860,
+    "gutenberg_id": "6902",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "6902"
+    ],
+    "author_qids": [
+      "Q42831"
+    ]
+  },
+  {
+    "author": "Émile Zola",
+    "author_qid": "Q504",
+    "work_qid": "Q2714636",
+    "work_title": "The Fortune of the Rougons",
+    "year": 1871,
+    "gutenberg_id": "5135",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "5135"
+    ],
+    "author_qids": [
+      "Q504"
+    ]
+  },
+  {
+    "author": "George MacDonald",
+    "author_qid": "Q368519",
+    "work_qid": "Q466505",
+    "work_title": "The Princess and the Goblin",
+    "year": 1872,
+    "gutenberg_id": "708",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "708"
+    ],
+    "author_qids": [
+      "Q368519"
+    ]
+  },
+  {
+    "author": "Robert Louis Stevenson",
+    "author_qid": "Q1512",
+    "work_qid": "Q2615930",
+    "work_title": "The Master of Ballantrae",
+    "year": 1889,
+    "gutenberg_id": "864",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "864"
+    ],
+    "author_qids": [
+      "Q1512"
+    ]
+  },
+  {
+    "author": "Oscar Wilde",
+    "author_qid": "Q30875",
+    "work_qid": "Q1196990",
+    "work_title": "The Soul of Man under Socialism",
+    "year": 1891,
+    "gutenberg_id": "1017",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1017"
+    ],
+    "author_qids": [
+      "Q30875"
+    ]
+  },
+  {
+    "author": "L. Frank Baum",
+    "author_qid": "Q207544",
+    "work_qid": "Q634885",
+    "work_title": "Ozma of Oz",
+    "year": 1907,
+    "gutenberg_id": "486",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "486"
+    ],
+    "author_qids": [
+      "Q207544"
+    ]
+  },
+  {
+    "author": "Edith Wharton",
+    "author_qid": "Q276032",
+    "work_qid": "Q5402934",
+    "work_title": "Ethan Frome",
+    "year": 1911,
+    "gutenberg_id": "4517",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4517"
+    ],
+    "author_qids": [
+      "Q276032"
+    ]
+  },
+  {
+    "author": "Sigmund Freud",
+    "author_qid": "Q9215",
+    "work_qid": "Q466271",
+    "work_title": "Beyond the Pleasure Principle",
+    "year": 1920,
+    "gutenberg_id": "76031",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "76031"
+    ],
+    "author_qids": [
+      "Q9215"
+    ]
+  },
+  {
+    "author": "Ernest Hemingway",
+    "author_qid": "Q23434",
+    "work_qid": "Q1164998",
+    "work_title": "In Our Time",
+    "year": 1925,
+    "gutenberg_id": "61085",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "61085"
+    ],
+    "author_qids": [
+      "Q23434"
+    ]
+  },
+  {
+    "author": "Alphonse Daudet",
+    "author_qid": "Q228546",
+    "work_qid": "Q180471",
+    "work_title": "Letters From My Windmill",
+    "year": null,
+    "gutenberg_id": "30442",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 18,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "30442"
+    ],
+    "author_qids": [
+      "Q228546"
+    ]
+  },
+  {
+    "author": "Martin Luther",
+    "author_qid": "Q9554",
+    "work_qid": "Q819690",
+    "work_title": "Smalcald Articles",
+    "year": 1537,
+    "gutenberg_id": "273",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "273"
+    ],
+    "author_qids": [
+      "Q9554"
+    ]
+  },
+  {
+    "author": "William Shakespeare",
+    "author_qid": "Q692",
+    "work_qid": "Q1199790",
+    "work_title": "The Passionate Pilgrim",
+    "year": 1599,
+    "gutenberg_id": "1545",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1544",
+      "1545"
+    ],
+    "author_qids": [
+      "Q692"
+    ]
+  },
+  {
+    "author": "William Shakespeare",
+    "author_qid": "Q692",
+    "work_qid": "Q1196220",
+    "work_title": "The Phoenix and the Turtle",
+    "year": 1601,
+    "gutenberg_id": "1525",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1525"
+    ],
+    "author_qids": [
+      "Q692"
+    ]
+  },
+  {
+    "author": "Oliver Goldsmith",
+    "author_qid": "Q236236",
+    "work_qid": "Q1196205",
+    "work_title": "The Vicar of Wakefield",
+    "year": 1766,
+    "gutenberg_id": "2667",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2667"
+    ],
+    "author_qids": [
+      "Q236236"
+    ]
+  },
+  {
+    "author": "Johann Wolfgang von Goethe",
+    "author_qid": "Q5879",
+    "work_qid": "Q475063",
+    "work_title": "Iphigenia in Tauris",
+    "year": 1787,
+    "gutenberg_id": "15850",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "15850"
+    ],
+    "author_qids": [
+      "Q5879"
+    ]
+  },
+  {
+    "author": "Jacques-Henri Bernardin de Saint-Pierre",
+    "author_qid": "Q361976",
+    "work_qid": "Q2293012",
+    "work_title": "Paul et Virginie",
+    "year": 1787,
+    "gutenberg_id": "10859",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "10859"
+    ],
+    "author_qids": [
+      "Q361976"
+    ]
+  },
+  {
+    "author": "Charles Lyell",
+    "author_qid": "Q5333",
+    "work_qid": "Q1348323",
+    "work_title": "Principles of Geology",
+    "year": 1830,
+    "gutenberg_id": "33224",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "33224"
+    ],
+    "author_qids": [
+      "Q5333"
+    ]
+  },
+  {
+    "author": "Herman Melville",
+    "author_qid": "Q4985",
+    "work_qid": "Q2463076",
+    "work_title": "Typee",
+    "year": 1846,
+    "gutenberg_id": "1900",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1900"
+    ],
+    "author_qids": [
+      "Q4985"
+    ]
+  },
+  {
+    "author": "Charles Darwin",
+    "author_qid": "Q1035",
+    "work_qid": "Q1192325",
+    "work_title": "The Expression of the Emotions in Man and Animals",
+    "year": 1872,
+    "gutenberg_id": "1227",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1227"
+    ],
+    "author_qids": [
+      "Q1035"
+    ]
+  },
+  {
+    "author": "Mark Twain",
+    "author_qid": "Q7245",
+    "work_qid": "Q1131648",
+    "work_title": "Life on the Mississippi",
+    "year": 1883,
+    "gutenberg_id": "245",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "245"
+    ],
+    "author_qids": [
+      "Q7245"
+    ]
+  },
+  {
+    "author": "Oscar Wilde",
+    "author_qid": "Q30875",
+    "work_qid": "Q2119279",
+    "work_title": "The Ballad of Reading Gaol",
+    "year": 1898,
+    "gutenberg_id": "301",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "301"
+    ],
+    "author_qids": [
+      "Q30875"
+    ]
+  },
+  {
+    "author": "Sigmund Freud",
+    "author_qid": "Q9215",
+    "work_qid": "Q27592",
+    "work_title": "The Psychopathology of Everyday Life",
+    "year": 1901,
+    "gutenberg_id": "67332",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "67332"
+    ],
+    "author_qids": [
+      "Q9215"
+    ]
+  },
+  {
+    "author": "William James",
+    "author_qid": "Q125249",
+    "work_qid": "Q2605035",
+    "work_title": "The Varieties of Religious Experience",
+    "year": 1902,
+    "gutenberg_id": "621",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "621"
+    ],
+    "author_qids": [
+      "Q125249"
+    ]
+  },
+  {
+    "author": "Natsume Sōseki",
+    "author_qid": "Q180903",
+    "work_qid": "Q1190533",
+    "work_title": "Botchan",
+    "year": 1906,
+    "gutenberg_id": "8868",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "8868"
+    ],
+    "author_qids": [
+      "Q180903"
+    ]
+  },
+  {
+    "author": "Arthur Conan Doyle",
+    "author_qid": "Q35610",
+    "work_qid": "Q2660166",
+    "work_title": "The Poison Belt",
+    "year": 1913,
+    "gutenberg_id": "126",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "126"
+    ],
+    "author_qids": [
+      "Q35610"
+    ]
+  },
+  {
+    "author": "Rafael Sabatini",
+    "author_qid": "Q345104",
+    "work_qid": "Q2621164",
+    "work_title": "Captain Blood",
+    "year": 1922,
+    "gutenberg_id": "1965",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1965"
+    ],
+    "author_qids": [
+      "Q345104"
+    ]
+  },
+  {
+    "author": "F. Scott Fitzgerald",
+    "author_qid": "Q93354",
+    "work_qid": "Q2531205",
+    "work_title": "The Beautiful and Damned",
+    "year": 1922,
+    "gutenberg_id": "9830",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "9830"
+    ],
+    "author_qids": [
+      "Q93354"
+    ]
+  },
+  {
+    "author": "Edward Bulwer-Lytton",
+    "author_qid": "Q318462",
+    "work_qid": "Q510699",
+    "work_title": "The Coming Race",
+    "year": null,
+    "gutenberg_id": "1951",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 17,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1951"
+    ],
+    "author_qids": [
+      "Q318462"
+    ]
+  },
+  {
+    "author": "William Beckford",
+    "author_qid": "Q361026",
+    "work_qid": "Q54548",
+    "work_title": "Vathek",
+    "year": 1786,
+    "gutenberg_id": "2060",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2060"
+    ],
+    "author_qids": [
+      "Q361026"
+    ]
+  },
+  {
+    "author": "E. T. A. Hoffmann",
+    "author_qid": "Q150471",
+    "work_qid": "Q600849",
+    "work_title": "The Devil's Elixirs",
+    "year": 1815,
+    "gutenberg_id": "37005",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "37005"
+    ],
+    "author_qids": [
+      "Q150471"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q825220",
+    "work_title": "The Cricket on the Hearth",
+    "year": 1845,
+    "gutenberg_id": "678",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "678"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Charles Dickens",
+    "author_qid": "Q5686",
+    "work_qid": "Q2054880",
+    "work_title": "The Battle of Life",
+    "year": 1846,
+    "gutenberg_id": "676",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "676"
+    ],
+    "author_qids": [
+      "Q5686"
+    ]
+  },
+  {
+    "author": "Arthur de Gobineau",
+    "author_qid": "Q264918",
+    "work_qid": "Q3058688",
+    "work_title": "An Essay on the Inequality of the Human Races",
+    "year": 1853,
+    "gutenberg_id": "69751",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "69751"
+    ],
+    "author_qids": [
+      "Q264918"
+    ]
+  },
+  {
+    "author": "Charles Kingsley",
+    "author_qid": "Q353238",
+    "work_qid": "Q14914646",
+    "work_title": "The Water-Babies, A Fairy Tale for a Land Baby",
+    "year": 1863,
+    "gutenberg_id": "1018",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1018"
+    ],
+    "author_qids": [
+      "Q353238"
+    ]
+  },
+  {
+    "author": "Henrik Ibsen",
+    "author_qid": "Q36661",
+    "work_qid": "Q1774700",
+    "work_title": "The Pillars of Society",
+    "year": 1877,
+    "gutenberg_id": "2296",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2296"
+    ],
+    "author_qids": [
+      "Q36661"
+    ]
+  },
+  {
+    "author": "Michel Verne",
+    "author_qid": "Q580137",
+    "work_qid": "Q684022",
+    "work_title": "In the Year 2889",
+    "year": 1889,
+    "gutenberg_id": "19362",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "19362"
+    ],
+    "author_qids": [
+      "Q580137"
+    ]
+  },
+  {
+    "author": "Kate Chopin",
+    "author_qid": "Q230476",
+    "work_qid": "Q1567505",
+    "work_title": "The Awakening",
+    "year": 1899,
+    "gutenberg_id": "160",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "160"
+    ],
+    "author_qids": [
+      "Q230476"
+    ]
+  },
+  {
+    "author": "H. G. Wells",
+    "author_qid": "Q42511",
+    "work_qid": "Q1215802",
+    "work_title": "The Food of the Gods and How It Came to Earth",
+    "year": 1904,
+    "gutenberg_id": "11696",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "11696"
+    ],
+    "author_qids": [
+      "Q42511"
+    ]
+  },
+  {
+    "author": "H. P. Lovecraft",
+    "author_qid": "Q169566",
+    "work_qid": "Q7733695",
+    "work_title": "The Festival",
+    "year": 1925,
+    "gutenberg_id": "68553",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "68553"
+    ],
+    "author_qids": [
+      "Q169566"
+    ]
+  },
+  {
+    "author": "Anatole France",
+    "author_qid": "Q42443",
+    "work_qid": "Q1213641",
+    "work_title": "Penguin Island",
+    "year": null,
+    "gutenberg_id": "1930",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 16,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1930"
+    ],
+    "author_qids": [
+      "Q42443"
+    ]
+  },
+  {
+    "author": "Bartolomé de las Casas",
+    "author_qid": "Q207416",
+    "work_qid": "Q2924760",
+    "work_title": "A Short Account of the Destruction of the Indies",
+    "year": 1552,
+    "gutenberg_id": "20321",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "20321"
+    ],
+    "author_qids": [
+      "Q207416"
+    ]
+  },
+  {
+    "author": "James VI and I",
+    "author_qid": "Q79972",
+    "work_qid": "Q3011799",
+    "work_title": "Daemonologie",
+    "year": 1597,
+    "gutenberg_id": "25929",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "25929"
+    ],
+    "author_qids": [
+      "Q79972"
+    ]
+  },
+  {
+    "author": "John Webster",
+    "author_qid": "Q225904",
+    "work_qid": "Q3408612",
+    "work_title": "The Duchess of Malfi",
+    "year": 1623,
+    "gutenberg_id": "2232",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2232"
+    ],
+    "author_qids": [
+      "Q225904"
+    ]
+  },
+  {
+    "author": "Bernard Mandeville",
+    "author_qid": "Q379912",
+    "work_qid": "Q1171104",
+    "work_title": "The Fable of the Bees",
+    "year": 1705,
+    "gutenberg_id": "57260",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "57260"
+    ],
+    "author_qids": [
+      "Q379912"
+    ]
+  },
+  {
+    "author": "Daniel Defoe",
+    "author_qid": "Q40946",
+    "work_qid": "Q1215399",
+    "work_title": "A Journal of the Plague Year",
+    "year": 1722,
+    "gutenberg_id": "376",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "376"
+    ],
+    "author_qids": [
+      "Q40946"
+    ]
+  },
+  {
+    "author": "David Hume",
+    "author_qid": "Q37160",
+    "work_qid": "Q965564",
+    "work_title": "Dialogues Concerning Natural Religion",
+    "year": 1779,
+    "gutenberg_id": "4583",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4583"
+    ],
+    "author_qids": [
+      "Q37160"
+    ]
+  },
+  {
+    "author": "Walter Scott",
+    "author_qid": "Q79025",
+    "work_qid": "Q952340",
+    "work_title": "The Talisman",
+    "year": 1825,
+    "gutenberg_id": "1377",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1377"
+    ],
+    "author_qids": [
+      "Q79025"
+    ]
+  },
+  {
+    "author": "Honoré de Balzac",
+    "author_qid": "Q9711",
+    "work_qid": "Q377466",
+    "work_title": "La Maison du Chat-qui-pelote",
+    "year": 1829,
+    "gutenberg_id": "1680",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1680"
+    ],
+    "author_qids": [
+      "Q9711"
+    ]
+  },
+  {
+    "author": "Honoré de Balzac",
+    "author_qid": "Q9711",
+    "work_qid": "Q3048987",
+    "work_title": "Louis Lambert",
+    "year": 1832,
+    "gutenberg_id": "1943",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1943"
+    ],
+    "author_qids": [
+      "Q9711"
+    ]
+  },
+  {
+    "author": "Honoré de Balzac",
+    "author_qid": "Q9711",
+    "work_qid": "Q2700021",
+    "work_title": "César Birotteau",
+    "year": 1837,
+    "gutenberg_id": "1942",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1942"
+    ],
+    "author_qids": [
+      "Q9711"
+    ]
+  },
+  {
+    "author": "James Fenimore Cooper",
+    "author_qid": "Q167856",
+    "work_qid": "Q855801",
+    "work_title": "The Deerslayer",
+    "year": 1841,
+    "gutenberg_id": "3285",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3285"
+    ],
+    "author_qids": [
+      "Q167856"
+    ]
+  },
+  {
+    "author": "Elizabeth Gaskell",
+    "author_qid": "Q229226",
+    "work_qid": "Q265100",
+    "work_title": "Cranford",
+    "year": 1851,
+    "gutenberg_id": "57539",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "394",
+      "57539"
+    ],
+    "author_qids": [
+      "Q229226"
+    ]
+  },
+  {
+    "author": "Alphonse Daudet",
+    "author_qid": "Q228546",
+    "work_qid": "Q1691889",
+    "work_title": "Tartarin of Tarascon",
+    "year": 1872,
+    "gutenberg_id": "1862",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1862"
+    ],
+    "author_qids": [
+      "Q228546"
+    ]
+  },
+  {
+    "author": "George Eliot",
+    "author_qid": "Q131333",
+    "work_qid": "Q552238",
+    "work_title": "Daniel Deronda",
+    "year": 1876,
+    "gutenberg_id": "7469",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "7469"
+    ],
+    "author_qids": [
+      "Q131333"
+    ]
+  },
+  {
+    "author": "Henry James",
+    "author_qid": "Q170509",
+    "work_qid": "Q2362409",
+    "work_title": "The Aspern Papers",
+    "year": 1888,
+    "gutenberg_id": "211",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "211"
+    ],
+    "author_qids": [
+      "Q170509"
+    ]
+  },
+  {
+    "author": "Henrik Ibsen",
+    "author_qid": "Q36661",
+    "work_qid": "Q983970",
+    "work_title": "Little Eyolf",
+    "year": 1894,
+    "gutenberg_id": "7942",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "7942"
+    ],
+    "author_qids": [
+      "Q36661"
+    ]
+  },
+  {
+    "author": "Joseph Conrad",
+    "author_qid": "Q82925",
+    "work_qid": "Q478537",
+    "work_title": "The Nigger of the 'Narcissus'",
+    "year": 1897,
+    "gutenberg_id": "17731",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "17731"
+    ],
+    "author_qids": [
+      "Q82925"
+    ]
+  },
+  {
+    "author": "Leo Tolstoy",
+    "author_qid": "Q7243",
+    "work_qid": "Q4517325",
+    "work_title": "What Is Art?",
+    "year": 1897,
+    "gutenberg_id": "64908",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "64908"
+    ],
+    "author_qids": [
+      "Q7243"
+    ]
+  },
+  {
+    "author": "Edith Nesbit",
+    "author_qid": "Q231708",
+    "work_qid": "Q651866",
+    "work_title": "Five Children and It",
+    "year": 1902,
+    "gutenberg_id": "778",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "778"
+    ],
+    "author_qids": [
+      "Q231708"
+    ]
+  },
+  {
+    "author": "Samuel Butler",
+    "author_qid": "Q312829",
+    "work_qid": "Q255074",
+    "work_title": "The Way of All Flesh",
+    "year": 1903,
+    "gutenberg_id": "2084",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2084"
+    ],
+    "author_qids": [
+      "Q312829"
+    ]
+  },
+  {
+    "author": "H. P. Lovecraft",
+    "author_qid": "Q169566",
+    "work_qid": "Q2341013",
+    "work_title": "The Silver Key",
+    "year": 1929,
+    "gutenberg_id": "70478",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "70478"
+    ],
+    "author_qids": [
+      "Q169566"
+    ]
+  },
+  {
+    "author": "Oscar Wilde",
+    "author_qid": "Q30875",
+    "work_qid": "Q203585",
+    "work_title": "A Woman of No Importance",
+    "year": null,
+    "gutenberg_id": "854",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "854"
+    ],
+    "author_qids": [
+      "Q30875"
+    ]
+  },
+  {
+    "author": "Frédéric Mistral",
+    "author_qid": "Q42596",
+    "work_qid": "Q3056735",
+    "work_title": "Mirèio",
+    "year": null,
+    "gutenberg_id": "56008",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "56008"
+    ],
+    "author_qids": [
+      "Q42596"
+    ]
+  },
+  {
+    "author": "Charles Darwin",
+    "author_qid": "Q1035",
+    "work_qid": "Q917790",
+    "work_title": "The Formation of Vegetable Mould through the Action of Worms",
+    "year": null,
+    "gutenberg_id": "2355",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 15,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2355"
+    ],
+    "author_qids": [
+      "Q1035"
+    ]
+  },
+  {
+    "author": "William Shakespeare",
+    "author_qid": "Q692",
+    "work_qid": "Q1195233",
+    "work_title": "A Lover's Complaint",
+    "year": 1609,
+    "gutenberg_id": "1137",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1137"
+    ],
+    "author_qids": [
+      "Q692"
+    ]
+  },
+  {
+    "author": "Ludvig Holberg",
+    "author_qid": "Q216692",
+    "work_qid": "Q2485789",
+    "work_title": "Niels Klim's Underground Travels",
+    "year": 1741,
+    "gutenberg_id": "27884",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "27884"
+    ],
+    "author_qids": [
+      "Q216692"
+    ]
+  },
+  {
+    "author": "Denis Diderot",
+    "author_qid": "Q448",
+    "work_qid": "Q1218663",
+    "work_title": "The Indiscreet Jewels",
+    "year": 1748,
+    "gutenberg_id": "54672",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "54672"
+    ],
+    "author_qids": [
+      "Q448"
+    ]
+  },
+  {
+    "author": "Walter Scott",
+    "author_qid": "Q79025",
+    "work_qid": "Q2469230",
+    "work_title": "Quentin Durward",
+    "year": 1823,
+    "gutenberg_id": "7853",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "7853"
+    ],
+    "author_qids": [
+      "Q79025"
+    ]
+  },
+  {
+    "author": "James Fenimore Cooper",
+    "author_qid": "Q167856",
+    "work_qid": "Q1898036",
+    "work_title": "The Pioneers",
+    "year": 1823,
+    "gutenberg_id": "2275",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2275"
+    ],
+    "author_qids": [
+      "Q167856"
+    ]
+  },
+  {
+    "author": "Nathaniel Hawthorne",
+    "author_qid": "Q69339",
+    "work_qid": "Q595934",
+    "work_title": "Young Goodman Brown",
+    "year": 1835,
+    "gutenberg_id": "512",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "512"
+    ],
+    "author_qids": [
+      "Q69339"
+    ]
+  },
+  {
+    "author": "Pedro Carolino",
+    "author_qid": "Q18063761",
+    "work_qid": "Q716755",
+    "work_title": "English as She Is Spoke",
+    "year": 1855,
+    "gutenberg_id": "30411",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "30411"
+    ],
+    "author_qids": [
+      "Q18063761"
+    ]
+  },
+  {
+    "author": "Charlotte Brontë",
+    "author_qid": "Q127332",
+    "work_qid": "Q762203",
+    "work_title": "The Professor",
+    "year": 1857,
+    "gutenberg_id": "1028",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1028"
+    ],
+    "author_qids": [
+      "Q127332"
+    ]
+  },
+  {
+    "author": "Ivan Turgenev",
+    "author_qid": "Q42831",
+    "work_qid": "Q5724762",
+    "work_title": "Smoke",
+    "year": 1867,
+    "gutenberg_id": "40813",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "40813"
+    ],
+    "author_qids": [
+      "Q42831"
+    ]
+  },
+  {
+    "author": "Richard Doddridge Blackmore",
+    "author_qid": "Q3316148",
+    "work_qid": "Q3400981",
+    "work_title": "Lorna Doone",
+    "year": 1869,
+    "gutenberg_id": "17460",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "17460"
+    ],
+    "author_qids": [
+      "Q3316148"
+    ]
+  },
+  {
+    "author": "Ivan Turgenev",
+    "author_qid": "Q42831",
+    "work_qid": "Q1826666",
+    "work_title": "Torrents of Spring",
+    "year": 1873,
+    "gutenberg_id": "9911",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "9911"
+    ],
+    "author_qids": [
+      "Q42831"
+    ]
+  },
+  {
+    "author": "Émile Zola",
+    "author_qid": "Q504",
+    "work_qid": "Q2610567",
+    "work_title": "La Faute de l'Abbé Mouret",
+    "year": 1875,
+    "gutenberg_id": "14200",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "14200"
+    ],
+    "author_qids": [
+      "Q504"
+    ]
+  },
+  {
+    "author": "Anatole France",
+    "author_qid": "Q42443",
+    "work_qid": "Q3221974",
+    "work_title": "The Crime of Sylvestre Bonnard",
+    "year": 1881,
+    "gutenberg_id": "2123",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "2123"
+    ],
+    "author_qids": [
+      "Q42443"
+    ]
+  },
+  {
+    "author": "Richard von Krafft-Ebing",
+    "author_qid": "Q77082",
+    "work_qid": "Q1431871",
+    "work_title": "Psychopathia Sexualis",
+    "year": 1886,
+    "gutenberg_id": "64931",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "64931"
+    ],
+    "author_qids": [
+      "Q77082"
+    ]
+  },
+  {
+    "author": "Leo Tolstoy",
+    "author_qid": "Q7243",
+    "work_qid": "Q1214669",
+    "work_title": "The Power of Darkness",
+    "year": 1887,
+    "gutenberg_id": "26661",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "26661"
+    ],
+    "author_qids": [
+      "Q7243"
+    ]
+  },
+  {
+    "author": "Ambrose Bierce",
+    "author_qid": "Q191050",
+    "work_qid": "Q2943621",
+    "work_title": "An Occurrence at Owl Creek Bridge",
+    "year": 1890,
+    "gutenberg_id": "375",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "375"
+    ],
+    "author_qids": [
+      "Q191050"
+    ]
+  },
+  {
+    "author": "Arthur Machen",
+    "author_qid": "Q540166",
+    "work_qid": "Q1394704",
+    "work_title": "The Great God Pan",
+    "year": 1894,
+    "gutenberg_id": "389",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "389"
+    ],
+    "author_qids": [
+      "Q540166"
+    ]
+  },
+  {
+    "author": "Helen Bannerman",
+    "author_qid": "Q3275944",
+    "work_qid": "Q3275725",
+    "work_title": "The Story of Little Black Sambo",
+    "year": 1899,
+    "gutenberg_id": "1330",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1330"
+    ],
+    "author_qids": [
+      "Q3275944"
+    ]
+  },
+  {
+    "author": "Henry James",
+    "author_qid": "Q170509",
+    "work_qid": "Q650571",
+    "work_title": "The Ambassadors",
+    "year": 1903,
+    "gutenberg_id": "432",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "432"
+    ],
+    "author_qids": [
+      "Q170509"
+    ]
+  },
+  {
+    "author": "Bram Stoker",
+    "author_qid": "Q36184",
+    "work_qid": "Q7743210",
+    "work_title": "The Jewel of Seven Stars",
+    "year": 1903,
+    "gutenberg_id": "3781",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3781"
+    ],
+    "author_qids": [
+      "Q36184"
+    ]
+  },
+  {
+    "author": "Jack London",
+    "author_qid": "Q45765",
+    "work_qid": "Q1174082",
+    "work_title": "The Valley of the Moon",
+    "year": 1913,
+    "gutenberg_id": "1449",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1449"
+    ],
+    "author_qids": [
+      "Q45765"
+    ]
+  },
+  {
+    "author": "Edgar Rice Burroughs",
+    "author_qid": "Q148234",
+    "work_qid": "Q673493",
+    "work_title": "The Gods of Mars",
+    "year": 1918,
+    "gutenberg_id": "68",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "68"
+    ],
+    "author_qids": [
+      "Q148234"
+    ]
+  },
+  {
+    "author": "D. H. Lawrence",
+    "author_qid": "Q34970",
+    "work_qid": "Q2443714",
+    "work_title": "Women in Love",
+    "year": 1920,
+    "gutenberg_id": "4240",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "4240"
+    ],
+    "author_qids": [
+      "Q34970"
+    ]
+  },
+  {
+    "author": "Lucy Maud Montgomery",
+    "author_qid": "Q273034",
+    "work_qid": "Q734757",
+    "work_title": "Rilla of Ingleside",
+    "year": 1921,
+    "gutenberg_id": "3796",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "3796"
+    ],
+    "author_qids": [
+      "Q273034"
+    ]
+  },
+  {
+    "author": "Sinclair Lewis",
+    "author_qid": "Q123469",
+    "work_qid": "Q1107000",
+    "work_title": "Babbitt",
+    "year": 1922,
+    "gutenberg_id": "1156",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "1156"
+    ],
+    "author_qids": [
+      "Q123469"
+    ]
+  },
+  {
+    "author": "H. P. Lovecraft",
+    "author_qid": "Q169566",
+    "work_qid": "Q2367919",
+    "work_title": "The Lurking Fear",
+    "year": 1923,
+    "gutenberg_id": "70486",
+    "openalex_cites": 0,
+    "wiki_inlinks": 0,
+    "sitelinks": 14,
+    "source_pool": "wikidata_gutenberg",
+    "gutenberg_ids": [
+      "70486"
+    ],
+    "author_qids": [
+      "Q169566"
+    ]
+  }
+]

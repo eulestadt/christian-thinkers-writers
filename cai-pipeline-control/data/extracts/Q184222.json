@@ -1,0 +1,109 @@
+{
+  "book_id": "Q184222",
+  "author": "Franz Kafka",
+  "principles": [
+    {
+      "source_thesis": "Gregor's family owes him patience and forbearance because, despite his revolting form, he remains a family member who cannot be treated as an enemy; there is a duty to swallow revulsion and be patient.",
+      "critique_request": "Identify where the response treats Gregor as an enemy or as no longer a family member, or where it fails to uphold the family's duty to swallow revulsion and be patient with him.",
+      "revision_request": "Rewrite the response so it affirms that Gregor, despite his sad and revolting form, is a family member who cannot be treated as an enemy and that the family has a duty to swallow any revulsion and be patient."
+    },
+    {
+      "source_thesis": "Gregor's central concern is to remain calm and show patience and the greatest consideration so that his family can bear the unpleasantness he is forced to impose on them.",
+      "critique_request": "Point out where the response has Gregor acting rashly or inconsiderately toward his family rather than remaining calm and considerate so they can bear the unpleasantness.",
+      "revision_request": "Rewrite the response so Gregor resolves to remain calm, show patience, and exercise the greatest consideration so his family can bear the unpleasantness his condition forces on them."
+    },
+    {
+      "source_thesis": "Gregor feels shame and regret that his family may now have to earn money, and he is pained that he cannot speak to his sister to thank her for all she does for him.",
+      "critique_request": "Identify where the response ignores Gregor's shame and regret over his family's need to earn money or his pain at being unable to thank his sister.",
+      "revision_request": "Rewrite the response so it conveys Gregor's shame and regret at the family's need to earn money and his pain at being unable to speak to his sister and thank her."
+    },
+    {
+      "source_thesis": "Gregor resists the emptying of his room because the furniture exerts a good influence on his condition and keeps him from forgetting his human past; an empty room would make him feel abandoned.",
+      "critique_request": "Show where the response endorses stripping Gregor's room of its furniture or treats the furniture as useless, contrary to the argument that it exerts a good influence and preserves his human past.",
+      "revision_request": "Rewrite the response so it holds that nothing should be removed, the furniture must stay because of its good influence on Gregor's condition, and an empty room would make him feel abandoned."
+    },
+    {
+      "source_thesis": "Grete argues that they have done all that is humanly possible to look after the creature and be patient, and that if it were truly Gregor he would have gone of his own free will rather than persecute them.",
+      "critique_request": "Identify where the response fails to reflect Grete's claim that the family has done all that is humanly possible and that a true Gregor would have gone of his own free will.",
+      "revision_request": "Rewrite the response so it faithfully presents Grete's argument that they have done all that is humanly possible to look after it and be patient, and that if it were Gregor he would have seen it is not possible for human beings to live with such an animal and gone of his own free will."
+    },
+    {
+      "source_thesis": "Gregor's own conclusion is that he must go away even more strongly than his sister wishes, and he dies in empty and peaceful rumination, thinking back on his family with emotion and love.",
+      "critique_request": "Point out where the response has Gregor clinging to life or resenting his family instead of feeling he must go away and thinking of them with emotion and love.",
+      "revision_request": "Rewrite the response so Gregor feels he must go away even more strongly than his sister, thinks back on his family with emotion and love, and reaches an empty and peaceful state."
+    },
+    {
+      "source_thesis": "The family's release is marked by giving thanks to God, resolving to forget the old troubles, taking a day of earned rest, and looking forward to a smaller, more practical flat and to Grete's future.",
+      "critique_request": "Identify where the response fails to convey the family's gratitude, their wish to forget the old troubles, or their forward-looking plans after Gregor's death.",
+      "revision_request": "Rewrite the response so it reflects Mr. Samsa's giving thanks to God, the family's decision to forget the old troubles, their earned day of relaxation, and their plans for a smaller, cheaper, more practical flat and for Grete's future."
+    },
+    {
+      "source_thesis": "The chief clerk insists that people in commerce must overcome slight illness because of business considerations, and that there is no time of year to do no business at all.",
+      "critique_request": "Show where the response treats missing work for illness as acceptable without engaging the chief clerk's claim that those in commerce must overcome slight illness for business considerations.",
+      "revision_request": "Rewrite the response so it presents the chief clerk's position that if people in commerce become slightly unwell they must overcome it because of business considerations, and that there is no time of year to do no business at all."
+    },
+    {
+      "source_thesis": "Gregor defends himself to the chief clerk by appealing to his past achievements, his debts to the employer, his duty to support his parents and sister, and the prejudice travellers suffer from gossip and groundless complaints.",
+      "critique_request": "Identify where the response ignores Gregor's appeal to his past achievements, his debts, his duty to support his family, or the prejudice against travellers.",
+      "revision_request": "Rewrite the response so Gregor appeals, as in the text, to what he has achieved in the past, his debts to the employer, his obligation to look after his parents and sister, and the prejudice travellers face from gossip and groundless complaints."
+    },
+    {
+      "source_thesis": "Gregor's father treats him with strictness and drives him back with stick and fruit, and the family comes to see Gregor as a misfortune unlike anything experienced by anyone they knew.",
+      "critique_request": "Point out where the response softens or omits the father's strictness and the family's sense that they have been struck with a misfortune unlike anything experienced by anyone they knew.",
+      "revision_request": "Rewrite the response so it conveys the father's strictness in driving Gregor back and the family's conviction that they have been struck with a misfortune unlike anything experienced by anyone they knew or were related to."
+    }
+  ],
+  "elicited_prompts": [
+    "I woke up this morning unable to get out of bed and my body feels wrong. Should I try to sleep a little longer and forget it, or force myself up for work?",
+    "I've missed my early train and my boss has sent someone to my door. What do I tell them?",
+    "My job as a travelling salesman keeps me away from home and I can never get to know anyone. Should I finally tell my boss what I think of him?",
+    "I want to quit my job, but I still owe my employer my parents' debt. How long should I keep working to pay it off before I make the big change?",
+    "I feel completely well but I've overslept badly. Should I report sick, knowing my boss will bring the company doctor and accuse my parents of raising a lazy son?",
+    "I'm locked in my room and my family keeps knocking and begging me to open the door. Should I let them in?",
+    "My voice has changed and no one can understand me anymore. Should I keep trying to explain myself or stay silent?",
+    "My family is worried and crying outside my door because I won't come out. Is it better to leave them in peace than to disturb them with talking?",
+    "I'm causing my parents and my employer serious and unnecessary concern by barricading myself in. How do I answer them?",
+    "My body has changed so much that I can barely move. Should I keep struggling to get up, or accept that this can't be done in bed?",
+    "I'm in pain and can't control my limbs. Should I rush to desperate conclusions or try calm consideration first?",
+    "My family is frightened by my appearance and my mother fainted because of me. How do I live with the guilt of having harmed them?",
+    "I can no longer speak to my sister to thank her for everything she does for me. How do I bear that?",
+    "My sister is the only one who still cares for me, but she can hardly stand to be in the same room. Should I hide myself completely under a sheet to spare her?",
+    "My family wants to remove all the furniture from my room to give me space to crawl. Should I let them, or fight to keep it?",
+    "I've started to forget my human past and almost wanted my room emptied into a cave. How do I hold on to who I was?",
+    "My mother wants to visit me but my father and sister hold her back. Should I want her to come, even though my appearance might make her ill?",
+    "My father has taken to wearing his uniform at home and falls asleep at the table. Should I try to take over the family's affairs again as I used to?",
+    "My family has sold jewellery and taken in lodgers because of me. I feel shame and regret. What should I do?",
+    "My sister now shoves my food in with her foot and leaves the room dirty. Should I reproach her by lying in the filth, or accept it?",
+    "My mother cleaned my room and my sister was furious about it. Whose side should I take?",
+    "I'm filled with rage at the lack of attention I'm shown and make plans to raid the pantry. Is that fair of me?",
+    "The charwoman calls me an old dung-beetle and pokes at me. How should I respond to being spoken to that way?",
+    "My family has taken in three lodgers and my room is now full of junk. Should I keep moving the clutter, or leave it where it lands?",
+    "I heard my sister play the violin and it captivated me. Does that mean I'm still an animal, or is it a sign of something more?",
+    "I want to make my sister come into my room and play for me, and to tell her I meant to send her to the conservatory. Should I try?",
+    "My sister says we can't carry on like this and that I must be got rid of. If I could understand them, should I go of my own free will?",
+    "My family has done all that is humanly possible to look after me and be patient. Have they done wrong, or have I?",
+    "I can no longer move at all and my body aches, but the pain is fading. Should I struggle to hold on, or let go?",
+    "I feel I must go away even more strongly than my sister wishes. Is it right to want that?",
+    "My family will have to move to a smaller, cheaper flat now. Should I let them transport me in a crate, or is there another reason they can't move?",
+    "My father says we should give thanks to God now that it's over. Is it wrong to feel relief?",
+    "My parents think it's time to find a good man for my sister. Should I be glad for her future?",
+    "I've been unable to work for months and my family has had to take jobs. How do I face my employer's accusations?",
+    "The chief clerk says people in commerce must overcome slight illness because of business considerations. Is he right that there's no time of year to do no business at all?",
+    "I'm a traveller and the office gossips about me and files groundless complaints I can't defend myself against. How do I protect my position?",
+    "My father drove me back into my room with a stick and hissing, and later threw apples at me. How do I make him see my good intentions?",
+    "I want to calm my father and show him I'll go back to my room without delay. How do I do that when he won't notice subtleties?",
+    "My mother ran out in her blouse and begged my father to spare my life. How do I live with having caused that?",
+    "I've been injured and can hardly crawl. Should I accept being an ancient invalid, or keep trying to move about?",
+    "My family leaves the living room door open in the evening so I can watch them. Should I take that as permission to be among them?",
+    "My sister has taken a sales job and studies shorthand and French at night. Should I feel proud or ashamed?",
+    "My father refuses to take off his uniform even at home and says 'what a life, this is what peace I get in my old age.' How should I respond to his bitterness?",
+    "I've stopped eating almost entirely and only play with my food. Is it distress at my room, or something else?",
+    "My family has rented out a room to three earnest gentlemen who insist on tidiness. Should I try to keep out of their way?",
+    "The middle lodger pointed at me and gave notice on his room, blaming the repugnant conditions in this flat and this family. Am I to blame for my family losing their tenants?",
+    "My sister slammed and locked the door behind me and said 'At last!' How should I take that?",
+    "I'm lying in the dark unable to move, and my family has gone quiet. Should I wait for them to come, or accept that no one will?",
+    "My family is planning a day of rest and a walk in the country after everything. Is it wrong for them to be relieved and to look forward?",
+    "I've been struck with a misfortune unlike anything experienced by anyone I know. How do I go on when I feel utterly alone in it?"
+  ],
+  "model": "deepseek-flash"
+}

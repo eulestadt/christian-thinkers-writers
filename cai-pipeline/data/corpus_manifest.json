@@ -1,0 +1,402 @@
+[
+  {
+    "writer_id": "Q3090506",
+    "author": "Brother Lawrence",
+    "work_title": "The Practice of the Presence of God",
+    "pd_url": "https://www.gutenberg.org/ebooks/13871",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/13871/pg13871.txt",
+    "ier_intrinsic": 0.006566825247056294,
+    "local_path": "books_raw/Q3090506.txt",
+    "n_chars": 59158
+  },
+  {
+    "writer_id": "Q8012011",
+    "author": "William Henry Griffith Thomas",
+    "work_title": "The Prayers of St. Paul",
+    "pd_url": "https://www.gutenberg.org/ebooks/30389",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/30389/pg30389.txt",
+    "ier_intrinsic": 0.006161330675959151,
+    "local_path": "books_raw/Q8012011.txt",
+    "n_chars": 124207
+  },
+  {
+    "writer_id": "Q4018797",
+    "author": "Edward McKendree Bounds",
+    "work_title": "Preacher and Prayer",
+    "pd_url": "https://www.gutenberg.org/ebooks/63486",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/63486/pg63486.txt",
+    "ier_intrinsic": 0.005331945795196477,
+    "local_path": "books_raw/Q4018797.txt",
+    "n_chars": 121119
+  },
+  {
+    "writer_id": "Q6547707",
+    "author": "Lilian Staveley",
+    "work_title": "The Romance of the Soul",
+    "pd_url": "https://www.gutenberg.org/ebooks/29451",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/29451/pg29451.txt",
+    "ier_intrinsic": 0.004377275636178768,
+    "local_path": "books_raw/Q6547707.txt",
+    "n_chars": 116922
+  },
+  {
+    "writer_id": "Q60059",
+    "author": "Albertus Magnus",
+    "work_title": "On Union with God",
+    "pd_url": "https://www.gutenberg.org/ebooks/36402",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/36402/pg36402.txt",
+    "ier_intrinsic": 0.003474143156730146,
+    "local_path": "books_raw/Q60059.txt",
+    "n_chars": 77083
+  },
+  {
+    "writer_id": "Q5536061",
+    "author": "George Adam Smith",
+    "work_title": "Four Psalms: XXIII, XXXVI, LII, CXXI, Interpreted for Practical Use",
+    "pd_url": "https://www.gutenberg.org/ebooks/13353",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/13353/pg13353.txt",
+    "ier_intrinsic": 0.0030161780670128076,
+    "local_path": "books_raw/Q5536061.txt",
+    "n_chars": 83226
+  },
+  {
+    "writer_id": "Q4821449",
+    "author": "Augustus Hopkins Strong",
+    "work_title": "Systematic Theology: The Doctrine of God (1907)",
+    "pd_url": "https://www.gutenberg.org/ebooks/44035",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/44035/pg44035.txt",
+    "ier_intrinsic": 0.002963109314880665,
+    "local_path": "books_raw/Q4821449.txt",
+    "n_chars": 1779306
+  },
+  {
+    "writer_id": "Q44281",
+    "author": "Ignatius of Loyola",
+    "work_title": "Spiritual Exercises",
+    "pd_url": "https://www.gutenberg.org/ebooks/70790",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/70790/pg70790.txt",
+    "ier_intrinsic": 0.002543044598200789,
+    "local_path": "books_raw/Q44281.txt",
+    "n_chars": 336806
+  },
+  {
+    "writer_id": "Q6518053",
+    "author": "Legh Richmond",
+    "work_title": "The Dairyman's Daughter",
+    "pd_url": "https://www.gutenberg.org/ebooks/19615",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/19615/pg19615.txt",
+    "ier_intrinsic": 0.0022895308974787373,
+    "local_path": "books_raw/Q6518053.txt",
+    "n_chars": 145450
+  },
+  {
+    "writer_id": "Q231256",
+    "author": "Francis de Sales",
+    "work_title": "Maxims and Counsels of St. Francis de Sales for Every Day in the Year",
+    "pd_url": "https://www.gutenberg.org/ebooks/73661",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/73661/pg73661.txt",
+    "ier_intrinsic": 0.0022138980388676814,
+    "local_path": "books_raw/Q231256.txt",
+    "n_chars": 108867
+  },
+  {
+    "writer_id": "Q5481512",
+    "author": "Francis John McConnell",
+    "work_title": "Understanding the Scriptures",
+    "pd_url": "https://www.gutenberg.org/ebooks/9492",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/9492/pg9492.txt",
+    "ier_intrinsic": 0.002196161292173467,
+    "local_path": "books_raw/Q5481512.txt",
+    "n_chars": 148329
+  },
+  {
+    "writer_id": "Q2713471",
+    "author": "Rufus Jones",
+    "work_title": "The Double Search: Studies in Atonement and Prayer",
+    "pd_url": "https://www.gutenberg.org/ebooks/61771",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/61771/pg61771.txt",
+    "ier_intrinsic": 0.002163273807691067,
+    "local_path": "books_raw/Q2713471.txt",
+    "n_chars": 87584
+  },
+  {
+    "writer_id": "Q560915",
+    "author": "Cynewulf",
+    "work_title": "The Elene of Cynewulf",
+    "pd_url": "https://www.gutenberg.org/ebooks/14781",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/14781/pg14781.txt",
+    "ier_intrinsic": 0.0019794779672221365,
+    "local_path": "books_raw/Q560915.txt",
+    "n_chars": 65393
+  },
+  {
+    "writer_id": "Q4800431",
+    "author": "Arthur Tappan Pierson",
+    "work_title": "George Muller of Bristol and his Witness to a Prayer-Hearing God",
+    "pd_url": "https://www.gutenberg.org/ebooks/26522",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/26522/pg26522.txt",
+    "ier_intrinsic": 0.0019740779822401554,
+    "local_path": "books_raw/Q4800431.txt",
+    "n_chars": 773650
+  },
+  {
+    "writer_id": "Q367745",
+    "author": "Francis Thompson",
+    "work_title": "The Hound of Heaven",
+    "pd_url": "https://www.gutenberg.org/ebooks/30730",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/30730/pg30730.txt",
+    "ier_intrinsic": 0.00187751270753573,
+    "local_path": "books_raw/Q367745.txt",
+    "n_chars": 49649
+  },
+  {
+    "writer_id": "Q7367226",
+    "author": "Rosalind Goforth",
+    "work_title": "How I Know God Answers Prayer",
+    "pd_url": "https://www.gutenberg.org/ebooks/26033",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/26033/pg26033.txt",
+    "ier_intrinsic": 0.0018284568882480918,
+    "local_path": "books_raw/Q7367226.txt",
+    "n_chars": 178786
+  },
+  {
+    "writer_id": "Q1365446",
+    "author": "Joseph Bates",
+    "work_title": "The Opening Heavens Or, A Connected View of the Testimony of the Prophets and Apostles (1846)",
+    "pd_url": "https://www.gutenberg.org/ebooks/57330",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/57330/pg57330.txt",
+    "ier_intrinsic": 0.00179021633242614,
+    "local_path": "books_raw/Q1365446.txt",
+    "n_chars": 89831
+  },
+  {
+    "writer_id": "Q431614",
+    "author": "Catherine Booth",
+    "work_title": "Godliness (1881)",
+    "pd_url": "https://www.gutenberg.org/ebooks/6669",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/6669/pg6669.txt",
+    "ier_intrinsic": 0.001767553325968536,
+    "local_path": "books_raw/Q431614.txt",
+    "n_chars": 249192
+  },
+  {
+    "writer_id": "Q4209439",
+    "author": "Hastings Rashdall",
+    "work_title": "Philosophy and Religion",
+    "pd_url": "https://www.gutenberg.org/ebooks/21995",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/21995/pg21995.txt",
+    "ier_intrinsic": 0.0016733270060375134,
+    "local_path": "books_raw/Q4209439.txt",
+    "n_chars": 288063
+  },
+  {
+    "writer_id": "Q540244",
+    "author": "John Taylor",
+    "work_title": "The Government of God (1852)",
+    "pd_url": "https://www.gutenberg.org/ebooks/44941",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/44941/pg44941.txt",
+    "ier_intrinsic": 0.0016687777526573227,
+    "local_path": "books_raw/Q540244.txt",
+    "n_chars": 278219
+  },
+  {
+    "writer_id": "Q4684528",
+    "author": "Adoniram Judson Gordon",
+    "work_title": "The Ministry of the Spirit",
+    "pd_url": "https://www.gutenberg.org/ebooks/25395",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/25395/pg25395.txt",
+    "ier_intrinsic": 0.0016547588610614412,
+    "local_path": "books_raw/Q4684528.txt",
+    "n_chars": 328989
+  },
+  {
+    "writer_id": "Q2895878",
+    "author": "Albert Benjamin Simpson",
+    "work_title": "Days of Heaven Upon Earth: A Year Book of Scripture Texts and Living Truths",
+    "pd_url": "https://www.gutenberg.org/ebooks/28416",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/28416/pg28416.txt",
+    "ier_intrinsic": 0.0016326966831329698,
+    "local_path": "books_raw/Q2895878.txt",
+    "n_chars": 411011
+  },
+  {
+    "writer_id": "Q235069",
+    "author": "Mary Baker Eddy",
+    "work_title": "Science and Health with Key to the Scriptures",
+    "pd_url": "https://www.gutenberg.org/ebooks/3458",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/3458/pg3458.txt",
+    "ier_intrinsic": 0.0016318878432669973,
+    "local_path": "books_raw/Q235069.txt",
+    "n_chars": 1329575
+  },
+  {
+    "writer_id": "Q3177480",
+    "author": "William Law",
+    "work_title": "The Supersensual Life",
+    "pd_url": "https://www.gutenberg.org/ebooks/33742",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/33742/pg33742.txt",
+    "ier_intrinsic": 0.0015723456790377565,
+    "local_path": "books_raw/Q3177480.txt",
+    "n_chars": 207168
+  },
+  {
+    "writer_id": "Q41513",
+    "author": "William Blake",
+    "work_title": "Songs of Innocence and of Experience",
+    "pd_url": "https://www.gutenberg.org/ebooks/1934",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/1934/pg1934.txt",
+    "ier_intrinsic": 0.0015431637913545198,
+    "local_path": "books_raw/Q41513.txt",
+    "n_chars": 30906
+  },
+  {
+    "writer_id": "Q236699",
+    "author": "Julian of Norwich",
+    "work_title": "Revelations of Divine Love",
+    "pd_url": "https://www.gutenberg.org/ebooks/52958",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/52958/pg52958.txt",
+    "ier_intrinsic": 0.0015130613020884647,
+    "local_path": "books_raw/Q236699.txt",
+    "n_chars": 446678
+  },
+  {
+    "writer_id": "Q336315",
+    "author": "William Temple",
+    "work_title": "Church and Nation",
+    "pd_url": "https://www.gutenberg.org/ebooks/43896",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/43896/pg43896.txt",
+    "ier_intrinsic": 0.0014709733863553344,
+    "local_path": "books_raw/Q336315.txt",
+    "n_chars": 238687
+  },
+  {
+    "writer_id": "Q470718",
+    "author": "Hudson Taylor",
+    "work_title": "A Retrospect",
+    "pd_url": "https://www.gutenberg.org/ebooks/26744",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/26744/pg26744.txt",
+    "ier_intrinsic": 0.0014104586903257055,
+    "local_path": "books_raw/Q470718.txt",
+    "n_chars": 237574
+  },
+  {
+    "writer_id": "Q273334",
+    "author": "Alphonsus Maria de Liguori",
+    "work_title": "The Glories of Mary",
+    "pd_url": "https://www.gutenberg.org/ebooks/72411",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/72411/pg72411.txt",
+    "ier_intrinsic": 0.0014089736112611567,
+    "local_path": "books_raw/Q273334.txt",
+    "n_chars": 1182449
+  },
+  {
+    "writer_id": "Q5729746",
+    "author": "Henry Wace",
+    "work_title": "The War and the Gospel: Sermons & Addresses During the Present War",
+    "pd_url": "https://www.gutenberg.org/ebooks/55160",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/55160/pg55160.txt",
+    "ier_intrinsic": 0.001399802363719357,
+    "local_path": "books_raw/Q5729746.txt",
+    "n_chars": 275420
+  },
+  {
+    "writer_id": "Q76911",
+    "author": "Kuno Meyer",
+    "work_title": "Selections from Ancient Irish Poetry",
+    "pd_url": "https://www.gutenberg.org/ebooks/32030",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/32030/pg32030.txt",
+    "ier_intrinsic": 0.001397737775332806,
+    "local_path": "books_raw/Q76911.txt",
+    "n_chars": 109301
+  },
+  {
+    "writer_id": "Q41505357",
+    "author": "Hannah T. King",
+    "work_title": "Brigham Young",
+    "pd_url": "https://www.gutenberg.org/ebooks/74447",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/74447/pg74447.txt",
+    "ier_intrinsic": 0.001382339038331579,
+    "local_path": "books_raw/Q41505357.txt",
+    "n_chars": 1331794
+  },
+  {
+    "writer_id": "Q1700283",
+    "author": "John Gresham Machen",
+    "work_title": "The Literature and History of New Testament Times",
+    "pd_url": "https://www.gutenberg.org/ebooks/43685",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/43685/pg43685.txt",
+    "ier_intrinsic": 0.001337226108878709,
+    "local_path": "books_raw/Q1700283.txt",
+    "n_chars": 659056
+  },
+  {
+    "writer_id": "Q1617267",
+    "author": "Alban Butler",
+    "work_title": "The Lives of the Fathers, Martyrs, and Other Principal Saints",
+    "pd_url": "https://www.gutenberg.org/ebooks/20450",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/20450/pg20450.txt",
+    "ier_intrinsic": 0.001276071870304396,
+    "local_path": "books_raw/Q1617267.txt",
+    "n_chars": 2739536
+  },
+  {
+    "writer_id": "Q955187",
+    "author": "John Keble",
+    "work_title": "The Christian Year",
+    "pd_url": "https://www.gutenberg.org/ebooks/4272",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/4272/pg4272.txt",
+    "ier_intrinsic": 0.0012668032753102932,
+    "local_path": "books_raw/Q955187.txt",
+    "n_chars": 295444
+  },
+  {
+    "writer_id": "Q5365272",
+    "author": "Ellet J. Waggoner",
+    "work_title": "The Glad Tidings (1900 Original)",
+    "pd_url": "https://www.gutenberg.org/ebooks/63636",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/63636/pg63636.txt",
+    "ier_intrinsic": 0.0012629387748891642,
+    "local_path": "books_raw/Q5365272.txt",
+    "n_chars": 417080
+  },
+  {
+    "writer_id": "Q3624318",
+    "author": "Arthur Shearly Cripps",
+    "work_title": "Primavera: Poems by Four Authors",
+    "pd_url": "https://www.gutenberg.org/ebooks/19170",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/19170/pg19170.txt",
+    "ier_intrinsic": 0.0012437888865472425,
+    "local_path": "books_raw/Q3624318.txt",
+    "n_chars": 35338
+  },
+  {
+    "writer_id": "Q982197",
+    "author": "Joseph F. Smith",
+    "work_title": "Gospel Doctrine: Selections from the Sermons and Writings of Joseph F. Smith (1919)",
+    "pd_url": "https://www.gutenberg.org/ebooks/47109",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/47109/pg47109.txt",
+    "ier_intrinsic": 0.0012403178363942222,
+    "local_path": "books_raw/Q982197.txt",
+    "n_chars": 1375409
+  },
+  {
+    "writer_id": "Q164699",
+    "author": "Adolf von Harnack",
+    "work_title": "The History of Dogma",
+    "pd_url": "https://www.gutenberg.org/ebooks/19612",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/19612/pg19612.txt",
+    "ier_intrinsic": 0.0012400472676410488,
+    "local_path": "books_raw/Q164699.txt",
+    "n_chars": 981523
+  },
+  {
+    "writer_id": "Q366142",
+    "author": "Charles Gore",
+    "work_title": "Lux Mundi",
+    "pd_url": "https://www.gutenberg.org/ebooks/46478",
+    "text_source_url": "https://www.gutenberg.org/cache/epub/46478/pg46478.txt",
+    "ier_intrinsic": 0.0012359147569989946,
+    "local_path": "books_raw/Q366142.txt",
+    "n_chars": 1252759
+  }
+]

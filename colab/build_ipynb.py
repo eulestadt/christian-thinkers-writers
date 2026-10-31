@@ -136,8 +136,7 @@ DRIVE_CANDIDATES = [
 ]
 GITHUB_REPO = "https://github.com/eulestadt/christian-thinkers-writers.git"
 GITHUB_CLONE = "/content/christian-thinkers-writers"
-# colab/ (dilemmas + notebook extras) is not on main yet
-GITHUB_REF = "cursor/cai-3way-colab-8944"
+GITHUB_REF = "main"
 
 
 def _has_data(root: str) -> bool:

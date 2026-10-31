@@ -6,6 +6,7 @@ This repository is an **archive**, not a hosted app or database. It exists so Ph
 
 **Start here — coverage pages (in-repo):**
 
+- [Experiment pipeline flowchart](docs/pipeline-flowchart.md)
 - [Treatment CAI coverage (Steps 0–4, `deepseek-flash`)](docs/cai-deepseek-coverage.md)
 - [Control CAI coverage (citation-control, Steps 0–4, `deepseek-flash`)](docs/cai-control-coverage.md)
 - [3-arm Colab notebook (Step 5, Llama 3.2 3B)](docs/cai-3way-colab.md)
@@ -15,6 +16,12 @@ This repository is an **archive**, not a hosted app or database. It exists so Ph
 - [Scoring method (Hoge + Gorsuch I/E-R)](docs/intrinsic-motivation-scoring.md)
 
 Related notes: [project context](docs/project-context.md), [legacy Gemini coverage](docs/cai-gemini-coverage.md) (discarded; regenerated with DeepSeek), [scoring plan](docs/intrinsic-motivation-scoring-plan.md).
+
+## Experiment flowchart
+
+Census → closed-form I/E-R scoring → treatment vs control CAI → GitHub archive → Drive JSONL copy → Colab 3-way (local NVMe sqlite). Mermaid source: [`docs/pipeline-flowchart.md`](docs/pipeline-flowchart.md).
+
+![Experiment pipeline flowchart](docs/pipeline-flowchart.png)
 
 ## Research question
 
@@ -55,7 +62,7 @@ Step 5 notebook is in [`colab/cai_3way_experiment_and_eval.ipynb`](colab/cai_3wa
 README.md
 LICENSE                 # PD texts stay PD; code MIT; original docs/artifacts CC BY 4.0
 CITATION.cff
-docs/                   # markdown coverage + sqlite/csv/jsonl census and scores
+docs/                   # markdown coverage, pipeline flowchart, sqlite/csv/jsonl
 cai-pipeline/           # treatment CAI (I/E-R top 40)
 cai-pipeline-control/   # citation-control CAI
 colab/                  # 3-arm Unsloth notebook + held-out eval prompts

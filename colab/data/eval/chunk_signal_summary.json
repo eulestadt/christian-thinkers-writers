@@ -1,0 +1,10 @@
+{
+  "n_chunks_scored": 99637,
+  "n_chunks_table": 99637,
+  "total_abs_signal": 12295.523987004277,
+  "top_1pct_share": 0.05696997539579421,
+  "top_5pct_share": 0.186747240478948,
+  "top_10pct_share": 0.29888321453974664,
+  "top_20pct_share": 0.46407919290433153,
+  "gini": 0.40946196370342647
+}

@@ -8,6 +8,7 @@ This repository is an **archive**, not a hosted app or database. It exists so Ph
 
 - [Treatment CAI coverage (Steps 0–4, `deepseek-flash`)](docs/cai-deepseek-coverage.md)
 - [Control CAI coverage (citation-control, Steps 0–4, `deepseek-flash`)](docs/cai-control-coverage.md)
+- [3-arm Colab notebook (Step 5, Llama 3.2 3B)](docs/cai-3way-colab.md)
 - [CAI protocol — I/E-R intrinsic top 40](docs/cai-protocol-intrinsic-subset.md)
 - [Christian writers census coverage](docs/christian-writers-coverage-report.md)
 - [Intrinsic-motivation scoring coverage](docs/intrinsic-motivation-coverage.md)
@@ -36,7 +37,7 @@ Treatment examples: Brother Lawrence, *The Practice of the Presence of God*; Ign
 
 Control examples: William James, *The Principles of Psychology*; Darwin, *The Expression of the Emotions*; Shakespeare, *Hamlet* (citation-ranked PD, not a Christian-writers filter).
 
-Step 5 (Colab / GPU / Unsloth fine-tune) was **not** run in this snapshot.
+Step 5 notebook is in [`colab/cai_3way_experiment_and_eval.ipynb`](colab/cai_3way_experiment_and_eval.ipynb) (Base vs Control CAI vs Experimental CAI, adapter hot-swap, ETHICS / TruthfulQA / MMLU / 150-dilemma arena). **GPU training was not executed in this snapshot**; open that notebook on Colab L4/T4 after mounting `CAI_Experiment/`. Coverage: [`docs/cai-3way-colab.md`](docs/cai-3way-colab.md).
 
 ## Model (`deepseek-flash`)
 
@@ -57,6 +58,7 @@ CITATION.cff
 docs/                   # markdown coverage + sqlite/csv/jsonl census and scores
 cai-pipeline/           # treatment CAI (I/E-R top 40)
 cai-pipeline-control/   # citation-control CAI
+colab/                  # 3-arm Unsloth notebook + held-out eval prompts
 ```
 
 Large files (>50 MB) are stored with **Git LFS**:
@@ -85,7 +87,7 @@ CSV/JSONL exports live next to the census sqlite. A gzip of the scores sqlite is
 - `data/prompts_dataset.jsonl` — 2,500 prompts
 - `data/sl_cai_train.jsonl` — Stage 1 SFT
 - `data/rlaif_dpo_train.jsonl` — Stage 2 DPO pairs
-- `scripts/` — Steps 0–4 (`deepseek-flash`)
+- `scripts/` — Steps 0–4 (`deepseek-flash`); `05_colab_train.py` points at the 3-arm notebook
 
 ## License
 

@@ -136,7 +136,7 @@ def main() -> None:
         }
         sft_out.append(row)
         dpo = dpo_by.get(k)
-        if dpo:
+        if dpo and (dpo.get("chosen") or "").strip() != (dpo.get("rejected") or "").strip():
             dpo_out.append({
                 "prompt": p, "chosen": dpo.get("chosen"), "rejected": dpo.get("rejected"),
                 "model": dpo.get("model"), "source": src, "book_id": rec.get("book_id"),
@@ -155,7 +155,10 @@ def main() -> None:
         for r in ood_dpo:
             r["weight"] = 1.0
     sft_out.extend(ood_sft[: MIX["ood_train"]])
-    dpo_out.extend(ood_dpo[: MIX["ood_train"]])
+    dpo_out.extend(
+        r for r in ood_dpo[: MIX["ood_train"]]
+        if (r.get("chosen") or "").strip() != (r.get("rejected") or "").strip()
+    )
 
     fr_sft = load_jsonl(REPO / "colab" / "data" / "v2" / "format_replay_sft.jsonl")
     fr_dpo = load_jsonl(REPO / "colab" / "data" / "v2" / "format_replay_dpo.jsonl")
@@ -166,7 +169,10 @@ def main() -> None:
         r["weight"] = 1.0
         r["source"] = "format_replay"
     sft_out.extend(fr_sft)
-    dpo_out.extend(fr_dpo)
+    dpo_out.extend(
+        r for r in fr_dpo
+        if (r.get("chosen") or "").strip() != (r.get("rejected") or "").strip()
+    )
 
     dest = V2_ROOT / "data" / args.arm
     repo_dest = REPO / "colab" / "data" / "v2" / args.arm
@@ -181,6 +187,10 @@ def main() -> None:
         "n_dpo": len(dpo_out),
         "by_source_sft": {
             s: sum(1 for r in sft_out if r.get("source") == s)
+            for s in ("elicited", "ultrachat", "ood", "format_replay")
+        },
+        "by_source_dpo": {
+            s: sum(1 for r in dpo_out if r.get("source") == s)
             for s in ("elicited", "ultrachat", "ood", "format_replay")
         },
         "weight_clip": list(WEIGHT_CLIP),

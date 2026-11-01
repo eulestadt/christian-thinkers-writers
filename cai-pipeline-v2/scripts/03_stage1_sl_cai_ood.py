@@ -246,7 +246,7 @@ def main() -> None:
     ).fetchall()
     recs = [{"id": pid, "prompt": prompt} for pid, prompt in pending]
     log(f"v2 sl-cai pending={len(recs)}")
-    rng = random.Random(RNG_SEED + (0 if use_ier else 99))
+    rng = np.random.default_rng(RNG_SEED + (0 if use_ier else 99))
     if recs:
         qemb = enc.encode([r["prompt"] for r in recs], normalize_embeddings=True, show_progress_bar=False, batch_size=64)
         packed_all = [

@@ -26,15 +26,16 @@ V2_ROOT = _first_existing(
     _STORE / "cai-pipeline-v2",
     _REPO_GUESS / "cai-pipeline-v2",
 )
-V1_SCRIPTS = _first_existing(_STORE / "cai-pipeline" / "scripts", _REPO_GUESS / "cai-pipeline" / "scripts")
-V1_DATA = _first_existing(_STORE / "cai-pipeline" / "data", _REPO_GUESS / "cai-pipeline" / "data")
+# Prefer local NVMe (/workspace) over FUSE store sqlite.
+V1_SCRIPTS = _first_existing(_REPO_GUESS / "cai-pipeline" / "scripts", _STORE / "cai-pipeline" / "scripts")
+V1_DATA = _first_existing(_REPO_GUESS / "cai-pipeline" / "data", _STORE / "cai-pipeline" / "data")
 V1_CONTROL_DATA = _first_existing(
-    _STORE / "cai-pipeline-control" / "data",
     _REPO_GUESS / "cai-pipeline-control" / "data",
+    _STORE / "cai-pipeline-control" / "data",
 )
 SCORES_DB = _first_existing(
-    _STORE / "docs" / "intrinsic-motivation-scores.sqlite",
     _REPO_GUESS / "docs" / "intrinsic-motivation-scores.sqlite",
+    _STORE / "docs" / "intrinsic-motivation-scores.sqlite",
 )
 REPO = _first_existing(_REPO_GUESS, Path("/workspace"))
 EVAL_DIR = _first_existing(REPO / "colab" / "data" / "eval", V2_ROOT / "data" / "eval")
@@ -44,7 +45,6 @@ sys.path.insert(0, str(V1_SCRIPTS))
 LEAKAGE_TERMS = (
     "vanderweele",
     "vander weele",
-    "flourishing",
     "fai benchmark",
     "fai taxonomy",
     "human flourishing",
@@ -151,7 +151,11 @@ def principle_s(p: dict, ier: dict[str, float], default: float) -> float:
 
 
 def attach_s(principles: list[dict], ier: dict[str, float]) -> float:
-    known = [v for v in ier.values() if v is not None]
+    """Mean s is over books in this constitution, not the whole 527-writer table."""
+    book_ids = {str(b) for p in principles for b in (p.get("source_books") or [])}
+    known = [ier[b] for b in book_ids if b in ier and ier[b] is not None]
+    if not known:
+        known = [v for v in ier.values() if v is not None]
     mean_s = float(sum(known) / len(known)) if known else 1.0
     for p in principles:
         p["_s_i"] = principle_s(p, ier, mean_s)

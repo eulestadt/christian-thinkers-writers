@@ -1,0 +1,16 @@
+{
+  "n_sft": 300,
+  "n_dpo": 300,
+  "by_origin": {
+    "arc_easy_train": 150,
+    "synthetic_arith": 5,
+    "synthetic_commonsense": 30,
+    "synthetic_format_meta": 15,
+    "synthetic_binary": 100
+  },
+  "by_task": {
+    "mc_letter": 200,
+    "binary_01": 100
+  },
+  "note": "Not drawn from MMLU, ETHICS, or TruthfulQA. ARC-Easy train is a public grade-school science set. Completions are a letter or 0/1; DPO rejected is verbose-then-conclude."
+}

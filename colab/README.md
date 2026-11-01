@@ -23,3 +23,19 @@ The notebook copies JSONL to `/content/readonly_cai/` with mode `0444` and never
 ## Held-out eval
 
 [`data/eval/open_ended_dilemmas.jsonl`](data/eval/open_ended_dilemmas.jsonl) — 150 original first-person dilemmas (no overlap with treatment or control training prompts). Judge-facing ballots omit the arm mapping.
+
+## v2 (OOD + test-time CAI; does not replace v1)
+
+Open [`cai_3way_experiment_and_eval_v2.ipynb`](cai_3way_experiment_and_eval_v2.ipynb). Assemble with `python build_ipynb_v2.py` (never `build_ipynb.py`, which still writes only the v1 notebook).
+
+```
+CAI_Experiment/
+├── data/                              # shared READ-ONLY JSONL (v1 + v2)
+├── v2/data/{treatment,control}/       # 3,500-row mix + format_replay copies
+├── adapters/{ACTIVE_MODEL}/           # v1 LoRAs — do not overwrite
+├── adapters/{ACTIVE_MODEL}/v2/        # v2 LoRA writes only
+├── results/{ACTIVE_MODEL}/            # v1 CSVs/arena — do not overwrite
+└── results/{ACTIVE_MODEL}/v2/         # ood_*, generative_raw, logprob/, error_direction.csv
+```
+
+[`data/eval/ood_contemporary_dilemmas.jsonl`](data/eval/ood_contemporary_dilemmas.jsonl) — 150 contemporary first-person prompts (workplace, civic, interpersonal, medical-adjacent, online). Deduped against both `prompts_dataset.jsonl` files, both SFT/DPO JSONL files, and the held-out dilemmas. [`data/eval/ood_train_contemporary_dilemmas.jsonl`](data/eval/ood_train_contemporary_dilemmas.jsonl) is a disjoint 1,000-row train set. v2 `RUN_TRAINING` defaults True and writes only under `adapters/{ACTIVE_MODEL}/v2/`. Default model is Llama 3.2 3B; Mistral 24B stays in `MODEL_PRESETS` as an optional later run. Primary MC metric is still 8-token generation; log-prob scores are side files under `results/{ACTIVE_MODEL}/v2/logprob/`. Test-time retrieve-and-revise uses the frozen 40-book constitutions (`all-MiniLM-L6-v2`, k=3). Optional `IER_RETRIEVAL_WEIGHT` (default 0) can reweight experimental retrieval by I/E-R; it does not require I−E>0.

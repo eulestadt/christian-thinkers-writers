@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
-"""Assemble cai_3way_experiment_and_eval.ipynb. Run from the colab/ directory."""
+"""Assemble cai_3way_experiment_and_eval.ipynb (v1). Run from the colab/ directory.
+
+This file writes only the v1 notebook. OOD eval, test-time retrieve-and-revise, and
+CAI_Experiment/v2/{adapters,results}/{ACTIVE_MODEL}/ writes are assembled by
+`build_ipynb_v2.py` → `cai_3way_experiment_and_eval_v2.ipynb`. Do not point this
+builder at v2 paths; it would clobber live v1 adapters/results.
+"""
 from __future__ import annotations
 
 import json
@@ -1425,17 +1431,26 @@ if records:
     display(HTML(build_comparison_html(records, max_display=15)))
 '''))
 
-nb = {
-    "nbformat": 4,
-    "nbformat_minor": 5,
-    "metadata": {
-        "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
-        "language_info": {"name": "python", "pygments_lexer": "ipython3"},
-        "accelerator": "GPU",
-        "colab": {"provenance": [], "gpuType": "L4"},
-    },
-    "cells": cells,
-}
+def write_v1_notebook(path: Path | None = None) -> Path:
+    """Write the v1 notebook only. v2 is colab/build_ipynb_v2.py."""
+    dest = Path(path) if path is not None else NB_PATH
+    if dest.name != "cai_3way_experiment_and_eval.ipynb":
+        raise SystemExit(f"refusing to write v1 builder output to {dest}")
+    nb = {
+        "nbformat": 4,
+        "nbformat_minor": 5,
+        "metadata": {
+            "kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"},
+            "language_info": {"name": "python", "pygments_lexer": "ipython3"},
+            "accelerator": "GPU",
+            "colab": {"provenance": [], "gpuType": "L4"},
+        },
+        "cells": cells,
+    }
+    dest.write_text(json.dumps(nb, indent=1), encoding="utf-8")
+    print("wrote", dest, "cells", len(cells), "bytes", dest.stat().st_size)
+    return dest
 
-NB_PATH.write_text(json.dumps(nb, indent=1), encoding="utf-8")
-print("wrote", NB_PATH, "cells", len(cells), "bytes", NB_PATH.stat().st_size)
+
+if __name__ == "__main__":
+    write_v1_notebook()

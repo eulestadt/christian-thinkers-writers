@@ -1,0 +1,21 @@
+{
+  "mix": {"elicited": 2000, "ood_train": 1000, "ultrachat": 500, "total": 3500},
+  "alpha": 1.0,
+  "tau": null,
+  "book_floor": 0.025,
+  "weight_clip": [0.25, 2.0],
+  "format_replay": {"n": 300, "default": true, "sources": ["arc_easy_train", "synthetic"], "not_from": ["MMLU", "ETHICS", "TruthfulQA"]},
+  "lora": {"r": 16, "alpha": 32, "r_full_option": 32, "attention_only": false},
+  "sft_lr": 1e-4,
+  "active_model_default": "llama32_3b",
+  "mistral_24b": "optional later run, not this PR default or checklist",
+  "k_principles": 3,
+  "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "near_dup_cosine": 0.85,
+  "model": "deepseek-flash",
+  "thinking": "disabled",
+  "adapter_dir": "adapters/{ACTIVE_MODEL}/v2",
+  "results_dir": "results/{ACTIVE_MODEL}/v2",
+  "ablation": "v2 treatment JSONL with USE_IER_WEIGHTS=False (uniform resample). Not trained in the first PR.",
+  "control": "same OOD-train prompts and sim-based principle sampling without s_i; uniform loss weights."
+}

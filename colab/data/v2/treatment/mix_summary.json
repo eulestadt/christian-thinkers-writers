@@ -1,0 +1,30 @@
+{
+  "arm": "treatment",
+  "use_ier_weights": true,
+  "n_sft": 3800,
+  "n_dpo": 3786,
+  "by_source_sft": {
+    "elicited": 2000,
+    "ultrachat": 500,
+    "ood": 1000,
+    "format_replay": 300
+  },
+  "by_source_dpo": {
+    "elicited": 2000,
+    "ultrachat": 496,
+    "ood": 990,
+    "format_replay": 300
+  },
+  "weight_clip": [
+    0.25,
+    2.0
+  ],
+  "mean_weight": 1.0778,
+  "mix": {
+    "elicited": 2000,
+    "ood_train": 1000,
+    "ultrachat": 500
+  },
+  "format_replay_n": 300,
+  "ablation": "v2 treatment + uniform weights: train the same sl_cai_train.jsonl with USE_IER_WEIGHTS=False (no third LoRA in this PR)."
+}

@@ -42,6 +42,16 @@ results/{ACTIVE_MODEL}/qualitative_3arm_inspector.html
 8. Optional DeepSeek judge (`RUN_JUDGE=False`; `deepseek-flash` = V4.1-Flash-1017, not retired `deepseek-chat`).
 9. HTML qualitative inspector.
 
+## v2 notebook (additive)
+
+`cai_3way_experiment_and_eval_v2.ipynb` is a copy, not a replacement. Default `ACTIVE_MODEL = llama32_3b` (Mistral 24B is optional later, not this PR). Writes:
+
+- `adapters/{ACTIVE_MODEL}/v2/`
+- `results/{ACTIVE_MODEL}/v2/` (primary generative CSVs + `logprob/` side files + `error_direction.csv`)
+- `CAI_Experiment/v2/data/` for the mix JSONL
+
+Never write `adapters/{arm}_final_lora` or `adapters/{ACTIVE_MODEL}/{arm}_final_lora` from v2. Load those v1 LoRAs read-only if v2 adapters are absent. Extra cells: OOD scoring of `data/eval/ood_contemporary_dilemmas.jsonl`; test-time retrieve-and-revise on frozen constitutions; log-prob side scores; error-direction. Forgetting knobs: LoRA r=16 (32 optional), SFT LR 1e-4, optional attention-only modules, format-following replay (~300, not from MMLU/ETHICS/TQA), I/E-R weight clip (0.25, 2.0). Primary MC scorer remains 8-token generation.
+
 ## Conditions
 
 | Condition | Weights | Scientific purpose |

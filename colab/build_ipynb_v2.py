@@ -249,16 +249,95 @@ LOAD_STACK_NEW = '''    exp_path = resolve_adapter_load_dir("experimental")
     print("load control from", ctrl_path)
 '''
 
+ENSURE_V2_MIX = '''
+
+V2_MIX_RELPATHS = (
+    "colab/data/v2/treatment/sl_cai_train.jsonl",
+    "colab/data/v2/treatment/rlaif_dpo_train.jsonl",
+    "colab/data/v2/control/sl_cai_train.jsonl",
+    "colab/data/v2/control/rlaif_dpo_train.jsonl",
+    "colab/data/v2/format_replay_sft.jsonl",
+    "colab/data/v2/format_replay_dpo.jsonl",
+)
+
+
+def _repo_has_v2_mix(root) -> bool:
+    p = Path(root) / "colab/data/v2/treatment/sl_cai_train.jsonl"
+    return p.is_file() and p.stat().st_size > 1000
+
+
+def _v2_mix_missing(root) -> list:
+    r = Path(root)
+    missing = []
+    for rel in V2_MIX_RELPATHS:
+        p = r / rel
+        if not p.is_file() or p.stat().st_size < 1000:
+            missing.append(rel)
+    return missing
+
+
+def _ensure_v2_git_ref(repo) -> Path:
+    """Fetch GITHUB_REF (main) until mix JSONL exists. Never train on a mix-less clone."""
+    import subprocess
+    repo = Path(repo)
+    if _repo_has_v2_mix(repo):
+        print("v2 mix present in clone", repo)
+        return repo
+    refs = []
+    for ref in (os.environ.get("CAI_V2_GIT_REF"), GITHUB_REF, "main"):
+        if ref and ref not in refs:
+            refs.append(ref)
+    for ref in refs:
+        print(f"v2 mix missing — fetching origin {ref}")
+        rc = subprocess.run(["git", "fetch", "--depth", "1", "origin", ref], cwd=str(repo))
+        if rc.returncode != 0:
+            continue
+        subprocess.run(["git", "checkout", "-B", ref, "FETCH_HEAD"], cwd=str(repo), check=False)
+        if _repo_has_v2_mix(repo):
+            print("v2 mix from", ref, repo)
+            return repo
+    side = Path("/tmp/christian-thinkers-writers-v2")
+    for ref in refs:
+        if side.exists() and _repo_has_v2_mix(side):
+            print("v2 mix from side clone", side)
+            return side
+        if side.exists():
+            shutil.rmtree(side, ignore_errors=True)
+        try:
+            subprocess.check_call(
+                ["git", "clone", "--depth", "1", "--branch", ref, GITHUB_REPO, str(side)]
+            )
+        except (subprocess.CalledProcessError, FileNotFoundError):
+            continue
+        if _repo_has_v2_mix(side):
+            print("v2 mix cloned", ref, side)
+            return side
+    missing = _v2_mix_missing(repo)
+    raise FileNotFoundError(
+        "v2 mix JSONL missing from this clone — refusing to train. "
+        f"clone={repo} GITHUB_REF={GITHUB_REF}. "
+        "Cell 1 clones GitHub default branch `main`. "
+        "Need colab/data/v2/treatment/sl_cai_train.jsonl on that clone. "
+        "Expected: " + ", ".join(V2_MIX_RELPATHS) + ". "
+        "Missing: " + ", ".join(missing or list(V2_MIX_RELPATHS))
+    )
+'''
+
 V2_RO_COPY = '''
 
 def _copy_readonly_v2(src_dir: str, arm: str) -> str:
     dest = os.path.join(READONLY_ROOT, "v2", arm)
     os.makedirs(dest, exist_ok=True)
+    missing = []
     for fname in ["sl_cai_train.jsonl", "rlaif_dpo_train.jsonl"]:
-        src = os.path.join(src_dir, fname)
+        cands = [
+            os.path.join(src_dir, fname),
+            str(Path(repo) / "colab" / "data" / "v2" / arm / fname),
+        ]
+        src = next((p for p in cands if os.path.isfile(p) and os.path.getsize(p) > 1000), None)
         dst = os.path.join(dest, fname)
-        if not os.path.exists(src):
-            print("WARN missing v2", src, "— train cell will fail until colab/data/v2 is on this clone")
+        if src is None:
+            missing.append(f"{arm}/{fname} tried=" + ",".join(cands))
             continue
         if (not os.path.exists(dst)) or (os.path.getmtime(src) > os.path.getmtime(dst)):
             if os.path.exists(dst):
@@ -272,16 +351,41 @@ def _copy_readonly_v2(src_dir: str, arm: str) -> str:
             print(f"  WARN expected at least {EXPECTED_V2_N} book+ood+ultrachat rows, found {n}")
         elif n > EXPECTED_V2_N:
             print(f"  n={n} (>= {EXPECTED_V2_N}; extra rows are format_replay if present)")
+    if missing:
+        raise FileNotFoundError(
+            "v2 mix JSONL missing; refusing to train. "
+            f"Cell 1 clones GitHub `{GITHUB_REF}` (default branch main). "
+            "Need colab/data/v2/treatment/sl_cai_train.jsonl. "
+            "Expected: colab/data/v2/{treatment,control}/{sl_cai_train,rlaif_dpo_train}.jsonl. "
+            "Missing: " + "; ".join(missing)
+        )
     return dest
+
+
+def _copy_format_replay_readonly():
+    for fname in ("format_replay_sft.jsonl", "format_replay_dpo.jsonl"):
+        cands = [
+            Path(V2_DATA_DIR) / fname,
+            Path(repo) / "colab" / "data" / "v2" / fname,
+        ]
+        src = next((p for p in cands if p.is_file() and p.stat().st_size > 1000), None)
+        if src is None:
+            continue
+        dst = Path(READONLY_ROOT) / "v2" / fname
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        if (not dst.exists()) or (src.stat().st_mtime > dst.stat().st_mtime):
+            if dst.exists():
+                os.chmod(dst, 0o644)
+            shutil.copy2(src, dst)
+        os.chmod(dst, 0o444)
+        with open(dst, "r", encoding="utf-8") as f:
+            n = sum(1 for _ in f)
+        print(f"[VERIFIED READ-ONLY v2] {fname}: {n} rows")
 
 
 V2_TREAT_RO = _copy_readonly_v2(V2_TREAT_DIR, "treatment")
 V2_CTRL_RO = _copy_readonly_v2(V2_CTRL_DIR, "control")
-if not (Path(repo) / "colab/data/v2/treatment/sl_cai_train.jsonl").is_file() and not (Path(V2_TREAT_DIR) / "sl_cai_train.jsonl").is_file():
-    alt = repo / "colab" / "data" / "v2"
-    if (alt / "treatment" / "sl_cai_train.jsonl").is_file():
-        V2_TREAT_RO = _copy_readonly_v2(str(alt / "treatment"), "treatment")
-        V2_CTRL_RO = _copy_readonly_v2(str(alt / "control"), "control")
+_copy_format_replay_readonly()
 '''
 
 CONSTITUTION_COPY = '''
@@ -651,7 +755,10 @@ def patch_intro(cell: dict) -> None:
         "intrinsic weight clip (0.25, 2.0). Does **not** replace `cai_3way_experiment_and_eval.ipynb`. "
         "Writes LoRAs to `adapters/{ACTIVE_MODEL}/v2/` and results to `results/{ACTIVE_MODEL}/v2/`. "
         "Live v1 LoRAs are read-only fallbacks. Default `ACTIVE_MODEL = llama32_3b`. "
-        "Do not launch this training from the agent VM; run it on Colab.\n",
+        "Do not launch this training from the agent VM; run it on Colab. "
+        "Cell 1 clones GitHub `main`. Both `colab/cai_3way_experiment_and_eval.ipynb` (v1) and "
+        "`colab/cai_3way_experiment_and_eval_v2.ipynb` (v2) stay in the repo; v2 does not replace v1. "
+        "Writes stay under `adapters/{ACTIVE_MODEL}/v2/` and `results/{ACTIVE_MODEL}/v2/`.\n",
         "intro title",
     )
     text = sub_once(
@@ -705,6 +812,27 @@ def patch_config(cell: dict) -> None:
         "EVAL_MMLU_N = 150\n",
         "EVAL_MMLU_N = 150\n" + OOD_FLAGS,
         "OOD flags",
+    )
+    text = sub_once(
+        text,
+        '# Prefer main once colab/ is merged; fall back to the notebook branch.\n'
+        'GITHUB_REF = "main"\n',
+        '# Clone the default branch. v2 mix JSONL is on main after PR #1; fail if it is missing.\n'
+        'GITHUB_REF = "main"\n',
+        "GITHUB_REF comment",
+    )
+    text = sub_once(
+        text,
+        "    _ensure_git_lfs_sqlite(dest)\n    return dest\n",
+        "    _ensure_git_lfs_sqlite(dest)\n    return dest\n" + ENSURE_V2_MIX,
+        "ensure v2 mix fn",
+    )
+    text = sub_once(
+        text,
+        "repo = Path(_clone_github())\n",
+        "repo = Path(_clone_github())\n"
+        "repo = _ensure_v2_git_ref(repo)\n",
+        "ensure v2 mix call",
     )
     text = sub_once(text, PATH_BLOCK_OLD, PATH_BLOCK_NEW, "path block")
     text = sub_once(text, SEED_OLD, SEED_NEW, "seed constitutions")
@@ -768,21 +896,33 @@ def patch_train(cell: dict) -> None:
     helper = '''
 def _with_format_replay(path, kind: str) -> str:
     """Append format-following SFT/DPO (letter or 0/1 chosen; verbose rejected). Default on."""
+    mix = Path(path)
+    if not mix.is_file():
+        raise FileNotFoundError(
+            f"v2 mix missing: {path}. Cell 1 clones GitHub main. "
+            "Need colab/data/v2/treatment/sl_cai_train.jsonl on that clone."
+        )
     if not FORMAT_REPLAY:
         return path
-    fname = "format_replay_sft.jsonl" if kind == "sft" else "format_replay_dpo.jsonl"
-    fr = None
-    for cand in (Path(V2_DATA_DIR) / fname, Path(repo) / "colab" / "data" / "v2" / fname):
-        if cand.is_file():
-            fr = cand
-            break
-    if fr is None:
-        print("WARN FORMAT_REPLAY=True but missing", fname)
-        return path
-    rows = [json.loads(l) for l in Path(path).read_text(encoding="utf-8").splitlines() if l.strip()]
+    rows = [json.loads(l) for l in mix.read_text(encoding="utf-8").splitlines() if l.strip()]
     if any(r.get("source") == "format_replay" for r in rows):
         print("format_replay already in", path, "n=", len(rows))
         return path
+    fname = "format_replay_sft.jsonl" if kind == "sft" else "format_replay_dpo.jsonl"
+    fr = None
+    for cand in (
+        Path(V2_DATA_DIR) / fname,
+        Path(READONLY_ROOT) / "v2" / fname,
+        Path(repo) / "colab" / "data" / "v2" / fname,
+    ):
+        if cand.is_file() and cand.stat().st_size > 1000:
+            fr = cand
+            break
+    if fr is None:
+        raise FileNotFoundError(
+            f"FORMAT_REPLAY=True but missing {fname}. "
+            f"Expected colab/data/v2/{fname} on GitHub `{GITHUB_REF}` (main)."
+        )
     extra = [json.loads(l) for l in fr.read_text(encoding="utf-8").splitlines() if l.strip()]
     keep = ("prompt", "completion") if kind == "sft" else ("prompt", "chosen", "rejected")
     outp = str(Path(READONLY_ROOT) / f"{Path(path).stem}_plus_format.jsonl")

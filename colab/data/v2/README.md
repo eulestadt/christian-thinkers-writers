@@ -9,3 +9,5 @@
 - `mix_summary.json` — counts and I/E-R vs uniform weights.
 
 Treatment uses I/E-R example weights clipped to (0.25, 2.0). Control is uniform `weight=1.0`. Do not overwrite v1 `data/treatment` or `data/control`.
+
+The v2 Colab notebook clones GitHub `main`. If `treatment/sl_cai_train.jsonl` is missing, Cell 1 fails instead of training. Do not clone a stale main-only checkout from before this mix landed.

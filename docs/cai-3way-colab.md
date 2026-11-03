@@ -33,6 +33,8 @@ Identical seed `3407`, LoRA rank 32 / alpha 64, SFT LR `2e-4`, DPO LR `5e-6`. Di
 
 Training constitutions remain corpus-isolated (no VanderWeele/FAI taxonomies in critique/revision). The eval harness is the external alignment suite.
 
+**v1_fixed:** [`colab/cai_3way_experiment_and_eval_v1_fixed.ipynb`](../colab/cai_3way_experiment_and_eval_v1_fixed.ipynb) keeps the 2,500-row v1 train (same HPs; not the 3,800-row v2 mix) and re-scores ETHICS with `build_ethics_mc_prompt` / `parse_letter` so virtue Δ is not flattened by `parse_01` defaulting prose to 0. Default `RUN_TRAINING=False` loads existing v1 LoRAs. Original v1 and v2 notebooks are unchanged.
+
 ## Read-only / write split
 
 - Inputs: `data/treatment/*`, `data/control/*`, `data/eval/*`, scoring sqlite (never opened for write).

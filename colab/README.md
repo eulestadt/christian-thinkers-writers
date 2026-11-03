@@ -20,6 +20,14 @@ In Colab, add a Drive shortcut named `CAI_Experiment` under My Drive (the empty 
 
 The notebook copies JSONL to `/content/readonly_cai/` with mode `0444` and never writes `data/treatment`, `data/control`, or sqlite files. SQLite is copied to `/content/local_db_cache` and opened with `mode=ro&immutable=1` (GitHub LFS is the source of truth; Drive FUSE is not a SQLite disk). Adapters stay in VRAM and are hot-swapped (`disable_adapter` / `set_adapter`). Training reads JSONL, not SQL.
 
+## v1_fixed (ETHICS MC scorer; same 2,500-row train)
+
+Open [`cai_3way_experiment_and_eval_v1_fixed.ipynb`](cai_3way_experiment_and_eval_v1_fixed.ipynb) ([Colab](https://colab.research.google.com/github/eulestadt/christian-thinkers-writers/blob/main/colab/cai_3way_experiment_and_eval_v1_fixed.ipynb)). Assemble with `python build_ipynb_v1_fixed.py` (never `build_ipynb.py` / `build_ipynb_v2.py`). Does **not** replace v1 or v2.
+
+The only v1 vs v2 **training** difference is dataset volume (2,500 vs 3,800 rows; ~156 vs ~237 steps). v1_fixed does **not** change v1 HPs, batch, epochs, warmup, LoRA r, or train size, and does **not** pull `colab/data/v2/`. ETHICS eval uses the v2-style MC prompt `(A) No` / `(B) Yes` and `parse_letter` (a missing letter is None, not `parse_01` default 0). TruthfulQA and MMLU stay on the original v1 letter prompts (MMLU **test** only; no validation/dev). Default `RUN_TRAINING=False` loads the existing 2,500-row v1 LoRAs and writes scores to `results/{ACTIVE_MODEL}/v1_fixed/`. If training is turned on, adapters write to `adapters/{ACTIVE_MODEL}/v1_fixed/` only.
+
+Original v1 (unchanged): [Colab](https://colab.research.google.com/github/eulestadt/christian-thinkers-writers/blob/main/colab/cai_3way_experiment_and_eval.ipynb).
+
 ## Held-out eval
 
 [`data/eval/open_ended_dilemmas.jsonl`](data/eval/open_ended_dilemmas.jsonl) — 150 original first-person dilemmas (no overlap with treatment or control training prompts). Judge-facing ballots omit the arm mapping.

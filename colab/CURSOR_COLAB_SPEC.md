@@ -42,6 +42,15 @@ results/{ACTIVE_MODEL}/qualitative_3arm_inspector.html
 8. Optional DeepSeek judge (`RUN_JUDGE=False`; `deepseek-flash` = V4.1-Flash-1017, not retired `deepseek-chat`).
 9. HTML qualitative inspector.
 
+## v1_fixed notebook (ETHICS scorer only)
+
+`cai_3way_experiment_and_eval_v1_fixed.ipynb` is a copy of v1, not a replacement. Default `RUN_TRAINING=False` loads existing 2,500-row v1 LoRAs. Training HPs stay v1 (`r=32`/`alpha=64`, SFT `2e-4`, DPO `5e-6`, one epoch, same batch/warmup). Do not pull the 3,800-row v2 mix. Do not add MMLU validation/dev. ETHICS uses `build_ethics_mc_prompt` + `parse_letter(..., 2)`. Writes:
+
+- `results/{ACTIVE_MODEL}/v1_fixed/` (ETHICS MC scores; does not overwrite v1 CSVs)
+- `adapters/{ACTIVE_MODEL}/v1_fixed/` only if `RUN_TRAINING` is turned on
+
+Live v1 LoRAs at `adapters/{ACTIVE_MODEL}/` (or un-namespaced `adapters/{arm}_final_lora`) are read-only.
+
 ## v2 notebook (additive)
 
 `cai_3way_experiment_and_eval_v2.ipynb` is a copy, not a replacement. Default `ACTIVE_MODEL = llama32_3b` (Mistral 24B is optional later, not this PR). Writes:

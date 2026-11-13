@@ -8,7 +8,7 @@ The **github coverage link** column points at the matching work row on GitHub `m
 
 ## Ranking rules
 
-1. **I/E-R intrinsic** — `works_scored` ⋈ `work_subscores` where `subscale='ier_intrinsic'` `ORDER BY score DESC LIMIT 40`. Join `author_decisions.canonical_name`; year from `work_candidates.year`. Same 40 as the CAI treatment arm (no I−E filter). One scored English PD work per author.
+1. **I/E-R intrinsic** — `works_scored` ⋈ `work_subscores` where `subscale='ier_intrinsic'` `ORDER BY score DESC LIMIT 40`. Join `author_decisions.canonical_name`; year from `work_candidates.year`. Same 40 as the Steps 0–4 treatment archive (no I−E filter). One scored English PD work per author. The current training run, v3, keeps **ranks 1–20** of this list (through John Taylor, *The Government of God*) and does not train on ranks 21–40.
 2. **I minus E** — same join, `subscale='I_minus_E'` (stored composite intrinsic minus composite extrinsic; also on `works_scored.I_minus_E`). Not I/E-R intrinsic minus (Ep+Es).
 3. **Hoge intrinsic** — same join, `subscale='hoge_intrinsic'`.
 4. **Control 40** — citation-control arm as stored in control coverage / manifest (year window 1500–1930, treatment works and authors excluded). **Score** is OpenAlex `cited_by_count` when that is > 0 (ranks 1–9); otherwise Wikidata sitelinks (ranks 10–40; Wikipedia inlinks are capped at 500 for all of those rows).
@@ -18,6 +18,8 @@ Publication years include `author_death_latest` bounds when that is the stored `
 ## 1. Top 40 I/E-R intrinsic
 
 `subscale='ier_intrinsic'`. Score is the stored I/E-R intrinsic work score.
+
+**v3 uses ranks 1–20 only.** v1 trains two arms on the book dialogues from the full treatment set, with one seed. v2 keeps all 40 books, adds contemporary dilemmas and UltraChat, clips weights to 0.25–2, and draws rows with replacement. v3 rewrites the v2 traces for these 20 books into one weighed turn, drops UltraChat, and keeps the 300-row format replay. Three arms: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control. R-DPO α=0.01, β=0.1. Bidirectional rejected answers. Seeds 0–2. Reported score: WiSE-FT λ=0.5. Published mix: 1,001 CAI rows per arm plus 300 format replay. Kish ESS 789.94. Max weight 2.248. Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). The v1, v1_fixed, and v2 notebooks stay untouched.
 
 | rank | author | title | year | score | github coverage link |
 |---|---|---|---|---|---|

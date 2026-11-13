@@ -3,6 +3,8 @@
 Generated: 2026-10-27T22:11:05Z
 Formula: `slice1-v1`; k=10; chunk=500 tokens; PD cutoff=1930.
 
+The counts below are the scoring census (527 works). The current training run is **v3**, which keeps the top 20 of those works by `ier_intrinsic`. v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas and UltraChat, clips weights to 0.25–2, and draws rows with replacement. v3 rewrites the v2 traces into one weighed turn, drops UltraChat, and keeps the 300-row format replay. Three arms: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control. R-DPO α=0.01, β=0.1. Bidirectional rejected answers. Seeds 0–2. Reported score: WiSE-FT λ=0.5. Published mix: 1,001 CAI rows per arm plus 300 format replay. Kish ESS 789.94. Max weight 2.248. Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). The v1, v1_fixed, and v2 notebooks stay untouched. Coverage: [`cai-3way-colab.md`](cai-3way-colab.md).
+
 ## Authors
 
 | Metric | Value |

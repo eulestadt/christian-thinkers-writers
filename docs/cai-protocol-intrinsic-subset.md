@@ -1,5 +1,9 @@
 # Master Execution Protocol (`CAI_PROTOCOL.md`) — I/E-R top 40, prompt-set size held at 2,500
 
+This page is the Steps 0–4 build for the 40-book archive (2,500 prompts, including UltraChat). It is not the current training run.
+
+The current run is **v3**: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas and UltraChat, clips weights to 0.25–2, and draws rows with replacement. v3 keeps the top 20 books by `ier_intrinsic`, rewrites the v2 traces into one weighed turn, and does not use UltraChat. The 300-row format replay stays. Three arms: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control. R-DPO α=0.01, β=0.1. Bidirectional rejected answers (unrevised draft and dogmatic rewrite). Seeds 0–2. Reported score: WiSE-FT λ=0.5. Published mix: 1,001 CAI rows per arm plus 300 format replay. Kish ESS 789.94. Max weight 2.248. The v1, v1_fixed, and v2 notebooks stay untouched. Coverage: [`cai-3way-colab.md`](cai-3way-colab.md).
+
 > **Instructions for Cursor Agent:** Execute a two-stage Constitutional AI (Bai et al., 2022, `arXiv:2212.08073`) pipeline over **40 books** in `books_raw/` (I/E-R intrinsic top 40 from `/cursor/stores/self/docs/intrinsic-motivation-scores.sqlite`; **do not filter on I − E**) to fine-tune `unsloth/Llama-3.2-3B-Instruct-bnb-4bit` first, then `unsloth/Mistral-Small-24B-Instruct-2501-bnb-4bit`.
 >
 > * **Strict Epistemic Isolation (Zero External Leakage):** Do NOT introduce any external philosophical frameworks, benchmark categories, or predefined taxonomies (including VanderWeele’s domains and FAI Benchmark terminology) in any system prompt or schema. Every principle, critique, revision, and evaluation rubric must be derived exclusively from the authors’ texts in `books_raw/`.
@@ -148,6 +152,8 @@ Assistant: Let's think step by step inside <thought> tags about how each option 
 ---
 
 ### Step 5: Google Colab GPU Training — SL-CAI SFT + RLAIF DPO (`scripts/05_colab_train.py`)
+
+The block below is the original two-model sketch for this protocol. The notebook that implements the current run is v3, linked at the top of this page. Do not treat `05_colab_train.py` or a Mistral pass as the latest train.
 
 **CAI Paper Grounding:** *Section 3.2 (SL-CAI) & Section 4.2 (RL-CAI via DPO equivalence)* — First train the base model on `sl_cai_train.jsonl` for 1 epoch, then train that resulting checkpoint on `rlaif_dpo_train.jsonl` for 1 epoch.
 

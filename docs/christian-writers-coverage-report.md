@@ -1,6 +1,8 @@
 # Christian writers database — coverage report
 
 Generated: 2026-10-27T17:29:53Z
+
+This page is the Wikipedia census. It is not a training mix. The current fine-tune is **v3** ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)): the top 20 census works by `ier_intrinsic`, rewritten from the v2 traces into one weighed turn, with no UltraChat and with the 300-row format replay kept. v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas and UltraChat, clips weights to 0.25–2, and draws rows with replacement. v3 trains three arms (weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, size-matched control) with R-DPO α=0.01 β=0.1, bidirectional rejected answers, and seeds 0–2. The reported score is WiSE-FT λ=0.5. Published mix: 1,001 CAI rows per arm plus 300 format replay. Kish ESS 789.94. Max weight 2.248. The v1, v1_fixed, and v2 notebooks stay untouched. Coverage: [`cai-3way-colab.md`](cai-3way-colab.md).
 Source root: https://en.wikipedia.org/wiki/Category:Christian_writers
 Method: MediaWiki `categorymembers` (ns=0|14, cmlimit=500, continue pagination, maxlag=5), then Wikipedia `query` extracts/pageprops and revision wikitext, then Wikidata `wbgetentities` + SPARQL (P50 author, P800 notable work).
 

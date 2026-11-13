@@ -14,7 +14,14 @@ abstract: >-
   intrinsic-motivation scores on English public-domain works, and
   Constitutional AI treatment (I/E-R intrinsic top 40) versus
   citation-control (same year window, treatment authors excluded)
-  datasets generated with deepseek-flash.
+  datasets generated with deepseek-flash. The current fine-tune (v3)
+  keeps the top 20 treatment books by ier_intrinsic, rewrites those
+  traces into one weighed turn, and compares a weighted arm
+  (w = s/mean, no clip), a uniform arm (w = 1 on the same rows), and
+  a size-matched control. Each arm has 1,001 CAI rows plus 300
+  format-replay rows (Kish ESS 789.94, max weight 2.248), trained
+  with R-DPO alpha 0.01 and beta 0.1. The reported score is WiSE-FT
+  lambda 0.5. UltraChat is not in the v3 mix.
 keywords:
   - constitutional AI
   - intrinsic religious motivation

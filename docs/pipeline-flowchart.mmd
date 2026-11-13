@@ -34,13 +34,15 @@ flowchart TB
   GH --> NF
 
   NV["Colab: local NVMe copy of sqlite<br/>read-only"]
-  AR["3-way: Base vs treatment-CAI vs control-CAI"]
-  L3["Llama 3.2 3B Instruct"]
-  MS["then Mistral Small 24B"]
+  V3["v3: top 20 by ier_intrinsic<br/>one weighed turn, no UltraChat<br/>1,001 CAI + 300 format replay"]
+  ARMS["Arms A/B/C<br/>weighted, uniform, size-matched control<br/>R-DPO α=0.01 β=0.1, seeds 0–2"]
+  L3["Llama 3.2 3B only<br/>report WiSE-FT λ=0.5"]
   NF --> NV
-  JL --> AR
-  NV --> AR
-  AR --> L3 --> MS
+  JL --> V3
+  NV --> V3
+  TRL --> V3
+  CC --> V3
+  V3 --> ARMS --> L3
 
   classDef db fill:#eef2ff,stroke:#4338ca,color:#111827
   classDef treat fill:#ecfdf5,stroke:#047857,color:#111827
@@ -53,4 +55,4 @@ flowchart TB
   class CB,CC ctrl
   class ISO,NF iso
   class GH gh
-  class JL,NV,AR,L3,MS col
+  class JL,NV,V3,ARMS,L3 col

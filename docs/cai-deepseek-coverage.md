@@ -3,7 +3,9 @@
 Generated: 2026-10-28T10:37:53Z
 
 DeepSeek-only constitution / SL-CAI / RLAIF data build over the I/E-R intrinsic top 40.
-No Colab, GPU, Unsloth, or Drive. Ranked by I/E-R intrinsic only (no I−E filter).
+This page is Steps 0–4. It does not document a Colab train. Ranked by I/E-R intrinsic only (no I−E filter).
+
+The current Colab run is **v3** ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)). It keeps ranks 1–20 of the table below and rewrites those v2 traces into one weighed turn. v1 trains two arms on the full book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas and UltraChat, clips weights, and resamples. v3 drops UltraChat, keeps the 300-row format replay, and trains three arms (weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, size-matched control) with R-DPO α=0.01 β=0.1, bidirectional rejected answers, and seeds 0–2. The reported score is WiSE-FT λ=0.5. Published mix: 1,001 CAI rows per arm plus 300 format replay. Kish ESS 789.94. Max weight 2.248. The v1, v1_fixed, and v2 notebooks stay untouched. Coverage: [`cai-3way-colab.md`](cai-3way-colab.md).
 Extraction, critique, revision, and judge prompts use author-text vocabulary only.
 Gemini-generated principles, prompts, SL-CAI, and RLAIF labels were discarded and regenerated.
 
@@ -107,7 +109,7 @@ Titles link to the Gutenberg / Wikisource / Internet Archive catalog page from t
 
 - Treatment 40 table: I/E-R DESC from `/cursor/stores/self/docs/intrinsic-motivation-scores.sqlite` (read-only) joined to `corpus_manifest.json`. Years from `work_candidates` (`year_source=author_death_latest` for Richmond, Gordon, Julian of Norwich, Butler, Harnack). Wiki inlinks / sitelinks are the census citation fallback on the chosen work; no OpenAlex cites were stored for these 40.
 - Step 4 wrote 2500 RLAIF DPO pairs to /cursor/stores/self/cai-pipeline/data/rlaif_dpo_train.jsonl.
-- DeepSeek-only Steps 0–4 complete. Step 5 (Colab/GPU/Unsloth/Drive) was not run.
+- DeepSeek-only Steps 0–4 complete. The Colab train for this archive is v3 (top 20 of this table), not a train on all 2,500 rows. See [`cai-3way-colab.md`](cai-3way-colab.md).
 
 ## Outputs
 

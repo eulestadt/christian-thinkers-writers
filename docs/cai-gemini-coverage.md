@@ -1,9 +1,12 @@
-# CAI coverage (Steps 0–4) — DeepSeek
+# CAI coverage (Steps 0–4) — legacy Gemini page
 
 Generated: 2026-10-28T10:37:53Z
 
-DeepSeek-only constitution / SL-CAI / RLAIF data build over the I/E-R intrinsic top 40.
-No Colab, GPU, Unsloth, or Drive. Ranked by I/E-R intrinsic only (no I−E filter).
+This page is the discarded Gemini data build. It was regenerated with DeepSeek and is not the current training run.
+
+The current Colab run is **v3** ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)). v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas and UltraChat, clips weights to 0.25–2, and draws rows with replacement. v3 keeps the top 20 books by `ier_intrinsic`, rewrites the v2 traces into one weighed turn, and does not use UltraChat. The 300-row format replay stays. Three arms: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control. R-DPO α=0.01, β=0.1. Bidirectional rejected answers. Seeds 0–2. Reported score: WiSE-FT λ=0.5. Published mix: 1,001 CAI rows per arm plus 300 format replay. Kish ESS 789.94. Max weight 2.248. The v1, v1_fixed, and v2 notebooks stay untouched. Coverage: [`cai-3way-colab.md`](cai-3way-colab.md).
+
+The counts below are the old Steps 0–4 record, not the v3 mix. Ranked by I/E-R intrinsic only (no I−E filter).
 Extraction, critique, revision, and judge prompts use author-text vocabulary only.
 Gemini-generated principles, prompts, SL-CAI, and RLAIF labels were discarded and regenerated.
 
@@ -51,7 +54,7 @@ Gemini-generated principles, prompts, SL-CAI, and RLAIF labels were discarded an
 ## Notes
 
 - Step 4 wrote 2500 RLAIF DPO pairs to /cursor/stores/self/cai-pipeline/data/rlaif_dpo_train.jsonl.
-- DeepSeek-only Steps 0–4 complete. Step 5 (Colab/GPU/Unsloth/Drive) was not run.
+- DeepSeek-only Steps 0–4 on this discarded page are a historical record. The current Colab train is v3. See [`cai-3way-colab.md`](cai-3way-colab.md).
 
 ## Outputs
 

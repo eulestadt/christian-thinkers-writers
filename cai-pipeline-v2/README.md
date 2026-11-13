@@ -1,8 +1,12 @@
 # v2 CAI pipeline (additive)
 
-Builds the OOD-train mix and I/E-R-weighted SL-CAI / RLAIF JSONL for
-`colab/cai_3way_experiment_and_eval_v2.ipynb`. Does not overwrite v1
-`cai-pipeline/` or `cai-pipeline-control/` artifacts.
+This folder builds the **v2** mix. The current training run is **v3**: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb), mix in [`colab/data/v3/`](../colab/data/v3/), builder [`colab/scripts/build_v3_dialogues.py`](../colab/scripts/build_v3_dialogues.py).
+
+v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas and UltraChat, clips weights to 0.25–2, and draws rows with replacement. v3 keeps the top 20 books by `ier_intrinsic`, rewrites the v2 `draft_0` / `revision_3` traces into one weighed turn, and drops UltraChat. The 300-row format replay stays. Three arms: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control. R-DPO α=0.01, β=0.1. Rejected answers alternate between the unrevised draft and a dogmatic rewrite. Seeds 0–2. Reported score: WiSE-FT λ=0.5. Published mix: 1,001 CAI rows per arm plus 300 format replay. Kish ESS 789.94. Max weight 2.248. The v1, v1_fixed, and v2 notebooks stay untouched.
+
+The scripts below still build the v2 mix for
+`colab/cai_3way_experiment_and_eval_v2.ipynb`. They do not overwrite v1
+`cai-pipeline/` or `cai-pipeline-control/` artifacts, and they do not write `colab/data/v3/`.
 
 Default model for the Colab train cell is **Llama 3.2 3B Instruct**. Mistral
 24B is an optional later run, not part of this PR.
@@ -25,4 +29,4 @@ Default model for the Colab train cell is **Llama 3.2 3B Instruct**. Mistral
 | `scripts/04_stage2_rlaif_ood.py` | RLAIF DPO pairs |
 | `scripts/06_mix_weighted.py` | Mix elicited + UltraChat + OOD + format replay |
 
-Do not launch GPU training from the agent VM; run the v2 notebook on Colab.
+Do not launch GPU training from the agent VM. The current notebook to run on Colab is the v3 notebook. The v2 notebook remains available for the mix this folder builds.

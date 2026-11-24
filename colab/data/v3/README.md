@@ -12,4 +12,4 @@ v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, a
 
 Kish ESS of the weighted CAI slice: **789.94**. Max weight: **2.248**. Counts are also in `mix_summary.json`. Per-row scores live in `cai_meta.jsonl` and are not columns on the train files.
 
-Every arm is trained with R-DPO α=0.01 and β=0.1, seeds 0, 1, and 2. Rejected answers alternate between the unrevised draft and a dogmatic rewrite. The reported score is WiSE-FT λ=0.5. The notebook stops if these files are missing. Study folder: [`../../../docs/study/`](../../../docs/study/).
+Every arm is trained with R-DPO α=0.01 and β=0.1, on seeds 0, 1, and 2. Rejected answers alternate between the unrevised draft and a dogmatic rewrite. The reported score, when Colab writes it, is WiSE-FT λ=0.5. The notebook stops if these files are missing. Methods and the live log: [`../../../docs/study/`](../../../docs/study/).

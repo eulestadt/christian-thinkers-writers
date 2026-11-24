@@ -1,58 +1,37 @@
-# v3 methods (vs v1 and v2)
+# How v3 is trained, and how that differs from v1 and v2
 
-v3 is the current training run. It is **not** a five-arm new-age / virtue-across-religions design. It is **not** a Mistral 24B or Qwen2-VL-72B run. Llama 3.2 3B Instruct only, QLoRA 4-bit.
+The current experiment is a small, honest comparison on one open-weight model: Llama 3.2 3B Instruct, loaded in 4-bit with Unsloth, LoRA on all seven projection matrices. It is not a five-arm design with a new-age corpus or a “virtue across religions” corpus. Those sketches exist in older notes; they were not trained in this run. It is also not a 24B or 72B study. If those models are trained later, they will get their own namespace. This page describes only v3.
 
-I/E-R scores are trainer metadata. They are not written into prompts, constitutions, or judges. Critique and revision stay on author-text vocabulary: no VanderWeele domains, FAI, or other flourishing taxonomies. Rank by I/E-R intrinsic only; do not require I−E > 0. Do not train on ETHICS, TruthfulQA, or MMLU. Writes go only to `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. Prior run namespaces stay on disk.
+The scientific question is whether a language model that sees a high-intrinsic Christian corpus, scored with Gorsuch and McPherson I/E-R intrinsic and not filtered on I minus E, answers held-out dilemmas any differently than the same recipe on a citation-matched public-domain control of the same size. I/E-R scores are trainer metadata. They are used to pick books and to set row weights. They are not written into prompts, constitutions, or judges. Critique and revision stay on the authors’ own vocabulary. External flourishing taxonomies are not a training target and are not injected into the loop.
 
-## What changed
+## What v1 and v2 already did
 
-| | v1 | v2 | **v3 (this run)** |
-|---|---|---|---|
-| Notebook | `colab/cai_3way_experiment_and_eval.ipynb` | `…_v2.ipynb` | `…_v3.ipynb` |
-| Books | 40 treatment + 40 control | same 40 + 40 | **top 20** treatment books by `ier_intrinsic`; control size-matched from the 40 |
-| Dialogue | book-elicited traces | those traces plus contemporary dilemmas | **one weighed turn**: rewrite existing v2 `draft_0` / `revision_3` traces into one user dilemma and one assistant completion |
-| UltraChat | 500 rows in the 2,500-prompt set | 500 rows in the 3,500-row mix | **none** |
-| Format replay | not the v1 mix | ~300 rows | **300** rows, weight 1 (ARC-Easy train + synthetic letter-format items) |
-| Train arms | treatment CAI vs citation-control CAI | same two arms | **three**: weighted, uniform (same rows), size-matched control |
-| CAI rows per arm | 2,500 | 3,500 mix | **1,001** + 300 replay = 1,301 SFT / 1,301 DPO |
-| Weights | not the v3 formula | clip `(0.25, 2.0)`, mean ~1.08, draw with replacement | **Arm A** `w = s / mean(s_kept)`, no clip, mean CAI weight 1; **Arm B** same rows, `w = 1`; **Arm C** `w = 1` |
-| Kish ESS (CAI slice) | — | — | **789.94** (`(∑w)² / ∑w²`) |
-| Max / min CAI weight | — | 2.0 / 0.25 by clip | **2.248** / 0.571 |
-| Loss | DPO | DPO | **R-DPO α=0.01, β=0.1** on every arm (Park et al. 2024, dialogue setting) |
-| Seeds | one (`3407`) | one | **0, 1, 2** (mean, not best) |
-| Reported eval | adapter as trained | adapter as trained | **WiSE-FT λ=0.5** (λ=1 on Arm A as reference; λ=0 is the base model, scored once) |
-| Adapter path | `adapters/{model}/` | `adapters/{model}/v2/` | `adapters/{model}/v3/` only |
+v1, in [`colab/cai_3way_experiment_and_eval.ipynb`](../../colab/cai_3way_experiment_and_eval.ipynb), trained two arms on the full book-dialogue sets: treatment Constitutional AI versus citation-control Constitutional AI. It used one seed (`3407`), a higher LoRA rank, and ordinary DPO. Adapters landed directly under the model name. That run is frozen.
 
-Published mix: [`colab/data/v3/mix_summary.json`](../../colab/data/v3/mix_summary.json). Book list: ranks 1–20 of [`four-top40-lists.md`](../four-top40-lists.md) (Brother Lawrence through John Taylor). Notebook coverage: [`cai-3way-colab.md`](../cai-3way-colab.md).
+v2, in [`colab/cai_3way_experiment_and_eval_v2.ipynb`](../../colab/cai_3way_experiment_and_eval_v2.ipynb), kept all forty treatment books and all forty control books. It mixed in contemporary dilemmas and a 500-row UltraChat slice, clipped treatment weights into the interval 0.25 to 2.0, and drew rows with replacement. It still trained two arms with one seed, and it wrote under `adapters/{model}/v2/` so that v1 would not be overwritten. The v2 traces (`draft_0` and `revision_3`) are the raw material v3 rewrites. The v2 mix itself is not what v3 trains.
 
-## Four honest eval arms
+## What v3 changes
 
-The letter and the result tables report these four, if they exist after Colab:
+v3 keeps only the twenty books with the highest `ier_intrinsic` scores — ranks 1 through 20 of the I/E-R list in [`four-top40-lists.md`](../four-top40-lists.md), from Brother Lawrence’s *The Practice of the Presence of God* through John Taylor’s *The Government of God*. There is no I−E > 0 requirement. Each kept v2 trace is rewritten, with `deepseek-flash` and thinking off, into a single user dilemma and a single weighed assistant reply. The completion is supposed to state a prior, name a principle as a candidate, and say what changes and what does not. Loss is on that completion only. UltraChat is out of the mix.
 
-1. **Base** — Llama 3.2 3B Instruct, no fine-tune (WiSE-FT λ=0).
-2. **Citation-control, size-matched** — Arm C: 1,001 control dialogues, stratified by book, weights 1, plus 300 format replay.
-3. **Uniform high-intrinsic** — Arm B: the 1,001 kept treatment dialogues, every weight 1, plus the same 300 replay rows.
-4. **Weighted high-intrinsic** — Arm A: the same 1,001 rows and row ids as Arm B, `w = s / mean`, plus the same replay.
+What stays is a shared 300-row format-replay slice (ARC-Easy train items and synthetic letter-format items, not MMLU, ETHICS, or TruthfulQA), every row at weight 1. That slice exists so the model still answers multiple-choice items with a letter in the first eight tokens. The published mix is in [`colab/data/v3/mix_summary.json`](../../colab/data/v3/mix_summary.json): 1,001 CAI rows per arm plus those 300 replay rows, so 1,301 SFT rows and 1,301 DPO pairs. After the top-twenty filter, Arm A’s CAI weights are `w = s / mean(s_kept)` with no clip, renormalized so the mean CAI weight is 1. The Kish effective sample size of that weighted CAI slice is 789.94. The heaviest row is 2.248; the lightest is 0.571.
 
-Arm A minus Arm B isolates the weights from the top-20 filter. Arm A minus Arm C isolates the high-intrinsic corpus from a citation-matched public-domain control of the same size. λ=1 on Arm A is a reference row, not a fifth experimental arm.
+## Three trained arms, four things we will score
 
-## Trainer (every trained arm, every seed)
+There are three things we actually fine-tune, and a fourth we score without training.
 
-- Model: `unsloth/Llama-3.2-3B-Instruct-bnb-4bit`. LoRA on all seven projections, `r=16`, `alpha=32`. SFT LR `1e-4`, 1 epoch. DPO LR `5e-6`.
-- Per-sequence SFT loss and per-pair R-DPO loss multiplied by `w_i` once per epoch. No sampling with replacement.
-- R-DPO: `L = -w * log σ( β log π(y_w)/π_ref(y_w) − β log π(y_l)/π_ref(y_l) + α(|y_w| − |y_l|) )` with α=0.01, β=0.1. `|y|` is tokenizer length of the completion.
-- Rejected answers alternate between the unrevised draft (501) and a dogmatic rewrite (500) on every arm.
-- Nine trains: `{weighted, uniform, control} × {0, 1, 2}`. Arm A and Arm B share the shuffle at a given seed.
+Arm A, weighted high-intrinsic, uses the 1,001 kept treatment dialogues with those uncapped weights, plus the shared replay. Arm B, uniform high-intrinsic, uses the same 1,001 rows and the same row ids, every weight set to 1, plus the same replay. At a given seed, Arm A and Arm B share the shuffle, so the only difference between them is `w`. Arm C, citation-control, draws 1,001 dialogues from the control pool, stratified by book so one author cannot fill the set, all weights 1, plus the same replay. If the control pool had been smaller than 1,001 we would have stopped; it was not.
 
-## What is not in this method
+When evaluation exists, the honest comparison is four-way: the untouched base model (WiSE-FT λ=0, scored once); Arm C at λ=0.5; Arm B at λ=0.5; and Arm A at λ=0.5. The mean of seeds 0, 1, and 2 is the reported number, not the best seed. λ=1 on Arm A is a reference row that shows the unblended adapter; it is not a fifth experimental arm. Arm A minus Arm B isolates the weights from the top-twenty filter. Arm A minus Arm C isolates the high-intrinsic corpus from a size-matched citation control.
 
-- No flourishing taxonomy, VanderWeele domains, or FAI labels in extract / critique / revision / judge prompts.
-- No I−E > 0 filter.
-- No UltraChat.
-- No new-age wisdom arm and no virtue-across-religions arm.
-- No Mistral 24B and no Qwen2-VL-72B in this run.
-- No overwrite of v1, v1_fixed, or v2 adapters or notebooks.
+Those scores have not been written yet. This page does not invent them.
 
-## Scores still pending
+## The shared trainer
 
-Eval (8-token generation + `parse_letter`, paired-bootstrap 95% intervals on A−B and A−C, 50-item style / dogmatic-vs-reflective set at λ=0.5) has not been written to GitHub. Fill [`results.md`](results.md) from Colab, then rewrite [`email-vanderweele.md`](email-vanderweele.md) from those numbers.
+Every trained arm, every seed, uses the same optimizer. The base is `unsloth/Llama-3.2-3B-Instruct-bnb-4bit`. LoRA rank 16, alpha 32, all seven projections. Supervised fine-tuning runs for one epoch at learning rate `1e-4`. Preference training then uses R-DPO (Park, Rafailov, Ermon, and Finn, 2024) with α=0.01 and β=0.1, the dialogue-setting values from that paper, at learning rate `5e-6`. The length term sits inside the logistic: when the chosen completion is longer than the rejected one, that pair’s gradient shrinks. The row weight multiplies the whole per-sequence SFT loss and the whole per-pair R-DPO loss, once per epoch. Rows are not drawn with replacement.
+
+Rejected answers alternate between the unrevised draft (501 pairs) and a dogmatic rewrite that drops the user’s constraints (500 pairs), on every arm, including uniform and control. Nine trains are planned: three arms times seeds 0, 1, and 2. Adapters and result files go only under `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. v1, v1_fixed, and v2 folders stay untouched. ETHICS, TruthfulQA, and MMLU are evaluation surfaces, not training text.
+
+## What we will report, when Colab finishes
+
+The primary metric remains 8-token generation plus `parse_letter`. Paired-bootstrap 95% intervals, resampling evaluation items and keeping arms paired, will cover Arm A minus Arm B and Arm A minus Arm C. A small held-out set of about fifty contemporary dilemmas will be scored at λ=0.5 for style drift and for dogmatic versus reflective replies. None of that is on GitHub yet. Fill [`results.md`](results.md) from Colab when it exists; do not backfill from older runs.

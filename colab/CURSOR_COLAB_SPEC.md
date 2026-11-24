@@ -18,7 +18,7 @@ Three arms:
 
 Each arm also has the 300 format-replay rows. Kish ESS of the weighted CAI slice is **789.94**. Max weight is **2.248**.
 
-Every arm uses R-DPO with α=0.01 and β=0.1. Rejected answers alternate between the unrevised draft and a dogmatic rewrite. Seeds are 0, 1, and 2. The reported score is the mean of those seeds at WiSE-FT λ=0.5. λ=1 on arm A is a reference. λ=0 is the base model, scored once. Llama 3.2 3B only. Writes only `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. Scores are trainer metadata and never appear in prompts. Do not train on ETHICS, TruthfulQA, or MMLU. The nine QLoRA trains run in Colab. Study folder: [`../docs/study/`](../docs/study/).
+Every arm uses R-DPO with α=0.01 and β=0.1. Rejected answers alternate between the unrevised draft and a dogmatic rewrite. Seeds are 0, 1, and 2. The reported score is the mean of those seeds at WiSE-FT λ=0.5. λ=1 on arm A is a reference. λ=0 is the base model, scored once. This run is Llama 3.2 3B only. Writes go only to `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. Scores are trainer metadata and never appear in prompts. Do not train on ETHICS, TruthfulQA, or MMLU. The nine QLoRA trains run in Colab. Methods and the live log: [`../docs/study/`](../docs/study/).
 
 ## Objective (v1, kept for the original notebook)
 

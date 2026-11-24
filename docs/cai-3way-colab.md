@@ -1,23 +1,25 @@
 # 3-arm CAI Colab notebook
 
-The current run is **v3**. Open [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb) on a Colab GPU (L4 24GB or T4 16GB). The nine QLoRA trains stay there. This archive does not launch them. Cell 1 stops if `colab/data/v3` is missing.
+The current run is **v3**. Open [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb) on a Colab GPU (L4 24GB or T4 16GB). The nine QLoRA trains stay on that runtime. This archive does not launch them. Cell 1 stops if `colab/data/v3` is missing.
 
-The v1 notebook ([`colab/cai_3way_experiment_and_eval.ipynb`](../colab/cai_3way_experiment_and_eval.ipynb)), the v1_fixed notebook, and the v2 notebook ([`colab/cai_3way_experiment_and_eval_v2.ipynb`](../colab/cai_3way_experiment_and_eval_v2.ipynb)) stay in the repo. They are not the run to open.
+The v1 notebook ([`colab/cai_3way_experiment_and_eval.ipynb`](../colab/cai_3way_experiment_and_eval.ipynb)), the v1_fixed notebook, and the v2 notebook ([`colab/cai_3way_experiment_and_eval_v2.ipynb`](../colab/cai_3way_experiment_and_eval_v2.ipynb)) stay in the repo so earlier work can still be read. They are not the run to open, and v3 does not write into their adapter folders.
 
 - Spec: [`colab/CURSOR_COLAB_SPEC.md`](../colab/CURSOR_COLAB_SPEC.md)
 - Colab folder README: [`colab/README.md`](../colab/README.md)
 - Mix: [`colab/data/v3/`](../colab/data/v3/)
-- Study folder (run log, methods, results, email draft): [`study/`](study/)
+- Study folder (methods, run log, results): [`study/`](study/)
 
 Primary weights: `unsloth/Llama-3.2-3B-Instruct-bnb-4bit`. v3 trains Llama 3.2 3B only.
 
 ## How v3 differs from v1 and v2
 
-v1 trains two arms on the book dialogues with one seed. Adapters go under the model name. The hyperparameters in the v1 notebook are seed `3407`, LoRA rank 32 / alpha 64, SFT LR `2e-4`, DPO LR `5e-6`.
+v1 trained two arms on the book dialogues with one seed. Adapters went under the model name. The hyperparameters in the v1 notebook are seed `3407`, LoRA rank 32 / alpha 64, SFT LR `2e-4`, DPO LR `5e-6`.
 
-v2 keeps all 40 books, adds contemporary dilemmas and UltraChat, clips weights to 0.25–2, and draws rows with replacement. It still trains two arms with one seed, and it writes under a v2 folder.
+v2 kept all forty books, added contemporary dilemmas and UltraChat, clipped weights to 0.25–2, and drew rows with replacement. It still trained two arms with one seed, and it writes under a v2 folder so v1 is not overwritten.
 
-v3 keeps the **20 books with the highest `ier_intrinsic` scores** (ranks 1–20 of the I/E-R list in [`four-top40-lists.md`](four-top40-lists.md); no I−E filter). It rewrites the existing v2 `draft_0` / `revision_3` traces into one user message and one weighed assistant reply. UltraChat is not in the mix. The shared **300-row format replay** stays, at weight 1. That slice is ARC-Easy train and synthetic letter-format items, not MMLU, ETHICS, or TruthfulQA.
+v3 keeps the **twenty books with the highest `ier_intrinsic` scores** (ranks 1–20 of the I/E-R list in [`four-top40-lists.md`](four-top40-lists.md); there is no I−E filter). It rewrites the existing v2 `draft_0` / `revision_3` traces into one user message and one weighed assistant reply. UltraChat is not in the mix. The shared **300-row format replay** stays, at weight 1. That slice is ARC-Easy train and synthetic letter-format items, not MMLU, ETHICS, or TruthfulQA.
+
+The longer comparison, including what is still un-scored, is in [`study/v3-methods.md`](study/v3-methods.md).
 
 Three arms share one trainer:
 

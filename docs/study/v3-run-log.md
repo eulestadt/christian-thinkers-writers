@@ -1,95 +1,55 @@
-# v3 3B study run log
+# v3 Colab run log
 
-Session name: `ctw-v3`. Account: `eulestadt@gmail.com`. Notebook: `colab/cai_3way_experiment_and_eval_v3.ipynb` on branch `cursor/v3-high-intrinsic-dialogue-dd22`. Compute cap: ~240 CU from starting balance. Hardware preference: L4, then T4, then A100. H100 is forbidden.
+This is the living log of the Llama 3.2 3B v3 session. Times are given in America/New_York, with the original UTC stamp in parentheses. The session name is `ctw-v3`, on account `eulestadt@gmail.com`. The notebook is `colab/cai_3way_experiment_and_eval_v3.ipynb` on branch `cursor/v3-high-intrinsic-dialogue-dd22`. Writes are allowed only under `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. The compute cap is about 240 Colab units from the starting balance. Hardware preference is L4, then T4, then A100; H100 is not used.
 
-All timestamps are recorded as UTC and US/Eastern.
+The mix that this session trains is already on GitHub: 1,001 CAI rows per arm, 300 format-replay rows, Kish ESS 789.94, max weight 2.248, R-DPO α=0.01 and β=0.1, seeds 0, 1, and 2, reported evaluation at WiSE-FT λ=0.5. Source counts are in [`colab/data/v3/mix_summary.json`](../../colab/data/v3/mix_summary.json).
 
-## 2026-11-24 01:24:24 UTC / 2026-11-23 20:24:24 US/Eastern — start
+As of the last entry below, the L4 session is up. Weighted seed 0 and uniform seed 0 have finished. Control seed 0 is in progress. About 1.23 of 240 compute units have been spent. There are no evaluation scores in this log.
 
-- `colab usage` starting balance: **506.04** compute units
-- Usage rate: 0.00/hr
-- Active assignments: 0
-- Soft stop if remaining would fall below **266.04** (506.04 − 240)
-- Working directory: `/tmp/ctw-v3-study`
-- Isolated Colab CLI config: `/tmp/ctw-v3-study/colab-sessions.json`
-- Clone: `https://github.com/eulestadt/christian-thinkers-writers` @ `cursor/v3-high-intrinsic-dialogue-dd22` (`00c3b54 Document v3 as the current Colab run.`)
-- `colab/data/v3` present: weighted / uniform / control JSONL, format replay, `mix_summary.json` (CAI n=1001, Kish ESS=789.94, max weight=2.248)
-- Artifacts destination: `/cursor/stores/bc-08e136d5-97fc-446b-aba1-a19e05e70ce1/docs/study/artifacts/`
+## 23 November 2026, 8:24 p.m. Eastern (2026-11-24 01:24:24 UTC) — start
 
-## 2026-11-24 01:25:31 UTC / 2026-11-23 20:25:31 US/Eastern — provision
+`colab usage` showed a starting balance of 506.04 compute units, a usage rate of 0.00 per hour, and no active assignments. The soft stop is a remaining balance of 266.04, which is 506.04 minus 240. The working directory on the coordinator was `/tmp/ctw-v3-study`, with an isolated Colab CLI config at `/tmp/ctw-v3-study/colab-sessions.json`. The clone target was `https://github.com/eulestadt/christian-thinkers-writers` at `cursor/v3-high-intrinsic-dialogue-dd22`, then at commit `00c3b54` (“Document v3 as the current Colab run.”). `colab/data/v3` was present: weighted, uniform, and control JSONL, format replay, and `mix_summary.json` (CAI n=1001, Kish ESS=789.94, max weight=2.248). Artifacts are downloaded to the private study store under `docs/study/artifacts/`.
 
-Requesting one session: `colab new -s ctw-v3 --gpu L4`.
+## 23 November 2026, 8:25 p.m. Eastern (01:25:31 UTC) — provision
 
-## 2026-11-24 01:25:37 UTC / 2026-11-23 20:25:37 US/Eastern — session READY
+One session was requested with `colab new -s ctw-v3 --gpu L4`.
 
-- Session: `ctw-v3` id `gpu-l4-s-ass1a1-wpezaz2um9st`
-- Hardware: **NVIDIA L4** Standard GPU, 23034 MiB VRAM, CUDA 13.0, driver 580.82.07
-- Host: 12 vCPU, 52 GiB RAM, 236G overlay
-- Torch: 2.14.1+cu130
-- `colab usage`: balance **506.04**, rate **1.94/hr**, active assignments 1
-- Projected 240 CU ≈ 123 hours at this rate. Nine 3B QLoRA trains should fit.
+## 23 November 2026, 8:25 p.m. Eastern (01:25:37 UTC) — session ready
 
-## 2026-11-24 01:26:29 UTC / 2026-11-23 20:26:29 US/Eastern — clone on VM
+The session came up as `ctw-v3`, id `gpu-l4-s-ass1a1-wpezaz2um9st`, on an NVIDIA L4 Standard GPU with 23034 MiB of VRAM, CUDA 13.0, driver 580.82.07. The host had 12 vCPUs, 52 GiB of RAM, and a 236G overlay. Torch was 2.14.1+cu130. After attach, `colab usage` still read 506.04, now at 1.94 units per hour with one active assignment. At that rate, 240 units is about 123 hours, which is enough for nine 3B QLoRA trains.
 
-- `git clone --depth 1 --branch cursor/v3-high-intrinsic-dialogue-dd22` → `/content/christian-thinkers-writers`
-- HEAD `00c3b54 Document v3 as the current Colab run.`
-- `colab/data/v3` present (weighted / uniform / control JSONL). Would have failed loudly if missing.
-- Seeded `/content/drive/MyDrive/CAI_Experiment` as a local directory (no Drive mount; notebook BASE_DIR still lands there).
-- Notebook uploaded to `/content/cai_3way_experiment_and_eval_v3.ipynb`
+## 23 November 2026, 8:26 p.m. Eastern (01:26:29 UTC) — clone on the VM
 
-## 2026-11-24 01:26:49 UTC / 2026-11-23 20:26:49 US/Eastern — install
+The VM ran `git clone --depth 1 --branch cursor/v3-high-intrinsic-dialogue-dd22` into `/content/christian-thinkers-writers`. HEAD was still `00c3b54`. `colab/data/v3` was present (weighted, uniform, and control JSONL); Cell 1 would have stopped if it had been missing. `/content/drive/MyDrive/CAI_Experiment` was seeded as a local directory rather than a Drive mount, so the notebook’s `BASE_DIR` still lands there. The notebook was uploaded to `/content/cai_3way_experiment_and_eval_v3.ipynb`.
 
-- Cell 3 (Unsloth + TRL) finished at 01:27:36 UTC. Unsloth 2026.11.10, FastLanguageModel ok.
-- xformers does not match torch 2.14.1+cu130; Unsloth falls back to PyTorch attention. Training continues.
+## 23 November 2026, 8:26 p.m. Eastern (01:26:49 UTC) — install
 
-## 2026-11-24 01:28:20 UTC / 2026-11-23 20:28:20 US/Eastern — environment cell
+Cell 3 (Unsloth and TRL) finished at 01:27:36 UTC. Unsloth 2026.11.10 loaded `FastLanguageModel` successfully. xformers does not match torch 2.14.1+cu130, so Unsloth falls back to PyTorch attention. Training continues on that fallback.
 
-- Cell 4 verified v3 mixes: 1301 SFT / 1301 DPO per arm (1001 CAI + 300 replay). Kish ESS 789.94, max weight 2.2475.
-- Write paths: `adapters/llama32_3b/v3` and `results/llama32_3b/v3` under `/content/drive/MyDrive/CAI_Experiment`
-- CUDA=True GPU=NVIDIA L4. Balance after cell 4: **505.94** CU (~0.10 spent).
-- Cell 6 cached `docs/intrinsic-motivation-scores.sqlite` (527 works, 99637 chunks) and treatment `state.db` read-only on local NVMe.
+## 23 November 2026, 8:28 p.m. Eastern (01:28:20 UTC) — environment cell
 
-## 2026-11-24 01:31:36 UTC / 2026-11-23 20:31:36 US/Eastern — train functions loaded
+Cell 4 checked the v3 mixes: 1,301 SFT rows and 1,301 DPO pairs per arm (1,001 CAI plus 300 replay). Kish ESS 789.94, max weight 2.2475. Write paths are `adapters/llama32_3b/v3` and `results/llama32_3b/v3` under `/content/drive/MyDrive/CAI_Experiment`. CUDA was true on the NVIDIA L4. Balance after cell 4 was 505.94, about 0.10 spent. Cell 6 copied `docs/intrinsic-motivation-scores.sqlite` (527 works, 99,637 chunks) and the treatment `state.db` onto local NVMe and opened them read-only.
 
-- Cell 8 loaded with `RUN_TRAINING=False` so the nine trains can be launched one arm×seed at a time, with a download after each.
-- Next: weighted seed 0.
+## 23 November 2026, 8:31 p.m. Eastern (01:31:36 UTC) — train functions loaded
 
-## 2026-11-24 01:31:59 UTC / 2026-11-23 20:31:59 US/Eastern — TRAIN weighted seed 0 start
+Cell 8 loaded with `RUN_TRAINING=False` so the nine trains can be launched one arm and seed at a time, with a download after each. Next up was weighted seed 0.
 
-First QLoRA train. Base `unsloth/Llama-3.2-3B-Instruct-bnb-4bit` downloaded on this VM.
+## 23 November 2026, 8:31 p.m. Eastern (01:31:59 UTC) — weighted seed 0 started
 
-## 2026-11-24 01:48:12 UTC / 2026-11-23 20:48:12 US/Eastern — TRAIN weighted seed 0 done
+This was the first QLoRA train. The VM downloaded the 4-bit base `unsloth/Llama-3.2-3B-Instruct-bnb-4bit`.
 
-- Elapsed: **971.5 s** (~16.2 min). SFT 82 steps then R-DPO 82 steps (α=0.01, β=0.1).
-- Adapter: `/content/drive/MyDrive/CAI_Experiment/adapters/llama32_3b/v3/weighted_seed0_final_lora`
-- Downloaded to `/cursor/stores/bc-08e136d5-97fc-446b-aba1-a19e05e70ce1/docs/study/artifacts/adapters/llama32_3b/v3/weighted_seed0_final_lora` (93M safetensors) plus `weighted_seed0_trainer_state.json`
-- Train transcript: `/cursor/stores/bc-08e136d5-97fc-446b-aba1-a19e05e70ce1/docs/study/artifacts/logs/train_weighted_seed0.colab.txt`
-- `colab usage`: balance **505.46**, rate 1.94/hr. Cumulative spent from 506.04: **0.58 CU**
+## 23 November 2026, 8:48 p.m. Eastern (01:48:12 UTC) — weighted seed 0 finished
 
+The train took 971.5 seconds, about 16.2 minutes: 82 SFT steps, then 82 R-DPO steps at α=0.01 and β=0.1. The adapter landed at `/content/drive/MyDrive/CAI_Experiment/adapters/llama32_3b/v3/weighted_seed0_final_lora`. It was downloaded to the private study store as `docs/study/artifacts/adapters/llama32_3b/v3/weighted_seed0_final_lora` (93 MB safetensors) plus `weighted_seed0_trainer_state.json`. The train transcript is `docs/study/artifacts/logs/train_weighted_seed0.colab.txt`. `colab usage` then read 505.46 at 1.94 per hour. Cumulative spend from 506.04 was 0.58 units. Those weights are not in git; this repository’s Git LFS does not track safetensors.
 
-## 2026-11-24 01:49:35 UTC / 2026-11-23 20:49:35 US/Eastern — TRAIN uniform seed 0 start
+## 23 November 2026, 8:49 p.m. Eastern (01:49:35 UTC) — uniform seed 0 started
 
-```
-Current balance: 505.29 compute units
-Usage rate: 1.94/hr
-Active assignments: 1
-```
+Balance at the start of this train was 505.29 compute units, still 1.94 per hour, one active assignment.
 
-## 2026-11-24 02:06:15 UTC / 2026-11-23 21:06:15 US/Eastern — TRAIN uniform seed 0 done
+## 23 November 2026, 9:06 p.m. Eastern (02:06:15 UTC) — uniform seed 0 finished
 
-- Adapter downloaded to `docs/study/artifacts/adapters/llama32_3b/v3/uniform_seed0_final_lora`
-- Cumulative CU spent from start: **1.23** (balance 504.81)
+The adapter was downloaded to `docs/study/artifacts/adapters/llama32_3b/v3/uniform_seed0_final_lora`. Cumulative spend from the start of the session was 1.23 units; the balance was 504.81, still at 1.94 per hour with one assignment.
 
-```
-Current balance: 504.81 compute units
-Usage rate: 1.94/hr
-Active assignments: 1
-```
+## 23 November 2026, 9:06 p.m. Eastern (02:06:23 UTC) — control seed 0 started
 
-## 2026-11-24 02:06:23 UTC / 2026-11-23 21:06:23 US/Eastern — TRAIN control seed 0 start
-
-```
-Current balance: 504.81 compute units
-Usage rate: 1.94/hr
-Active assignments: 1
-```
+Control seed 0 began immediately after the uniform download, at balance 504.81. It has not finished in this copy of the log. Remaining planned trains are control seed 0 (in progress), then weighted, uniform, and control at seeds 1 and 2, then evaluation at λ=0.5 for every seed, λ=1 on Arm A, λ=0 on the base model once, and the fifty-item style set. Training stops if remaining units would drop more than about 240 from the starting balance. v1, v1_fixed, and v2 adapters are not overwritten.

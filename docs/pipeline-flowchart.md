@@ -1,6 +1,6 @@
 # Experiment pipeline
 
-Whole-experiment map for the Christian Thinkers Writers CAI archive: census and closed-form scoring, treatment vs citation-control Constitutional AI, GitHub + Drive layout, and the Colab 3-way eval.
+Whole-experiment map for the Christian Thinkers Writers CAI archive: census and closed-form scoring, treatment vs citation-control Constitutional AI, GitHub + Drive layout, and the current v3 Colab run.
 
 ![Experiment pipeline flowchart](pipeline-flowchart.png)
 
@@ -45,13 +45,15 @@ flowchart TB
   GH --> NF
 
   NV["Colab: local NVMe copy of sqlite<br/>read-only"]
-  AR["3-way: Base vs treatment-CAI vs control-CAI"]
-  L3["Llama 3.2 3B Instruct"]
-  MS["then Mistral Small 24B"]
+  V3["v3: top 20 by ier_intrinsic<br/>one deliberative turn<br/>1,001 CAI + 300 format replay"]
+  ARMS["Arms A/B/C<br/>weighted, uniform, size-matched control<br/>R-DPO α=0.01 β=0.1, seeds 0–2"]
+  L3["Llama 3.2 3B<br/>report WiSE-FT λ=0.5"]
   NF --> NV
-  JL --> AR
-  NV --> AR
-  AR --> L3 --> MS
+  JL --> V3
+  NV --> V3
+  TRL --> V3
+  CC --> V3
+  V3 --> ARMS --> L3
 
   classDef db fill:#eef2ff,stroke:#4338ca,color:#111827
   classDef treat fill:#ecfdf5,stroke:#047857,color:#111827
@@ -64,15 +66,19 @@ flowchart TB
   class CB,CC ctrl
   class ISO,NF iso
   class GH gh
-  class JL,NV,AR,L3,MS col
+  class JL,NV,V3,ARMS,L3 col
 ```
 
 ## Stages
 
 1. **Census.** Walk Wikipedia `Category:Christian writers` into [`christian-writers.sqlite`](christian-writers.sqlite) (14,128 writers, 163,063 works). Coverage: [census](christian-writers-coverage-report.md).
-2. **Closed-form I/E-R scoring (no LLM).** Hoge + Gorsuch I/E-R on one English public-domain work per kept author → [`intrinsic-motivation-scores.sqlite`](intrinsic-motivation-scores.sqlite) (527 scored). Rank by I/E-R intrinsic only (no I−E filter) → top 40. Coverage: [scoring](intrinsic-motivation-coverage.md), [method](intrinsic-motivation-scoring.md).
+2. **Closed-form I/E-R scoring (no LLM).** Hoge + Gorsuch I/E-R on one English public-domain work per kept author → [`intrinsic-motivation-scores.sqlite`](intrinsic-motivation-scores.sqlite) (527 scored). Rank by I/E-R intrinsic only (no I−E filter) → top 40 treatment books. v3 trains on ranks 1–20 of that list. Coverage: [scoring](intrinsic-motivation-coverage.md), [method](intrinsic-motivation-scoring.md).
 3. **Treatment CAI.** Those 40 PD books → `deepseek-flash` constitution (thinking off) → 2,500 prompts → SL-CAI → RLAIF. Tree: [`cai-pipeline/`](../cai-pipeline/). Coverage: [treatment](cai-deepseek-coverage.md).
 4. **Control CAI.** 40 most-cited English PD works, publication years 1500–1930, excluding the treatment works and their authors → the same `deepseek-flash` loop. Tree: [`cai-pipeline-control/`](../cai-pipeline-control/). Coverage: [control](cai-control-coverage.md).
 5. **GitHub public archive.** This repo is the citable source of truth (including Git LFS sqlite).
 6. **Drive.** Shared folder **Alignment Research** / `CAI_Experiment` holds a JSONL copy for Colab. **Do not** open sqlite on Drive FUSE (`database is locked` / metadata touches).
-7. **Colab 3-way.** Base vs treatment-CAI vs control-CAI. Train Llama 3.2 3B Instruct first, then Mistral. Copy sqlite onto local NVMe, `chmod 0444`, open `file:...?mode=ro&immutable=1`. Notebook: [`colab/cai_3way_experiment_and_eval.ipynb`](../colab/cai_3way_experiment_and_eval.ipynb). Coverage: [Colab](cai-3way-colab.md).
+7. **Colab v3 (current run).** Keep the top twenty books by `ier_intrinsic` (a noisier tail still contributes gradient even at small weight), rewrite each kept v2 trace into one deliberative turn, and train on 1,001 CAI rows plus 300 format-replay rows so the 8-token scorer still sees a letter. Three arms share one trainer: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows (filter held fixed), and a size-matched control. Every arm uses R-DPO (α=0.01, β=0.1) so length sits inside the logistic. Rejected answers alternate between the unrevised draft and a dogmatic rewrite, because rejecting only the draft trains maximum movement. Seeds are 0, 1, and 2; the reported score is their mean at WiSE-FT λ=0.5 (a blend of adapter and base). On this 3B run A, B, and C are tied; see [`study/results.md`](study/results.md). Kish ESS 789.94 and max weight 2.248 are logged because uncapped weights raise variance. Copy sqlite onto local NVMe, `chmod 0444`, and open `file:...?mode=ro&immutable=1`. Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). Why: [`study/v3-methods.md`](study/v3-methods.md).
+
+## How v3 differs from v1 and v2
+
+v1 trained two arms on the book dialogues with one seed. v2 kept all forty books, mixed in contemporary dilemmas, clipped weights, and drew rows with replacement. v3 is the LIMA / AlpaGasus cut, the deliberative rewrite, the uniform-weight ablation, R-DPO, three seeds, and the λ=0.5 report described in stage 7. Adapters and results go under `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. The nine QLoRA trains run on Colab. The argument is [`study/v3-methods.md`](study/v3-methods.md); the live session log is [`study/v3-run-log.md`](study/v3-run-log.md).

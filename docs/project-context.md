@@ -15,6 +15,10 @@ Related questions Phoenix has already named:
 
 Fine-tuning data should draw on David Williams’ work on intrinsically motivated motivations.
 
+## Current fine-tune (v3)
+
+The run to open is [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). v3 keeps the top twenty books by `ier_intrinsic` because a noisier tail still contributes gradient even at small weight, rewrites each kept trace into one deliberative turn, and trains on 1,001 CAI rows plus 300 format-replay rows. The uniform arm holds that filter fixed so weights can be tested separately; reported evaluation is a WiSE-FT blend at λ=0.5. Why: [`study/v3-methods.md`](study/v3-methods.md). Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md).
+
 ## Early experiment sketch (rough, already run)
 
 Alignment buckets Phoenix described:

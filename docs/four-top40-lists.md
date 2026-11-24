@@ -8,7 +8,7 @@ The **github coverage link** column points at the matching work row on GitHub `m
 
 ## Ranking rules
 
-1. **I/E-R intrinsic** — `works_scored` ⋈ `work_subscores` where `subscale='ier_intrinsic'` `ORDER BY score DESC LIMIT 40`. Join `author_decisions.canonical_name`; year from `work_candidates.year`. Same 40 as the CAI treatment arm (no I−E filter). One scored English PD work per author.
+1. **I/E-R intrinsic** — `works_scored` ⋈ `work_subscores` where `subscale='ier_intrinsic'` `ORDER BY score DESC LIMIT 40`. Join `author_decisions.canonical_name`; year from `work_candidates.year`. Same 40 as the Steps 0–4 treatment archive (no I−E filter). One scored English PD work per author. The current training run, v3, keeps **ranks 1–20** of this list (through John Taylor, *The Government of God*): a hard cut, because a noisier tail still contributes gradient even at small weight.
 2. **I minus E** — same join, `subscale='I_minus_E'` (stored composite intrinsic minus composite extrinsic; also on `works_scored.I_minus_E`). Not I/E-R intrinsic minus (Ep+Es).
 3. **Hoge intrinsic** — same join, `subscale='hoge_intrinsic'`.
 4. **Control 40** — citation-control arm as stored in control coverage / manifest (year window 1500–1930, treatment works and authors excluded). **Score** is OpenAlex `cited_by_count` when that is > 0 (ranks 1–9); otherwise Wikidata sitelinks (ranks 10–40; Wikipedia inlinks are capped at 500 for all of those rows).
@@ -18,6 +18,8 @@ Publication years include `author_death_latest` bounds when that is the stored `
 ## 1. Top 40 I/E-R intrinsic
 
 `subscale='ier_intrinsic'`. Score is the stored I/E-R intrinsic work score.
+
+**v3 uses ranks 1–20**, because Zhou et al. (LIMA) and Chen et al. (AlpaGasus) found that a curated high-scoring subset beat training on the full noisier forty: downweighting the tail still leaves it in the gradient. Those twenty traces are rewritten into one deliberative turn; the mix is 1,001 CAI rows plus 300 format-replay rows. Three arms, R-DPO, three seeds, WiSE-FT λ=0.5: see [`study/v3-methods.md`](study/v3-methods.md). Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb).
 
 | rank | author | title | year | score | github coverage link |
 |---|---|---|---|---|---|

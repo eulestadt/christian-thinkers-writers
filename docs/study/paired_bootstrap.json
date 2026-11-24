@@ -1,0 +1,182 @@
+[
+  {
+    "contrast": "A-B",
+    "benchmark": "ETHICS_commonsense",
+    "n_items": 200,
+    "mean_pp": 0.167,
+    "ci95_low_pp": -1.667,
+    "ci95_high_pp": 2.0,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-C",
+    "benchmark": "ETHICS_commonsense",
+    "n_items": 200,
+    "mean_pp": 0.333,
+    "ci95_low_pp": -2.0,
+    "ci95_high_pp": 2.667,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-B",
+    "benchmark": "ETHICS_deontology",
+    "n_items": 200,
+    "mean_pp": 0.5,
+    "ci95_low_pp": -0.5,
+    "ci95_high_pp": 1.5,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-C",
+    "benchmark": "ETHICS_deontology",
+    "n_items": 200,
+    "mean_pp": -0.333,
+    "ci95_low_pp": -1.667,
+    "ci95_high_pp": 1.0,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-B",
+    "benchmark": "ETHICS_justice",
+    "n_items": 200,
+    "mean_pp": -0.333,
+    "ci95_low_pp": -1.833,
+    "ci95_high_pp": 1.167,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-C",
+    "benchmark": "ETHICS_justice",
+    "n_items": 200,
+    "mean_pp": -0.167,
+    "ci95_low_pp": -2.167,
+    "ci95_high_pp": 1.833,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-B",
+    "benchmark": "ETHICS_virtue",
+    "n_items": 200,
+    "mean_pp": -0.667,
+    "ci95_low_pp": -1.5,
+    "ci95_high_pp": 0.0,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-C",
+    "benchmark": "ETHICS_virtue",
+    "n_items": 200,
+    "mean_pp": -0.333,
+    "ci95_low_pp": -1.333,
+    "ci95_high_pp": 0.667,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-B",
+    "benchmark": "MMLU_moral_disputes",
+    "n_items": 150,
+    "mean_pp": 0.0,
+    "ci95_low_pp": -1.333,
+    "ci95_high_pp": 1.333,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-C",
+    "benchmark": "MMLU_moral_disputes",
+    "n_items": 150,
+    "mean_pp": 0.444,
+    "ci95_low_pp": -1.778,
+    "ci95_high_pp": 2.667,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-B",
+    "benchmark": "MMLU_moral_scenarios",
+    "n_items": 150,
+    "mean_pp": 0.0,
+    "ci95_low_pp": -1.111,
+    "ci95_high_pp": 1.111,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-C",
+    "benchmark": "MMLU_moral_scenarios",
+    "n_items": 150,
+    "mean_pp": -1.778,
+    "ci95_low_pp": -4.222,
+    "ci95_high_pp": 0.667,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-B",
+    "benchmark": "MMLU_philosophy",
+    "n_items": 150,
+    "mean_pp": 0.667,
+    "ci95_low_pp": -0.222,
+    "ci95_high_pp": 1.778,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-C",
+    "benchmark": "MMLU_philosophy",
+    "n_items": 150,
+    "mean_pp": 0.667,
+    "ci95_low_pp": -1.111,
+    "ci95_high_pp": 2.444,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-B",
+    "benchmark": "MMLU_world_religions",
+    "n_items": 150,
+    "mean_pp": -0.222,
+    "ci95_low_pp": -1.556,
+    "ci95_high_pp": 0.889,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-C",
+    "benchmark": "MMLU_world_religions",
+    "n_items": 150,
+    "mean_pp": -0.889,
+    "ci95_low_pp": -2.444,
+    "ci95_high_pp": 0.444,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-B",
+    "benchmark": "TruthfulQA_MC1",
+    "n_items": 200,
+    "mean_pp": -0.0,
+    "ci95_low_pp": -1.167,
+    "ci95_high_pp": 1.167,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-C",
+    "benchmark": "TruthfulQA_MC1",
+    "n_items": 200,
+    "mean_pp": -0.833,
+    "ci95_low_pp": -2.333,
+    "ci95_high_pp": 0.667,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-B",
+    "benchmark": "pooled_primary",
+    "n_items": 1600,
+    "mean_pp": 0.0,
+    "ci95_low_pp": -0.417,
+    "ci95_high_pp": 0.438,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  },
+  {
+    "contrast": "A-C",
+    "benchmark": "pooled_primary",
+    "n_items": 1600,
+    "mean_pp": -0.312,
+    "ci95_low_pp": -0.917,
+    "ci95_high_pp": 0.271,
+    "note": "Item means across seeds 0, 1, 2 at lambda 0.5, then a paired bootstrap over items."
+  }
+]

@@ -72,6 +72,10 @@ Census: `christian-writers.sqlite` (not overwritten).
 5. Empty eligible set → exclude author. Reason codes stored on `author_decisions`.
 6. No invented works. Census rows only. Missing catalog data → ineligible, logged on `work_candidates`.
 
+## Where these scores go in the current train
+
+The current fine-tune is v3 ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)). It keeps the 20 works with the highest `ier_intrinsic` score from this method because a noisier tail still contributes gradient even at small weight (LIMA / AlpaGasus), then trains on 1,001 rewritten CAI dialogues plus 300 format-replay rows. Three arms, R-DPO, three seeds, WiSE-FT λ=0.5: see [`study/v3-methods.md`](study/v3-methods.md). This page is the scoring method. The mix is in [`colab/data/v3/`](../colab/data/v3/).
+
 ## Audit database
 
 `intrinsic-motivation-scores.sqlite` tables: `runs`, `item_bank`, `author_decisions`, `work_candidates`, `works_scored`, `chunks`, `chunk_item_scores`, `work_item_scores`, `work_subscores`, `api_errors`. JSONL is a view over `works_scored` + `work_item_scores`.

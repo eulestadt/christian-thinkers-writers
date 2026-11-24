@@ -6,7 +6,9 @@ Citation-control Constitutional AI dataset: the 40 most-cited English public-dom
 texts in the same publication-year window as the I/E-R intrinsic top 40, **excluding**
 those 40 treatment works (and their authors). Not restricted to Christian writers.
 Same CAI protocol and isolation (no VanderWeele/FAI/flourishing taxonomies).
-One model: `deepseek-flash`. Thinking off. No Gemini. No Colab/Step 5.
+One model: `deepseek-flash`. Thinking off. No Gemini. This page is Steps 0–4 and does not document a Colab train.
+
+This page is the Steps 0–4 citation-control archive. The notebook to train is **v3** ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)). It draws 1,001 dialogues from this pool, stratified by book, so Arm C is the same size as the treatment cut and one control author cannot fill the set: A minus C is then a corpus contrast, not “more rows versus fewer.” The mix is those 1,001 CAI rows plus 300 format-replay rows. Kish ESS of the weighted treatment slice is 789.94; max weight 2.248. Why: [`study/v3-methods.md`](study/v3-methods.md). Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md).
 
 ## Treatment year window
 
@@ -111,7 +113,7 @@ Titles link to the Gutenberg / Wikisource / Internet Archive catalog page from c
 - Ranking matches the census: OpenAlex `cited_by_count` (English books 1500–1930 matched to Gutenberg), then Wikipedia inlinks (cap 500), then Wikidata sitelinks. One most-cited PD work per author. Full English Gutenberg text required.
 - Treatment 40 works **and authors** excluded (writer QIDs, canonical names, Gutenberg IDs, chosen-work titles). Control is **not** restricted to Christian writers.
 - OpenAlex cursor page 2 returned 401 without an API key, so OpenAlex cites are from the first 50 English books; remaining slots are the highest-sitelink Gutenberg-linked works in-window. Hamlet replaced Othello (143 vs 94 sitelinks) because Gutenberg P2034 sits on editions, not the work item. James vols 1–2 concatenated. *Protocols of the Elders of Zion* skipped as a known forgery (not a genuine authored work); next ranked PD work is Kipling, *The Jungle Book*.
-- 40 × 50 elicited (rebalanced to 2,000) + 500 UltraChat = 2,500 prompts. SL-CAI 3-step critique batched 5; RLAIF judge. Every LLM record tagged `model=deepseek-flash` (UltraChat rows tagged `ultrachat`). No Gemini. No Colab/Step 5.
+- 40 × 50 elicited (rebalanced to 2,000) + 500 UltraChat = 2,500 prompts. SL-CAI 3-step critique batched 5; RLAIF judge. Every LLM record tagged `model=deepseek-flash` (UltraChat rows tagged `ultrachat`). No Gemini. The current Colab train is v3, which size-matches this pool to 1,001 CAI rows plus 300 format replay, stratified by book. See [`cai-3way-colab.md`](cai-3way-colab.md) and [`study/v3-methods.md`](study/v3-methods.md).
 - Live SQLite ran on `/tmp` after the store FUSE corrupted concurrent writes; `state.db` was copied back to the control data dir at the end.
 
 ## Outputs

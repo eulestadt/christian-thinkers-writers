@@ -6,10 +6,11 @@ This repository is an **archive**, not a hosted app or database. It exists so Ph
 
 **Start here — coverage pages (in-repo):**
 
+- [v3 study folder (methods, run log, results)](docs/study/)
 - [Experiment pipeline flowchart](docs/pipeline-flowchart.md)
 - [Treatment CAI coverage (Steps 0–4, `deepseek-flash`)](docs/cai-deepseek-coverage.md)
 - [Control CAI coverage (citation-control, Steps 0–4, `deepseek-flash`)](docs/cai-control-coverage.md)
-- [3-arm Colab notebook (Step 5, Llama 3.2 3B)](docs/cai-3way-colab.md)
+- [3-arm Colab notebook (current run is v3, Llama 3.2 3B)](docs/cai-3way-colab.md)
 - [CAI protocol — I/E-R intrinsic top 40](docs/cai-protocol-intrinsic-subset.md)
 - [Christian writers census coverage](docs/christian-writers-coverage-report.md)
 - [Intrinsic-motivation scoring coverage](docs/intrinsic-motivation-coverage.md)
@@ -19,7 +20,7 @@ Related notes: [project context](docs/project-context.md), [legacy Gemini covera
 
 ## Experiment flowchart
 
-Census → closed-form I/E-R scoring → treatment vs control CAI → GitHub archive → Drive JSONL copy → Colab 3-way (local NVMe sqlite). Mermaid source: [`docs/pipeline-flowchart.md`](docs/pipeline-flowchart.md).
+Census → closed-form I/E-R scoring → treatment vs control CAI → GitHub archive → Drive JSONL copy → v3 Colab (top 20 books, three arms, WiSE-FT λ=0.5). Mermaid source: [`docs/pipeline-flowchart.md`](docs/pipeline-flowchart.md).
 
 ![Experiment pipeline flowchart](docs/pipeline-flowchart.png)
 
@@ -44,7 +45,13 @@ Treatment examples: Brother Lawrence, *The Practice of the Presence of God*; Ign
 
 Control examples: William James, *The Principles of Psychology*; Darwin, *The Expression of the Emotions*; Shakespeare, *Hamlet* (citation-ranked PD, not a Christian-writers filter).
 
-Step 5 notebook is in [`colab/cai_3way_experiment_and_eval.ipynb`](colab/cai_3way_experiment_and_eval.ipynb) (Base vs Control CAI vs Experimental CAI, adapter hot-swap, ETHICS / TruthfulQA / MMLU / 150-dilemma arena). **GPU training was not executed in this snapshot**; open that notebook on Colab L4/T4 after mounting `CAI_Experiment/`. Coverage: [`docs/cai-3way-colab.md`](docs/cai-3way-colab.md).
+The 2,500-row files above are the Steps 0–4 archive. The current training run is **v3**, in [`colab/cai_3way_experiment_and_eval_v3.ipynb`](colab/cai_3way_experiment_and_eval_v3.ipynb). Notebook notes are in [`docs/cai-3way-colab.md`](docs/cai-3way-colab.md). Why each v3 choice is there — LIMA / AlpaGasus for the twenty-book cut, Byrd and Lipton for the uniform arm, Park for R-DPO, Dodge for three seeds, Wortsman for λ=0.5 — is in [`docs/study/`](docs/study/). Earlier notebooks remain in the repo so that work can still be read; v3 writes under `v3/` folders.
+
+## Current training run (v3)
+
+v1 trained two arms on the full book dialogues with a single seed. v2 kept all forty books, mixed in contemporary dilemmas, clipped weights to 0.25–2, and drew rows with replacement. v3 is the current run because a small high-scoring slice is the published default: Zhou et al. (LIMA) and Chen et al. (AlpaGasus) found that a curated subset beat the larger noisier set, so v3 keeps the **twenty books with the highest `ier_intrinsic` scores** (ranks 1–20). A noisier tail still contributes gradient even at small weight, which is why the cut is hard rather than a downweight. Each kept v2 trace is rewritten into one deliberative user turn and one weighed assistant reply, following Guan et al., so the model is trained on a weighed completion rather than on imitating the book. The mix is those 1,001 CAI rows plus a shared **300-row format replay** at weight 1, the InstructGPT pattern for keeping the letter-shaped output the 8-token scorer reads.
+
+Three arms share one trainer so that later differences can be attributed. Arm A weights the 1,001 treatment dialogues by `w = s / mean(s)` with no clip (Byrd and Lipton; Cui et al.); Kish ESS **789.94** and max weight **2.248** are logged because uncapped weights raise variance. Arm B uses the same rows and row ids with every weight 1, which is what makes a gain attributable to the weights rather than to the top-twenty filter. Arm C is a size-matched citation-control, stratified by book, weights 1. Every arm uses R-DPO with **α=0.01** and **β=0.1** (Park et al., dialogue setting) so length is inside the logistic rather than a fourth factor. Rejected answers alternate between the unrevised draft and a dogmatic rewrite: rejecting only the draft would train maximum movement (Sharma et al.). Seeds are **0, 1, and 2** and the reported score is their mean at **WiSE-FT λ=0.5** (Dodge et al. for the seeds; Wortsman et al. for a blend of adapter and base, not a hedge). On this 3B run the three arms are tied: pooled A−B 0.000 pp, 95% CI [−0.417, 0.438]; A−C −0.312 pp [−0.917, 0.271]. The shared shift versus the base is the training signal, not I/E-R weights. Numbers: [`docs/study/results.md`](docs/study/results.md). Adapters and results go under `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. Mix files: [`colab/data/v3/`](colab/data/v3/). The full argument is [`docs/study/v3-methods.md`](docs/study/v3-methods.md).
 
 ## Model (`deepseek-flash`)
 
@@ -63,9 +70,10 @@ README.md
 LICENSE                 # PD texts stay PD; code MIT; original docs/artifacts CC BY 4.0
 CITATION.cff
 docs/                   # markdown coverage, pipeline flowchart, sqlite/csv/jsonl
+docs/study/             # v3 methods, run log, results
 cai-pipeline/           # treatment CAI (I/E-R top 40)
 cai-pipeline-control/   # citation-control CAI
-colab/                  # 3-arm Unsloth notebook + held-out eval prompts
+colab/                  # current run: cai_3way_experiment_and_eval_v3.ipynb; v1 and v2 notebooks stay
 ```
 
 Large files (>50 MB) are stored with **Git LFS**:
@@ -94,7 +102,7 @@ CSV/JSONL exports live next to the census sqlite. A gzip of the scores sqlite is
 - `data/prompts_dataset.jsonl` — 2,500 prompts
 - `data/sl_cai_train.jsonl` — Stage 1 SFT
 - `data/rlaif_dpo_train.jsonl` — Stage 2 DPO pairs
-- `scripts/` — Steps 0–4 (`deepseek-flash`); `05_colab_train.py` points at the 3-arm notebook
+- `scripts/` — Steps 0–4 (`deepseek-flash`); the current Colab run is [`colab/cai_3way_experiment_and_eval_v3.ipynb`](colab/cai_3way_experiment_and_eval_v3.ipynb)
 
 ## License
 

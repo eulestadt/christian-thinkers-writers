@@ -1,6 +1,26 @@
 # Cursor specification: 3-arm CAI fine-tune and multi-benchmark Colab notebook
 
-## Objective
+## Current notebook (v3)
+
+The notebook to open is `colab/cai_3way_experiment_and_eval_v3.ipynb`. v3 writes under `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. The sections below the v3 notes are the earlier specifications.
+
+v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas, clips weights to 0.25–2, and draws rows with replacement.
+
+v3 keeps the top 20 books by `ier_intrinsic` because a noisier tail still contributes gradient even at small weight (LIMA / AlpaGasus), and rewrites the existing v2 `draft_0` / `revision_3` traces into one deliberative user message and one weighed assistant reply. The mix is those CAI rows plus a shared 300-row format replay at weight 1, so the 8-token letter scorer still sees a letter after an epoch of long completions.
+
+Three arms:
+
+| Arm | Rows | Weight |
+|---|---|---|
+| A, weighted | 1,001 kept treatment dialogues | `w = s / mean(s)`, no clip, mean CAI weight 1 |
+| B, uniform | the same rows and row ids | every weight 1 |
+| C, control | 1,001 control dialogues, stratified by book | every weight 1 |
+
+Each arm also has the 300 format-replay rows. Kish ESS of the weighted CAI slice is **789.94**. Max weight is **2.248**.
+
+Every arm uses R-DPO with α=0.01 and β=0.1 so length sits inside the logistic (Park et al.). Rejected answers alternate between the unrevised draft and a dogmatic rewrite: rejecting only the draft would train maximum movement (Sharma et al.). Seeds are 0, 1, and 2; the reported number is their mean (Dodge et al.). The reported score is that mean at WiSE-FT λ=0.5, a blend of adapter and base (Wortsman et al.). λ=1 on arm A is a reference. λ=0 is the base model, scored once. Scores are trainer metadata. The nine QLoRA trains run in Colab. Why: [`../docs/study/v3-methods.md`](../docs/study/v3-methods.md).
+
+## Objective (v1, kept for the original notebook)
 
 Self-contained Jupyter notebook `cai_3way_experiment_and_eval.ipynb` for Google Colab (L4 24GB or A100 40GB). Primary model: `unsloth/Llama-3.2-3B-Instruct-bnb-4bit`. Toggle `ACTIVE_MODEL = "mistral_small_24b"` for Mistral Small 24B Instruct.
 
@@ -42,9 +62,9 @@ results/{ACTIVE_MODEL}/qualitative_3arm_inspector.html
 8. Optional DeepSeek judge (`RUN_JUDGE=False`; `deepseek-flash` = V4.1-Flash-1017, not retired `deepseek-chat`).
 9. HTML qualitative inspector.
 
-## v2 notebook (additive)
+## v2 notebook (additive; not the current run)
 
-`cai_3way_experiment_and_eval_v2.ipynb` is a copy, not a replacement. Default `ACTIVE_MODEL = llama32_3b` (Mistral 24B is optional later, not this PR). Writes:
+`cai_3way_experiment_and_eval_v2.ipynb` is an earlier copy. The current run is v3, described at the top of this file. v2 default `ACTIVE_MODEL = llama32_3b` (Mistral 24B is optional later, not the v2 PR). v2 writes:
 
 - `adapters/{ACTIVE_MODEL}/v2/`
 - `results/{ACTIVE_MODEL}/v2/` (primary generative CSVs + `logprob/` side files + `error_direction.csv`)

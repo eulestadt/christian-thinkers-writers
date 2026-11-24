@@ -1,6 +1,8 @@
 # Christian writers database — coverage report
 
 Generated: 2026-10-27T17:29:53Z
+
+This page is the Wikipedia census, the inventory later scoring and CAI draw from. The current fine-tune is **v3** ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)), which keeps the top twenty census works by `ier_intrinsic` because a noisier tail still contributes gradient even at small weight, then trains on 1,001 rewritten CAI dialogues plus 300 format-replay rows. Why: [`study/v3-methods.md`](study/v3-methods.md). Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md).
 Source root: https://en.wikipedia.org/wiki/Category:Christian_writers
 Method: MediaWiki `categorymembers` (ns=0|14, cmlimit=500, continue pagination, maxlag=5), then Wikipedia `query` extracts/pageprops and revision wikitext, then Wikidata `wbgetentities` + SPARQL (P50 author, P800 notable work).
 

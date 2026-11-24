@@ -6,6 +6,7 @@ This repository is an **archive**, not a hosted app or database. It exists so Ph
 
 **Start here — coverage pages (in-repo):**
 
+- [v3 study folder (run log, methods, results, email draft)](docs/study/)
 - [Experiment pipeline flowchart](docs/pipeline-flowchart.md)
 - [Treatment CAI coverage (Steps 0–4, `deepseek-flash`)](docs/cai-deepseek-coverage.md)
 - [Control CAI coverage (citation-control, Steps 0–4, `deepseek-flash`)](docs/cai-control-coverage.md)
@@ -44,7 +45,7 @@ Treatment examples: Brother Lawrence, *The Practice of the Presence of God*; Ign
 
 Control examples: William James, *The Principles of Psychology*; Darwin, *The Expression of the Emotions*; Shakespeare, *Hamlet* (citation-ranked PD, not a Christian-writers filter).
 
-The 2,500-row files above are the Steps 0–4 archive. The current training run is **v3**, in [`colab/cai_3way_experiment_and_eval_v3.ipynb`](colab/cai_3way_experiment_and_eval_v3.ipynb). Coverage: [`docs/cai-3way-colab.md`](docs/cai-3way-colab.md). The v1 notebook ([`colab/cai_3way_experiment_and_eval.ipynb`](colab/cai_3way_experiment_and_eval.ipynb)), the v1_fixed notebook, and the v2 notebook ([`colab/cai_3way_experiment_and_eval_v2.ipynb`](colab/cai_3way_experiment_and_eval_v2.ipynb)) stay in the repo and are not the run to open.
+The 2,500-row files above are the Steps 0–4 archive. The current training run is **v3**, in [`colab/cai_3way_experiment_and_eval_v3.ipynb`](colab/cai_3way_experiment_and_eval_v3.ipynb). Coverage: [`docs/cai-3way-colab.md`](docs/cai-3way-colab.md). Study log, methods, results, and email draft: [`docs/study/`](docs/study/). The v1 notebook ([`colab/cai_3way_experiment_and_eval.ipynb`](colab/cai_3way_experiment_and_eval.ipynb)), the v1_fixed notebook, and the v2 notebook ([`colab/cai_3way_experiment_and_eval_v2.ipynb`](colab/cai_3way_experiment_and_eval_v2.ipynb)) stay in the repo and are not the run to open.
 
 ## Current training run (v3)
 
@@ -62,7 +63,7 @@ Three arms share one trainer:
 
 Each arm is those 1,001 CAI rows plus the 300 format-replay rows. Kish ESS of the weighted CAI slice is **789.94**. Max weight is **2.248**.
 
-Every arm uses R-DPO with **α=0.01** and **β=0.1**. Rejected answers alternate between the unrevised draft and a dogmatic rewrite. Seeds are **0, 1, and 2**. The reported score is the mean of those seeds at **WiSE-FT λ=0.5**. Llama 3.2 3B only. Adapters and results go under `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. The nine QLoRA trains run on Colab; this archive does not launch them. Mix files: [`colab/data/v3/`](colab/data/v3/).
+Every arm uses R-DPO with **α=0.01** and **β=0.1**. Rejected answers alternate between the unrevised draft and a dogmatic rewrite. Seeds are **0, 1, and 2**. The reported score is the mean of those seeds at **WiSE-FT λ=0.5**. Llama 3.2 3B only. Adapters and results go under `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. The nine QLoRA trains run on Colab; this archive does not launch them. Mix files: [`colab/data/v3/`](colab/data/v3/). Study folder: [`docs/study/`](docs/study/).
 
 ## Model (`deepseek-flash`)
 
@@ -81,6 +82,7 @@ README.md
 LICENSE                 # PD texts stay PD; code MIT; original docs/artifacts CC BY 4.0
 CITATION.cff
 docs/                   # markdown coverage, pipeline flowchart, sqlite/csv/jsonl
+docs/study/             # v3 run log, methods, results, email draft
 cai-pipeline/           # treatment CAI (I/E-R top 40)
 cai-pipeline-control/   # citation-control CAI
 colab/                  # current run: cai_3way_experiment_and_eval_v3.ipynb; v1 and v2 notebooks stay

@@ -7,6 +7,7 @@ The v1 notebook ([`colab/cai_3way_experiment_and_eval.ipynb`](../colab/cai_3way_
 - Spec: [`colab/CURSOR_COLAB_SPEC.md`](../colab/CURSOR_COLAB_SPEC.md)
 - Colab folder README: [`colab/README.md`](../colab/README.md)
 - Mix: [`colab/data/v3/`](../colab/data/v3/)
+- Study folder (run log, methods, results, email draft): [`study/`](study/)
 
 Primary weights: `unsloth/Llama-3.2-3B-Instruct-bnb-4bit`. v3 trains Llama 3.2 3B only.
 

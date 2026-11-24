@@ -6,7 +6,7 @@ v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, a
 
 Three arms share one trainer. Arm A uses `w = s / mean(s)` with no clip (mean CAI weight 1). Arm B uses the same rows and row ids with every weight set to 1. Arm C is a size-matched control, stratified by book, weights 1. Every arm uses R-DPO with α=0.01 and β=0.1. Rejected answers alternate between the unrevised draft and a dogmatic rewrite. Seeds are 0, 1, and 2. The reported score is the mean of those seeds at WiSE-FT λ=0.5.
 
-Published mix: **1,001** CAI rows per arm plus **300** format-replay rows (1,301 SFT rows and 1,301 DPO rows). Kish ESS **789.94**. Max weight **2.248**. Files: [`data/v3/`](data/v3/). Cell 1 stops if those files are missing. The nine QLoRA trains run here on Colab; they are not launched from the archive VM. Llama 3.2 3B only. Writes go to `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`.
+Published mix: **1,001** CAI rows per arm plus **300** format-replay rows (1,301 SFT rows and 1,301 DPO rows). Kish ESS **789.94**. Max weight **2.248**. Files: [`data/v3/`](data/v3/). Cell 1 stops if those files are missing. The nine QLoRA trains run here on Colab; they are not launched from the archive VM. Llama 3.2 3B only. Writes go to `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. Study folder: [`../docs/study/`](../docs/study/).
 
 ## Drive layout for v3 (`CAI_Experiment/`)
 

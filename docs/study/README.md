@@ -2,7 +2,7 @@
 
 This folder is the living write-up of the **v3** Colab run. Phoenix can watch it grow: mix and methods are here now; the run log, result tables, executed notebook, and email fill in as Colab finishes.
 
-**Status: mix published. Nine QLoRA trains and eval scores are not on GitHub yet. Do not treat pending cells as results.**
+**Status: L4 session `ctw-v3` is running. Weighted seed 0 and uniform seed 0 have trained (~1.23 of 240 CU). Eval scores are not on GitHub yet. Do not treat pending cells as results.**
 
 | File | What it is |
 |---|---|

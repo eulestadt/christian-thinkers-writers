@@ -1,74 +1,95 @@
-# v3 run log
+# v3 3B study run log
 
-Living step log for the Llama 3.2 3B v3 Colab session. Times are America/New_York (ET), with UTC in parentheses where a Colab stamp exists.
+Session name: `ctw-v3`. Account: `eulestadt@gmail.com`. Notebook: `colab/cai_3way_experiment_and_eval_v3.ipynb` on branch `cursor/v3-high-intrinsic-dialogue-dd22`. Compute cap: ~240 CU from starting balance. Hardware preference: L4, then T4, then A100. H100 is forbidden.
 
-**Status: mix is on GitHub. Colab provision has started. Nine QLoRA trains are not done.**
+All timestamps are recorded as UTC and US/Eastern.
 
-## Session
+## 2026-11-24 01:24:24 UTC / 2026-11-23 20:24:24 US/Eastern — start
 
-| | |
-|---|---|
-| Session name | `ctw-v3` |
-| Account | `eulestadt@gmail.com` |
-| GPU | pending (requested L4; T4 if L4 is unavailable) |
-| Notebook | `colab/cai_3way_experiment_and_eval_v3.ipynb` |
-| Branch | `cursor/v3-high-intrinsic-dialogue-dd22` |
-| Writes | `adapters/{ACTIVE_MODEL}/v3/`, `results/{ACTIVE_MODEL}/v3/` only |
-| Compute cap | about 240 Colab compute units from the starting balance |
-| Starting CU | **506.04** (2026-11-23 20:24 ET / 2026-11-24 01:24 UTC) |
-| Soft stop | remaining would fall below **266.04** |
-| Remaining CU | pending (re-check after attach) |
+- `colab usage` starting balance: **506.04** compute units
+- Usage rate: 0.00/hr
+- Active assignments: 0
+- Soft stop if remaining would fall below **266.04** (506.04 − 240)
+- Working directory: `/tmp/ctw-v3-study`
+- Isolated Colab CLI config: `/tmp/ctw-v3-study/colab-sessions.json`
+- Clone: `https://github.com/eulestadt/christian-thinkers-writers` @ `cursor/v3-high-intrinsic-dialogue-dd22` (`00c3b54 Document v3 as the current Colab run.`)
+- `colab/data/v3` present: weighted / uniform / control JSONL, format replay, `mix_summary.json` (CAI n=1001, Kish ESS=789.94, max weight=2.248)
+- Artifacts destination: `/cursor/stores/bc-08e136d5-97fc-446b-aba1-a19e05e70ce1/docs/study/artifacts/`
 
-## Mix already on GitHub (not a train)
+## 2026-11-24 01:25:31 UTC / 2026-11-23 20:25:31 US/Eastern — provision
 
-| | |
-|---|---|
-| CAI rows per arm | 1,001 |
-| Format replay | 300 |
-| SFT / DPO rows | 1,301 / 1,301 |
-| Kish ESS (weighted CAI slice) | 789.94 |
-| Max weight | 2.248 |
-| Min weight | 0.571 |
-| R-DPO | α=0.01, β=0.1 |
-| Seeds | 0, 1, 2 |
-| Reported eval | WiSE-FT λ=0.5 |
+Requesting one session: `colab new -s ctw-v3 --gpu L4`.
 
-Source: [`colab/data/v3/mix_summary.json`](../../colab/data/v3/mix_summary.json).
+## 2026-11-24 01:25:37 UTC / 2026-11-23 20:25:37 US/Eastern — session READY
 
-## Steps
+- Session: `ctw-v3` id `gpu-l4-s-ass1a1-wpezaz2um9st`
+- Hardware: **NVIDIA L4** Standard GPU, 23034 MiB VRAM, CUDA 13.0, driver 580.82.07
+- Host: 12 vCPU, 52 GiB RAM, 236G overlay
+- Torch: 2.14.1+cu130
+- `colab usage`: balance **506.04**, rate **1.94/hr**, active assignments 1
+- Projected 240 CU ≈ 123 hours at this rate. Nine 3B QLoRA trains should fit.
 
-| # | Step | Status | Time (ET) | Notes |
-|---|---|---|---|---|
-| 0 | v3 mix + unexecuted notebook on GitHub | done | 2026-11-08 | PR #3; Kish ESS 789.94, max weight 2.248 |
-| 1 | Study folder stub (`docs/study/`) | done | 2026-11-23 | methods, pipeline coverage, email skeleton; results pending |
-| 2 | `colab usage` starting balance | done | 2026-11-23 20:24 | **506.04** CU; rate 0.00/hr; 0 active assignments |
-| 3 | Provision Colab (`ctw-v3`, L4 requested) | in progress | 2026-11-23 20:25 | `colab new -s ctw-v3 --gpu L4` |
-| 4 | Clone repo / copy `colab/data/v3` onto the runtime | pending | | Cell 1 must see the mix |
-| 5 | Train `weighted` seed 0 | pending | | adapter `weighted_seed0_final_lora` |
-| 6 | Train `weighted` seed 1 | pending | | |
-| 7 | Train `weighted` seed 2 | pending | | |
-| 8 | Train `uniform` seed 0 | pending | | same shuffle as weighted at this seed |
-| 9 | Train `uniform` seed 1 | pending | | |
-| 10 | Train `uniform` seed 2 | pending | | |
-| 11 | Train `control` seed 0 | pending | | |
-| 12 | Train `control` seed 1 | pending | | |
-| 13 | Train `control` seed 2 | pending | | |
-| 14 | Eval λ=0.5, all arms × seeds | pending | | reported result |
-| 15 | Eval λ=1 Arm A (three seeds) | pending | | unblended reference |
-| 16 | Eval λ=0 base (once) | pending | | no fine-tune |
-| 17 | Style / dogmatic-vs-reflective (50 items, λ=0.5) | pending | | |
-| 18 | Download adapters, results, executed notebook | pending | | copy into this folder and `colab/results/` |
-| 19 | Rewrite [`email-vanderweele.md`](email-vanderweele.md) from measured numbers | pending | | do not send the skeleton |
+## 2026-11-24 01:26:29 UTC / 2026-11-23 20:26:29 US/Eastern — clone on VM
 
-Stop if remaining units would drop more than about 240 from the starting balance. Do not overwrite v1, v1_fixed, or v2 adapters.
+- `git clone --depth 1 --branch cursor/v3-high-intrinsic-dialogue-dd22` → `/content/christian-thinkers-writers`
+- HEAD `00c3b54 Document v3 as the current Colab run.`
+- `colab/data/v3` present (weighted / uniform / control JSONL). Would have failed loudly if missing.
+- Seeded `/content/drive/MyDrive/CAI_Experiment` as a local directory (no Drive mount; notebook BASE_DIR still lands there).
+- Notebook uploaded to `/content/cai_3way_experiment_and_eval_v3.ipynb`
 
-## Hardware / CU notes
+## 2026-11-24 01:26:49 UTC / 2026-11-23 20:26:49 US/Eastern — install
+
+- Cell 3 (Unsloth + TRL) finished at 01:27:36 UTC. Unsloth 2026.11.10, FastLanguageModel ok.
+- xformers does not match torch 2.14.1+cu130; Unsloth falls back to PyTorch attention. Training continues.
+
+## 2026-11-24 01:28:20 UTC / 2026-11-23 20:28:20 US/Eastern — environment cell
+
+- Cell 4 verified v3 mixes: 1301 SFT / 1301 DPO per arm (1001 CAI + 300 replay). Kish ESS 789.94, max weight 2.2475.
+- Write paths: `adapters/llama32_3b/v3` and `results/llama32_3b/v3` under `/content/drive/MyDrive/CAI_Experiment`
+- CUDA=True GPU=NVIDIA L4. Balance after cell 4: **505.94** CU (~0.10 spent).
+- Cell 6 cached `docs/intrinsic-motivation-scores.sqlite` (527 works, 99637 chunks) and treatment `state.db` read-only on local NVMe.
+
+## 2026-11-24 01:31:36 UTC / 2026-11-23 20:31:36 US/Eastern — train functions loaded
+
+- Cell 8 loaded with `RUN_TRAINING=False` so the nine trains can be launched one arm×seed at a time, with a download after each.
+- Next: weighted seed 0.
+
+## 2026-11-24 01:31:59 UTC / 2026-11-23 20:31:59 US/Eastern — TRAIN weighted seed 0 start
+
+First QLoRA train. Base `unsloth/Llama-3.2-3B-Instruct-bnb-4bit` downloaded on this VM.
+
+## 2026-11-24 01:48:12 UTC / 2026-11-23 20:48:12 US/Eastern — TRAIN weighted seed 0 done
+
+- Elapsed: **971.5 s** (~16.2 min). SFT 82 steps then R-DPO 82 steps (α=0.01, β=0.1).
+- Adapter: `/content/drive/MyDrive/CAI_Experiment/adapters/llama32_3b/v3/weighted_seed0_final_lora`
+- Downloaded to `/cursor/stores/bc-08e136d5-97fc-446b-aba1-a19e05e70ce1/docs/study/artifacts/adapters/llama32_3b/v3/weighted_seed0_final_lora` (93M safetensors) plus `weighted_seed0_trainer_state.json`
+- Train transcript: `/cursor/stores/bc-08e136d5-97fc-446b-aba1-a19e05e70ce1/docs/study/artifacts/logs/train_weighted_seed0.colab.txt`
+- `colab usage`: balance **505.46**, rate 1.94/hr. Cumulative spent from 506.04: **0.58 CU**
+
+
+## 2026-11-24 01:49:35 UTC / 2026-11-23 20:49:35 US/Eastern — TRAIN uniform seed 0 start
 
 ```
-2026-11-23 20:24 ET — starting_cu: 506.04
-2026-11-23 20:25 ET — requested GPU: L4 (session ctw-v3)
-runtime: pending attach
-gpu: pending
-cuda: pending
-cu_after_each_train: pending
+Current balance: 505.29 compute units
+Usage rate: 1.94/hr
+Active assignments: 1
+```
+
+## 2026-11-24 02:06:15 UTC / 2026-11-23 21:06:15 US/Eastern — TRAIN uniform seed 0 done
+
+- Adapter downloaded to `docs/study/artifacts/adapters/llama32_3b/v3/uniform_seed0_final_lora`
+- Cumulative CU spent from start: **1.23** (balance 504.81)
+
+```
+Current balance: 504.81 compute units
+Usage rate: 1.94/hr
+Active assignments: 1
+```
+
+## 2026-11-24 02:06:23 UTC / 2026-11-23 21:06:23 US/Eastern — TRAIN control seed 0 start
+
+```
+Current balance: 504.81 compute units
+Usage rate: 1.94/hr
+Active assignments: 1
 ```

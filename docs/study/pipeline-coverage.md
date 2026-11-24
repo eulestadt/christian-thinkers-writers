@@ -44,4 +44,4 @@ docs/intrinsic-motivation-scores.sqlite   527 scored English PD works
 
 Weighted and uniform share those 1,001 treatment rows so a later gap can be read as the weights, not as a second filter. Control is the size-matched citation corpus.
 
-Colab is still moving. Session `ctw-v3` is on an NVIDIA L4. Weighted seed 0 and uniform seed 0 have trained. Control seed 0 is in progress. About 1.23 of 240 compute units have been spent. Remaining trains, λ=0.5 evaluation, the λ=1 Arm A reference, the λ=0 base pass, and the fifty-item style set belong in [`v3-run-log.md`](v3-run-log.md) and [`results.md`](results.md) when they exist. Adapter safetensors stay in the private study store because Git LFS here tracks the census jsonl and the scores sqlite.
+Session `ctw-v3` finished on an NVIDIA L4: all nine trains, then λ=0.5 evaluation, the λ=1 Arm A reference, the λ=0 base pass, and the fifty-item style set. **10.12 of ~240 compute units** spent. Arms A, B, and C are tied; the numbers are in [`results.md`](results.md). Adapter safetensors stay in the private study store because Git LFS here tracks the census jsonl and the scores sqlite.

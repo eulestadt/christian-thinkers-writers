@@ -1,0 +1,318 @@
+{
+  "arm": "weighted",
+  "seed": 2,
+  "rdpo_alpha": 0.01,
+  "rdpo_beta": 0.1,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "sft_lr": 0.0001,
+  "dpo_lr": 5e-06,
+  "log_history": [
+    {
+      "step": 1,
+      "loss": 2.078125,
+      "lr": 2.5e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 5,
+      "loss": 2.375,
+      "lr": 0.0001,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 10,
+      "loss": 1.9296875,
+      "lr": 9.35897435897436e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 15,
+      "loss": 0.01348876953125,
+      "lr": 8.717948717948718e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 20,
+      "loss": 2.890625,
+      "lr": 8.076923076923078e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 25,
+      "loss": 1.4453125,
+      "lr": 7.435897435897436e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 30,
+      "loss": 2.265625,
+      "lr": 6.794871794871795e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 35,
+      "loss": 1.734375,
+      "lr": 6.153846153846155e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 40,
+      "loss": 1.109375,
+      "lr": 5.512820512820514e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 45,
+      "loss": 4.8125,
+      "lr": 4.871794871794872e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 50,
+      "loss": 6.9141387939453125e-06,
+      "lr": 4.230769230769231e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 55,
+      "loss": 3.609375,
+      "lr": 3.58974358974359e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 60,
+      "loss": 4.125,
+      "lr": 2.948717948717949e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 65,
+      "loss": 1.4765625,
+      "lr": 2.307692307692308e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 70,
+      "loss": 1.8984375,
+      "lr": 1.6666666666666667e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 75,
+      "loss": 3.375,
+      "lr": 1.0256410256410256e-05,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 80,
+      "loss": 0.00162506103515625,
+      "lr": 3.846153846153847e-06,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 82,
+      "loss": 1.3046875,
+      "lr": 1.282051282051282e-06,
+      "stage": "sft",
+      "arm": "weighted",
+      "seed": 2
+    },
+    {
+      "step": 1,
+      "loss": 1.8596649169921875e-05,
+      "lr": 6.25e-07,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 10.5
+    },
+    {
+      "step": 5,
+      "loss": 4.1676685214042664e-08,
+      "lr": 3.125e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 16.75
+    },
+    {
+      "step": 10,
+      "loss": 3.166496753692627e-08,
+      "lr": 4.932432432432433e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 16.875
+    },
+    {
+      "step": 15,
+      "loss": 0.2158203125,
+      "lr": 4.594594594594596e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 1.421875
+    },
+    {
+      "step": 20,
+      "loss": 2.9336661100387573e-08,
+      "lr": 4.256756756756757e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 17.375
+    },
+    {
+      "step": 25,
+      "loss": 5.50062395632267e-09,
+      "lr": 3.918918918918919e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 18.625
+    },
+    {
+      "step": 30,
+      "loss": 4.21423465013504e-08,
+      "lr": 3.5810810810810816e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 17.0
+    },
+    {
+      "step": 35,
+      "loss": 1.4901161193847656e-08,
+      "lr": 3.2432432432432437e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 17.625
+    },
+    {
+      "step": 40,
+      "loss": 2.428889274597168e-06,
+      "lr": 2.9054054054054054e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 12.375
+    },
+    {
+      "step": 45,
+      "loss": 1.7025740817189217e-09,
+      "lr": 2.5675675675675675e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 21.0
+    },
+    {
+      "step": 50,
+      "loss": 0.00070953369140625,
+      "lr": 2.22972972972973e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 7.25
+    },
+    {
+      "step": 55,
+      "loss": 5.885958671569824e-07,
+      "lr": 1.8918918918918922e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 14.75
+    },
+    {
+      "step": 60,
+      "loss": 5.817413330078125e-05,
+      "lr": 1.5540540540540541e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 10.5625
+    },
+    {
+      "step": 65,
+      "loss": 2.1576881408691406e-05,
+      "lr": 1.2162162162162164e-06,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 10.5
+    },
+    {
+      "step": 70,
+      "loss": 1.0652001947164536e-08,
+      "lr": 8.783783783783785e-07,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 18.375
+    },
+    {
+      "step": 75,
+      "loss": 0.0032806396484375,
+      "lr": 5.405405405405406e-07,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 5.71875
+    },
+    {
+      "step": 80,
+      "loss": 0.00836181640625,
+      "lr": 2.0270270270270273e-07,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 4.78125
+    },
+    {
+      "step": 82,
+      "loss": 8.89413058757782e-08,
+      "lr": 6.756756756756757e-08,
+      "stage": "dpo",
+      "arm": "weighted",
+      "seed": 2,
+      "margin": 15.9375
+    }
+  ]
+}

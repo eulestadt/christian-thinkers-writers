@@ -1,0 +1,5 @@
+arm,lambda,n_seeds,style_drift_per_100w,archaic_reply_rate,reflective_rate,dogmatic_rate
+base,0.0,1,0.0,0.0,0.0,0.1
+weighted,0.5,3,0.0,0.0,0.0,0.0067
+uniform,0.5,3,0.0,0.0,0.0,0.0133
+control,0.5,3,0.0,0.0,0.0,0.0067

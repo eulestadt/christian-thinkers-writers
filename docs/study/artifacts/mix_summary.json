@@ -1,0 +1,143 @@
+{
+  "model": "deepseek-flash",
+  "thinking": "disabled",
+  "top_k_books": 20,
+  "n_cai": 1001,
+  "n_format_replay": 300,
+  "n_sft": {
+    "weighted": 1301,
+    "uniform": 1301,
+    "control": 1301
+  },
+  "n_dpo": {
+    "weighted": 1301,
+    "uniform": 1301,
+    "control": 1301
+  },
+  "rejected_kind_cai": {
+    "weighted": {
+      "draft": 501,
+      "dogmatic": 500
+    },
+    "uniform": {
+      "draft": 501,
+      "dogmatic": 500
+    },
+    "control": {
+      "draft": 501,
+      "dogmatic": 500
+    }
+  },
+  "weight_clip": null,
+  "mean_cai_weight": 0.9999999999999999,
+  "max_weight": 2.247541965050657,
+  "min_weight": 0.5711508816412556,
+  "kish_ess": 789.9434242299809,
+  "kish_ess_over_n": 0.7891542699600209,
+  "subsample_seed": 0,
+  "control_books": 40,
+  "treatment_books": [
+    {
+      "book_id": "Q3090506",
+      "ier_intrinsic": 0.006566825247056294,
+      "n": 58
+    },
+    {
+      "book_id": "Q8012011",
+      "ier_intrinsic": 0.006161330675959151,
+      "n": 49
+    },
+    {
+      "book_id": "Q4018797",
+      "ier_intrinsic": 0.005331945795196477,
+      "n": 49
+    },
+    {
+      "book_id": "Q6547707",
+      "ier_intrinsic": 0.004377275636178768,
+      "n": 50
+    },
+    {
+      "book_id": "Q60059",
+      "ier_intrinsic": 0.003474143156730146,
+      "n": 50
+    },
+    {
+      "book_id": "Q5536061",
+      "ier_intrinsic": 0.0030161780670128076,
+      "n": 50
+    },
+    {
+      "book_id": "Q4821449",
+      "ier_intrinsic": 0.002963109314880665,
+      "n": 50
+    },
+    {
+      "book_id": "Q44281",
+      "ier_intrinsic": 0.002543044598200789,
+      "n": 50
+    },
+    {
+      "book_id": "Q6518053",
+      "ier_intrinsic": 0.0022895308974787373,
+      "n": 50
+    },
+    {
+      "book_id": "Q231256",
+      "ier_intrinsic": 0.0022138980388676814,
+      "n": 50
+    },
+    {
+      "book_id": "Q5481512",
+      "ier_intrinsic": 0.002196161292173467,
+      "n": 50
+    },
+    {
+      "book_id": "Q2713471",
+      "ier_intrinsic": 0.002163273807691067,
+      "n": 50
+    },
+    {
+      "book_id": "Q560915",
+      "ier_intrinsic": 0.0019794779672221365,
+      "n": 49
+    },
+    {
+      "book_id": "Q4800431",
+      "ier_intrinsic": 0.0019740779822401554,
+      "n": 50
+    },
+    {
+      "book_id": "Q367745",
+      "ier_intrinsic": 0.00187751270753573,
+      "n": 49
+    },
+    {
+      "book_id": "Q7367226",
+      "ier_intrinsic": 0.0018284568882480918,
+      "n": 49
+    },
+    {
+      "book_id": "Q1365446",
+      "ier_intrinsic": 0.00179021633242614,
+      "n": 49
+    },
+    {
+      "book_id": "Q431614",
+      "ier_intrinsic": 0.001767553325968536,
+      "n": 50
+    },
+    {
+      "book_id": "Q4209439",
+      "ier_intrinsic": 0.0016733270060375134,
+      "n": 50
+    },
+    {
+      "book_id": "Q540244",
+      "ier_intrinsic": 0.0016687777526573227,
+      "n": 49
+    }
+  ],
+  "no_ultrachat": true,
+  "trained_on_ethics_tqa_mmlu": false
+}

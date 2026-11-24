@@ -1,0 +1,126 @@
+[
+  {
+    "arm": "base",
+    "lambda": 0.0,
+    "n_seeds": 1,
+    "style_drift_per_100w": 0.0,
+    "archaic_reply_rate": 0.0,
+    "reflective_rate": 0.0,
+    "dogmatic_rate": 0.1,
+    "seeds": [
+      {
+        "style_drift_per_100w": 0.0,
+        "archaic_reply_rate": 0.0,
+        "reflective_rate": 0.0,
+        "dogmatic_rate": 0.1,
+        "n": 50,
+        "seed": null
+      }
+    ]
+  },
+  {
+    "arm": "weighted",
+    "lambda": 0.5,
+    "n_seeds": 3,
+    "style_drift_per_100w": 0.0,
+    "archaic_reply_rate": 0.0,
+    "reflective_rate": 0.0,
+    "dogmatic_rate": 0.0067,
+    "seeds": [
+      {
+        "style_drift_per_100w": 0.0,
+        "archaic_reply_rate": 0.0,
+        "reflective_rate": 0.0,
+        "dogmatic_rate": 0.02,
+        "n": 50,
+        "seed": 0
+      },
+      {
+        "style_drift_per_100w": 0.0,
+        "archaic_reply_rate": 0.0,
+        "reflective_rate": 0.0,
+        "dogmatic_rate": 0.0,
+        "n": 50,
+        "seed": 1
+      },
+      {
+        "style_drift_per_100w": 0.0,
+        "archaic_reply_rate": 0.0,
+        "reflective_rate": 0.0,
+        "dogmatic_rate": 0.0,
+        "n": 50,
+        "seed": 2
+      }
+    ]
+  },
+  {
+    "arm": "uniform",
+    "lambda": 0.5,
+    "n_seeds": 3,
+    "style_drift_per_100w": 0.0,
+    "archaic_reply_rate": 0.0,
+    "reflective_rate": 0.0,
+    "dogmatic_rate": 0.0133,
+    "seeds": [
+      {
+        "style_drift_per_100w": 0.0,
+        "archaic_reply_rate": 0.0,
+        "reflective_rate": 0.0,
+        "dogmatic_rate": 0.04,
+        "n": 50,
+        "seed": 0
+      },
+      {
+        "style_drift_per_100w": 0.0,
+        "archaic_reply_rate": 0.0,
+        "reflective_rate": 0.0,
+        "dogmatic_rate": 0.0,
+        "n": 50,
+        "seed": 1
+      },
+      {
+        "style_drift_per_100w": 0.0,
+        "archaic_reply_rate": 0.0,
+        "reflective_rate": 0.0,
+        "dogmatic_rate": 0.0,
+        "n": 50,
+        "seed": 2
+      }
+    ]
+  },
+  {
+    "arm": "control",
+    "lambda": 0.5,
+    "n_seeds": 3,
+    "style_drift_per_100w": 0.0,
+    "archaic_reply_rate": 0.0,
+    "reflective_rate": 0.0,
+    "dogmatic_rate": 0.0067,
+    "seeds": [
+      {
+        "style_drift_per_100w": 0.0,
+        "archaic_reply_rate": 0.0,
+        "reflective_rate": 0.0,
+        "dogmatic_rate": 0.02,
+        "n": 50,
+        "seed": 0
+      },
+      {
+        "style_drift_per_100w": 0.0,
+        "archaic_reply_rate": 0.0,
+        "reflective_rate": 0.0,
+        "dogmatic_rate": 0.0,
+        "n": 50,
+        "seed": 1
+      },
+      {
+        "style_drift_per_100w": 0.0,
+        "archaic_reply_rate": 0.0,
+        "reflective_rate": 0.0,
+        "dogmatic_rate": 0.0,
+        "n": 50,
+        "seed": 2
+      }
+    ]
+  }
+]

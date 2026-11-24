@@ -1,0 +1,318 @@
+{
+  "arm": "uniform",
+  "seed": 0,
+  "rdpo_alpha": 0.01,
+  "rdpo_beta": 0.1,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "sft_lr": 0.0001,
+  "dpo_lr": 5e-06,
+  "log_history": [
+    {
+      "step": 1,
+      "loss": 3.078125,
+      "lr": 2.5e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 5,
+      "loss": 2.9375,
+      "lr": 0.0001,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 10,
+      "loss": 2.890625,
+      "lr": 9.35897435897436e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 15,
+      "loss": 2.421875,
+      "lr": 8.717948717948718e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 20,
+      "loss": 0.8203125,
+      "lr": 8.076923076923078e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 25,
+      "loss": 2.234375,
+      "lr": 7.435897435897436e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 30,
+      "loss": 2.046875,
+      "lr": 6.794871794871795e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 35,
+      "loss": 2.3125,
+      "lr": 6.153846153846155e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 40,
+      "loss": 0.00139617919921875,
+      "lr": 5.512820512820514e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 45,
+      "loss": 2.046875,
+      "lr": 4.871794871794872e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 50,
+      "loss": 2.6875,
+      "lr": 4.230769230769231e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 55,
+      "loss": 2.265625,
+      "lr": 3.58974358974359e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 60,
+      "loss": 2.046875,
+      "lr": 2.948717948717949e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 65,
+      "loss": 1.9296875,
+      "lr": 2.307692307692308e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 70,
+      "loss": 1.7734375,
+      "lr": 1.6666666666666667e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 75,
+      "loss": 2.015625,
+      "lr": 1.0256410256410256e-05,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 80,
+      "loss": 2.0,
+      "lr": 3.846153846153847e-06,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 82,
+      "loss": 2.40625,
+      "lr": 1.282051282051282e-06,
+      "stage": "sft",
+      "arm": "uniform",
+      "seed": 0
+    },
+    {
+      "step": 1,
+      "loss": 1.0477378964424133e-08,
+      "lr": 6.25e-07,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 18.375
+    },
+    {
+      "step": 5,
+      "loss": 3.528594970703125e-05,
+      "lr": 3.125e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 10.25
+    },
+    {
+      "step": 10,
+      "loss": 6.5267086029052734e-06,
+      "lr": 4.932432432432433e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 11.9375
+    },
+    {
+      "step": 15,
+      "loss": 8.149072527885437e-09,
+      "lr": 4.594594594594596e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 18.625
+    },
+    {
+      "step": 20,
+      "loss": 0.01507568359375,
+      "lr": 4.256756756756757e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 4.1875
+    },
+    {
+      "step": 25,
+      "loss": 6.07222318649292e-07,
+      "lr": 3.918918918918919e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 14.3125
+    },
+    {
+      "step": 30,
+      "loss": 1.2014061212539673e-07,
+      "lr": 3.5810810810810816e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 15.9375
+    },
+    {
+      "step": 35,
+      "loss": 1.55717134475708e-06,
+      "lr": 3.2432432432432437e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 13.375
+    },
+    {
+      "step": 40,
+      "loss": 0.000911712646484375,
+      "lr": 2.9054054054054054e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 7.0
+    },
+    {
+      "step": 45,
+      "loss": 2.2649765014648438e-06,
+      "lr": 2.5675675675675675e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 13.0
+    },
+    {
+      "step": 50,
+      "loss": 3.259629011154175e-07,
+      "lr": 2.22972972972973e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 14.9375
+    },
+    {
+      "step": 55,
+      "loss": 1.150369644165039e-05,
+      "lr": 1.8918918918918922e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 11.375
+    },
+    {
+      "step": 60,
+      "loss": 1.996755599975586e-06,
+      "lr": 1.5540540540540541e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 13.125
+    },
+    {
+      "step": 65,
+      "loss": 1.6540288925170898e-06,
+      "lr": 1.2162162162162164e-06,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 13.3125
+    },
+    {
+      "step": 70,
+      "loss": 8.754432201385498e-08,
+      "lr": 8.783783783783785e-07,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 16.25
+    },
+    {
+      "step": 75,
+      "loss": 5.029141902923584e-07,
+      "lr": 5.405405405405406e-07,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 14.5
+    },
+    {
+      "step": 80,
+      "loss": 4.267692565917969e-05,
+      "lr": 2.0270270270270273e-07,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 10.0625
+    },
+    {
+      "step": 82,
+      "loss": 0.000606536865234375,
+      "lr": 6.756756756756757e-08,
+      "stage": "dpo",
+      "arm": "uniform",
+      "seed": 0,
+      "margin": 7.40625
+    }
+  ]
+}

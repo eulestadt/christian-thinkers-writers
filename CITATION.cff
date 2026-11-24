@@ -21,7 +21,7 @@ abstract: >-
   a size-matched control. Each arm has 1,001 CAI rows plus 300
   format-replay rows (Kish ESS 789.94, max weight 2.248), trained
   with R-DPO alpha 0.01 and beta 0.1. The reported score is WiSE-FT
-  lambda 0.5. UltraChat is not in the v3 mix.
+  lambda 0.5.
 keywords:
   - constitutional AI
   - intrinsic religious motivation

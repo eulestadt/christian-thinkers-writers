@@ -19,7 +19,7 @@ Publication years include `author_death_latest` bounds when that is the stored `
 
 `subscale='ier_intrinsic'`. Score is the stored I/E-R intrinsic work score.
 
-**v3 uses ranks 1–20 only.** v1 trained two arms on the book dialogues from the full treatment set, with one seed. v2 kept all forty books, added contemporary dilemmas and UltraChat, clipped weights, and drew rows with replacement. v3 rewrites the v2 traces for these twenty books into one weighed turn, drops UltraChat, and keeps the 300-row format replay. Three arms share R-DPO (α=0.01, β=0.1) and seeds 0, 1, and 2: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control. The published mix is 1,001 CAI rows per arm plus 300 format replay (Kish ESS 789.94, max weight 2.248). The reported score, when it exists, is WiSE-FT λ=0.5. Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). The v1, v1_fixed, and v2 notebooks stay untouched. Methods and the live log: [`study/`](study/).
+**v3 uses ranks 1–20 only**, because Zhou et al. (LIMA) and Chen et al. (AlpaGasus) found that a curated high-scoring subset beat training on the full noisier forty. Those twenty traces are rewritten into one deliberative turn; the mix is 1,001 CAI rows plus 300 format-replay rows. Three arms, R-DPO, three seeds, WiSE-FT λ=0.5: see [`study/v3-methods.md`](study/v3-methods.md). Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb).
 
 | rank | author | title | year | score | github coverage link |
 |---|---|---|---|---|---|

@@ -2,11 +2,11 @@
 
 ## Current notebook (v3)
 
-The notebook to open is `colab/cai_3way_experiment_and_eval_v3.ipynb`. The v1 notebook, the v1_fixed notebook, and the v2 notebook stay untouched. The sections below the v3 notes are the earlier specifications. They are not the current run.
+The notebook to open is `colab/cai_3way_experiment_and_eval_v3.ipynb`. v3 writes under `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. The sections below the v3 notes are the earlier specifications.
 
-v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas and UltraChat, clips weights to 0.25–2, and draws rows with replacement.
+v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas, clips weights to 0.25–2, and draws rows with replacement.
 
-v3 keeps the top 20 books by `ier_intrinsic` (no I−E filter) and rewrites the existing v2 `draft_0` / `revision_3` traces into one user message and one weighed assistant reply. UltraChat is not in the mix. The shared 300-row format replay stays, at weight 1.
+v3 keeps the top 20 books by `ier_intrinsic` because LIMA and AlpaGasus found a small high-scoring slice beat the full set, and rewrites the existing v2 `draft_0` / `revision_3` traces into one deliberative user message and one weighed assistant reply. The mix is those CAI rows plus a shared 300-row format replay at weight 1, so the 8-token letter scorer still sees a letter.
 
 Three arms:
 
@@ -18,7 +18,7 @@ Three arms:
 
 Each arm also has the 300 format-replay rows. Kish ESS of the weighted CAI slice is **789.94**. Max weight is **2.248**.
 
-Every arm uses R-DPO with α=0.01 and β=0.1. Rejected answers alternate between the unrevised draft and a dogmatic rewrite. Seeds are 0, 1, and 2. The reported score is the mean of those seeds at WiSE-FT λ=0.5. λ=1 on arm A is a reference. λ=0 is the base model, scored once. This run is Llama 3.2 3B only. Writes go only to `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. Scores are trainer metadata and never appear in prompts. Do not train on ETHICS, TruthfulQA, or MMLU. The nine QLoRA trains run in Colab. Methods and the live log: [`../docs/study/`](../docs/study/).
+Every arm uses R-DPO with α=0.01 and β=0.1 (Park et al., dialogue setting). Rejected answers alternate between the unrevised draft and a dogmatic rewrite (Sharma et al.). Seeds are 0, 1, and 2 (Dodge et al.). The reported score is the mean of those seeds at WiSE-FT λ=0.5 (Wortsman et al.). λ=1 on arm A is a reference. λ=0 is the base model, scored once. Scores are trainer metadata. The nine QLoRA trains run in Colab. Why: [`../docs/study/v3-methods.md`](../docs/study/v3-methods.md).
 
 ## Objective (v1, kept for the original notebook)
 

@@ -45,9 +45,9 @@ flowchart TB
   GH --> NF
 
   NV["Colab: local NVMe copy of sqlite<br/>read-only"]
-  V3["v3: top 20 by ier_intrinsic<br/>one weighed turn, no UltraChat<br/>1,001 CAI + 300 format replay"]
+  V3["v3: top 20 by ier_intrinsic<br/>one deliberative turn<br/>1,001 CAI + 300 format replay"]
   ARMS["Arms A/B/C<br/>weighted, uniform, size-matched control<br/>R-DPO α=0.01 β=0.1, seeds 0–2"]
-  L3["Llama 3.2 3B only<br/>report WiSE-FT λ=0.5"]
+  L3["Llama 3.2 3B<br/>report WiSE-FT λ=0.5"]
   NF --> NV
   JL --> V3
   NV --> V3
@@ -77,8 +77,8 @@ flowchart TB
 4. **Control CAI.** 40 most-cited English PD works, publication years 1500–1930, excluding the treatment works and their authors → the same `deepseek-flash` loop. Tree: [`cai-pipeline-control/`](../cai-pipeline-control/). Coverage: [control](cai-control-coverage.md).
 5. **GitHub public archive.** This repo is the citable source of truth (including Git LFS sqlite).
 6. **Drive.** Shared folder **Alignment Research** / `CAI_Experiment` holds a JSONL copy for Colab. **Do not** open sqlite on Drive FUSE (`database is locked` / metadata touches).
-7. **Colab v3 (current run).** Keep the top twenty books by `ier_intrinsic`, rewrite each kept v2 trace into one weighed turn, drop UltraChat, and keep the 300-row format replay. Three arms share one trainer: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control. Every arm uses R-DPO (α=0.01, β=0.1). Rejected answers alternate between the unrevised draft and a dogmatic rewrite. Seeds are 0, 1, and 2. The reported score, when it exists, is the mean at WiSE-FT λ=0.5. The published mix is 1,001 CAI rows per arm plus 300 format replay (Kish ESS 789.94, max weight 2.248). Llama 3.2 3B only. Copy sqlite onto local NVMe, `chmod 0444`, and open `file:...?mode=ro&immutable=1`. Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). The v1, v1_fixed, and v2 notebooks stay untouched. Notebook notes: [Colab](cai-3way-colab.md). Methods and the live log: [study/](study/).
+7. **Colab v3 (current run).** Keep the top twenty books by `ier_intrinsic` (LIMA / AlpaGasus: a small high-scoring slice), rewrite each kept v2 trace into one deliberative turn (Guan et al.), and train on 1,001 CAI rows plus 300 format-replay rows (InstructGPT-style letter format). Three arms share one trainer so later differences can be attributed: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows (Byrd and Lipton), and a size-matched control. Every arm uses R-DPO (Park et al., α=0.01, β=0.1) so length sits inside the logistic. Rejected answers alternate between the unrevised draft and a dogmatic rewrite (Sharma et al.). Seeds are 0, 1, and 2 (Dodge et al.); the reported score, when it exists, is their mean at WiSE-FT λ=0.5 (Wortsman et al.). Kish ESS 789.94 and max weight 2.248 are logged because uncapped weights raise variance. Copy sqlite onto local NVMe, `chmod 0444`, and open `file:...?mode=ro&immutable=1`. Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). Why: [`study/v3-methods.md`](study/v3-methods.md).
 
 ## How v3 differs from v1 and v2
 
-v1 trained two arms on the book dialogues with one seed. v2 kept all forty books, added contemporary dilemmas and UltraChat, clipped weights, and drew rows with replacement. v3 is the top-twenty filter, the one-turn rewrite, the three arms, R-DPO, the three seeds, and the λ=0.5 report described in stage 7. Adapters and results go under `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. The nine QLoRA trains run on Colab. The longer write-up is [`study/v3-methods.md`](study/v3-methods.md); the live session log is [`study/v3-run-log.md`](study/v3-run-log.md).
+v1 trained two arms on the book dialogues with one seed. v2 kept all forty books, mixed in contemporary dilemmas, clipped weights, and drew rows with replacement. v3 is the LIMA / AlpaGasus cut, the deliberative rewrite, the uniform-weight ablation, R-DPO, three seeds, and the λ=0.5 report described in stage 7. Adapters and results go under `adapters/{ACTIVE_MODEL}/v3/` and `results/{ACTIVE_MODEL}/v3/`. The nine QLoRA trains run on Colab. The argument is [`study/v3-methods.md`](study/v3-methods.md); the live session log is [`study/v3-run-log.md`](study/v3-run-log.md).

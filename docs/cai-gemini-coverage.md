@@ -4,7 +4,7 @@ Generated: 2026-10-28T10:37:53Z
 
 This page is the discarded Gemini data build. It was regenerated with DeepSeek and is not the current training run.
 
-This page is the discarded Gemini data build. The notebook to train is **v3** ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)). v1 trained two arms on the book dialogues with one seed. v2 kept all forty books, added contemporary dilemmas and UltraChat, clipped weights, and drew rows with replacement. v3 keeps the top twenty books by `ier_intrinsic`, rewrites the v2 traces into one weighed turn, and does not use UltraChat. The 300-row format replay stays. Three arms share R-DPO (α=0.01, β=0.1) and seeds 0, 1, and 2: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control. The published mix is 1,001 CAI rows per arm plus 300 format replay (Kish ESS 789.94, max weight 2.248). The reported score, when Colab writes it, is WiSE-FT λ=0.5. The v1, v1_fixed, and v2 notebooks stay untouched. Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md). Methods and the live log: [`study/`](study/).
+This page is the discarded Gemini data build. The notebook to train is **v3** ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)), which keeps the top twenty I/E-R books (LIMA / AlpaGasus) and trains on 1,001 rewritten CAI dialogues plus 300 format-replay rows. Three arms, R-DPO, three seeds, WiSE-FT λ=0.5: see [`study/v3-methods.md`](study/v3-methods.md) for why each of those is there. Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md).
 
 The counts below are the old Steps 0–4 record, not the v3 mix. Ranked by I/E-R intrinsic only (no I−E filter).
 Extraction, critique, revision, and judge prompts use author-text vocabulary only.
@@ -54,7 +54,7 @@ Gemini-generated principles, prompts, SL-CAI, and RLAIF labels were discarded an
 ## Notes
 
 - Step 4 wrote 2500 RLAIF DPO pairs to /cursor/stores/self/cai-pipeline/data/rlaif_dpo_train.jsonl.
-- DeepSeek-only Steps 0–4 on this discarded page are a historical record. The current Colab train is v3. See [`cai-3way-colab.md`](cai-3way-colab.md) and [`study/`](study/).
+- DeepSeek-only Steps 0–4 on this discarded page are a historical record. The current Colab train is v3. See [`cai-3way-colab.md`](cai-3way-colab.md) and [`study/v3-methods.md`](study/v3-methods.md).
 
 ## Outputs
 

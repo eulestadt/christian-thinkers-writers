@@ -5,7 +5,7 @@ Generated: 2026-10-28T10:37:53Z
 DeepSeek-only constitution / SL-CAI / RLAIF data build over the I/E-R intrinsic top 40.
 This page is Steps 0–4. It does not document a Colab train. Ranked by I/E-R intrinsic only (no I−E filter).
 
-This page is the Steps 0–4 treatment archive. The notebook to train is **v3** ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)). It keeps ranks 1–20 of the table below and rewrites those v2 traces into one weighed turn. v1 trained two arms on the full book dialogues with one seed. v2 kept all forty books, added contemporary dilemmas and UltraChat, clipped weights, and resampled. v3 drops UltraChat, keeps the 300-row format replay, and trains three arms — weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control — with R-DPO α=0.01 β=0.1, bidirectional rejected answers, and seeds 0, 1, and 2. The published mix is 1,001 CAI rows per arm plus 300 format replay (Kish ESS 789.94, max weight 2.248). The reported score, when Colab writes it, is the mean of those seeds at WiSE-FT λ=0.5. The v1, v1_fixed, and v2 notebooks stay untouched. Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md). Methods and the live log: [`study/`](study/).
+This page is the Steps 0–4 treatment archive. The notebook to train is **v3** ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)). It keeps ranks 1–20 of the table below because LIMA and AlpaGasus found a small high-scoring slice beat the full forty, then rewrites each kept trace into one deliberative turn (Guan et al.). The mix is 1,001 CAI rows plus 300 format-replay rows (InstructGPT-style letter format; Kish ESS 789.94, max weight 2.248). Three arms share R-DPO (Park et al.) and seeds 0, 1, and 2 (Dodge et al.): weighted, uniform on the same rows (Byrd and Lipton), and a size-matched control. Reported evaluation is WiSE-FT λ=0.5 (Wortsman et al.). Why each of those is the default: [`study/v3-methods.md`](study/v3-methods.md). Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md).
 Extraction, critique, revision, and judge prompts use author-text vocabulary only.
 Gemini-generated principles, prompts, SL-CAI, and RLAIF labels were discarded and regenerated.
 
@@ -109,7 +109,7 @@ Titles link to the Gutenberg / Wikisource / Internet Archive catalog page from t
 
 - Treatment 40 table: I/E-R DESC from `/cursor/stores/self/docs/intrinsic-motivation-scores.sqlite` (read-only) joined to `corpus_manifest.json`. Years from `work_candidates` (`year_source=author_death_latest` for Richmond, Gordon, Julian of Norwich, Butler, Harnack). Wiki inlinks / sitelinks are the census citation fallback on the chosen work; no OpenAlex cites were stored for these 40.
 - Step 4 wrote 2500 RLAIF DPO pairs to /cursor/stores/self/cai-pipeline/data/rlaif_dpo_train.jsonl.
-- DeepSeek-only Steps 0–4 complete. The Colab train for this archive is v3 (top 20 of this table), not a train on all 2,500 rows. See [`cai-3way-colab.md`](cai-3way-colab.md) and [`study/`](study/).
+- DeepSeek-only Steps 0–4 complete. The Colab train for this archive is v3, which keeps ranks 1–20 of this table (LIMA / AlpaGasus) and trains on 1,001 rewritten CAI rows plus 300 format replay. See [`cai-3way-colab.md`](cai-3way-colab.md) and [`study/v3-methods.md`](study/v3-methods.md).
 
 ## Outputs
 

@@ -1,25 +1,25 @@
 # 3-arm CAI Colab notebook
 
-The current run is **v3**. Open [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb) on a Colab GPU (L4 24GB or T4 16GB). The nine QLoRA trains stay on that runtime. This archive does not launch them. Cell 1 stops if `colab/data/v3` is missing.
+The current run is **v3**. Open [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb) on a Colab GPU (L4 24GB or T4 16GB). The nine QLoRA trains (three arms × three seeds) run there because Dodge et al. want a mean over seeds rather than a single lucky init. Cell 1 stops if `colab/data/v3` is missing, since training reads those JSONL files.
 
-The v1 notebook ([`colab/cai_3way_experiment_and_eval.ipynb`](../colab/cai_3way_experiment_and_eval.ipynb)), the v1_fixed notebook, and the v2 notebook ([`colab/cai_3way_experiment_and_eval_v2.ipynb`](../colab/cai_3way_experiment_and_eval_v2.ipynb)) stay in the repo so earlier work can still be read. They are not the run to open, and v3 does not write into their adapter folders.
+The v1 notebook ([`colab/cai_3way_experiment_and_eval.ipynb`](../colab/cai_3way_experiment_and_eval.ipynb)), the v1_fixed notebook, and the v2 notebook ([`colab/cai_3way_experiment_and_eval_v2.ipynb`](../colab/cai_3way_experiment_and_eval_v2.ipynb)) remain in the repo. v3 writes under `adapters/{ACTIVE_MODEL}/v3/` so those earlier folders stay as they were.
 
 - Spec: [`colab/CURSOR_COLAB_SPEC.md`](../colab/CURSOR_COLAB_SPEC.md)
 - Colab folder README: [`colab/README.md`](../colab/README.md)
 - Mix: [`colab/data/v3/`](../colab/data/v3/)
 - Study folder (methods, run log, results): [`study/`](study/)
 
-Primary weights: `unsloth/Llama-3.2-3B-Instruct-bnb-4bit`. v3 trains Llama 3.2 3B only.
+Primary weights: `unsloth/Llama-3.2-3B-Instruct-bnb-4bit`.
 
 ## How v3 differs from v1 and v2
 
 v1 trained two arms on the book dialogues with one seed. Adapters went under the model name. The hyperparameters in the v1 notebook are seed `3407`, LoRA rank 32 / alpha 64, SFT LR `2e-4`, DPO LR `5e-6`.
 
-v2 kept all forty books, added contemporary dilemmas and UltraChat, clipped weights to 0.25–2, and drew rows with replacement. It still trained two arms with one seed, and it writes under a v2 folder so v1 is not overwritten.
+v2 kept all forty books, added contemporary dilemmas, clipped weights to 0.25–2, and drew rows with replacement. It still trained two arms with one seed, and it writes under a v2 folder so v1 keeps its adapters.
 
-v3 keeps the **twenty books with the highest `ier_intrinsic` scores** (ranks 1–20 of the I/E-R list in [`four-top40-lists.md`](four-top40-lists.md); there is no I−E filter). It rewrites the existing v2 `draft_0` / `revision_3` traces into one user message and one weighed assistant reply. UltraChat is not in the mix. The shared **300-row format replay** stays, at weight 1. That slice is ARC-Easy train and synthetic letter-format items, not MMLU, ETHICS, or TruthfulQA.
+v3 keeps the **twenty books with the highest `ier_intrinsic` scores** (ranks 1–20 of the I/E-R list in [`four-top40-lists.md`](four-top40-lists.md)) because LIMA and AlpaGasus found that a small high-scoring slice beat the full noisier set. Each kept v2 `draft_0` / `revision_3` trace is rewritten into one deliberative user message and one weighed assistant reply (Guan et al.), so the loss is on a weighed completion rather than on imitating the book. The mix is those CAI rows plus a shared **300-row format replay** at weight 1 (ARC-Easy train and synthetic letter-format items), the InstructGPT pattern for keeping the 8-token letter scorer honest.
 
-The longer comparison, including what is still un-scored, is in [`study/v3-methods.md`](study/v3-methods.md).
+The full argument, with the papers for R-DPO, both rejected types, three seeds, and WiSE-FT λ=0.5, is [`study/v3-methods.md`](study/v3-methods.md).
 
 Three arms share one trainer:
 

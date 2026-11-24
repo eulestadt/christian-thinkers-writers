@@ -74,7 +74,7 @@ Census: `christian-writers.sqlite` (not overwritten).
 
 ## Where these scores go in the current train
 
-The current fine-tune is v3 ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)). It keeps the 20 works with the highest `ier_intrinsic` score from this method (no I−E filter). v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas and UltraChat, clips weights to 0.25–2, and draws rows with replacement. v3 rewrites the v2 traces into one weighed turn, drops UltraChat, and keeps the 300-row format replay. Three arms: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control. R-DPO α=0.01, β=0.1. Bidirectional rejected answers. Seeds 0–2. Reported score: WiSE-FT λ=0.5. Published mix: 1,001 CAI rows per arm plus 300 format replay. Kish ESS 789.94. Max weight 2.248. The v1, v1_fixed, and v2 notebooks stay untouched. This page is the scoring method. The mix is in [`colab/data/v3/`](../colab/data/v3/).
+The current fine-tune is v3 ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)). It keeps the 20 works with the highest `ier_intrinsic` score from this method because LIMA and AlpaGasus found a small high-scoring slice beat the full set, then trains on 1,001 rewritten CAI dialogues plus 300 format-replay rows. Three arms, R-DPO, three seeds, WiSE-FT λ=0.5: see [`study/v3-methods.md`](study/v3-methods.md). This page is the scoring method. The mix is in [`colab/data/v3/`](../colab/data/v3/).
 
 ## Audit database
 

@@ -17,7 +17,7 @@ Fine-tuning data should draw on David Williams’ work on intrinsically motivate
 
 ## Current fine-tune (v3)
 
-The run to open is [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). v1 trained two arms on the book dialogues with one seed. v2 kept all forty books, added contemporary dilemmas and UltraChat, clipped weights, and drew rows with replacement. v3 keeps the top twenty books by `ier_intrinsic`, rewrites the v2 traces into one weighed turn, and does not use UltraChat. The 300-row format replay stays. Three arms share R-DPO (α=0.01, β=0.1) and seeds 0, 1, and 2: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control. The published mix is 1,001 CAI rows per arm plus 300 format replay (Kish ESS 789.94, max weight 2.248). The reported score, when Colab writes it, is WiSE-FT λ=0.5. The v1, v1_fixed, and v2 notebooks stay untouched. Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md). Methods and the live log: [`study/`](study/).
+The run to open is [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). v3 keeps the top twenty books by `ier_intrinsic` because LIMA and AlpaGasus found a small high-scoring slice beat the full set, rewrites each kept trace into one deliberative turn, and trains on 1,001 CAI rows plus 300 format-replay rows. Three arms (weighted, uniform on the same rows, size-matched control) share R-DPO and seeds 0, 1, and 2; reported evaluation is WiSE-FT λ=0.5. Why each of those is the default: [`study/v3-methods.md`](study/v3-methods.md). Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md).
 
 ## Early experiment sketch (rough, already run)
 

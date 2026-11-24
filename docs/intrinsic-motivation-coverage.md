@@ -3,7 +3,7 @@
 Generated: 2026-10-27T22:11:05Z
 Formula: `slice1-v1`; k=10; chunk=500 tokens; PD cutoff=1930.
 
-The counts below are the scoring census (527 works). The current training run is **v3**, which keeps the top twenty of those works by `ier_intrinsic`. v1 trained two arms on the book dialogues with one seed. v2 kept all forty books, added contemporary dilemmas and UltraChat, clipped weights, and drew rows with replacement. v3 rewrites the v2 traces into one weighed turn, drops UltraChat, and keeps the 300-row format replay. Three arms share R-DPO (α=0.01, β=0.1) and seeds 0, 1, and 2: weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control. The published mix is 1,001 CAI rows per arm plus 300 format replay (Kish ESS 789.94, max weight 2.248). The reported score, when it exists, is WiSE-FT λ=0.5. Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). The v1, v1_fixed, and v2 notebooks stay untouched. Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md). Methods and the live log: [`study/`](study/).
+The counts below are the scoring census (527 works). The current training run is **v3**, which keeps the top twenty of those works by `ier_intrinsic` because LIMA and AlpaGasus found a small high-scoring slice beat the full noisier set. The mix is 1,001 rewritten CAI dialogues plus 300 format-replay rows. Three arms, R-DPO, three seeds, WiSE-FT λ=0.5: see [`study/v3-methods.md`](study/v3-methods.md) for why each of those is there. Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb).
 
 ## Authors
 

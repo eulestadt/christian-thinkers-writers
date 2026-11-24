@@ -4,7 +4,7 @@
 
 Deferred on this scoring slice: GPT item rater, human dual-coding, Quest/fundamentalism filters, SDT.
 
-The fine-tuning inclusion policy is no longer deferred. The current run is v3 ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)): the top twenty works by `ier_intrinsic`, v2 traces rewritten into one weighed turn, no UltraChat, and the 300-row format replay kept. v1 trained two arms with one seed. v2 kept all forty books, added contemporary dilemmas and UltraChat, clipped weights, and drew rows with replacement. v3 trains three arms — weighted `w = s / mean` with no clip, uniform `w = 1` on the same rows, and a size-matched control — with R-DPO α=0.01 β=0.1, bidirectional rejected answers, and seeds 0, 1, and 2. The published mix is 1,001 CAI rows per arm plus 300 format replay (Kish ESS 789.94, max weight 2.248). The reported score, when Colab writes it, is WiSE-FT λ=0.5. The v1, v1_fixed, and v2 notebooks stay untouched. Methods and the live log: [`study/`](study/).
+The fine-tuning inclusion policy is no longer deferred. The current run is v3 ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)): the top twenty works by `ier_intrinsic`, because LIMA and AlpaGasus found a small high-scoring slice beat the full set, rewritten into one deliberative turn, mixed as 1,001 CAI rows plus 300 format-replay rows. Three arms, R-DPO, three seeds, WiSE-FT λ=0.5: see [`study/v3-methods.md`](study/v3-methods.md) for why each of those is there.
 
 ## Language: English original or PD English translation
 

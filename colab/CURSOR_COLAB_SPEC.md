@@ -6,7 +6,7 @@ The notebook to open is `colab/cai_3way_experiment_and_eval_v3.ipynb`. v3 writes
 
 v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas, clips weights to 0.25–2, and draws rows with replacement.
 
-v3 keeps the top 20 books by `ier_intrinsic` because LIMA and AlpaGasus found a small high-scoring slice beat the full set, and rewrites the existing v2 `draft_0` / `revision_3` traces into one deliberative user message and one weighed assistant reply. The mix is those CAI rows plus a shared 300-row format replay at weight 1, so the 8-token letter scorer still sees a letter.
+v3 keeps the top 20 books by `ier_intrinsic` because a noisier tail still contributes gradient even at small weight (LIMA / AlpaGasus), and rewrites the existing v2 `draft_0` / `revision_3` traces into one deliberative user message and one weighed assistant reply. The mix is those CAI rows plus a shared 300-row format replay at weight 1, so the 8-token letter scorer still sees a letter after an epoch of long completions.
 
 Three arms:
 
@@ -18,7 +18,7 @@ Three arms:
 
 Each arm also has the 300 format-replay rows. Kish ESS of the weighted CAI slice is **789.94**. Max weight is **2.248**.
 
-Every arm uses R-DPO with α=0.01 and β=0.1 (Park et al., dialogue setting). Rejected answers alternate between the unrevised draft and a dogmatic rewrite (Sharma et al.). Seeds are 0, 1, and 2 (Dodge et al.). The reported score is the mean of those seeds at WiSE-FT λ=0.5 (Wortsman et al.). λ=1 on arm A is a reference. λ=0 is the base model, scored once. Scores are trainer metadata. The nine QLoRA trains run in Colab. Why: [`../docs/study/v3-methods.md`](../docs/study/v3-methods.md).
+Every arm uses R-DPO with α=0.01 and β=0.1 so length sits inside the logistic (Park et al.). Rejected answers alternate between the unrevised draft and a dogmatic rewrite: rejecting only the draft would train maximum movement (Sharma et al.). Seeds are 0, 1, and 2; the reported number is their mean (Dodge et al.). The reported score is that mean at WiSE-FT λ=0.5, a blend of adapter and base (Wortsman et al.). λ=1 on arm A is a reference. λ=0 is the base model, scored once. Scores are trainer metadata. The nine QLoRA trains run in Colab. Why: [`../docs/study/v3-methods.md`](../docs/study/v3-methods.md).
 
 ## Objective (v1, kept for the original notebook)
 

@@ -17,9 +17,9 @@ v1 trained two arms on the book dialogues with one seed. Adapters went under the
 
 v2 kept all forty books, added contemporary dilemmas, clipped weights to 0.25–2, and drew rows with replacement. It still trained two arms with one seed, and it writes under a v2 folder so v1 keeps its adapters.
 
-v3 keeps the **twenty books with the highest `ier_intrinsic` scores** (ranks 1–20 of the I/E-R list in [`four-top40-lists.md`](four-top40-lists.md)) because LIMA and AlpaGasus found that a small high-scoring slice beat the full noisier set. Each kept v2 `draft_0` / `revision_3` trace is rewritten into one deliberative user message and one weighed assistant reply (Guan et al.), so the loss is on a weighed completion rather than on imitating the book. The mix is those CAI rows plus a shared **300-row format replay** at weight 1 (ARC-Easy train and synthetic letter-format items), the InstructGPT pattern for keeping the 8-token letter scorer honest.
+v3 keeps the **twenty books with the highest `ier_intrinsic` scores** (ranks 1–20 of the I/E-R list in [`four-top40-lists.md`](four-top40-lists.md)) because LIMA and AlpaGasus found that a small high-scoring slice beat the full noisier set: a low-scoring tail still contributes gradient even at small weight. Each kept v2 `draft_0` / `revision_3` trace is rewritten into one deliberative user message and one weighed assistant reply (Guan et al.), so the loss is on a weighed completion rather than on imitating the book. The mix is those CAI rows plus a shared **300-row format replay** at weight 1 (ARC-Easy train and synthetic letter-format items). After long deliberative completions, a paragraph can miss the letter the 8-token scorer reads; that is the InstructGPT pattern.
 
-The full argument, with the papers for R-DPO, both rejected types, three seeds, and WiSE-FT λ=0.5, is [`study/v3-methods.md`](study/v3-methods.md).
+The full argument — why the uniform arm exists, why length sits inside the logistic, why rejecting only the draft trains maximum movement, why λ=0.5 is a blend — is [`study/v3-methods.md`](study/v3-methods.md).
 
 Three arms share one trainer:
 

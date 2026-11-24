@@ -2,9 +2,7 @@
 
 Generated: 2026-10-28T10:37:53Z
 
-This page is the discarded Gemini data build. It was regenerated with DeepSeek and is not the current training run.
-
-This page is the discarded Gemini data build. The notebook to train is **v3** ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)), which keeps the top twenty I/E-R books (LIMA / AlpaGasus) and trains on 1,001 rewritten CAI dialogues plus 300 format-replay rows. Three arms, R-DPO, three seeds, WiSE-FT λ=0.5: see [`study/v3-methods.md`](study/v3-methods.md) for why each of those is there. Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md).
+This page is the discarded Gemini data build, regenerated with DeepSeek. The notebook to train is **v3** ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)), which keeps the top twenty I/E-R books because a noisier tail still contributes gradient even at small weight, and trains on 1,001 rewritten CAI dialogues plus 300 format-replay rows. Why: [`study/v3-methods.md`](study/v3-methods.md). Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md).
 
 The counts below are the old Steps 0–4 record, not the v3 mix. Ranked by I/E-R intrinsic only (no I−E filter).
 Extraction, critique, revision, and judge prompts use author-text vocabulary only.

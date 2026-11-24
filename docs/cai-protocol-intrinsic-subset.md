@@ -1,8 +1,6 @@
 # Master Execution Protocol (`CAI_PROTOCOL.md`) — I/E-R top 40, prompt-set size held at 2,500
 
-This page is the Steps 0–4 build for the 40-book archive (2,500 prompts, including UltraChat). It is not the current training run.
-
-This page is the Steps 0–4 build for the forty-book archive. The notebook to train is **v3**: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). It keeps the top twenty books by `ier_intrinsic` (LIMA / AlpaGasus: a small high-scoring slice), rewrites each kept trace into one deliberative turn, and trains on 1,001 CAI rows plus 300 format-replay rows. Three arms share R-DPO and seeds 0, 1, and 2; reported evaluation is WiSE-FT λ=0.5. Why each of those is the default: [`study/v3-methods.md`](study/v3-methods.md). Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md).
+This page is the Steps 0–4 build for the forty-book archive. The notebook to train is **v3**: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb). It keeps the top twenty books by `ier_intrinsic` because a noisier tail still contributes gradient even at small weight, rewrites each kept trace into one deliberative turn, and trains on 1,001 CAI rows plus 300 format-replay rows. Why: [`study/v3-methods.md`](study/v3-methods.md). Notebook notes: [`cai-3way-colab.md`](cai-3way-colab.md).
 
 > **Instructions for Cursor Agent:** Execute a two-stage Constitutional AI (Bai et al., 2022, `arXiv:2212.08073`) pipeline over **40 books** in `books_raw/` (I/E-R intrinsic top 40 from `/cursor/stores/self/docs/intrinsic-motivation-scores.sqlite`; **do not filter on I − E**) to fine-tune `unsloth/Llama-3.2-3B-Instruct-bnb-4bit` first, then `unsloth/Mistral-Small-24B-Instruct-2501-bnb-4bit`.
 >

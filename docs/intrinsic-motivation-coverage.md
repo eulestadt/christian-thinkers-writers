@@ -3,7 +3,7 @@
 Generated: 2026-10-27T22:11:05Z
 Formula: `slice1-v1`; k=10; chunk=500 tokens; PD cutoff=1930.
 
-The counts below are the scoring census (527 works). The current training run is **v3**, which keeps the top twenty of those works by `ier_intrinsic` because LIMA and AlpaGasus found a small high-scoring slice beat the full noisier set. The mix is 1,001 rewritten CAI dialogues plus 300 format-replay rows. Three arms, R-DPO, three seeds, WiSE-FT λ=0.5: see [`study/v3-methods.md`](study/v3-methods.md) for why each of those is there. Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb).
+The counts below are the scoring census (527 works). The current training run is **v3**, which keeps the top twenty of those works by `ier_intrinsic` because a noisier tail still contributes gradient even at small weight (LIMA / AlpaGasus). The mix is 1,001 rewritten CAI dialogues plus 300 format-replay rows. Why the rest of the design: [`study/v3-methods.md`](study/v3-methods.md). Notebook: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb).
 
 ## Authors
 

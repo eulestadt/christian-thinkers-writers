@@ -4,7 +4,7 @@
 
 Deferred on this scoring slice: GPT item rater, human dual-coding, Quest/fundamentalism filters, SDT.
 
-The fine-tuning inclusion policy is no longer deferred. The current run is v3 ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)): the top twenty works by `ier_intrinsic`, because LIMA and AlpaGasus found a small high-scoring slice beat the full set, rewritten into one deliberative turn, mixed as 1,001 CAI rows plus 300 format-replay rows. Three arms, R-DPO, three seeds, WiSE-FT λ=0.5: see [`study/v3-methods.md`](study/v3-methods.md) for why each of those is there.
+The fine-tuning inclusion policy is no longer deferred. The current run is v3 ([`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb)): the top twenty works by `ier_intrinsic`, because a noisier tail still contributes gradient even at small weight (LIMA / AlpaGasus), rewritten into one deliberative turn, mixed as 1,001 CAI rows plus 300 format-replay rows. Why: [`study/v3-methods.md`](study/v3-methods.md).
 
 ## Language: English original or PD English translation
 

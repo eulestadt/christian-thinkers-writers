@@ -2,7 +2,7 @@
 
 This folder builds the **v2** mix. The current training run is **v3**: [`colab/cai_3way_experiment_and_eval_v3.ipynb`](../colab/cai_3way_experiment_and_eval_v3.ipynb), mix in [`colab/data/v3/`](../colab/data/v3/), builder [`colab/scripts/build_v3_dialogues.py`](../colab/scripts/build_v3_dialogues.py).
 
-v1 trained two arms on the book dialogues with one seed. v2 kept all forty books, mixed in contemporary dilemmas, clipped weights, and drew rows with replacement. v3 keeps the top twenty books by `ier_intrinsic` (LIMA / AlpaGasus), rewrites the v2 `draft_0` / `revision_3` traces into one deliberative turn, and trains on 1,001 CAI rows plus 300 format-replay rows. Three arms share R-DPO and seeds 0, 1, and 2; reported evaluation is WiSE-FT λ=0.5. Why: [`../docs/study/v3-methods.md`](../docs/study/v3-methods.md).
+v1 trained two arms on the book dialogues with one seed. v2 kept all forty books, mixed in contemporary dilemmas, clipped weights, and drew rows with replacement. v3 keeps the top twenty books by `ier_intrinsic` because a noisier tail still contributes gradient even at small weight, rewrites the v2 `draft_0` / `revision_3` traces into one deliberative turn, and trains on 1,001 CAI rows plus 300 format-replay rows. Why: [`../docs/study/v3-methods.md`](../docs/study/v3-methods.md).
 
 The scripts below still build the v2 mix for
 `colab/cai_3way_experiment_and_eval_v2.ipynb`. They do not overwrite v1

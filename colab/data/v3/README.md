@@ -2,7 +2,7 @@
 
 Current mix for [`cai_3way_experiment_and_eval_v3.ipynb`](../../cai_3way_experiment_and_eval_v3.ipynb). Built by [`scripts/build_v3_dialogues.py`](../../scripts/build_v3_dialogues.py) from the v2 `draft_0` / `revision_3` traces. The v2 mix remains in [`../v2/`](../v2/).
 
-v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas, clips weights to 0.25–2, and draws rows with replacement. v3 keeps the top 20 books by `ier_intrinsic` because LIMA and AlpaGasus found a small high-scoring slice beat the full set, and rewrites each kept trace into one deliberative user message and one weighed assistant reply. The mix is those CAI rows plus a shared 300-row format replay at weight 1, so the letter-format scorer still sees a letter.
+v1 trains two arms on the book dialogues with one seed. v2 keeps all 40 books, adds contemporary dilemmas, clips weights to 0.25–2, and draws rows with replacement. v3 keeps the top 20 books by `ier_intrinsic` because a noisier tail still contributes gradient even at small weight (LIMA / AlpaGasus), and rewrites each kept trace into one deliberative user message and one weighed assistant reply. The mix is those CAI rows plus a shared 300-row format replay at weight 1, so the 8-token letter scorer still sees a letter after an epoch of long completions.
 
 | Arm | CAI rows | Weight | Format replay | SFT / DPO rows |
 |---|---:|---|---:|---:|

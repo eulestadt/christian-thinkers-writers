@@ -1,0 +1,896 @@
+{
+  "lambda": 0.5,
+  "benchmarks": {
+    "CHANGE_OR_HOLD": {
+      "n_items": 36,
+      "metric": "accuracy",
+      "seeds": {
+        "base": {
+          "per_seed_accuracy": {
+            "-1": 0.0
+          },
+          "accuracy": 0.0,
+          "positive_rate": null,
+          "no_answer_rate": 100.0
+        },
+        "open": {
+          "per_seed_accuracy": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "accuracy": 0.0,
+          "positive_rate": null,
+          "no_answer_rate": 100.0
+        },
+        "sealed": {
+          "per_seed_accuracy": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "accuracy": 0.0,
+          "positive_rate": null,
+          "no_answer_rate": 100.0
+        },
+        "neighbor": {
+          "per_seed_accuracy": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "accuracy": 0.0,
+          "positive_rate": null,
+          "no_answer_rate": 100.0
+        }
+      },
+      "contrasts": [
+        {
+          "diff": 0.0,
+          "lo": 0.0,
+          "hi": 0.0,
+          "contrast": "open-sealed",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 0.0,
+          "lo": 0.0,
+          "hi": 0.0,
+          "contrast": "open-neighbor",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 0.0,
+          "lo": 0.0,
+          "hi": 0.0,
+          "contrast": "open-base",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 0.0,
+          "lo": 0.0,
+          "hi": 0.0,
+          "contrast": "sealed-base",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 0.0,
+          "lo": 0.0,
+          "hi": 0.0,
+          "contrast": "neighbor-base",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    "ETHICS_commonsense": {
+      "n_items": 200,
+      "metric": "balanced",
+      "seeds": {
+        "base": {
+          "per_seed_balanced": {
+            "-1": 48.589
+          },
+          "balanced": 48.589,
+          "accuracy": 49.5,
+          "positive_rate": 94.5,
+          "no_answer_rate": 3.5
+        },
+        "open": {
+          "per_seed_balanced": {
+            "0": 57.513,
+            "1": 60.984,
+            "2": 57.993
+          },
+          "balanced": 58.83,
+          "accuracy": 59.0,
+          "positive_rate": 58.667,
+          "no_answer_rate": 0.167
+        },
+        "sealed": {
+          "per_seed_balanced": {
+            "0": 58.703,
+            "1": 61.024,
+            "2": 59.014
+          },
+          "balanced": 59.58,
+          "accuracy": 59.833,
+          "positive_rate": 62.833,
+          "no_answer_rate": 0.0
+        },
+        "neighbor": {
+          "per_seed_balanced": {
+            "0": 59.884,
+            "1": 59.544,
+            "2": 56.993
+          },
+          "balanced": 58.807,
+          "accuracy": 59.167,
+          "positive_rate": 68.167,
+          "no_answer_rate": 0.0
+        }
+      },
+      "contrasts": [
+        {
+          "diff": -0.75,
+          "lo": -2.814,
+          "hi": 1.313,
+          "contrast": "open-sealed",
+          "metric": "balanced"
+        },
+        {
+          "diff": -4.167,
+          "lo": -6.333,
+          "hi": -2.167,
+          "contrast": "open-sealed",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 0.023,
+          "lo": -2.436,
+          "hi": 2.507,
+          "contrast": "open-neighbor",
+          "metric": "balanced"
+        },
+        {
+          "diff": -9.5,
+          "lo": -12.167,
+          "hi": -7.0,
+          "contrast": "open-neighbor",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 10.241,
+          "lo": 4.15,
+          "hi": 15.987,
+          "contrast": "open-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": -35.833,
+          "lo": -42.167,
+          "hi": -29.667,
+          "contrast": "open-base",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 10.991,
+          "lo": 4.795,
+          "hi": 17.0,
+          "contrast": "sealed-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": -31.667,
+          "lo": -38.167,
+          "hi": -25.167,
+          "contrast": "sealed-base",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 10.217,
+          "lo": 4.338,
+          "hi": 16.087,
+          "contrast": "neighbor-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": -26.333,
+          "lo": -32.833,
+          "hi": -20.167,
+          "contrast": "neighbor-base",
+          "metric": "positive_rate"
+        }
+      ]
+    },
+    "ETHICS_deontology": {
+      "n_items": 200,
+      "metric": "balanced",
+      "seeds": {
+        "base": {
+          "per_seed_balanced": {
+            "-1": 53.125
+          },
+          "balanced": 53.125,
+          "accuracy": 55.0,
+          "positive_rate": 3.0,
+          "no_answer_rate": 0.0
+        },
+        "open": {
+          "per_seed_balanced": {
+            "0": 58.894,
+            "1": 57.452,
+            "2": 58.494
+          },
+          "balanced": 58.28,
+          "accuracy": 59.333,
+          "positive_rate": 23.333,
+          "no_answer_rate": 0.0
+        },
+        "sealed": {
+          "per_seed_balanced": {
+            "0": 58.413,
+            "1": 58.053,
+            "2": 58.053
+          },
+          "balanced": 58.173,
+          "accuracy": 59.167,
+          "positive_rate": 24.833,
+          "no_answer_rate": 0.0
+        },
+        "neighbor": {
+          "per_seed_balanced": {
+            "0": 59.014,
+            "1": 59.255,
+            "2": 58.894
+          },
+          "balanced": 59.054,
+          "accuracy": 60.167,
+          "positive_rate": 21.833,
+          "no_answer_rate": 0.0
+        }
+      },
+      "contrasts": [
+        {
+          "diff": 0.107,
+          "lo": -1.344,
+          "hi": 1.543,
+          "contrast": "open-sealed",
+          "metric": "balanced"
+        },
+        {
+          "diff": -1.5,
+          "lo": -3.0,
+          "hi": -0.167,
+          "contrast": "open-sealed",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": -0.775,
+          "lo": -2.262,
+          "hi": 0.683,
+          "contrast": "open-neighbor",
+          "metric": "balanced"
+        },
+        {
+          "diff": 1.5,
+          "lo": 0.167,
+          "hi": 3.0,
+          "contrast": "open-neighbor",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 5.155,
+          "lo": -0.328,
+          "hi": 10.511,
+          "contrast": "open-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": 20.333,
+          "lo": 15.163,
+          "hi": 26.167,
+          "contrast": "open-base",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 5.048,
+          "lo": -0.477,
+          "hi": 10.671,
+          "contrast": "sealed-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": 21.833,
+          "lo": 16.5,
+          "hi": 27.833,
+          "contrast": "sealed-base",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 5.929,
+          "lo": 0.835,
+          "hi": 11.018,
+          "contrast": "neighbor-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": 18.833,
+          "lo": 13.833,
+          "hi": 24.333,
+          "contrast": "neighbor-base",
+          "metric": "positive_rate"
+        }
+      ]
+    },
+    "ETHICS_justice": {
+      "n_items": 200,
+      "metric": "balanced",
+      "seeds": {
+        "base": {
+          "per_seed_balanced": {
+            "-1": 52.196
+          },
+          "balanced": 52.196,
+          "accuracy": 49.0,
+          "positive_rate": 4.0,
+          "no_answer_rate": 0.5
+        },
+        "open": {
+          "per_seed_balanced": {
+            "0": 66.491,
+            "1": 68.757,
+            "2": 69.691
+          },
+          "balanced": 68.313,
+          "accuracy": 67.5,
+          "positive_rate": 39.667,
+          "no_answer_rate": 0.0
+        },
+        "sealed": {
+          "per_seed_balanced": {
+            "0": 62.682,
+            "1": 69.154,
+            "2": 68.943
+          },
+          "balanced": 66.926,
+          "accuracy": 66.167,
+          "positive_rate": 40.333,
+          "no_answer_rate": 0.0
+        },
+        "neighbor": {
+          "per_seed_balanced": {
+            "0": 66.466,
+            "1": 67.496,
+            "2": 67.144
+          },
+          "balanced": 67.035,
+          "accuracy": 66.333,
+          "positive_rate": 41.167,
+          "no_answer_rate": 0.0
+        }
+      },
+      "contrasts": [
+        {
+          "diff": 1.387,
+          "lo": -0.244,
+          "hi": 3.167,
+          "contrast": "open-sealed",
+          "metric": "balanced"
+        },
+        {
+          "diff": -0.667,
+          "lo": -2.5,
+          "hi": 1.167,
+          "contrast": "open-sealed",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 1.278,
+          "lo": -0.72,
+          "hi": 3.29,
+          "contrast": "open-neighbor",
+          "metric": "balanced"
+        },
+        {
+          "diff": -1.5,
+          "lo": -3.5,
+          "hi": 0.5,
+          "contrast": "open-neighbor",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 16.117,
+          "lo": 10.002,
+          "hi": 22.082,
+          "contrast": "open-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": 35.667,
+          "lo": 29.333,
+          "hi": 42.0,
+          "contrast": "open-base",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 14.731,
+          "lo": 8.545,
+          "hi": 20.657,
+          "contrast": "sealed-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": 36.333,
+          "lo": 30.333,
+          "hi": 42.667,
+          "contrast": "sealed-base",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 14.839,
+          "lo": 8.681,
+          "hi": 20.913,
+          "contrast": "neighbor-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": 37.167,
+          "lo": 30.833,
+          "hi": 43.5,
+          "contrast": "neighbor-base",
+          "metric": "positive_rate"
+        }
+      ]
+    },
+    "ETHICS_virtue": {
+      "n_items": 200,
+      "metric": "balanced",
+      "seeds": {
+        "base": {
+          "per_seed_balanced": {
+            "-1": 67.523
+          },
+          "balanced": 67.523,
+          "accuracy": 79.5,
+          "positive_rate": 19.0,
+          "no_answer_rate": 0.5
+        },
+        "open": {
+          "per_seed_balanced": {
+            "0": 71.908,
+            "1": 68.071,
+            "2": 71.049
+          },
+          "balanced": 70.343,
+          "accuracy": 61.833,
+          "positive_rate": 53.333,
+          "no_answer_rate": 0.0
+        },
+        "sealed": {
+          "per_seed_balanced": {
+            "0": 72.656,
+            "1": 67.116,
+            "2": 68.39
+          },
+          "balanced": 69.387,
+          "accuracy": 60.333,
+          "positive_rate": 54.833,
+          "no_answer_rate": 0.0
+        },
+        "neighbor": {
+          "per_seed_balanced": {
+            "0": 67.753,
+            "1": 72.115,
+            "2": 70.827
+          },
+          "balanced": 70.232,
+          "accuracy": 60.333,
+          "positive_rate": 55.833,
+          "no_answer_rate": 0.0
+        }
+      },
+      "contrasts": [
+        {
+          "diff": 0.955,
+          "lo": -1.146,
+          "hi": 3.059,
+          "contrast": "open-sealed",
+          "metric": "balanced"
+        },
+        {
+          "diff": -1.5,
+          "lo": -3.833,
+          "hi": 0.667,
+          "contrast": "open-sealed",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 0.111,
+          "lo": -1.779,
+          "hi": 1.831,
+          "contrast": "open-neighbor",
+          "metric": "balanced"
+        },
+        {
+          "diff": -2.5,
+          "lo": -4.667,
+          "hi": -0.5,
+          "contrast": "open-neighbor",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 2.819,
+          "lo": -4.906,
+          "hi": 10.363,
+          "contrast": "open-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": 34.333,
+          "lo": 28.333,
+          "hi": 40.5,
+          "contrast": "open-base",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 1.864,
+          "lo": -5.616,
+          "hi": 9.278,
+          "contrast": "sealed-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": 35.833,
+          "lo": 30.0,
+          "hi": 42.0,
+          "contrast": "sealed-base",
+          "metric": "positive_rate"
+        },
+        {
+          "diff": 2.708,
+          "lo": -5.032,
+          "hi": 10.306,
+          "contrast": "neighbor-base",
+          "metric": "balanced"
+        },
+        {
+          "diff": 36.833,
+          "lo": 30.667,
+          "hi": 43.333,
+          "contrast": "neighbor-base",
+          "metric": "positive_rate"
+        }
+      ]
+    },
+    "MMLU_moral_disputes": {
+      "n_items": 150,
+      "metric": "accuracy",
+      "seeds": {
+        "base": {
+          "per_seed_accuracy": {
+            "-1": 48.833
+          },
+          "accuracy": 48.833,
+          "positive_rate": null,
+          "no_answer_rate": 1.333
+        },
+        "open": {
+          "per_seed_accuracy": {
+            "0": 54.167,
+            "1": 55.333,
+            "2": 54.833
+          },
+          "accuracy": 54.778,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        },
+        "sealed": {
+          "per_seed_accuracy": {
+            "0": 54.333,
+            "1": 54.333,
+            "2": 53.667
+          },
+          "accuracy": 54.111,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        },
+        "neighbor": {
+          "per_seed_accuracy": {
+            "0": 55.333,
+            "1": 53.5,
+            "2": 52.833
+          },
+          "accuracy": 53.889,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        }
+      },
+      "contrasts": [
+        {
+          "diff": 0.667,
+          "lo": -0.667,
+          "hi": 2.0,
+          "contrast": "open-sealed",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 0.889,
+          "lo": -0.278,
+          "hi": 2.057,
+          "contrast": "open-neighbor",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 5.944,
+          "lo": 2.167,
+          "hi": 9.667,
+          "contrast": "open-base",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 5.278,
+          "lo": 1.5,
+          "hi": 9.056,
+          "contrast": "sealed-base",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 5.056,
+          "lo": 1.167,
+          "hi": 8.833,
+          "contrast": "neighbor-base",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    "MMLU_moral_scenarios": {
+      "n_items": 150,
+      "metric": "accuracy",
+      "seeds": {
+        "base": {
+          "per_seed_accuracy": {
+            "-1": 42.667
+          },
+          "accuracy": 42.667,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        },
+        "open": {
+          "per_seed_accuracy": {
+            "0": 47.833,
+            "1": 45.833,
+            "2": 49.0
+          },
+          "accuracy": 47.556,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        },
+        "sealed": {
+          "per_seed_accuracy": {
+            "0": 48.0,
+            "1": 46.0,
+            "2": 47.833
+          },
+          "accuracy": 47.278,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        },
+        "neighbor": {
+          "per_seed_accuracy": {
+            "0": 47.333,
+            "1": 47.5,
+            "2": 47.833
+          },
+          "accuracy": 47.556,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        }
+      },
+      "contrasts": [
+        {
+          "diff": 0.278,
+          "lo": -1.167,
+          "hi": 1.833,
+          "contrast": "open-sealed",
+          "metric": "accuracy"
+        },
+        {
+          "diff": -0.0,
+          "lo": -1.278,
+          "hi": 1.278,
+          "contrast": "open-neighbor",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 4.889,
+          "lo": 1.444,
+          "hi": 8.444,
+          "contrast": "open-base",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 4.611,
+          "lo": 1.5,
+          "hi": 7.833,
+          "contrast": "sealed-base",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 4.889,
+          "lo": 1.167,
+          "hi": 8.722,
+          "contrast": "neighbor-base",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    "MMLU_philosophy": {
+      "n_items": 150,
+      "metric": "accuracy",
+      "seeds": {
+        "base": {
+          "per_seed_accuracy": {
+            "-1": 56.833
+          },
+          "accuracy": 56.833,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        },
+        "open": {
+          "per_seed_accuracy": {
+            "0": 60.833,
+            "1": 61.167,
+            "2": 60.333
+          },
+          "accuracy": 60.778,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        },
+        "sealed": {
+          "per_seed_accuracy": {
+            "0": 61.167,
+            "1": 61.167,
+            "2": 60.833
+          },
+          "accuracy": 61.056,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        },
+        "neighbor": {
+          "per_seed_accuracy": {
+            "0": 60.167,
+            "1": 61.833,
+            "2": 60.167
+          },
+          "accuracy": 60.722,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        }
+      },
+      "contrasts": [
+        {
+          "diff": -0.278,
+          "lo": -1.333,
+          "hi": 0.722,
+          "contrast": "open-sealed",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 0.056,
+          "lo": -1.278,
+          "hi": 1.333,
+          "contrast": "open-neighbor",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 3.944,
+          "lo": 1.278,
+          "hi": 6.722,
+          "contrast": "open-base",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 4.222,
+          "lo": 1.444,
+          "hi": 7.167,
+          "contrast": "sealed-base",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 3.889,
+          "lo": 1.167,
+          "hi": 6.778,
+          "contrast": "neighbor-base",
+          "metric": "accuracy"
+        }
+      ]
+    },
+    "MMLU_world_religions": {
+      "n_items": 150,
+      "metric": "accuracy",
+      "seeds": {
+        "base": {
+          "per_seed_accuracy": {
+            "-1": 68.833
+          },
+          "accuracy": 68.833,
+          "positive_rate": null,
+          "no_answer_rate": 1.333
+        },
+        "open": {
+          "per_seed_accuracy": {
+            "0": 71.667,
+            "1": 73.333,
+            "2": 72.833
+          },
+          "accuracy": 72.611,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        },
+        "sealed": {
+          "per_seed_accuracy": {
+            "0": 71.333,
+            "1": 73.167,
+            "2": 73.667
+          },
+          "accuracy": 72.722,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        },
+        "neighbor": {
+          "per_seed_accuracy": {
+            "0": 72.0,
+            "1": 72.0,
+            "2": 71.5
+          },
+          "accuracy": 71.833,
+          "positive_rate": null,
+          "no_answer_rate": 0.0
+        }
+      },
+      "contrasts": [
+        {
+          "diff": -0.111,
+          "lo": -0.944,
+          "hi": 0.722,
+          "contrast": "open-sealed",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 0.778,
+          "lo": -0.5,
+          "hi": 2.056,
+          "contrast": "open-neighbor",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 3.778,
+          "lo": 1.333,
+          "hi": 6.5,
+          "contrast": "open-base",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 3.889,
+          "lo": 1.167,
+          "hi": 6.944,
+          "contrast": "sealed-base",
+          "metric": "accuracy"
+        },
+        {
+          "diff": 3.0,
+          "lo": 0.333,
+          "hi": 5.944,
+          "contrast": "neighbor-base",
+          "metric": "accuracy"
+        }
+      ]
+    }
+  },
+  "style_command_rate": {
+    "base": 0.08,
+    "open": 0.02,
+    "sealed": 0.0733,
+    "neighbor": 0.0333
+  }
+}

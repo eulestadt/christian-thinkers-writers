@@ -7,3 +7,7 @@ The choices that look like defaults — twenty books, one deliberative turn, a u
 Session `ctw-v3` finished on an NVIDIA L4: all nine trains, then eval. **10.12 of ~240 compute units** spent. Arms A, B, and C are tied on the primary suite (pooled A−B 0.000 pp, 95% CI [−0.417, 0.438]; A−C −0.312 pp [−0.917, 0.271]). The shared shift versus the base is the training signal, not I/E-R weights.
 
 Adapter weight files are about 93 MB each. They stay in the private artifact store because this repository’s Git LFS tracks the census jsonl and the scores sqlite.
+
+## v4
+
+v4 asks the question this run left open: the same size mix, read open, read sealed, or read from the neighbor shelf. The write-up is [`../arxiv-v4-study/`](../arxiv-v4-study/) (paper, results, run log). Mixes and analysis JSON are in [`v4/`](v4/). The v3 notes above were not rewritten.

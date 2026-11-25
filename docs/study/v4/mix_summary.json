@@ -1,0 +1,539 @@
+{
+  "model": "deepseek-flash",
+  "thinking": "disabled",
+  "weights": 1,
+  "n_cai_open": 1000,
+  "n_cai_neighbor": 1001,
+  "n_format_replay": 300,
+  "n_sft": {
+    "open": 1348,
+    "sealed": 1348,
+    "neighbor": 1347
+  },
+  "n_dpo": {
+    "open": 1348,
+    "sealed": 1348,
+    "neighbor": 1347
+  },
+  "open_verdicts": {
+    "condemn": 82,
+    "allow": 918
+  },
+  "neighbor_verdicts": {
+    "condemn": 231,
+    "allow": 770
+  },
+  "rejected_kind_cai": {
+    "open": {
+      "shrug": 500,
+      "sermon": 500
+    },
+    "sealed": {
+      "shrug": 1000
+    },
+    "neighbor": {
+      "shrug": 501,
+      "sermon": 500
+    }
+  },
+  "treatment_books": [
+    {
+      "book_id": "Q3090506",
+      "author": "Brother Lawrence",
+      "title": "The Practice of the Presence of God",
+      "ier_intrinsic": 0.006566825247056294,
+      "n": 58,
+      "condemn": 1
+    },
+    {
+      "book_id": "Q8012011",
+      "author": "William Henry Griffith Thomas",
+      "title": "The Prayers of St. Paul",
+      "ier_intrinsic": 0.006161330675959151,
+      "n": 49,
+      "condemn": 0
+    },
+    {
+      "book_id": "Q4018797",
+      "author": "Edward McKendree Bounds",
+      "title": "Preacher and Prayer",
+      "ier_intrinsic": 0.005331945795196477,
+      "n": 49,
+      "condemn": 5
+    },
+    {
+      "book_id": "Q6547707",
+      "author": "Lilian Staveley",
+      "title": "The Romance of the Soul",
+      "ier_intrinsic": 0.004377275636178768,
+      "n": 50,
+      "condemn": 4
+    },
+    {
+      "book_id": "Q60059",
+      "author": "Albertus Magnus",
+      "title": "On Union with God",
+      "ier_intrinsic": 0.003474143156730146,
+      "n": 50,
+      "condemn": 2
+    },
+    {
+      "book_id": "Q5536061",
+      "author": "George Adam Smith",
+      "title": "Four Psalms: XXIII, XXXVI, LII, CXXI, Interpreted for Practical Use",
+      "ier_intrinsic": 0.0030161780670128076,
+      "n": 50,
+      "condemn": 1
+    },
+    {
+      "book_id": "Q4821449",
+      "author": "Augustus Hopkins Strong",
+      "title": "Systematic Theology: The Doctrine of God (1907)",
+      "ier_intrinsic": 0.002963109314880665,
+      "n": 50,
+      "condemn": 5
+    },
+    {
+      "book_id": "Q44281",
+      "author": "Ignatius of Loyola",
+      "title": "Spiritual Exercises",
+      "ier_intrinsic": 0.002543044598200789,
+      "n": 50,
+      "condemn": 4
+    },
+    {
+      "book_id": "Q6518053",
+      "author": "Legh Richmond",
+      "title": "The Dairyman's Daughter",
+      "ier_intrinsic": 0.0022895308974787373,
+      "n": 50,
+      "condemn": 0
+    },
+    {
+      "book_id": "Q231256",
+      "author": "Francis de Sales",
+      "title": "Maxims and Counsels of St. Francis de Sales for Every Day in the Year",
+      "ier_intrinsic": 0.0022138980388676814,
+      "n": 50,
+      "condemn": 3
+    },
+    {
+      "book_id": "Q5481512",
+      "author": "Francis John McConnell",
+      "title": "Understanding the Scriptures",
+      "ier_intrinsic": 0.002196161292173467,
+      "n": 50,
+      "condemn": 4
+    },
+    {
+      "book_id": "Q2713471",
+      "author": "Rufus Jones",
+      "title": "The Double Search: Studies in Atonement and Prayer",
+      "ier_intrinsic": 0.002163273807691067,
+      "n": 50,
+      "condemn": 1
+    },
+    {
+      "book_id": "Q560915",
+      "author": "Cynewulf",
+      "title": "The Elene of Cynewulf",
+      "ier_intrinsic": 0.0019794779672221365,
+      "n": 49,
+      "condemn": 9
+    },
+    {
+      "book_id": "Q4800431",
+      "author": "Arthur Tappan Pierson",
+      "title": "George Muller of Bristol and his Witness to a Prayer-Hearing God",
+      "ier_intrinsic": 0.0019740779822401554,
+      "n": 50,
+      "condemn": 11
+    },
+    {
+      "book_id": "Q367745",
+      "author": "Francis Thompson",
+      "title": "The Hound of Heaven",
+      "ier_intrinsic": 0.00187751270753573,
+      "n": 49,
+      "condemn": 2
+    },
+    {
+      "book_id": "Q7367226",
+      "author": "Rosalind Goforth",
+      "title": "How I Know God Answers Prayer",
+      "ier_intrinsic": 0.0018284568882480918,
+      "n": 49,
+      "condemn": 0
+    },
+    {
+      "book_id": "Q1365446",
+      "author": "Joseph Bates",
+      "title": "The Opening Heavens Or, A Connected View of the Testimony of the Prophets and Apostles (1846)",
+      "ier_intrinsic": 0.00179021633242614,
+      "n": 48,
+      "condemn": 7
+    },
+    {
+      "book_id": "Q431614",
+      "author": "Catherine Booth",
+      "title": "Godliness (1881)",
+      "ier_intrinsic": 0.001767553325968536,
+      "n": 50,
+      "condemn": 7
+    },
+    {
+      "book_id": "Q4209439",
+      "author": "Hastings Rashdall",
+      "title": "Philosophy and Religion",
+      "ier_intrinsic": 0.0016733270060375134,
+      "n": 50,
+      "condemn": 10
+    },
+    {
+      "book_id": "Q540244",
+      "author": "John Taylor",
+      "title": "The Government of God (1852)",
+      "ier_intrinsic": 0.0016687777526573227,
+      "n": 49,
+      "condemn": 6
+    }
+  ],
+  "neighbor_books": [
+    {
+      "book_id": "Q130295",
+      "author": "L. Frank Baum",
+      "title": "The Wonderful Wizard of Oz",
+      "ier_intrinsic": null,
+      "n": 26,
+      "condemn": 2
+    },
+    {
+      "book_id": "Q131719",
+      "author": "Niccol\u00f2 Machiavelli",
+      "title": "The Prince",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 8
+    },
+    {
+      "book_id": "Q140527",
+      "author": "Alexandre Dumas",
+      "title": "The Three Musketeers",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 6
+    },
+    {
+      "book_id": "Q157506",
+      "author": "Martin Luther",
+      "title": "Ninety-five Theses",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 12
+    },
+    {
+      "book_id": "Q164974",
+      "author": "Charles Dickens",
+      "title": "Oliver Twist",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 8
+    },
+    {
+      "book_id": "Q165318",
+      "author": "Fyodor Dostoyevsky",
+      "title": "Crime and Punishment",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 8
+    },
+    {
+      "book_id": "Q170583",
+      "author": "Jane Austen",
+      "title": "Pride and Prejudice",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 0
+    },
+    {
+      "book_id": "Q180736",
+      "author": "Victor Hugo",
+      "title": "Les Mis\u00e9rables",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 8
+    },
+    {
+      "book_id": "Q182961",
+      "author": "Charlotte Bront\u00eb",
+      "title": "Jane Eyre",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 4
+    },
+    {
+      "book_id": "Q184222",
+      "author": "Franz Kafka",
+      "title": "The Metamorphosis",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 4
+    },
+    {
+      "book_id": "Q185118",
+      "author": "Robert Louis Stevenson",
+      "title": "Treasure Island",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 4
+    },
+    {
+      "book_id": "Q189509",
+      "author": "Rudyard Kipling",
+      "title": "The Jungle Book",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 8
+    },
+    {
+      "book_id": "Q193034",
+      "author": "Thomas Hobbes",
+      "title": "Leviathan",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 14
+    },
+    {
+      "book_id": "Q214371",
+      "author": "F. Scott Fitzgerald",
+      "title": "The Great Gatsby",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 4
+    },
+    {
+      "book_id": "Q220331",
+      "author": "Lewis Carroll",
+      "title": "Through the Looking-Glass",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 6
+    },
+    {
+      "book_id": "Q231949",
+      "author": "John Locke",
+      "title": "Two Treatises of Government",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 11
+    },
+    {
+      "book_id": "Q29478",
+      "author": "Johann Wolfgang von Goethe",
+      "title": "Faust",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 9
+    },
+    {
+      "book_id": "Q3435337",
+      "author": "J. M. Barrie",
+      "title": "Peter Pan",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 5
+    },
+    {
+      "book_id": "Q40591",
+      "author": "Friedrich Engels",
+      "title": "The Communist Manifesto",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 8
+    },
+    {
+      "book_id": "Q41567",
+      "author": "William Shakespeare",
+      "title": "Hamlet",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 11
+    },
+    {
+      "book_id": "Q459842",
+      "author": "Joseph Smith",
+      "title": "Book of Mormon",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 8
+    },
+    {
+      "book_id": "Q483034",
+      "author": "Daniel Defoe",
+      "title": "Robinson Crusoe",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 6
+    },
+    {
+      "book_id": "Q523076",
+      "author": "Louisa May Alcott",
+      "title": "Little Women",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 2
+    },
+    {
+      "book_id": "Q581458",
+      "author": "T. S. Eliot",
+      "title": "The Waste Land",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 4
+    },
+    {
+      "book_id": "Q637200",
+      "author": "George Bernard Shaw",
+      "title": "Pygmalion",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 4
+    },
+    {
+      "book_id": "Q650063",
+      "author": "Anton Chekhov",
+      "title": "The Seagull",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 8
+    },
+    {
+      "book_id": "Q6511",
+      "author": "James Joyce",
+      "title": "Ulysses",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 8
+    },
+    {
+      "book_id": "Q669694",
+      "author": "Henrik Ibsen",
+      "title": "A Doll's House",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 11
+    },
+    {
+      "book_id": "Q82464",
+      "author": "Oscar Wilde",
+      "title": "The Picture of Dorian Gray",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 2
+    },
+    {
+      "book_id": "Q840974",
+      "author": "Walter Scott",
+      "title": "Ivanhoe",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 6
+    },
+    {
+      "book_id": "Q858036",
+      "author": "Alexander Hamilton",
+      "title": "Federalist Papers",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 3
+    },
+    {
+      "book_id": "pg11562",
+      "author": "Francis Galton",
+      "title": "Inquiries into human faculty and its development",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 12
+    },
+    {
+      "book_id": "pg1227",
+      "author": "Charles Darwin",
+      "title": "The Expression of the Emotions in Man and Animals",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 1
+    },
+    {
+      "book_id": "pg37423",
+      "author": "John Dewey",
+      "title": "How We Think",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 0
+    },
+    {
+      "book_id": "pg52914",
+      "author": "Friedrich Nietzsche",
+      "title": "The Will to Power",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 5
+    },
+    {
+      "book_id": "pg55264",
+      "author": "D\u2019Arcy Wentworth Thompson",
+      "title": "On Growth and Form",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 4
+    },
+    {
+      "book_id": "pg5669",
+      "author": "John Stuart Mill",
+      "title": "Considerations on Representative Government",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 5
+    },
+    {
+      "book_id": "pg57628",
+      "author": "William James",
+      "title": "The Principles of Psychology",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 1
+    },
+    {
+      "book_id": "pg63087",
+      "author": "Robert Ridgway",
+      "title": "Color Standards and Color Nomenclature",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 0
+    },
+    {
+      "book_id": "pg66048",
+      "author": "Sigmund Freud",
+      "title": "The Interpretation of Dreams",
+      "ier_intrinsic": null,
+      "n": 25,
+      "condemn": 1
+    }
+  ],
+  "same_dilemmas_open_sealed": true,
+  "same_verdicts_open_sealed": true,
+  "dropped_treatment_ids": [
+    "36939f9f96df824e"
+  ],
+  "dropped_control_ids": [],
+  "replay": "v3 format replay rows reused unchanged",
+  "trained_on_ethics_mmlu": false,
+  "change_or_hold": {
+    "open": 48,
+    "sealed": 48,
+    "neighbor": 46
+  },
+  "heldout_change_or_hold": "/cursor/stores/bc-08e136d5-97fc-446b-aba1-a19e05e70ce1/docs/study/v4/heldout_change_or_hold.jsonl",
+  "dropped_treatment": "36939f9f96df824e sermon copied the private trace after six retries; row not invented",
+  "note": "One treatment dilemma dropped. Two neighbor second-turn rows were lost to a store write race and were not invented. Open condemn 82/1000."
+}

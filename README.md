@@ -7,6 +7,7 @@ This repository is an **archive**, not a hosted app or database. It exists so Ph
 **Start here — coverage pages (in-repo):**
 
 - [v3 study folder (methods, run log, results)](docs/study/)
+- [v4 study (open vs sealed vs neighbor; paper, results, run log)](docs/arxiv-v4-study/)
 - [Experiment pipeline flowchart](docs/pipeline-flowchart.md)
 - [Treatment CAI coverage (Steps 0–4, `deepseek-flash`)](docs/cai-deepseek-coverage.md)
 - [Control CAI coverage (citation-control, Steps 0–4, `deepseek-flash`)](docs/cai-control-coverage.md)
@@ -71,6 +72,8 @@ LICENSE                 # PD texts stay PD; code MIT; original docs/artifacts CC
 CITATION.cff
 docs/                   # markdown coverage, pipeline flowchart, sqlite/csv/jsonl
 docs/study/             # v3 methods, run log, results
+docs/study/v4/          # v4 mixes and analysis; v3 files in docs/study/ stay as they were
+docs/arxiv-v4-study/    # v4 paper, figures, results, run log
 cai-pipeline/           # treatment CAI (I/E-R top 40)
 cai-pipeline-control/   # citation-control CAI
 colab/                  # current run: cai_3way_experiment_and_eval_v3.ipynb; v1 and v2 notebooks stay

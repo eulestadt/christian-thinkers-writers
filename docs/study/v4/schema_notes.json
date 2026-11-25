@@ -1,0 +1,33 @@
+{
+  "lambdas": [
+    0.5,
+    1.0
+  ],
+  "reported_lambda": 0.5,
+  "mmlu_rotations": 4,
+  "truthfulqa": "dropped",
+  "slots": [
+    "base",
+    "open_s0_l0.5",
+    "sealed_s0_l0.5",
+    "neighbor_s0_l0.5",
+    "open_s1_l0.5",
+    "sealed_s1_l0.5",
+    "neighbor_s1_l0.5",
+    "open_s2_l0.5",
+    "sealed_s2_l0.5",
+    "neighbor_s2_l0.5",
+    "open_s0_l1.0",
+    "sealed_s0_l1.0",
+    "neighbor_s0_l1.0",
+    "open_s1_l1.0",
+    "sealed_s1_l1.0",
+    "neighbor_s1_l1.0",
+    "open_s2_l1.0",
+    "sealed_s2_l1.0",
+    "neighbor_s2_l1.0"
+  ],
+  "ethics_n": 200,
+  "mmlu_n": 150,
+  "shuffle_seed": 42
+}
